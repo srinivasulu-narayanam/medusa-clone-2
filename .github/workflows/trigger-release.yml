@@ -16,7 +16,7 @@ on:
           - snapshot
           - canary
     branches:
-      - develop
+      - test
     paths-ignore:
       - "docs/**"
       - "www/**"
