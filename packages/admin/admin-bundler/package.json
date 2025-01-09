@@ -10,7 +10,7 @@
   "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/medusajs/medusa",
+    "url": "https://github.com/srinivasulu-narayanam/medusa-clone-2",
     "directory": "packages/admin/admin-bundler"
   },
   "files": [
