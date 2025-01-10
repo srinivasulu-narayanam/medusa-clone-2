@@ -7,7 +7,7 @@ import {
   ProviderWebhookPayload,
   UpdatePaymentProviderSession,
   WebhookActionResult,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 
 export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
   implements IPaymentProvider
@@ -53,8 +53,8 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * @typeParam TConfig - The type of the provider's options passed as a second parameter.
    *
    * @example
-   * import { AbstractPaymentProvider } from "@medusajs/framework/utils"
-   * import { Logger } from "@medusajs/framework/types"
+   * import { AbstractPaymentProvider } from "@srinivasulu-narayanam/framework/utils"
+   * import { Logger } from "@srinivasulu-narayanam/framework/types"
    * 
    * type Options = {
    *   apiKey: string
@@ -156,7 +156,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
    *   Options
@@ -212,7 +212,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
    *   PaymentSessionStatus
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -281,7 +281,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -324,7 +324,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -381,7 +381,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -424,7 +424,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * // other imports...
    * import {
    *   PaymentSessionStatus
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -474,7 +474,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -528,7 +528,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * import {
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -573,7 +573,7 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    *   UpdatePaymentProviderSession,
    *   PaymentProviderError,
    *   PaymentProviderSessionResponse,
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<
@@ -637,11 +637,11 @@ export abstract class AbstractPaymentProvider<TConfig = Record<string, unknown>>
    * // other imports...
    * import {
    *   BigNumber
-   * } from "@medusajs/framework/utils"
+   * } from "@srinivasulu-narayanam/framework/utils"
    * import {
    *   ProviderWebhookPayload,
    *   WebhookActionResult
-   * } from "@medusajs/framework/types"
+   * } from "@srinivasulu-narayanam/framework/types"
    *
    *
    * class MyPaymentProviderService extends AbstractPaymentProvider<

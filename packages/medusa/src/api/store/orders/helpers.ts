@@ -1,5 +1,5 @@
-import { MedusaContainer } from "@medusajs/framework/types"
-import { refetchEntity } from "@medusajs/framework/http"
+import { MedusaContainer } from "@srinivasulu-narayanam/framework/types"
+import { refetchEntity } from "@srinivasulu-narayanam/framework/http"
 
 export const refetchOrder = async (
   idOrFilter: string | object,

@@ -14,7 +14,7 @@ import {
   InputText,
   DottedSeparator,
 } from "@/components"
-import { ChatBubbleLeftRight, ThumbDown, ThumbUp } from "@medusajs/icons"
+import { ChatBubbleLeftRight, ThumbDown, ThumbUp } from "@srinivasulu-narayanam/icons"
 import Link from "next/link"
 import { useSiteConfig } from "../../providers"
 
@@ -257,7 +257,7 @@ export const Feedback = ({
                           rows={4}
                           value={medusaVersion}
                           onChange={(e) => setMedusaVersion(e.target.value)}
-                          placeholder="@medusajs/medusa: vX"
+                          placeholder="@srinivasulu-narayanam/medusa: vX"
                         />
                       </div>
                       <div className="flex flex-col gap-docs_0.5">
@@ -269,7 +269,7 @@ export const Feedback = ({
                           rows={4}
                           value={errorFix}
                           onChange={(e) => setErrorFix(e.target.value)}
-                          placeholder="@medusajs/medusa: vX"
+                          placeholder="@srinivasulu-narayanam/medusa: vX"
                         />
                       </div>
                       <div className="flex flex-col gap-docs_0.5">

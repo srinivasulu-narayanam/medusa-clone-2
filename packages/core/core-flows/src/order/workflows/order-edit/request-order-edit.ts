@@ -2,14 +2,14 @@ import {
   OrderChangeDTO,
   OrderDTO,
   OrderPreviewDTO,
-} from "@medusajs/framework/types"
-import { OrderChangeStatus } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { OrderChangeStatus } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowResponse,
   createStep,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../../common"
 import { previewOrderChangeStep } from "../../steps"
 import { updateOrderChangesStep } from "../../steps/update-order-changes"

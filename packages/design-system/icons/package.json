@@ -1,8 +1,8 @@
 {
-  "name": "@medusajs/icons",
+  "name": "@srinivasulu-narayanam/icons",
   "version": "2.2.0",
   "description": "Medusa UI React icon library",
-  "author": "Kasper Kristensen <kasper@medusajs.com>",
+  "author": "Kasper Kristensen <kasper@srinivasulu-narayanam.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,9 +29,9 @@
   },
   "devDependencies": {
     "@atomico/rollup-plugin-sizes": "^1.1.4",
-    "@medusajs/toolbox": "^2.2.0",
     "@rollup/plugin-node-resolve": "^15.1.0",
     "@rollup/plugin-replace": "^5.0.2",
+    "@srinivasulu-narayanam/toolbox": "^2.2.0",
     "@testing-library/dom": "^9.3.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",

@@ -1,13 +1,13 @@
-import { requestOrderTransferWorkflow } from "@medusajs/core-flows"
+import { requestOrderTransferWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { AdminTransferOrderType } from "../../validators"
 
 export const POST = async (

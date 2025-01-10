@@ -38,7 +38,7 @@
 						"content": [
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  createRemoteLinkStep\n} from \"@medusajs/medusa/core-flows\"\nimport {\n  Modules\n} from \"@medusajs/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    createRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n      \"helloModuleService\": {\n        my_custom_id: \"mc_123\",\n      },\n    }])\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  createRemoteLinkStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\nimport {\n  Modules\n} from \"@srinivasulu-narayanam/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    createRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n      \"helloModuleService\": {\n        my_custom_id: \"mc_123\",\n      },\n    }])\n  }\n)\n```"
 							}
 						]
 					}
@@ -103,7 +103,7 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									},
 									{
@@ -122,12 +122,12 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -148,7 +148,7 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										},
 										{
 											"type": "reference",
@@ -164,11 +164,11 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											],
 											"name": "WorkflowData",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										}
 									]
 								}
@@ -182,7 +182,7 @@
 										"qualifiedName": "LinkDefinition"
 									},
 									"name": "LinkDefinition",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							},
 							{
@@ -201,12 +201,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -287,7 +287,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -330,12 +330,12 @@
 																		"qualifiedName": "LinkDefinition"
 																	},
 																	"name": "LinkDefinition",
-																	"package": "@medusajs/types"
+																	"package": "@srinivasulu-narayanam/types"
 																}
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -367,12 +367,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -395,7 +395,7 @@
 							"qualifiedName": "LinkDefinition"
 						},
 						"name": "LinkDefinition",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "array",
@@ -406,7 +406,7 @@
 								"qualifiedName": "LinkDefinition"
 							},
 							"name": "LinkDefinition",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				]
@@ -445,7 +445,7 @@
 						"content": [
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  dismissRemoteLinkStep\n} from \"@medusajs/medusa/core-flows\"\nimport {\n  Modules\n} from \"@medusajs/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    dismissRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n      \"helloModuleService\": {\n        my_custom_id: \"mc_123\",\n      },\n    }])\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  dismissRemoteLinkStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\nimport {\n  Modules\n} from \"@srinivasulu-narayanam/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    dismissRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n      \"helloModuleService\": {\n        my_custom_id: \"mc_123\",\n      },\n    }])\n  }\n)\n```"
 							}
 						]
 					}
@@ -505,7 +505,7 @@
 										"type": "reference",
 										"target": 38688,
 										"name": "DismissRemoteLinksStepInput",
-										"package": "@medusajs/core-flows"
+										"package": "@srinivasulu-narayanam/core-flows"
 									},
 									{
 										"type": "reference",
@@ -518,11 +518,11 @@
 												"type": "reference",
 												"target": 38688,
 												"name": "DismissRemoteLinksStepInput",
-												"package": "@medusajs/core-flows"
+												"package": "@srinivasulu-narayanam/core-flows"
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -543,7 +543,7 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										},
 										{
 											"type": "reference",
@@ -559,11 +559,11 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											],
 											"name": "WorkflowData",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										}
 									]
 								}
@@ -577,7 +577,7 @@
 										"qualifiedName": "LinkDefinition"
 									},
 									"name": "LinkDefinition",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							},
 							{
@@ -596,12 +596,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -682,7 +682,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -725,12 +725,12 @@
 																		"qualifiedName": "LinkDefinition"
 																	},
 																	"name": "LinkDefinition",
-																	"package": "@medusajs/types"
+																	"package": "@srinivasulu-narayanam/types"
 																}
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -762,12 +762,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -807,7 +807,7 @@
 						"content": [
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  emitEventStep\n} from \"@medusajs/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    emitEventStep({\n      eventName: \"custom.created\",\n      data: {\n        id: \"123\"\n      }\n    })\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  emitEventStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    emitEventStep({\n      eventName: \"custom.created\",\n      data: {\n        id: \"123\"\n      }\n    })\n  }\n)\n```"
 							}
 						]
 					}
@@ -870,7 +870,7 @@
 											"qualifiedName": "Input"
 										},
 										"name": "Input",
-										"package": "@medusajs/core-flows"
+										"package": "@srinivasulu-narayanam/core-flows"
 									},
 									{
 										"type": "reference",
@@ -886,11 +886,11 @@
 													"qualifiedName": "Input"
 												},
 												"name": "Input",
-												"package": "@medusajs/core-flows"
+												"package": "@srinivasulu-narayanam/core-flows"
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -912,7 +912,7 @@
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -993,7 +993,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -1033,7 +1033,7 @@
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -1062,7 +1062,7 @@
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -1102,7 +1102,7 @@
 						"content": [
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  removeRemoteLinkStep\n} from \"@medusajs/medusa/core-flows\"\nimport {\n  Modules\n} from \"@medusajs/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    removeRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n    }])\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  removeRemoteLinkStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\nimport {\n  Modules\n} from \"@srinivasulu-narayanam/framework/utils\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    removeRemoteLinkStep([{\n      [Modules.PRODUCT]: {\n        product_id: \"prod_123\",\n      },\n    }])\n  }\n)\n```"
 							}
 						]
 					}
@@ -1165,7 +1165,7 @@
 											"qualifiedName": "RemoveRemoteLinksStepInput"
 										},
 										"name": "RemoveRemoteLinksStepInput",
-										"package": "@medusajs/core-flows"
+										"package": "@srinivasulu-narayanam/core-flows"
 									},
 									{
 										"type": "reference",
@@ -1181,11 +1181,11 @@
 													"qualifiedName": "RemoveRemoteLinksStepInput"
 												},
 												"name": "RemoveRemoteLinksStepInput",
-												"package": "@medusajs/core-flows"
+												"package": "@srinivasulu-narayanam/core-flows"
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -1296,7 +1296,7 @@
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												]
 											}
@@ -1311,7 +1311,7 @@
 									"qualifiedName": "DeleteEntityInput"
 								},
 								"name": "DeleteEntityInput",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							{
 								"type": "reference",
@@ -1334,13 +1334,13 @@
 													"qualifiedName": "DeleteEntityInput"
 												},
 												"name": "DeleteEntityInput",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										]
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -1421,7 +1421,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -1469,13 +1469,13 @@
 																			"qualifiedName": "DeleteEntityInput"
 																		},
 																		"name": "DeleteEntityInput",
-																		"package": "@medusajs/modules-sdk"
+																		"package": "@srinivasulu-narayanam/modules-sdk"
 																	}
 																]
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -1512,13 +1512,13 @@
 													"qualifiedName": "DeleteEntityInput"
 												},
 												"name": "DeleteEntityInput",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										]
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -1604,7 +1604,7 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									},
 									{
@@ -1623,12 +1623,12 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -1649,7 +1649,7 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										},
 										{
 											"type": "reference",
@@ -1665,11 +1665,11 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											],
 											"name": "WorkflowData",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										}
 									]
 								}
@@ -1683,7 +1683,7 @@
 										"qualifiedName": "LinkDefinition"
 									},
 									"name": "LinkDefinition",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							},
 							{
@@ -1702,12 +1702,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -1788,7 +1788,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -1831,12 +1831,12 @@
 																		"qualifiedName": "LinkDefinition"
 																	},
 																	"name": "LinkDefinition",
-																	"package": "@medusajs/types"
+																	"package": "@srinivasulu-narayanam/types"
 																}
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -1868,12 +1868,12 @@
 												"qualifiedName": "LinkDefinition"
 											},
 											"name": "LinkDefinition",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -1913,12 +1913,12 @@
 								"type": "reference",
 								"target": 38743,
 								"name": "TEntry",
-								"package": "@medusajs/core-flows",
+								"package": "@srinivasulu-narayanam/core-flows",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "RemoteQueryInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -1944,7 +1944,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -1984,7 +1984,7 @@
 							},
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  useQueryGraphStep\n} from \"@medusajs/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const { data: products } = useQueryGraphStep({\n      entity: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ]\n    })\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  useQueryGraphStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const { data: products } = useQueryGraphStep({\n      entity: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ]\n    })\n  }\n)\n```"
 							},
 							{
 								"kind": "text",
@@ -2051,12 +2051,12 @@
 										"type": "reference",
 										"target": 38746,
 										"name": "TEntry",
-										"package": "@medusajs/core-flows",
+										"package": "@srinivasulu-narayanam/core-flows",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "UseQueryGraphStepInput",
-								"package": "@medusajs/core-flows"
+								"package": "@srinivasulu-narayanam/core-flows"
 							}
 						}
 					],
@@ -2087,7 +2087,7 @@
 															"type": "reference",
 															"target": 38746,
 															"name": "TEntry",
-															"package": "@medusajs/core-flows",
+															"package": "@srinivasulu-narayanam/core-flows",
 															"refersToTypeParameter": true
 														},
 														"extendsType": {
@@ -2106,12 +2106,12 @@
 																			"type": "reference",
 																			"target": 38746,
 																			"name": "TEntry",
-																			"package": "@medusajs/core-flows",
+																			"package": "@srinivasulu-narayanam/core-flows",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "TEntry",
-																	"package": "@medusajs/core-flows",
+																	"package": "@srinivasulu-narayanam/core-flows",
 																	"refersToTypeParameter": true
 																},
 																"objectType": {
@@ -2121,7 +2121,7 @@
 																		"qualifiedName": "RemoteQueryEntryPoints"
 																	},
 																	"name": "RemoteQueryEntryPoints",
-																	"package": "@medusajs/types"
+																	"package": "@srinivasulu-narayanam/types"
 																}
 															}
 														},
@@ -2146,7 +2146,7 @@
 																	"type": "reference",
 																	"target": 38746,
 																	"name": "TEntry",
-																	"package": "@medusajs/core-flows",
+																	"package": "@srinivasulu-narayanam/core-flows",
 																	"refersToTypeParameter": true
 																},
 																"extendsType": {
@@ -2165,12 +2165,12 @@
 																					"type": "reference",
 																					"target": 38746,
 																					"name": "TEntry",
-																					"package": "@medusajs/core-flows",
+																					"package": "@srinivasulu-narayanam/core-flows",
 																					"refersToTypeParameter": true
 																				}
 																			],
 																			"name": "TEntry",
-																			"package": "@medusajs/core-flows",
+																			"package": "@srinivasulu-narayanam/core-flows",
 																			"refersToTypeParameter": true
 																		},
 																		"objectType": {
@@ -2180,7 +2180,7 @@
 																				"qualifiedName": "RemoteQueryEntryPoints"
 																			},
 																			"name": "RemoteQueryEntryPoints",
-																			"package": "@medusajs/types"
+																			"package": "@srinivasulu-narayanam/types"
 																		}
 																	}
 																},
@@ -2194,7 +2194,7 @@
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												]
 											}
@@ -2217,7 +2217,7 @@
 															"qualifiedName": "RemoteQueryFunctionReturnPagination"
 														},
 														"name": "RemoteQueryFunctionReturnPagination",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -2240,13 +2240,13 @@
 																			"qualifiedName": "RemoteQueryFunctionReturnPagination"
 																		},
 																		"name": "RemoteQueryFunctionReturnPagination",
-																		"package": "@medusajs/types"
+																		"package": "@srinivasulu-narayanam/types"
 																	}
 																]
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												]
 											}
@@ -2274,12 +2274,12 @@
 										"type": "reference",
 										"target": 38746,
 										"name": "TEntry",
-										"package": "@medusajs/core-flows",
+										"package": "@srinivasulu-narayanam/core-flows",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "GraphResultSet",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "reference",
@@ -2299,16 +2299,16 @@
 												"type": "reference",
 												"target": 38746,
 												"name": "TEntry",
-												"package": "@medusajs/core-flows",
+												"package": "@srinivasulu-narayanam/core-flows",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "GraphResultSet",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -2389,7 +2389,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -2434,16 +2434,16 @@
 																		"type": "reference",
 																		"target": 38746,
 																		"name": "TEntry",
-																		"package": "@medusajs/core-flows",
+																		"package": "@srinivasulu-narayanam/core-flows",
 																		"refersToTypeParameter": true
 																	}
 																],
 																"name": "GraphResultSet",
-																"package": "@medusajs/types"
+																"package": "@srinivasulu-narayanam/types"
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -2477,16 +2477,16 @@
 												"type": "reference",
 												"target": 38746,
 												"name": "TEntry",
-												"package": "@medusajs/core-flows",
+												"package": "@srinivasulu-narayanam/core-flows",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "GraphResultSet",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -2906,7 +2906,7 @@
 					"type": "reference",
 					"target": 38757,
 					"name": "RemoteStepInput",
-					"package": "@medusajs/core-flows"
+					"package": "@srinivasulu-narayanam/core-flows"
 				}
 			]
 		},
@@ -3138,7 +3138,7 @@
 					"type": "reference",
 					"target": 38757,
 					"name": "RemoteStepInput",
-					"package": "@medusajs/core-flows"
+					"package": "@srinivasulu-narayanam/core-flows"
 				}
 			]
 		},
@@ -3189,7 +3189,7 @@
 							},
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@medusajs/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const products = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ]\n    })\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@srinivasulu-narayanam/medusa/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const products = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ]\n    })\n  }\n)\n```"
 							},
 							{
 								"kind": "text",
@@ -3197,7 +3197,7 @@
 							},
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@medusajs/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const product = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ],\n      variables: {\n        filters: {\n          id: \"123\"\n        }\n      },\n      list: false\n    })\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@srinivasulu-narayanam/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const product = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ],\n      variables: {\n        filters: {\n          id: \"123\"\n        }\n      },\n      list: false\n    })\n  }\n)\n```"
 							},
 							{
 								"kind": "text",
@@ -3205,7 +3205,7 @@
 							},
 							{
 								"kind": "code",
-								"text": "```ts\nimport {\n  createWorkflow\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@medusajs/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const product = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ],\n      variables: {\n        filters: {\n          id: \"123\"\n        }\n      },\n      list: false,\n      throw_if_key_not_found: true\n    })\n  }\n)\n```"
+								"text": "```ts\nimport {\n  createWorkflow\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  useRemoteQueryStep\n} from \"@srinivasulu-narayanam/core-flows\"\n\nconst helloWorldWorkflow = createWorkflow(\n  \"hello-world\",\n  () => {\n    const product = useRemoteQueryStep({\n      entry_point: \"product\",\n      fields: [\n        \"*\",\n        \"variants.*\"\n      ],\n      variables: {\n        filters: {\n          id: \"123\"\n        }\n      },\n      list: false,\n      throw_if_key_not_found: true\n    })\n  }\n)\n```"
 							}
 						]
 					}
@@ -3265,13 +3265,13 @@
 										"type": "reference",
 										"target": 38763,
 										"name": "EntryStepInput",
-										"package": "@medusajs/core-flows"
+										"package": "@srinivasulu-narayanam/core-flows"
 									},
 									{
 										"type": "reference",
 										"target": 38770,
 										"name": "ServiceStepInput",
-										"package": "@medusajs/core-flows"
+										"package": "@srinivasulu-narayanam/core-flows"
 									},
 									{
 										"type": "reference",
@@ -3287,19 +3287,19 @@
 														"type": "reference",
 														"target": 38763,
 														"name": "EntryStepInput",
-														"package": "@medusajs/core-flows"
+														"package": "@srinivasulu-narayanam/core-flows"
 													},
 													{
 														"type": "reference",
 														"target": 38770,
 														"name": "ServiceStepInput",
-														"package": "@medusajs/core-flows"
+														"package": "@srinivasulu-narayanam/core-flows"
 													}
 												]
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -3507,7 +3507,7 @@
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -3529,7 +3529,7 @@
 									}
 								],
 								"name": "WorkflowDataProperties",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "reflection",
@@ -3610,7 +3610,7 @@
 																					"qualifiedName": "TransactionStepsDefinition"
 																				},
 																				"name": "TransactionStepsDefinition",
-																				"package": "@medusajs/orchestration"
+																				"package": "@srinivasulu-narayanam/orchestration"
 																			},
 																			{
 																				"type": "union",
@@ -3650,7 +3650,7 @@
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											]
@@ -3679,7 +3679,7 @@
 									}
 								],
 								"name": "StepFunctionReturnConfig",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						]
 					}
@@ -3728,7 +3728,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/core-flows",
+	"packageName": "@srinivasulu-narayanam/core-flows",
 	"symbolIdMap": {
 		"38675": {
 			"sourceFileName": "../../../../packages/core/core-flows/src/common/index.ts",

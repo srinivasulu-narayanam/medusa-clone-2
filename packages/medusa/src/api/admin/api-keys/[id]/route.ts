@@ -1,16 +1,16 @@
 import {
   deleteApiKeysWorkflow,
   updateApiKeysWorkflow,
-} from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 
 import { refetchApiKey } from "../helpers"
 import { AdminUpdateApiKeyType } from "../validators"
-import { MedusaError } from "@medusajs/framework/utils"
-import { HttpTypes } from "@medusajs/framework/types"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

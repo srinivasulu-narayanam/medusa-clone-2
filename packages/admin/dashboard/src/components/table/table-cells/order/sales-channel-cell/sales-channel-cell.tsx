@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { useTranslation } from "react-i18next"
 
 export const SalesChannelCell = ({

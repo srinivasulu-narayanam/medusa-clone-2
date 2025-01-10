@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { UIMatch } from "react-router-dom"
 
 import { useInventoryItem } from "../../../hooks/api"

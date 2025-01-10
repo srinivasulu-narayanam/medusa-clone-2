@@ -1,4 +1,4 @@
-import { model, PricingRuleOperator } from "@medusajs/framework/utils"
+import { model, PricingRuleOperator } from "@srinivasulu-narayanam/framework/utils"
 import Price from "./price"
 
 const PriceRule = model

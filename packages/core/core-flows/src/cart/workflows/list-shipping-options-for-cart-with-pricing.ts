@@ -1,12 +1,12 @@
-import { ShippingOptionPriceType } from "@medusajs/framework/utils"
+import { ShippingOptionPriceType } from "@srinivasulu-narayanam/framework/utils"
 import {
   createWorkflow,
   parallelize,
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
-import { CalculateShippingOptionPriceDTO } from "@medusajs/types"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
+import { CalculateShippingOptionPriceDTO } from "@srinivasulu-narayanam/types"
 
 import { useQueryGraphStep, validatePresenceOfStep } from "../../common"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"

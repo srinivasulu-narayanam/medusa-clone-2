@@ -1,4 +1,4 @@
-import { Spinner } from "@medusajs/icons"
+import { Spinner } from "@srinivasulu-narayanam/icons"
 import { Slot } from "@radix-ui/react-slot"
 import { VariantProps, cva } from "cva"
 import * as React from "react"

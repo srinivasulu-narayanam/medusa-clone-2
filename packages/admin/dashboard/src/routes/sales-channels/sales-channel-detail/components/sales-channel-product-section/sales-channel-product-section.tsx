@@ -1,4 +1,4 @@
-import { PencilSquare, Trash } from "@medusajs/icons"
+import { PencilSquare, Trash } from "@srinivasulu-narayanam/icons"
 import {
   Button,
   Checkbox,
@@ -6,13 +6,13 @@ import {
   Heading,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 
-import { HttpTypes, SalesChannelDTO } from "@medusajs/types"
+import { HttpTypes, SalesChannelDTO } from "@srinivasulu-narayanam/types"
 import { keepPreviousData } from "@tanstack/react-query"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { DataTable } from "../../../../../components/table/data-table"

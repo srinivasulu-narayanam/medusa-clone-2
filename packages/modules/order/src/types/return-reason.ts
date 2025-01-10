@@ -1,4 +1,4 @@
-import { UpdateOrderReturnReasonDTO } from "@medusajs/framework/types"
+import { UpdateOrderReturnReasonDTO } from "@srinivasulu-narayanam/framework/types"
 
 export type UpdateReturnReasonDTO = UpdateOrderReturnReasonDTO & {
   id: string

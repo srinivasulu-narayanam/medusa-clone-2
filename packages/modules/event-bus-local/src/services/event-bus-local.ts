@@ -6,8 +6,8 @@ import {
   MedusaContainer,
   Message,
   Subscriber,
-} from "@medusajs/framework/types"
-import { AbstractEventBusModuleService } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { AbstractEventBusModuleService } from "@srinivasulu-narayanam/framework/utils"
 import { EventEmitter } from "events"
 import { setTimeout } from "timers/promises"
 import { ulid } from "ulid"

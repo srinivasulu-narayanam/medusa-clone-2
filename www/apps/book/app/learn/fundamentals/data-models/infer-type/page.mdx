@@ -15,7 +15,7 @@ Instead, Medusa provides `InferTypeOf` that transforms your data model to a type
 For example:
 
 ```ts
-import { InferTypeOf } from "@medusajs/framework/types"
+import { InferTypeOf } from "@srinivas-narayanam/framework/types"
 import { MyCustom } from "../models/my-custom" // relative path to the model
 
 export type MyCustom = InferTypeOf<typeof MyCustom>
@@ -29,7 +29,7 @@ You can now use the `MyCustom` type to reference a data model in other types, su
 
 ```ts title="Example Service"
 // other imports...
-import { InferTypeOf } from "@medusajs/framework/types"
+import { InferTypeOf } from "@srinivas-narayanam/framework/types"
 import { MyCustom } from "../models/my-custom"
 
 type MyCustom = InferTypeOf<typeof MyCustom>

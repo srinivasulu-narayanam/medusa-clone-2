@@ -1,5 +1,5 @@
 import { join } from "path"
-import type { LoadedModule } from "@medusajs/types"
+import type { LoadedModule } from "@srinivasulu-narayanam/types"
 import { FileSystem } from "../common/file-system"
 import { toCamelCase } from "../common/to-camel-case"
 import { upperCaseFirst } from "../common/upper-case-first"
@@ -89,7 +89,7 @@ export async function generateContainerTypes(
   const fileName = "modules-bindings.d.ts"
   const fileContents = `${imports.join(
     "\n"
-  )}\n\ndeclare module '@medusajs/framework/types' {
+  )}\n\ndeclare module '@srinivasulu-narayanam/framework/types' {
   interface ${interfaceName} {
     ${mappings.join(",\n    ")}
   }

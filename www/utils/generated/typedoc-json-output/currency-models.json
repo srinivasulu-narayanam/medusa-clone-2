@@ -62,11 +62,11 @@
 															"qualifiedName": "TextProperty"
 														},
 														"name": "TextProperty",
-														"package": "@medusajs/utils"
+														"package": "@srinivasulu-narayanam/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -91,7 +91,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -116,7 +116,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -141,7 +141,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -166,7 +166,7 @@
 													"qualifiedName": "NumberProperty"
 												},
 												"name": "NumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -191,7 +191,7 @@
 													"qualifiedName": "BigNumberProperty"
 												},
 												"name": "BigNumberProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -213,7 +213,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					{
 						"type": "literal",
@@ -221,7 +221,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			}
 		}
 	],
@@ -233,7 +233,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/currency",
+	"packageName": "@srinivasulu-narayanam/currency",
 	"symbolIdMap": {
 		"2565": {
 			"sourceFileName": "../../../../packages/modules/currency/src/models/index.ts",

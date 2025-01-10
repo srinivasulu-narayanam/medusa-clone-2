@@ -73,7 +73,7 @@
 										"type": "reference",
 										"target": 13651,
 										"name": "FindConfigOrder",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "literal",
@@ -145,7 +145,7 @@
 										"type": "reference",
 										"target": 13447,
 										"name": "Entity",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"qualifiedName": "FindConfig.Entity",
 										"refersToTypeParameter": true
 									}
@@ -274,7 +274,7 @@
 						"type": "reference",
 						"target": 13651,
 						"name": "FindConfigOrder",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -448,19 +448,19 @@
 											"type": "reference",
 											"target": 13628,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
 									"target": 13628,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -497,19 +497,19 @@
 											"type": "reference",
 											"target": 13628,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
 									"target": 13628,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -591,7 +591,7 @@
 							"type": "reference",
 							"target": 13450,
 							"name": "TReturnableLinkableKeys",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					}
@@ -656,7 +656,7 @@
 							"type": "reference",
 							"target": 13453,
 							"name": "TReturnableLinkableKeys",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					}
@@ -705,7 +705,7 @@
 					"type": "reference",
 					"target": 13744,
 					"name": "T",
-					"package": "@medusajs/types",
+					"package": "@srinivasulu-narayanam/types",
 					"refersToTypeParameter": true
 				},
 				"extendsType": {
@@ -718,14 +718,14 @@
 						"type": "reference",
 						"target": 13744,
 						"name": "T",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					},
 					"extendsType": {
 						"type": "reference",
 						"target": 13768,
 						"name": "Scalar",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					"trueType": {
 						"type": "intrinsic",
@@ -739,12 +739,12 @@
 								"type": "reference",
 								"target": 13744,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "FilterQuery",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				"falseType": {
@@ -755,12 +755,12 @@
 							"type": "reference",
 							"target": 13744,
 							"name": "T",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					],
 					"name": "FilterValue",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			}
 		},
@@ -792,7 +792,7 @@
 							"type": "reference",
 							"target": 13746,
 							"name": "T",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						},
 						"extendsType": {
@@ -823,7 +823,7 @@
 								"type": "reference",
 								"target": 13746,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							"extendsType": {
@@ -857,7 +857,7 @@
 								"type": "reference",
 								"target": 13746,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						}
@@ -986,7 +986,7 @@
 					"type": "reference",
 					"target": 13807,
 					"name": "T",
-					"package": "@medusajs/types",
+					"package": "@srinivasulu-narayanam/types",
 					"refersToTypeParameter": true
 				},
 				"extendsType": {
@@ -1007,7 +1007,7 @@
 							"type": "reference",
 							"target": 13807,
 							"name": "T",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					],
@@ -1018,7 +1018,7 @@
 					"type": "reference",
 					"target": 13807,
 					"name": "T",
-					"package": "@medusajs/types",
+					"package": "@srinivasulu-narayanam/types",
 					"refersToTypeParameter": true
 				}
 			}
@@ -1044,7 +1044,7 @@
 					"type": "reference",
 					"target": 13805,
 					"name": "T",
-					"package": "@medusajs/types",
+					"package": "@srinivasulu-narayanam/types",
 					"refersToTypeParameter": true
 				},
 				"extendsType": {
@@ -1091,12 +1091,12 @@
 								"qualifiedName": "PK"
 							},
 							"name": "PK",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					],
 					"name": "ReadonlyPrimary",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				},
 				"falseType": {
 					"type": "conditional",
@@ -1104,7 +1104,7 @@
 						"type": "reference",
 						"target": 13805,
 						"name": "T",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					},
 					"extendsType": {
@@ -1154,12 +1154,12 @@
 											"qualifiedName": "PK"
 										},
 										"name": "PK",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ReadonlyPrimary",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "intrinsic",
@@ -1173,7 +1173,7 @@
 							"type": "reference",
 							"target": 13805,
 							"name": "T",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						},
 						"extendsType": {
@@ -1220,12 +1220,12 @@
 										"qualifiedName": "PK"
 									},
 									"name": "PK",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"refersToTypeParameter": true
 								}
 							],
 							"name": "ReadonlyPrimary",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						},
 						"falseType": {
 							"type": "conditional",
@@ -1233,7 +1233,7 @@
 								"type": "reference",
 								"target": 13805,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							"extendsType": {
@@ -1280,12 +1280,12 @@
 											"qualifiedName": "PK"
 										},
 										"name": "PK",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ReadonlyPrimary",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							"falseType": {
 								"type": "intrinsic",
@@ -1338,12 +1338,12 @@
 											"type": "reference",
 											"target": 13650,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "Query",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -1365,12 +1365,12 @@
 											"type": "reference",
 											"target": 13650,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "Query",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -1393,12 +1393,12 @@
 												"type": "reference",
 												"target": 13650,
 												"name": "T",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "ExpandScalar",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "array",
@@ -1410,12 +1410,12 @@
 													"type": "reference",
 													"target": 13650,
 													"name": "T",
-													"package": "@medusajs/types",
+													"package": "@srinivasulu-narayanam/types",
 													"refersToTypeParameter": true
 												}
 											],
 											"name": "ExpandScalar",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								]
@@ -1437,12 +1437,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ExpandScalar",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1463,12 +1463,12 @@
 											"type": "reference",
 											"target": 13650,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "ExpandScalar",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -1490,12 +1490,12 @@
 											"type": "reference",
 											"target": 13650,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "ExpandScalar",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -1515,12 +1515,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "Query",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1539,12 +1539,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ExpandScalar",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1563,12 +1563,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ExpandScalar",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1587,12 +1587,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ExpandScalar",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1611,12 +1611,12 @@
 										"type": "reference",
 										"target": 13650,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ExpandScalar",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1784,7 +1784,7 @@
 						"type": "reference",
 						"target": 13794,
 						"name": "T",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					},
 					{
@@ -1795,12 +1795,12 @@
 								"type": "reference",
 								"target": 13794,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "ExpandScalar",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
@@ -1810,12 +1810,12 @@
 								"type": "reference",
 								"target": 13794,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "Primary",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				]
 			}
@@ -1850,16 +1850,16 @@
 										"type": "reference",
 										"target": 13776,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "FilterValue2",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						],
 						"name": "OperatorMap",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
@@ -1869,12 +1869,12 @@
 								"type": "reference",
 								"target": 13776,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "FilterValue2",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "array",
@@ -1886,12 +1886,12 @@
 									"type": "reference",
 									"target": 13776,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"refersToTypeParameter": true
 								}
 							],
 							"name": "FilterValue2",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					},
 					{
@@ -1969,7 +1969,7 @@
 						"type": "reference",
 						"target": 13791,
 						"name": "T",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -1984,14 +1984,14 @@
 								"qualifiedName": "Key"
 							},
 							"name": "Key",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						},
 						"objectType": {
 							"type": "reference",
 							"target": 13791,
 							"name": "T",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					},
@@ -2041,14 +2041,14 @@
 										"qualifiedName": "Key"
 									},
 									"name": "Key",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"refersToTypeParameter": true
 								},
 								"objectType": {
 									"type": "reference",
 									"target": 13791,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"refersToTypeParameter": true
 								}
 							},
@@ -2065,20 +2065,20 @@
 												"qualifiedName": "Key"
 											},
 											"name": "Key",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										},
 										"objectType": {
 											"type": "reference",
 											"target": 13791,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"refersToTypeParameter": true
 										}
 									}
 								],
 								"name": "OperatorMap",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					},
@@ -2093,14 +2093,14 @@
 									"qualifiedName": "Key"
 								},
 								"name": "Key",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							"objectType": {
 								"type": "reference",
 								"target": 13791,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						},
@@ -2117,7 +2117,7 @@
 									"qualifiedName": "U"
 								},
 								"name": "U",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							"extendsType": {
@@ -2155,7 +2155,7 @@
 													"qualifiedName": "V"
 												},
 												"name": "V",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										}
@@ -2171,7 +2171,7 @@
 										"qualifiedName": "V"
 									},
 									"name": "V",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"refersToTypeParameter": true
 								},
 								"extendsType": {
@@ -2196,7 +2196,7 @@
 														"qualifiedName": "V"
 													},
 													"name": "V",
-													"package": "@medusajs/types",
+													"package": "@srinivasulu-narayanam/types",
 													"refersToTypeParameter": true
 												}
 											],
@@ -2209,19 +2209,19 @@
 												"type": "reference",
 												"target": 13792,
 												"name": "Prev",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											},
 											"objectType": {
 												"type": "reference",
 												"target": 13795,
 												"name": "PrevLimit",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										}
 									],
 									"name": "FilterQuery",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								"falseType": {
 									"type": "intrinsic",
@@ -2282,7 +2282,7 @@
 					"type": "reference",
 					"target": 13774,
 					"name": "Prev",
-					"package": "@medusajs/types",
+					"package": "@srinivasulu-narayanam/types",
 					"refersToTypeParameter": true
 				},
 				"extendsType": {
@@ -2299,7 +2299,7 @@
 						"type": "reference",
 						"target": 13773,
 						"name": "T",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					},
 					"extendsType": {
@@ -2312,7 +2312,7 @@
 							}
 						],
 						"name": "Constructor",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					"trueType": {
 						"type": "reference",
@@ -2325,19 +2325,19 @@
 									"qualifiedName": "Prototype"
 								},
 								"name": "Prototype",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 13774,
 								"name": "Prev",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "FilterQueryProperties",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					"falseType": {
 						"type": "reference",
@@ -2347,19 +2347,19 @@
 								"type": "reference",
 								"target": 13773,
 								"name": "T",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 13774,
 								"name": "Prev",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "FilterQueryProperties",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				}
 			}
@@ -2479,7 +2479,7 @@
 								"type": "reference",
 								"target": 13777,
 								"name": "EventMetadata",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -2492,7 +2492,7 @@
 								"type": "reference",
 								"target": 13767,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						}
@@ -2540,12 +2540,12 @@
 								"type": "reference",
 								"target": 13725,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "Event",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -2647,7 +2647,7 @@
 								"type": "reference",
 								"target": 13742,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						},
@@ -2705,7 +2705,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "literal",
@@ -3063,7 +3063,7 @@
 								"type": "reference",
 								"target": 13748,
 								"name": "JoinerServiceConfigAlias",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "array",
@@ -3071,7 +3071,7 @@
 									"type": "reference",
 									"target": 13748,
 									"name": "JoinerServiceConfigAlias",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						]
@@ -3192,7 +3192,7 @@
 							"type": "reference",
 							"target": 13752,
 							"name": "JoinerRelationship",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -3249,7 +3249,7 @@
 											"type": "reference",
 											"target": 13752,
 											"name": "JoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -3374,7 +3374,7 @@
 										"type": "reference",
 										"target": 13786,
 										"name": "T",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"refersToTypeParameter": true
 									},
 									{
@@ -3396,7 +3396,7 @@
 														"type": "reference",
 														"target": 13786,
 														"name": "T",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													}
 												}
@@ -3633,7 +3633,7 @@
 								"type": "reference",
 								"target": 13677,
 								"name": "JoinerServiceConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "union",
@@ -3704,7 +3704,7 @@
 											"type": "reference",
 											"target": 13692,
 											"name": "ModuleJoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -3856,7 +3856,7 @@
 															"type": "reference",
 															"target": 13692,
 															"name": "ModuleJoinerRelationship",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												],
@@ -4077,7 +4077,7 @@
 														"type": "reference",
 														"target": 13695,
 														"name": "LinkModulesExtraFields",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												}
 											],
@@ -4130,7 +4130,7 @@
 						"type": "reference",
 						"target": 13752,
 						"name": "JoinerRelationship",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -4208,7 +4208,7 @@
 								"type": "reference",
 								"target": 13511,
 								"name": "ModuleJoinerConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					]
@@ -4544,7 +4544,7 @@
 						"type": "reference",
 						"target": 13719,
 						"name": "ApplicationMethodTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4567,7 +4567,7 @@
 						"type": "reference",
 						"target": 13720,
 						"name": "ApplicationMethodTargetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4590,7 +4590,7 @@
 						"type": "reference",
 						"target": 13721,
 						"name": "ApplicationMethodAllocationValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4792,7 +4792,7 @@
 								"type": "reference",
 								"target": 13413,
 								"name": "PromotionDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -4819,7 +4819,7 @@
 							"type": "reference",
 							"target": 13459,
 							"name": "PromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -4845,7 +4845,7 @@
 							"type": "reference",
 							"target": 13459,
 							"name": "PromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -4903,7 +4903,7 @@
 						"type": "reference",
 						"target": 13719,
 						"name": "ApplicationMethodTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4924,7 +4924,7 @@
 						"type": "reference",
 						"target": 13720,
 						"name": "ApplicationMethodTargetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4947,7 +4947,7 @@
 						"type": "reference",
 						"target": 13721,
 						"name": "ApplicationMethodAllocationValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5149,7 +5149,7 @@
 								"type": "reference",
 								"target": 13413,
 								"name": "PromotionDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -5176,7 +5176,7 @@
 							"type": "reference",
 							"target": 13454,
 							"name": "CreatePromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -5202,7 +5202,7 @@
 							"type": "reference",
 							"target": 13454,
 							"name": "CreatePromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -5282,7 +5282,7 @@
 						"type": "reference",
 						"target": 13719,
 						"name": "ApplicationMethodTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5305,7 +5305,7 @@
 						"type": "reference",
 						"target": 13720,
 						"name": "ApplicationMethodTargetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5328,7 +5328,7 @@
 						"type": "reference",
 						"target": 13721,
 						"name": "ApplicationMethodAllocationValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5530,7 +5530,7 @@
 								"type": "reference",
 								"target": 13413,
 								"name": "PromotionDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -5652,7 +5652,7 @@
 						"type": "reference",
 						"target": 13747,
 						"name": "CampaignBudgetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5926,7 +5926,7 @@
 						"type": "reference",
 						"target": 13665,
 						"name": "CampaignBudgetDTO",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5951,7 +5951,7 @@
 							"type": "reference",
 							"target": 13413,
 							"name": "PromotionDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -6013,7 +6013,7 @@
 									"type": "reference",
 									"target": 13499,
 									"name": "FilterableCampaignProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -6023,11 +6023,11 @@
 											"type": "reference",
 											"target": 13499,
 											"name": "FilterableCampaignProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -6064,7 +6064,7 @@
 									"type": "reference",
 									"target": 13499,
 									"name": "FilterableCampaignProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -6074,11 +6074,11 @@
 											"type": "reference",
 											"target": 13499,
 											"name": "FilterableCampaignProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -6180,11 +6180,11 @@
 							"type": "reference",
 							"target": 13499,
 							"name": "FilterableCampaignProps",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					],
 					"name": "BaseFilterable",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		},
@@ -6209,31 +6209,31 @@
 						"type": "reference",
 						"target": 13550,
 						"name": "AddItemAdjustmentAction",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
 						"target": 13556,
 						"name": "RemoveItemAdjustmentAction",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
 						"target": 13561,
 						"name": "AddShippingMethodAdjustment",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
 						"target": 13567,
 						"name": "RemoveShippingMethodAdjustment",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reference",
 						"target": 13571,
 						"name": "CampaignBudgetExceededAction",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				]
 			}
@@ -6279,7 +6279,7 @@
 								"type": "reference",
 								"target": 13536,
 								"name": "BigNumberInput",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -6449,7 +6449,7 @@
 						"type": "reference",
 						"target": 13536,
 						"name": "BigNumberInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -6683,7 +6683,7 @@
 						"type": "reference",
 						"target": 13536,
 						"name": "BigNumberInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -6987,7 +6987,7 @@
 						"type": "reference",
 						"target": 13536,
 						"name": "BigNumberInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7008,7 +7008,7 @@
 						"type": "reference",
 						"target": 13536,
 						"name": "BigNumberInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7033,7 +7033,7 @@
 							"type": "reference",
 							"target": 13714,
 							"name": "ComputeActionAdjustmentLine",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -7149,7 +7149,7 @@
 						"type": "reference",
 						"target": 13536,
 						"name": "BigNumberInput",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7174,7 +7174,7 @@
 							"type": "reference",
 							"target": 13714,
 							"name": "ComputeActionAdjustmentLine",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -7293,7 +7293,7 @@
 							"type": "reference",
 							"target": 13537,
 							"name": "ComputeActionItemLine",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -7319,7 +7319,7 @@
 							"type": "reference",
 							"target": 13544,
 							"name": "ComputeActionShippingLine",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -7601,7 +7601,7 @@
 						"type": "reference",
 						"target": 13656,
 						"name": "PromotionRuleOperatorValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7624,7 +7624,7 @@
 							"type": "reference",
 							"target": 13657,
 							"name": "PromotionRuleValueDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -7724,7 +7724,7 @@
 						"type": "reference",
 						"target": 13656,
 						"name": "PromotionRuleOperatorValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7884,7 +7884,7 @@
 						"type": "reference",
 						"target": 13656,
 						"name": "PromotionRuleOperatorValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -7983,7 +7983,7 @@
 									"type": "reference",
 									"target": 13489,
 									"name": "FilterablePromotionRuleProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -7993,11 +7993,11 @@
 											"type": "reference",
 											"target": 13489,
 											"name": "FilterablePromotionRuleProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -8034,7 +8034,7 @@
 									"type": "reference",
 									"target": 13489,
 									"name": "FilterablePromotionRuleProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -8044,11 +8044,11 @@
 											"type": "reference",
 											"target": 13489,
 											"name": "FilterablePromotionRuleProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -8103,11 +8103,11 @@
 							"type": "reference",
 							"target": 13489,
 							"name": "FilterablePromotionRuleProps",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					],
 					"name": "BaseFilterable",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		},
@@ -8230,7 +8230,7 @@
 						"type": "reference",
 						"target": 13574,
 						"name": "PromotionTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8274,7 +8274,7 @@
 						"type": "reference",
 						"target": 13601,
 						"name": "ApplicationMethodDTO",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8299,7 +8299,7 @@
 							"type": "reference",
 							"target": 13459,
 							"name": "PromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -8353,7 +8353,7 @@
 						"type": "reference",
 						"target": 13472,
 						"name": "CampaignDTO",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				}
 			],
@@ -8441,7 +8441,7 @@
 						"type": "reference",
 						"target": 13574,
 						"name": "PromotionTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8483,7 +8483,7 @@
 						"type": "reference",
 						"target": 13575,
 						"name": "CreateApplicationMethodDTO",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8508,7 +8508,7 @@
 							"type": "reference",
 							"target": 13454,
 							"name": "CreatePromotionRuleDTO",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -8532,7 +8532,7 @@
 						"type": "reference",
 						"target": 13465,
 						"name": "CreateCampaignDTO",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8668,7 +8668,7 @@
 						"type": "reference",
 						"target": 13574,
 						"name": "PromotionTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -8698,7 +8698,7 @@
 								"type": "reference",
 								"target": 13614,
 								"name": "UpdateApplicationMethodDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "literal",
@@ -8795,7 +8795,7 @@
 									"type": "reference",
 									"target": 13429,
 									"name": "FilterablePromotionProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -8805,11 +8805,11 @@
 											"type": "reference",
 											"target": 13429,
 											"name": "FilterablePromotionProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -8846,7 +8846,7 @@
 									"type": "reference",
 									"target": 13429,
 									"name": "FilterablePromotionProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -8856,11 +8856,11 @@
 											"type": "reference",
 											"target": 13429,
 											"name": "FilterablePromotionProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -8965,7 +8965,7 @@
 									}
 								],
 								"name": "OperatorMap",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -9006,7 +9006,7 @@
 									}
 								],
 								"name": "OperatorMap",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -9054,7 +9054,7 @@
 							"type": "reference",
 							"target": 13574,
 							"name": "PromotionTypeValues",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -9083,11 +9083,11 @@
 							"type": "reference",
 							"target": 13429,
 							"name": "FilterablePromotionProps",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					],
 					"name": "BaseFilterable",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		},
@@ -9126,7 +9126,7 @@
 						"type": "reference",
 						"target": 13747,
 						"name": "CampaignBudgetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -9277,7 +9277,7 @@
 						"type": "reference",
 						"target": 13747,
 						"name": "CampaignBudgetTypeValues",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -9555,7 +9555,7 @@
 								"type": "reference",
 								"target": 13660,
 								"name": "CreateCampaignBudgetDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						]
 					}
@@ -9778,7 +9778,7 @@
 								"type": "reference",
 								"target": 13671,
 								"name": "UpdateCampaignBudgetDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "literal",
@@ -10016,7 +10016,7 @@
 											"type": "reference",
 											"target": 13381,
 											"name": "UsageComputedActions",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								}
@@ -10101,7 +10101,7 @@
 											"type": "reference",
 											"target": 13381,
 											"name": "UsageComputedActions",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								}
@@ -10206,7 +10206,7 @@
 										"type": "reference",
 										"target": 13385,
 										"name": "ComputeActionContext",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -10259,7 +10259,7 @@
 											"type": "reference",
 											"target": 13391,
 											"name": "ComputeActions",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -10331,7 +10331,7 @@
 											"type": "reference",
 											"target": 13392,
 											"name": "CreatePromotionDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -10355,7 +10355,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -10372,7 +10372,7 @@
 											"type": "reference",
 											"target": 13413,
 											"name": "PromotionDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -10433,7 +10433,7 @@
 										"type": "reference",
 										"target": 13392,
 										"name": "CreatePromotionDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -10456,7 +10456,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -10471,7 +10471,7 @@
 										"type": "reference",
 										"target": 13413,
 										"name": "PromotionDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -10542,7 +10542,7 @@
 											"type": "reference",
 											"target": 13422,
 											"name": "UpdatePromotionDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -10566,7 +10566,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -10583,7 +10583,7 @@
 											"type": "reference",
 											"target": 13413,
 											"name": "PromotionDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -10644,7 +10644,7 @@
 										"type": "reference",
 										"target": 13422,
 										"name": "UpdatePromotionDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -10667,7 +10667,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -10682,7 +10682,7 @@
 										"type": "reference",
 										"target": 13413,
 										"name": "PromotionDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -10805,7 +10805,7 @@
 										"type": "reference",
 										"target": 13429,
 										"name": "FilterablePromotionProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -10848,11 +10848,11 @@
 												"type": "reference",
 												"target": 13413,
 												"name": "PromotionDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -10875,7 +10875,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -10892,7 +10892,7 @@
 											"type": "reference",
 											"target": 13413,
 											"name": "PromotionDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -11016,7 +11016,7 @@
 										"type": "reference",
 										"target": 13429,
 										"name": "FilterablePromotionProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -11059,11 +11059,11 @@
 												"type": "reference",
 												"target": 13413,
 												"name": "PromotionDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -11086,7 +11086,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11106,7 +11106,7 @@
 													"type": "reference",
 													"target": 13413,
 													"name": "PromotionDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											},
 											{
@@ -11235,11 +11235,11 @@
 												"type": "reference",
 												"target": 13413,
 												"name": "PromotionDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -11262,7 +11262,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11277,7 +11277,7 @@
 										"type": "reference",
 										"target": 13413,
 										"name": "PromotionDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -11370,7 +11370,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11464,7 +11464,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11616,12 +11616,12 @@
 												"type": "reference",
 												"target": 13245,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "SoftDeleteReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -11644,7 +11644,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11839,12 +11839,12 @@
 												"type": "reference",
 												"target": 13251,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RestoreReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -11867,7 +11867,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -11997,7 +11997,7 @@
 											"type": "reference",
 											"target": 13454,
 											"name": "CreatePromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -12021,7 +12021,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12038,7 +12038,7 @@
 											"type": "reference",
 											"target": 13459,
 											"name": "PromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -12129,7 +12129,7 @@
 											"type": "reference",
 											"target": 13454,
 											"name": "CreatePromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -12153,7 +12153,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12170,7 +12170,7 @@
 											"type": "reference",
 											"target": 13459,
 											"name": "PromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -12261,7 +12261,7 @@
 											"type": "reference",
 											"target": 13454,
 											"name": "CreatePromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -12285,7 +12285,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12302,7 +12302,7 @@
 											"type": "reference",
 											"target": 13459,
 											"name": "PromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -12415,7 +12415,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12540,7 +12540,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12665,7 +12665,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12747,7 +12747,7 @@
 										"type": "reference",
 										"target": 13465,
 										"name": "CreateCampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -12770,7 +12770,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12785,7 +12785,7 @@
 										"type": "reference",
 										"target": 13472,
 										"name": "CampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -12847,7 +12847,7 @@
 											"type": "reference",
 											"target": 13465,
 											"name": "CreateCampaignDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -12871,7 +12871,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -12888,7 +12888,7 @@
 											"type": "reference",
 											"target": 13472,
 											"name": "CampaignDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -12960,7 +12960,7 @@
 											"type": "reference",
 											"target": 13481,
 											"name": "UpdateCampaignDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -12984,7 +12984,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13001,7 +13001,7 @@
 											"type": "reference",
 											"target": 13472,
 											"name": "CampaignDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -13062,7 +13062,7 @@
 										"type": "reference",
 										"target": 13481,
 										"name": "UpdateCampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13085,7 +13085,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13100,7 +13100,7 @@
 										"type": "reference",
 										"target": 13472,
 										"name": "CampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -13223,7 +13223,7 @@
 										"type": "reference",
 										"target": 13489,
 										"name": "FilterablePromotionRuleProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13266,11 +13266,11 @@
 												"type": "reference",
 												"target": 13459,
 												"name": "PromotionRuleDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13293,7 +13293,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13310,7 +13310,7 @@
 											"type": "reference",
 											"target": 13459,
 											"name": "PromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -13382,7 +13382,7 @@
 											"type": "reference",
 											"target": 13493,
 											"name": "UpdatePromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -13406,7 +13406,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13423,7 +13423,7 @@
 											"type": "reference",
 											"target": 13459,
 											"name": "PromotionRuleDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -13547,7 +13547,7 @@
 										"type": "reference",
 										"target": 13499,
 										"name": "FilterableCampaignProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13590,11 +13590,11 @@
 												"type": "reference",
 												"target": 13472,
 												"name": "CampaignDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13617,7 +13617,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13634,7 +13634,7 @@
 											"type": "reference",
 											"target": 13472,
 											"name": "CampaignDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -13758,7 +13758,7 @@
 										"type": "reference",
 										"target": 13499,
 										"name": "FilterableCampaignProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13801,11 +13801,11 @@
 												"type": "reference",
 												"target": 13472,
 												"name": "CampaignDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -13828,7 +13828,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -13848,7 +13848,7 @@
 													"type": "reference",
 													"target": 13472,
 													"name": "CampaignDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											},
 											{
@@ -13977,11 +13977,11 @@
 												"type": "reference",
 												"target": 13472,
 												"name": "CampaignDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -14004,7 +14004,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14019,7 +14019,7 @@
 										"type": "reference",
 										"target": 13472,
 										"name": "CampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -14112,7 +14112,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14206,7 +14206,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14358,12 +14358,12 @@
 												"type": "reference",
 												"target": 13332,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "SoftDeleteReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -14386,7 +14386,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14581,12 +14581,12 @@
 												"type": "reference",
 												"target": 13338,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RestoreReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -14609,7 +14609,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14682,7 +14682,7 @@
 										"type": "reference",
 										"target": 13505,
 										"name": "AddPromotionsToCampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -14697,7 +14697,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14773,7 +14773,7 @@
 										"type": "reference",
 										"target": 13508,
 										"name": "RemovePromotionsFromCampaignDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -14788,7 +14788,7 @@
 										"type": "reference",
 										"target": 13400,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -14882,7 +14882,7 @@
 					"type": "reference",
 					"target": 13367,
 					"name": "IModuleService",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		},
@@ -15040,7 +15040,7 @@
 												"type": "reference",
 												"target": 13722,
 												"name": "Message",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -15048,7 +15048,7 @@
 													"type": "reference",
 													"target": 13722,
 													"name": "Message",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -15088,7 +15088,7 @@
 										"type": "reference",
 										"target": 13726,
 										"name": "MessageAggregatorFormat",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -15109,7 +15109,7 @@
 											"type": "reference",
 											"target": 13722,
 											"name": "Message",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -15179,12 +15179,12 @@
 														"type": "reference",
 														"target": 13598,
 														"name": "T",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "RawMessageFormat",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -15196,12 +15196,12 @@
 															"type": "reference",
 															"target": 13598,
 															"name": "T",
-															"package": "@medusajs/types",
+															"package": "@srinivasulu-narayanam/types",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "RawMessageFormat",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -15320,7 +15320,7 @@
 						"type": "reference",
 						"target": 13412,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -15360,7 +15360,7 @@
 						"type": "reference",
 						"target": 13412,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -15500,7 +15500,7 @@
 						"type": "reference",
 						"target": 13587,
 						"name": "IMessageAggregator",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -15629,7 +15629,7 @@
 						"type": "reference",
 						"target": 13701,
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -15795,7 +15795,7 @@
 						"type": "reference",
 						"target": 13701,
 						"name": "BigNumberRawValue",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "intrinsic",
@@ -15819,7 +15819,7 @@
 						"type": "reference",
 						"target": 13706,
 						"name": "IBigNumber",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				]
 			}
@@ -15910,7 +15910,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/types",
+	"packageName": "@srinivasulu-narayanam/types",
 	"symbolIdMap": {
 		"13194": {
 			"sourceFileName": "../../../../packages/core/types/src/promotion/service.ts",

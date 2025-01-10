@@ -7,7 +7,7 @@ import {
   ModuleJoinerConfig,
   ModulesSdkTypes,
   PromotionTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ApplicationMethodAllocation,
   ApplicationMethodTargetType,
@@ -27,7 +27,7 @@ import {
   PromotionType,
   toMikroORMEntity,
   transformPropertiesToBigNumber,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   ApplicationMethod,
   Campaign,

@@ -1,10 +1,10 @@
-import { MedusaModule } from "@medusajs/framework/modules-sdk"
+import { MedusaModule } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   ExternalModuleDeclaration,
   ICacheService,
   InternalModuleDeclaration,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 import { RedisCacheModuleOptions } from "../types"
 
 export const initialize = async (
@@ -13,7 +13,7 @@ export const initialize = async (
   const serviceKey = Modules.CACHE
   const loaded = await MedusaModule.bootstrap<ICacheService>({
     moduleKey: serviceKey,
-    defaultPath: "@medusajs/cache-redis",
+    defaultPath: "@srinivasulu-narayanam/cache-redis",
     declaration: options as
       | InternalModuleDeclaration
       | ExternalModuleDeclaration,

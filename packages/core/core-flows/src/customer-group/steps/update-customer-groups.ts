@@ -2,13 +2,13 @@ import {
   CustomerGroupUpdatableFields,
   FilterableCustomerGroupProps,
   ICustomerModuleService,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   getSelectsAndRelationsFromObjectArray,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export type UpdateCustomerGroupStepInput = {
   selector: FilterableCustomerGroupProps

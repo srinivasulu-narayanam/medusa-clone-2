@@ -5,11 +5,11 @@ import {
   AuthIdentityProviderService,
   GithubAuthProviderOptions,
   Logger,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   AbstractAuthModuleProvider,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 type InjectedDependencies = {
   logger: Logger

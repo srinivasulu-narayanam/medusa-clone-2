@@ -1,10 +1,10 @@
 import { join } from "path"
 import { CustomDirectives, makeSchemaExecutable } from "./build-config"
-import { MedusaModule } from "@medusajs/framework/modules-sdk"
+import { MedusaModule } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   FileSystem,
   gqlSchemaToTypes as ModulesSdkGqlSchemaToTypes,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import * as process from "process"
 
 export async function gqlSchemaToTypes(schema: string) {
@@ -30,7 +30,7 @@ export async function gqlSchemaToTypes(schema: string) {
   const entryPoints = buildEntryPointsTypeMap(content)
 
   const indexEntryPoints = `
-declare module '@medusajs/framework/types' {
+declare module '@srinivasulu-narayanam/framework/types' {
   interface IndexServiceEntryPoints  {
 ${entryPoints
   .map((entry) => `    ${entry.entryPoint}: ${entry.entityType}`)

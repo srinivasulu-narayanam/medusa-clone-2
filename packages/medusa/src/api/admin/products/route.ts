@@ -1,11 +1,11 @@
-import { createProductsWorkflow } from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { createProductsWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { AdditionalData, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntities,
   refetchEntity,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { remapKeysForProduct, remapProductResponse } from "./helpers"
 
 export const GET = async (

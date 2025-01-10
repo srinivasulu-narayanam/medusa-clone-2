@@ -1,9 +1,9 @@
-import { INotificationModuleService } from "@medusajs/framework/types"
+import { INotificationModuleService } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { get } from "lodash"
 import { SubscriberArgs, SubscriberConfig } from "../types/subscribers"
 

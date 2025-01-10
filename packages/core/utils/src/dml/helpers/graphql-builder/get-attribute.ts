@@ -1,4 +1,4 @@
-import { PropertyType } from "@medusajs/types"
+import { PropertyType } from "@srinivasulu-narayanam/types"
 import { toPascalCase } from "../../../common"
 import { PrimaryKeyModifier } from "../../properties/primary-key"
 

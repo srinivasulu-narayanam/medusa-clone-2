@@ -3,9 +3,9 @@ import {
   LinkDefinition,
   LoadedModule,
   ModuleJoinerRelationship,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 
-import { isObject, Modules, promiseAll, toPascalCase } from "@medusajs/utils"
+import { isObject, Modules, promiseAll, toPascalCase } from "@srinivasulu-narayanam/utils"
 import { MedusaModule } from "./medusa-module"
 import { convertRecordsToLinkDefinition } from "./utils/convert-data-to-link-definition"
 import { linkingErrorMessage } from "./utils/linking-error"

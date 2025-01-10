@@ -1,9 +1,9 @@
-import { ArrowDownRightMini, DocumentText, XCircle } from "@medusajs/icons"
+import { ArrowDownRightMini, DocumentText, XCircle } from "@srinivasulu-narayanam/icons"
 import {
   AdminPayment,
   AdminPaymentCollection,
   HttpTypes,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   Badge,
   Button,
@@ -14,7 +14,7 @@ import {
   toast,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { format } from "date-fns"
 import { Trans, useTranslation } from "react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"

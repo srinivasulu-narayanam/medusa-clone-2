@@ -3,13 +3,13 @@ import {
   IFulfillmentModuleService,
   ShippingOptionDTO,
   UpsertShippingOptionDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   arrayDifference,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export type UpsertShippingOptionsStepInput = Omit<
   | FulfillmentWorkflow.CreateShippingOptionsWorkflowInput

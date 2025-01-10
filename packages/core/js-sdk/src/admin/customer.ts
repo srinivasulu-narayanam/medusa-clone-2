@@ -1,7 +1,7 @@
 import {
   HttpTypes,
   SelectParams,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { Client } from "../client"
 import { ClientHeaders } from "../types"
 

@@ -2,13 +2,13 @@ import {
   IPricingModuleService,
   PriceListDTO,
   UpdatePriceListDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   MedusaError,
   Modules,
   arrayDifference,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const validatePriceListsStepId = "validate-price-lists"
 /**

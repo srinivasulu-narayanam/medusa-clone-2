@@ -1,5 +1,5 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { XMarkMini } from "@medusajs/icons"
+import { XMarkMini } from "@srinivasulu-narayanam/icons"
 import {
   Button,
   Checkbox,
@@ -10,14 +10,14 @@ import {
   Text,
   clx,
   toast,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useMemo, useState } from "react"
 import { useForm, useWatch } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 import * as zod from "zod"
 
-import { PaymentProviderDTO, RegionCountryDTO } from "@medusajs/types"
+import { PaymentProviderDTO, RegionCountryDTO } from "@srinivasulu-narayanam/types"
 
 import { Form } from "../../../../../components/common/form"
 import { Combobox } from "../../../../../components/inputs/combobox"

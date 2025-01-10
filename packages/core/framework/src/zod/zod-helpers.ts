@@ -1,4 +1,4 @@
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   z,
   ZodError,

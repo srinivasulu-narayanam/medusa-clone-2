@@ -3,7 +3,7 @@
 import React from "react"
 import { CopyButton, useColorMode } from "docs-ui"
 import { colors as allColors } from "../config/colors"
-import { clx } from "@medusajs/ui"
+import { clx } from "@srinivasulu-narayanam/ui"
 
 type Color = {
   name: string

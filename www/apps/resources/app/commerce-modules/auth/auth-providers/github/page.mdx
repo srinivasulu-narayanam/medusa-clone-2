@@ -36,7 +36,7 @@ Learn about the authentication flow in [this guide](../../authentication-route/p
 Add the module to the array of providers passed to the Auth Module:
 
 ```ts title="medusa-config.ts"
-import { Modules, ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { Modules, ContainerRegistrationKeys } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -44,13 +44,13 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/auth",
+      resolve: "@srinivas-narayanam/medusa/auth",
       dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
       options: {
         providers: [
           // other providers...
           {
-            resolve: "@medusajs/medusa/auth-github",
+            resolve: "@srinivas-narayanam/medusa/auth-github",
             id: "github",
             options: {
               clientId: process.env.GITHUB_CLIENT_ID,

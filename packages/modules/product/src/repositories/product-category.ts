@@ -4,8 +4,8 @@ import {
   InferEntityType,
   ProductCategoryTransformOptions,
   ProductTypes,
-} from "@medusajs/framework/types"
-import { DALUtils, isDefined, MedusaError } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { DALUtils, isDefined, MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import { LoadStrategy, FindOptions as MikroOptions } from "@mikro-orm/core"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { ProductCategory } from "@models"

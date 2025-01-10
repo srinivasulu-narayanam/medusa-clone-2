@@ -6,8 +6,8 @@ import {
   TransactionPayload,
   TransactionStepsDefinition,
   WorkflowHandler,
-} from "@medusajs/orchestration"
-import { Context, LoadedModule, MedusaContainer } from "@medusajs/types"
+} from "@srinivasulu-narayanam/orchestration"
+import { Context, LoadedModule, MedusaContainer } from "@srinivasulu-narayanam/types"
 import { ExportedWorkflow } from "../../helper"
 import { Hook } from "./create-hook"
 import { CompensateFn, InvokeFn } from "./create-step"
@@ -199,7 +199,7 @@ export type WorkflowTransactionContext = StepExecutionContext &
  * import type {
  *   MedusaRequest,
  *   MedusaResponse
- * } from "@medusajs/medusa";
+ * } from "@srinivasulu-narayanam/medusa";
  * import myWorkflow from "../../../workflows/hello-world";
  *
  * export async function GET(

@@ -22,10 +22,10 @@ For example:
 import { 
   MedusaRequest, 
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import { 
   ContainerRegistrationKeys,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 
 export async function POST(
   req: MedusaRequest,
@@ -50,7 +50,7 @@ To create a link between records of two data models, use the `create` method of 
 For example:
 
 ```ts
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -85,7 +85,7 @@ To remove a link between records of two data models, use the `dismiss` method of
 For example:
 
 ```ts
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -116,7 +116,7 @@ If a record is deleted, use the `delete` method of Link to delete all linked rec
 For example:
 
 ```ts
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -140,7 +140,7 @@ If a record that was previously soft-deleted is now restored, use the `restore` 
 For example:
 
 ```ts
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 

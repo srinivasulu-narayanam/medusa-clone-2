@@ -1,4 +1,4 @@
-import { DALUtils } from "@medusajs/framework/utils"
+import { DALUtils } from "@srinivasulu-narayanam/framework/utils"
 import { OrderClaim } from "@models"
 import { setFindMethods } from "../utils/base-repository-find"
 

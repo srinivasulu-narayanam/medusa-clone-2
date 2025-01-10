@@ -1,5 +1,5 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { ModuleRegistrationName } from "@medusajs/utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
+import { ModuleRegistrationName } from "@srinivasulu-narayanam/utils"
 import {
   adminHeaders,
   createAdminUser,

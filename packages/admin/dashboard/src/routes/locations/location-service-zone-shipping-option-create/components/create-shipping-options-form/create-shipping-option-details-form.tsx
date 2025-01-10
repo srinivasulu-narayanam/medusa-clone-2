@@ -1,8 +1,8 @@
-import { Heading, Input, RadioGroup, Select, Text } from "@medusajs/ui"
+import { Heading, Input, RadioGroup, Select, Text } from "@srinivasulu-narayanam/ui"
 import { UseFormReturn } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 import { Divider } from "../../../../../components/common/divider"
 import { Form } from "../../../../../components/common/form"

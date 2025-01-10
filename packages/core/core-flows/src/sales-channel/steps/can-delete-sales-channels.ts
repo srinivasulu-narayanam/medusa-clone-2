@@ -1,6 +1,6 @@
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { MedusaError, Modules } from "@medusajs/framework/utils"
+import { MedusaError, Modules } from "@srinivasulu-narayanam/framework/utils"
 export const canDeleteSalesChannelsOrThrowStepId =
   "can-delete-sales-channels-or-throw-step"
 

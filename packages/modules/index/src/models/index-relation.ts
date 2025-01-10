@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivasulu-narayanam/framework/utils"
 import IndexData from "./index-data"
 
 const IndexRelation = model.define("IndexRelation", {

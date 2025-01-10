@@ -1,9 +1,9 @@
-import { Modules, promiseAll } from "@medusajs/framework/utils"
+import { Modules, promiseAll } from "@srinivasulu-narayanam/framework/utils"
 import {
   IFulfillmentModuleService,
   ValidateFulfillmentDataContext,
-} from "@medusajs/types"
-import { createStep, StepResponse } from "@medusajs/workflows-sdk"
+} from "@srinivasulu-narayanam/types"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/workflows-sdk"
 
 export type ValidateShippingMethodsDataInput = {
   id: string

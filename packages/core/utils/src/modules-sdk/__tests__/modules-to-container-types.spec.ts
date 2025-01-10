@@ -16,8 +16,8 @@ describe("generateContainerTypes", function () {
           __definition: {
             key: "cache",
             label: "Cache",
-            defaultPackage: "@medusajs/foo",
-            resolvePath: "@medusajs/foo",
+            defaultPackage: "@srinivasulu-narayanam/foo",
+            resolvePath: "@srinivasulu-narayanam/foo",
             defaultModuleDeclaration: {
               scope: "internal",
             },
@@ -34,9 +34,9 @@ describe("generateContainerTypes", function () {
     expect(await fileSystem.exists("modules-bindings.d.ts")).toBeTruthy()
     expect(await fileSystem.contents("modules-bindings.d.ts"))
       .toMatchInlineSnapshot(`
-      "import type Cache from '@medusajs/foo'
+      "import type Cache from '@srinivasulu-narayanam/foo'
 
-      declare module '@medusajs/framework/types' {
+      declare module '@srinivasulu-narayanam/framework/types' {
         interface ModulesImplementations {
           cache: InstanceType<(typeof Cache)['service']>
         }
@@ -71,7 +71,7 @@ describe("generateContainerTypes", function () {
       .toMatchInlineSnapshot(`
       "import type Cache from '../../foo/bar'
 
-      declare module '@medusajs/framework/types' {
+      declare module '@srinivasulu-narayanam/framework/types' {
         interface ModulesImplementations {
           cache: InstanceType<(typeof Cache)['service']>
         }

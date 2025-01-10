@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { Button, clx } from "@medusajs/ui"
+import { XMarkMini } from "@srinivasulu-narayanam/icons"
+import { Button, clx } from "@srinivasulu-narayanam/ui"
 import { Children, PropsWithChildren, createContext, useContext } from "react"
 import { useTranslation } from "react-i18next"
 

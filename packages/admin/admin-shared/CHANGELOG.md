@@ -1,4 +1,4 @@
-# @medusajs/admin-shared
+# @srinivas-narayanam/admin-shared
 
 ## 2.2.0
 

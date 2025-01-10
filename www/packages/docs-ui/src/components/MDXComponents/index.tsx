@@ -16,7 +16,7 @@ import {
   H4,
 } from "@/components"
 import clsx from "clsx"
-import { Text } from "@medusajs/ui"
+import { Text } from "@srinivasulu-narayanam/ui"
 
 export const MDXComponents: MDXComponentsType = {
   code: CodeMdx,

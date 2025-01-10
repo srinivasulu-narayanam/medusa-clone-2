@@ -1,6 +1,6 @@
-import { INotificationModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { INotificationModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export type NotifyOnFailureStepInput = {
   to: string

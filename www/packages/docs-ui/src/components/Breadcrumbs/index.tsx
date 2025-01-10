@@ -11,7 +11,7 @@ import {
   useSiteConfig,
 } from "../../providers"
 import { Button } from "../Button"
-import { TriangleRightMini } from "@medusajs/icons"
+import { TriangleRightMini } from "@srinivasulu-narayanam/icons"
 
 export const Breadcrumbs = () => {
   const { currentItems, activeItem: sidebarActiveItem } = useSidebar()

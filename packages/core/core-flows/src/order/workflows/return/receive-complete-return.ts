@@ -1,13 +1,13 @@
-import { OrderWorkflow } from "@medusajs/framework/types"
+import { OrderWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createStep,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../../common"
 
-import { ReturnDTO } from "@medusajs/framework/types"
+import { ReturnDTO } from "@srinivasulu-narayanam/framework/types"
 import { receiveReturnStep } from "../../steps/return/receive-return"
 import {
   throwIfIsCancelled,

@@ -1,9 +1,9 @@
 import path from "path"
 import { access, constants, copyFile, rm } from "node:fs/promises"
 import type tsStatic from "typescript"
-import { logger } from "@medusajs/framework/logger"
-import { ConfigModule } from "@medusajs/framework/types"
-import { getConfigFile } from "@medusajs/framework/utils"
+import { logger } from "@srinivasulu-narayanam/framework/logger"
+import { ConfigModule } from "@srinivasulu-narayanam/framework/types"
+import { getConfigFile } from "@srinivasulu-narayanam/framework/utils"
 import {
   ADMIN_ONLY_OUTPUT_DIR,
   ADMIN_RELATIVE_OUTPUT_DIR,
@@ -212,7 +212,7 @@ async function buildBackend(
 }
 
 /**
- * Builds the frontend project using the "@medusajs/admin-bundler"
+ * Builds the frontend project using the "@srinivasulu-narayanam/admin-bundler"
  */
 async function buildFrontend(
   projectRoot: string,
@@ -252,7 +252,7 @@ async function buildFrontend(
   try {
     logger.info("Compiling frontend source...")
     const { build: buildProductionBuild } = await import(
-      "@medusajs/admin-bundler"
+      "@srinivasulu-narayanam/admin-bundler"
     )
     await buildProductionBuild(adminOptions)
     const duration = process.hrtime(startTime)

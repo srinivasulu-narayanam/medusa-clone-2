@@ -2,15 +2,15 @@ import {
   AdditionalData,
   PricingTypes,
   ProductTypes,
-} from "@medusajs/framework/types"
-import { ProductVariantWorkflowEvents } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { ProductVariantWorkflowEvents } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createHook,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { updatePriceSetsStep } from "../../pricing"
 import { updateProductVariantsStep } from "../steps"

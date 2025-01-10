@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Badge } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Badge } from "@srinivasulu-narayanam/ui"
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"
 

@@ -1,9 +1,9 @@
 import {
   IOrderModuleService,
   RegisterOrderChangeDTO,
-} from "@medusajs/framework/types"
-import { ModuleRegistrationName } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/types"
+import { ModuleRegistrationName } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const registerOrderChangeStepId = "register-order-change"
 

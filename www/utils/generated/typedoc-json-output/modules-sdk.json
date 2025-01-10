@@ -48,7 +48,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					]
@@ -73,7 +73,7 @@
 						"qualifiedName": "ModuleDefinition"
 					},
 					"name": "ModuleDefinition",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			},
 			"defaultValue": "..."
@@ -166,7 +166,7 @@
 				"type": "reference",
 				"target": 41399,
 				"name": "DeleteEntityInput",
-				"package": "@medusajs/modules-sdk"
+				"package": "@srinivasulu-narayanam/modules-sdk"
 			}
 		},
 		{
@@ -222,7 +222,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													},
 													{
@@ -238,7 +238,7 @@
 																"qualifiedName": "ModuleDefinition"
 															},
 															"name": "ModuleDefinition",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												],
@@ -260,7 +260,7 @@
 								"type": "reference",
 								"target": 41404,
 								"name": "Link",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						}
 					]
@@ -309,7 +309,7 @@
 															"qualifiedName": "ModuleJoinerConfig"
 														},
 														"name": "ModuleJoinerConfig",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												},
 												{
@@ -325,7 +325,7 @@
 															"qualifiedName": "ModuleDefinition"
 														},
 														"name": "ModuleDefinition",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												}
 											],
@@ -422,7 +422,7 @@
 											"qualifiedName": "LoadedLinkModule"
 										},
 										"name": "LoadedLinkModule",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									}
 								]
 							}
@@ -473,7 +473,7 @@
 														"qualifiedName": "RemoteRelationship"
 													},
 													"name": "RemoteRelationship",
-													"package": "@medusajs/modules-sdk"
+													"package": "@srinivasulu-narayanam/modules-sdk"
 												}
 											}
 										],
@@ -517,7 +517,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -528,7 +528,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -586,7 +586,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -597,7 +597,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -649,7 +649,7 @@
 										"type": "reference",
 										"target": 41399,
 										"name": "DeleteEntityInput",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									}
 								}
 							],
@@ -679,7 +679,7 @@
 																"qualifiedName": "CascadeError"
 															},
 															"name": "CascadeError",
-															"package": "@medusajs/modules-sdk"
+															"package": "@srinivasulu-narayanam/modules-sdk"
 														}
 													}
 												]
@@ -691,7 +691,7 @@
 													"qualifiedName": "RemovedIds"
 												},
 												"name": "RemovedIds",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										]
 									}
@@ -726,7 +726,7 @@
 										"type": "reference",
 										"target": 41399,
 										"name": "DeleteEntityInput",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									}
 								}
 							],
@@ -756,7 +756,7 @@
 																"qualifiedName": "CascadeError"
 															},
 															"name": "CascadeError",
-															"package": "@medusajs/modules-sdk"
+															"package": "@srinivasulu-narayanam/modules-sdk"
 														}
 													}
 												]
@@ -768,7 +768,7 @@
 													"qualifiedName": "RemovedIds"
 												},
 												"name": "RemovedIds",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										]
 									}
@@ -809,7 +809,7 @@
 													"qualifiedName": "LinkDefinition"
 												},
 												"name": "LinkDefinition",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -820,7 +820,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -892,7 +892,7 @@
 														"qualifiedName": "LinkDefinition"
 													},
 													"name": "LinkDefinition",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											]
 										}
@@ -969,7 +969,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -996,7 +996,7 @@
 															"qualifiedName": "ModuleResolution"
 														},
 														"name": "ModuleResolution",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												],
 												"name": "Record",
@@ -1016,7 +1016,7 @@
 													"qualifiedName": "Logger"
 												},
 												"name": "Logger",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -1122,7 +1122,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -1140,7 +1140,7 @@
 														"qualifiedName": "ModuleProvider"
 													},
 													"name": "ModuleProvider",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										},
@@ -1192,7 +1192,7 @@
 																			"qualifiedName": "MedusaContainer"
 																		},
 																		"name": "MedusaContainer",
-																		"package": "@medusajs/types"
+																		"package": "@srinivasulu-narayanam/types"
 																	}
 																},
 																{
@@ -1287,7 +1287,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1303,7 +1303,7 @@
 									"qualifiedName": "ModuleProvider"
 								},
 								"name": "ModuleProvider",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1467,7 +1467,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -1476,7 +1476,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												]
 											}
@@ -1502,7 +1502,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1520,7 +1520,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -1542,7 +1542,7 @@
 									"qualifiedName": "ModuleResolution"
 								},
 								"name": "ModuleResolution",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						],
 						"name": "Record",
@@ -1578,7 +1578,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1601,7 +1601,7 @@
 											"qualifiedName": "InternalModuleDeclaration"
 										},
 										"name": "InternalModuleDeclaration",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Partial",
@@ -1623,7 +1623,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -1645,7 +1645,7 @@
 									"qualifiedName": "ModuleResolution"
 								},
 								"name": "ModuleResolution",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						],
 						"name": "Record",
@@ -1837,7 +1837,7 @@
 									"qualifiedName": "ILinkMigrationsPlanner"
 								},
 								"name": "ILinkMigrationsPlanner",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					]
@@ -1906,7 +1906,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -1915,7 +1915,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												]
 											}
@@ -1969,7 +1969,7 @@
 												"qualifiedName": "ModuleServiceInitializeOptions"
 											},
 											"name": "ModuleServiceInitializeOptions",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									},
 									{
@@ -2082,7 +2082,7 @@
 												"type": "reference",
 												"target": 41321,
 												"name": "MedusaModuleConfig",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										},
 										{
@@ -2098,7 +2098,7 @@
 													"qualifiedName": "MedusaContainer"
 												},
 												"name": "MedusaContainer",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -2113,7 +2113,7 @@
 												"type": "reference",
 												"target": 41325,
 												"name": "SharedResources",
-												"package": "@medusajs/modules-sdk"
+												"package": "@srinivasulu-narayanam/modules-sdk"
 											}
 										},
 										{
@@ -2246,7 +2246,7 @@
 													"qualifiedName": "LoadedModule"
 												},
 												"name": "LoadedModule",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -2257,7 +2257,7 @@
 														"qualifiedName": "LoadedModule"
 													},
 													"name": "LoadedModule",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -2280,7 +2280,7 @@
 										"type": "reference",
 										"target": 41404,
 										"name": "Link",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									},
 									{
 										"type": "intrinsic",
@@ -2302,7 +2302,7 @@
 									"qualifiedName": "RemoteQueryFunction"
 								},
 								"name": "RemoteQueryFunction",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -2405,7 +2405,7 @@
 								"type": "reference",
 								"target": 41307,
 								"name": "RunMigrationFn",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2418,7 +2418,7 @@
 								"type": "reference",
 								"target": 41310,
 								"name": "RevertMigrationFn",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2431,7 +2431,7 @@
 								"type": "reference",
 								"target": 41314,
 								"name": "GenerateMigrations",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2444,7 +2444,7 @@
 								"type": "reference",
 								"target": 41318,
 								"name": "GetLinkExecutionPlanner",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2585,7 +2585,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -2669,7 +2669,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -2684,7 +2684,7 @@
 								"type": "reference",
 								"target": 41325,
 								"name": "SharedResources",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2704,7 +2704,7 @@
 										"qualifiedName": "LoadedModule"
 									},
 									"name": "LoadedModule",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -2725,7 +2725,7 @@
 										"qualifiedName": "ModuleJoinerConfig"
 									},
 									"name": "ModuleJoinerConfig",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						},
@@ -2767,7 +2767,7 @@
 								"type": "reference",
 								"target": 41321,
 								"name": "MedusaModuleConfig",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						},
 						{
@@ -2785,7 +2785,7 @@
 										"type": "reference",
 										"target": 41394,
 										"name": "RegisterModuleJoinerConfig",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									},
 									{
 										"type": "array",
@@ -2793,7 +2793,7 @@
 											"type": "reference",
 											"target": 41394,
 											"name": "RegisterModuleJoinerConfig",
-											"package": "@medusajs/modules-sdk"
+											"package": "@srinivasulu-narayanam/modules-sdk"
 										}
 									}
 								]
@@ -2814,7 +2814,7 @@
 									"qualifiedName": "RemoteFetchDataCallback"
 								},
 								"name": "RemoteFetchDataCallback",
-								"package": "@medusajs/orchestration"
+								"package": "@srinivasulu-narayanam/orchestration"
 							}
 						},
 						{
@@ -2931,7 +2931,7 @@
 								"type": "reference",
 								"target": 41352,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -2947,7 +2947,7 @@
 								"type": "reference",
 								"target": 41330,
 								"name": "MedusaAppOutput",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						],
 						"name": "Promise",
@@ -2980,7 +2980,7 @@
 								"type": "reference",
 								"target": 41352,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -3041,7 +3041,7 @@
 								"type": "reference",
 								"target": 41352,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -3102,7 +3102,7 @@
 								"type": "reference",
 								"target": 41352,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -3149,7 +3149,7 @@
 								"type": "reference",
 								"target": 41352,
 								"name": "MedusaAppOptions",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							},
 							"defaultValue": "{}"
 						}
@@ -3168,7 +3168,7 @@
 									"qualifiedName": "ILinkMigrationsPlanner"
 								},
 								"name": "ILinkMigrationsPlanner",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						],
 						"name": "Promise",
@@ -3229,7 +3229,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3275,7 +3275,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -3346,7 +3346,7 @@
 									"qualifiedName": "ModuleBootstrapDeclaration"
 								},
 								"name": "ModuleBootstrapDeclaration",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3364,7 +3364,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3382,7 +3382,7 @@
 									"qualifiedName": "MedusaContainer"
 								},
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3400,7 +3400,7 @@
 									"qualifiedName": "ModuleDefinition"
 								},
 								"name": "ModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3548,7 +3548,7 @@
 									"qualifiedName": "LinkModuleDefinition"
 								},
 								"name": "LinkModuleDefinition",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3566,7 +3566,7 @@
 									"qualifiedName": "InternalModuleDeclaration"
 								},
 								"name": "InternalModuleDeclaration",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3584,7 +3584,7 @@
 									"qualifiedName": "ModuleExports"
 								},
 								"name": "ModuleExports",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3646,7 +3646,7 @@
 							"qualifiedName": "ModuleJoinerConfig"
 						},
 						"name": "ModuleJoinerConfig",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -3679,7 +3679,7 @@
 														"qualifiedName": "ModuleJoinerConfig"
 													},
 													"name": "ModuleJoinerConfig",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										}
@@ -3691,7 +3691,7 @@
 											"qualifiedName": "ModuleJoinerConfig"
 										},
 										"name": "ModuleJoinerConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							]
@@ -3717,7 +3717,7 @@
 						"qualifiedName": "MedusaModule"
 					},
 					"name": "MedusaModule",
-					"package": "@medusajs/modules-sdk",
+					"package": "@srinivasulu-narayanam/modules-sdk",
 					"preferValues": true
 				}
 			},
@@ -3831,7 +3831,7 @@
 													}
 												],
 												"name": "RemoteQueryInput",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										}
 									],
@@ -3945,7 +3945,7 @@
 															"qualifiedName": "RemoteJoinerQuery"
 														},
 														"name": "RemoteJoinerQuery",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -3960,7 +3960,7 @@
 															}
 														],
 														"name": "RemoteQueryObjectConfig",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -3975,7 +3975,7 @@
 															}
 														],
 														"name": "RemoteQueryObjectFromStringResult",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												]
 											}
@@ -4129,7 +4129,7 @@
 																							}
 																						],
 																						"name": "RemoteQueryInput",
-																						"package": "@medusajs/types"
+																						"package": "@srinivasulu-narayanam/types"
 																					}
 																				}
 																			],
@@ -4271,7 +4271,7 @@
 																									"qualifiedName": "RemoteJoinerQuery"
 																								},
 																								"name": "RemoteJoinerQuery",
-																								"package": "@medusajs/types"
+																								"package": "@srinivasulu-narayanam/types"
 																							},
 																							{
 																								"type": "reference",
@@ -4286,7 +4286,7 @@
 																									}
 																								],
 																								"name": "RemoteQueryObjectConfig",
-																								"package": "@medusajs/types"
+																								"package": "@srinivasulu-narayanam/types"
 																							},
 																							{
 																								"type": "reference",
@@ -4301,7 +4301,7 @@
 																									}
 																								],
 																								"name": "RemoteQueryObjectFromStringResult",
-																								"package": "@medusajs/types"
+																								"package": "@srinivasulu-narayanam/types"
 																							}
 																						]
 																					}
@@ -4571,7 +4571,7 @@
 										"type": "reference",
 										"target": 41542,
 										"name": "RemoteQuery",
-										"package": "@medusajs/modules-sdk"
+										"package": "@srinivasulu-narayanam/modules-sdk"
 									}
 								}
 							],
@@ -4579,7 +4579,7 @@
 								"type": "reference",
 								"target": 41466,
 								"name": "Query",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						}
 					]
@@ -4614,7 +4614,7 @@
 													"qualifiedName": "RemoteJoinerQuery"
 												},
 												"name": "RemoteJoinerQuery",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "reference",
@@ -4629,7 +4629,7 @@
 													}
 												],
 												"name": "RemoteQueryInput",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "reference",
@@ -4644,7 +4644,7 @@
 													}
 												],
 												"name": "RemoteQueryObjectConfig",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "reference",
@@ -4659,7 +4659,7 @@
 													}
 												],
 												"name": "RemoteQueryObjectFromStringResult",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										]
 									}
@@ -4679,7 +4679,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -4833,12 +4833,12 @@
 												"type": "reference",
 												"target": 41539,
 												"name": "TEntry",
-												"package": "@medusajs/modules-sdk",
+												"package": "@srinivasulu-narayanam/modules-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RemoteQueryInput",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -4856,7 +4856,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -4878,12 +4878,12 @@
 												"type": "reference",
 												"target": 41539,
 												"name": "TEntry",
-												"package": "@medusajs/modules-sdk",
+												"package": "@srinivasulu-narayanam/modules-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "GraphResultSet",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -4950,7 +4950,7 @@
 								"type": "reference",
 								"target": 41542,
 								"name": "RemoteQuery",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						}
 					],
@@ -4968,7 +4968,7 @@
 									"qualifiedName": "RemoteQueryFunction"
 								},
 								"name": "RemoteQueryFunction",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "intrinsic",
@@ -5216,7 +5216,7 @@
 																				"qualifiedName": "ModuleJoinerConfig"
 																			},
 																			"name": "ModuleJoinerConfig",
-																			"package": "@medusajs/types"
+																			"package": "@srinivasulu-narayanam/types"
 																		}
 																	},
 																	{
@@ -5232,7 +5232,7 @@
 																				"qualifiedName": "ModuleDefinition"
 																			},
 																			"name": "ModuleDefinition",
-																			"package": "@medusajs/types"
+																			"package": "@srinivasulu-narayanam/types"
 																		}
 																	}
 																],
@@ -5264,7 +5264,7 @@
 															"qualifiedName": "RemoteFetchDataCallback"
 														},
 														"name": "RemoteFetchDataCallback",
-														"package": "@medusajs/orchestration"
+														"package": "@srinivasulu-narayanam/orchestration"
 													}
 												},
 												{
@@ -5284,7 +5284,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													},
 													"defaultValue": "[]"
@@ -5335,7 +5335,7 @@
 								"type": "reference",
 								"target": 41542,
 								"name": "RemoteQuery",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						}
 					]
@@ -5428,7 +5428,7 @@
 																	"qualifiedName": "RemoteExpandProperty"
 																},
 																"name": "RemoteExpandProperty",
-																"package": "@medusajs/types"
+																"package": "@srinivasulu-narayanam/types"
 															}
 														},
 														{
@@ -5621,7 +5621,7 @@
 													"qualifiedName": "RemoteExpandProperty"
 												},
 												"name": "RemoteExpandProperty",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "reflection",
@@ -5665,7 +5665,7 @@
 																		"qualifiedName": "JoinerArgument"
 																	},
 																	"name": "JoinerArgument",
-																	"package": "@medusajs/types"
+																	"package": "@srinivasulu-narayanam/types"
 																}
 															}
 														},
@@ -5684,7 +5684,7 @@
 																	"qualifiedName": "RemoteNestedExpands"
 																},
 																"name": "RemoteNestedExpands",
-																"package": "@medusajs/types"
+																"package": "@srinivasulu-narayanam/types"
 															}
 														}
 													],
@@ -5728,7 +5728,7 @@
 											"qualifiedName": "JoinerArgument"
 										},
 										"name": "JoinerArgument",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									"defaultValue": "..."
 								}
@@ -5785,7 +5785,7 @@
 													"qualifiedName": "JoinerArgument"
 												},
 												"name": "JoinerArgument",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -5856,7 +5856,7 @@
 											"qualifiedName": "RemoteExpandProperty"
 										},
 										"name": "RemoteExpandProperty",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5901,7 +5901,7 @@
 											"qualifiedName": "JoinerRelationship"
 										},
 										"name": "JoinerRelationship",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6048,7 +6048,7 @@
 													"qualifiedName": "RemoteJoinerQuery"
 												},
 												"name": "RemoteJoinerQuery",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										]
 									}
@@ -6096,7 +6096,7 @@
 											"qualifiedName": "RemoteJoinerOptions"
 										},
 										"name": "RemoteJoinerOptions",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6240,7 +6240,7 @@
 													"qualifiedName": "ModuleJoinerConfig"
 												},
 												"name": "ModuleJoinerConfig",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -6256,7 +6256,7 @@
 													"qualifiedName": "ModuleDefinition"
 												},
 												"name": "ModuleDefinition",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										}
 									],
@@ -6282,7 +6282,7 @@
 								"qualifiedName": "LinkDefinition"
 							},
 							"name": "LinkDefinition",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				}
@@ -6323,7 +6323,7 @@
 									"qualifiedName": "LinkingErrorMessageInput"
 								},
 								"name": "LinkingErrorMessageInput",
-								"package": "@medusajs/modules-sdk"
+								"package": "@srinivasulu-narayanam/modules-sdk"
 							}
 						}
 					],
@@ -6397,7 +6397,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/modules-sdk",
+	"packageName": "@srinivasulu-narayanam/modules-sdk",
 	"symbolIdMap": {
 		"41232": {
 			"sourceFileName": "../../../../packages/core/modules-sdk/src/index.ts",

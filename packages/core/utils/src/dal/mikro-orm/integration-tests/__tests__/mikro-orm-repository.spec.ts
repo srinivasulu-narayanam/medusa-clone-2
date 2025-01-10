@@ -17,7 +17,7 @@ import { mikroOrmBaseRepositoryFactory } from "../../mikro-orm-repository"
 import { dropDatabase } from "pg-god"
 import { MikroOrmBigNumberProperty } from "../../big-number-field"
 import BigNumber from "bignumber.js"
-import { BigNumberRawValue } from "@medusajs/types"
+import { BigNumberRawValue } from "@srinivasulu-narayanam/types"
 import { getDatabaseURL, pgGodCredentials } from "../__fixtures__/database"
 
 const dbName = "mikroorm-integration-1"

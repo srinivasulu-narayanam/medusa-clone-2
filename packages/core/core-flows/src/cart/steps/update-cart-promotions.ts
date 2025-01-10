@@ -1,10 +1,10 @@
-import { IPromotionModuleService } from "@medusajs/framework/types"
+import { IPromotionModuleService } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   PromotionActions,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface UpdateCartPromotionStepInput {
   id: string

@@ -82,7 +82,9 @@ class Telemeter {
 
   getMedusaVersion() {
     try {
-      const packageJson = require.resolve(`@medusajs/medusa/package.json`)
+      const packageJson = require.resolve(
+        `@srinivasulu-narayanam/medusa/package.json`
+      )
       const { version } = JSON.parse(fs.readFileSync(packageJson, `utf-8`))
       return version
     } catch (e) {
@@ -96,7 +98,7 @@ class Telemeter {
   getCliVersion() {
     try {
       const jsonfile = join(
-        require.resolve(`@medusajs/cli`).split(`${sep}dist`).shift(),
+        require.resolve(`@srinivasulu-narayanam/cli`).split(`${sep}dist`).shift(),
         "package.json"
       )
       const { version } = require(jsonfile)

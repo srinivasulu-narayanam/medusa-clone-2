@@ -6,7 +6,7 @@ import { CardProps } from "../.."
 import { BorderedIcon, ThemeImage, useIsExternalLink } from "../../../.."
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowUpRightOnBox, TriangleRightMini } from "@medusajs/icons"
+import { ArrowUpRightOnBox, TriangleRightMini } from "@srinivasulu-narayanam/icons"
 
 export const CardLayoutMini = ({
   icon,

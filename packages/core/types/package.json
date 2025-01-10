@@ -1,5 +1,5 @@
 {
-  "name": "@medusajs/types",
+  "name": "@srinivasulu-narayanam/types",
   "version": "2.2.0",
   "description": "Medusa Types definition",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/medusajs/medusa",
+    "url": "https://github.com/srinivasulu-narayanam/medusa-clone-2",
     "directory": "packages/types"
   },
   "engines": {

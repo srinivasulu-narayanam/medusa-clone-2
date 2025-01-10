@@ -2222,7 +2222,7 @@
 							"type": "reference",
 							"target": 52365,
 							"name": "Argument",
-							"package": "@medusajs/utils"
+							"package": "@srinivasulu-narayanam/utils"
 						}
 					}
 				}
@@ -2283,7 +2283,7 @@
 							"type": "reference",
 							"target": 52365,
 							"name": "Argument",
-							"package": "@medusajs/utils"
+							"package": "@srinivasulu-narayanam/utils"
 						}
 					}
 				},
@@ -2329,7 +2329,7 @@
 											"type": "reference",
 											"target": 52368,
 											"name": "Directive",
-											"package": "@medusajs/utils"
+											"package": "@srinivasulu-narayanam/utils"
 										}
 									}
 								}
@@ -2743,7 +2743,7 @@
 										"type": "reference",
 										"target": 52089,
 										"name": "GraphQLParser",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -2770,7 +2770,7 @@
 											"qualifiedName": "RemoteJoinerQuery"
 										},
 										"name": "RemoteJoinerQuery",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							]
@@ -2991,7 +2991,7 @@
 																"qualifiedName": "ModuleJoinerConfig"
 															},
 															"name": "ModuleJoinerConfig",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												},
@@ -3075,7 +3075,7 @@
 					"type": "reference",
 					"target": 51922,
 					"name": "MedusaModuleType",
-					"package": "@medusajs/utils"
+					"package": "@srinivasulu-narayanam/utils"
 				}
 			},
 			"defaultValue": "..."
@@ -3094,7 +3094,7 @@
 					"type": "reference",
 					"target": 51923,
 					"name": "MedusaModuleProviderType",
-					"package": "@medusajs/utils"
+					"package": "@srinivasulu-narayanam/utils"
 				}
 			},
 			"defaultValue": "..."
@@ -3140,7 +3140,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					"defaultValue": "..."
 				}
@@ -3608,7 +3608,7 @@
 					}
 				],
 				"name": "ReturnType",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -5055,7 +5055,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					"defaultValue": "..."
 				},
@@ -5308,7 +5308,7 @@
 							}
 						],
 						"name": "ReturnType",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					"defaultValue": "..."
 				},
@@ -5373,7 +5373,7 @@
 													"qualifiedName": "RemoteQueryFunction"
 												},
 												"name": "RemoteQueryFunction",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "intrinsic",
@@ -5402,7 +5402,7 @@
 										"type": "reference",
 										"target": 52379,
 										"name": "VariantAvailabilityData",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							],
@@ -5556,7 +5556,7 @@
 													"qualifiedName": "RemoteQueryFunction"
 												},
 												"name": "RemoteQueryFunction",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "intrinsic",
@@ -5585,7 +5585,7 @@
 										"type": "reference",
 										"target": 52383,
 										"name": "TotalVariantAvailabilityData",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							],
@@ -6595,7 +6595,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@srinivasulu-narayanam/utils",
 	"symbolIdMap": {
 		"51921": {
 			"sourceFileName": "../../../../packages/core/utils/src/index.ts",

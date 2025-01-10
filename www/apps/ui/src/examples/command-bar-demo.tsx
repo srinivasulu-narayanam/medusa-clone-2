@@ -1,4 +1,4 @@
-import { Checkbox, CommandBar, Label } from "@medusajs/ui"
+import { Checkbox, CommandBar, Label } from "@srinivasulu-narayanam/ui"
 import * as React from "react"
 
 export default function CommandBarDemo() {

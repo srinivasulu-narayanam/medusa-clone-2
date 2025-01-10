@@ -73,7 +73,7 @@
 										"type": "reference",
 										"target": 16853,
 										"name": "FindConfigOrder",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "literal",
@@ -145,7 +145,7 @@
 										"type": "reference",
 										"target": 16769,
 										"name": "Entity",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"qualifiedName": "FindConfig.Entity",
 										"refersToTypeParameter": true
 									}
@@ -274,7 +274,7 @@
 						"type": "reference",
 						"target": 16853,
 						"name": "FindConfigOrder",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -448,19 +448,19 @@
 											"type": "reference",
 											"target": 16861,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
 									"target": 16861,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -497,19 +497,19 @@
 											"type": "reference",
 											"target": 16861,
 											"name": "T",
-											"package": "@medusajs/types",
+											"package": "@srinivasulu-narayanam/types",
 											"qualifiedName": "BaseFilterable.T",
 											"refersToTypeParameter": true
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
 									"target": 16861,
 									"name": "T",
-									"package": "@medusajs/types",
+									"package": "@srinivasulu-narayanam/types",
 									"qualifiedName": "BaseFilterable.T",
 									"refersToTypeParameter": true
 								}
@@ -581,7 +581,7 @@
 							"type": "reference",
 							"target": 16802,
 							"name": "TReturnableLinkableKeys",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					}
@@ -646,7 +646,7 @@
 							"type": "reference",
 							"target": 16805,
 							"name": "TReturnableLinkableKeys",
-							"package": "@medusajs/types",
+							"package": "@srinivasulu-narayanam/types",
 							"refersToTypeParameter": true
 						}
 					}
@@ -789,7 +789,7 @@
 								"type": "reference",
 								"target": 16927,
 								"name": "EventMetadata",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -802,7 +802,7 @@
 								"type": "reference",
 								"target": 16926,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						}
@@ -850,12 +850,12 @@
 								"type": "reference",
 								"target": 16889,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "Event",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -957,7 +957,7 @@
 								"type": "reference",
 								"target": 16906,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						},
@@ -1015,7 +1015,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "literal",
@@ -1373,7 +1373,7 @@
 								"type": "reference",
 								"target": 16907,
 								"name": "JoinerServiceConfigAlias",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "array",
@@ -1381,7 +1381,7 @@
 									"type": "reference",
 									"target": 16907,
 									"name": "JoinerServiceConfigAlias",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							}
 						]
@@ -1502,7 +1502,7 @@
 							"type": "reference",
 							"target": 16911,
 							"name": "JoinerRelationship",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					}
 				},
@@ -1559,7 +1559,7 @@
 											"type": "reference",
 											"target": 16911,
 											"name": "JoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -1852,7 +1852,7 @@
 								"type": "reference",
 								"target": 16862,
 								"name": "JoinerServiceConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "union",
@@ -1923,7 +1923,7 @@
 											"type": "reference",
 											"target": 16877,
 											"name": "ModuleJoinerRelationship",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -2075,7 +2075,7 @@
 															"type": "reference",
 															"target": 16877,
 															"name": "ModuleJoinerRelationship",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												],
@@ -2296,7 +2296,7 @@
 														"type": "reference",
 														"target": 16880,
 														"name": "LinkModulesExtraFields",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												}
 											],
@@ -2349,7 +2349,7 @@
 						"type": "reference",
 						"target": 16911,
 						"name": "JoinerRelationship",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					{
 						"type": "reflection",
@@ -2427,7 +2427,7 @@
 								"type": "reference",
 								"target": 16814,
 								"name": "ModuleJoinerConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					]
@@ -2775,7 +2775,7 @@
 												"type": "reference",
 												"target": 16886,
 												"name": "Message",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -2783,7 +2783,7 @@
 													"type": "reference",
 													"target": 16886,
 													"name": "Message",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -2823,7 +2823,7 @@
 										"type": "reference",
 										"target": 16890,
 										"name": "MessageAggregatorFormat",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -2844,7 +2844,7 @@
 											"type": "reference",
 											"target": 16886,
 											"name": "Message",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -2914,12 +2914,12 @@
 														"type": "reference",
 														"target": 16850,
 														"name": "T",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "RawMessageFormat",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "array",
@@ -2931,12 +2931,12 @@
 															"type": "reference",
 															"target": 16850,
 															"name": "T",
-															"package": "@medusajs/types",
+															"package": "@srinivasulu-narayanam/types",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "RawMessageFormat",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										]
@@ -3055,7 +3055,7 @@
 						"type": "reference",
 						"target": 16749,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -3095,7 +3095,7 @@
 						"type": "reference",
 						"target": 16749,
 						"name": "TManager",
-						"package": "@medusajs/types",
+						"package": "@srinivasulu-narayanam/types",
 						"refersToTypeParameter": true
 					}
 				},
@@ -3235,7 +3235,7 @@
 						"type": "reference",
 						"target": 16839,
 						"name": "IMessageAggregator",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -3654,7 +3654,7 @@
 									"type": "reference",
 									"target": 16780,
 									"name": "FilterableUserProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -3664,11 +3664,11 @@
 											"type": "reference",
 											"target": 16780,
 											"name": "FilterableUserProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -3705,7 +3705,7 @@
 									"type": "reference",
 									"target": 16780,
 									"name": "FilterableUserProps",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "reference",
@@ -3715,11 +3715,11 @@
 											"type": "reference",
 											"target": 16780,
 											"name": "FilterableUserProps",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									],
 									"name": "BaseFilterable",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								}
 							]
 						}
@@ -3907,11 +3907,11 @@
 							"type": "reference",
 							"target": 16780,
 							"name": "FilterableUserProps",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					],
 					"name": "BaseFilterable",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		},
@@ -4580,7 +4580,7 @@
 									"type": "reference",
 									"target": 16788,
 									"name": "CreateUserDTO",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "literal",
@@ -4850,7 +4850,7 @@
 									"type": "reference",
 									"target": 16806,
 									"name": "CreateInviteDTO",
-									"package": "@medusajs/types"
+									"package": "@srinivasulu-narayanam/types"
 								},
 								{
 									"type": "literal",
@@ -4962,7 +4962,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -4977,7 +4977,7 @@
 										"type": "reference",
 										"target": 16750,
 										"name": "InviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -5070,7 +5070,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5087,7 +5087,7 @@
 											"type": "reference",
 											"target": 16750,
 											"name": "InviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -5198,11 +5198,11 @@
 												"type": "reference",
 												"target": 16770,
 												"name": "UserDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5225,7 +5225,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5240,7 +5240,7 @@
 										"type": "reference",
 										"target": 16770,
 										"name": "UserDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -5355,7 +5355,7 @@
 										"type": "reference",
 										"target": 16780,
 										"name": "FilterableUserProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5398,11 +5398,11 @@
 												"type": "reference",
 												"target": 16770,
 												"name": "UserDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5425,7 +5425,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5442,7 +5442,7 @@
 											"type": "reference",
 											"target": 16770,
 											"name": "UserDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -5558,7 +5558,7 @@
 										"type": "reference",
 										"target": 16780,
 										"name": "FilterableUserProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5601,11 +5601,11 @@
 												"type": "reference",
 												"target": 16770,
 												"name": "UserDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5628,7 +5628,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5648,7 +5648,7 @@
 													"type": "reference",
 													"target": 16770,
 													"name": "UserDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											},
 											{
@@ -5726,7 +5726,7 @@
 											"type": "reference",
 											"target": 16788,
 											"name": "CreateUserDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -5750,7 +5750,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5767,7 +5767,7 @@
 											"type": "reference",
 											"target": 16770,
 											"name": "UserDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -5828,7 +5828,7 @@
 										"type": "reference",
 										"target": 16788,
 										"name": "CreateUserDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -5851,7 +5851,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5866,7 +5866,7 @@
 										"type": "reference",
 										"target": 16770,
 										"name": "UserDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -5937,7 +5937,7 @@
 											"type": "reference",
 											"target": 16794,
 											"name": "UpdateUserDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -5961,7 +5961,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -5978,7 +5978,7 @@
 											"type": "reference",
 											"target": 16770,
 											"name": "UserDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -6039,7 +6039,7 @@
 										"type": "reference",
 										"target": 16794,
 										"name": "UpdateUserDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6062,7 +6062,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6077,7 +6077,7 @@
 										"type": "reference",
 										"target": 16770,
 										"name": "UserDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -6170,7 +6170,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6305,12 +6305,12 @@
 												"type": "reference",
 												"target": 16655,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "SoftDeleteReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6333,7 +6333,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6362,7 +6362,7 @@
 														"type": "reference",
 														"target": 16655,
 														"name": "TReturnableLinkableKeys",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													},
 													{
@@ -6506,12 +6506,12 @@
 												"type": "reference",
 												"target": 16661,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RestoreReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6534,7 +6534,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6563,7 +6563,7 @@
 														"type": "reference",
 														"target": 16661,
 														"name": "TReturnableLinkableKeys",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													},
 													{
@@ -6687,11 +6687,11 @@
 												"type": "reference",
 												"target": 16750,
 												"name": "InviteDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6714,7 +6714,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6729,7 +6729,7 @@
 										"type": "reference",
 										"target": 16750,
 										"name": "InviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -6844,7 +6844,7 @@
 										"type": "reference",
 										"target": 16780,
 										"name": "FilterableUserProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6887,11 +6887,11 @@
 												"type": "reference",
 												"target": 16750,
 												"name": "InviteDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -6914,7 +6914,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -6931,7 +6931,7 @@
 											"type": "reference",
 											"target": 16750,
 											"name": "InviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -7047,7 +7047,7 @@
 										"type": "reference",
 										"target": 16780,
 										"name": "FilterableUserProps",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -7090,11 +7090,11 @@
 												"type": "reference",
 												"target": 16750,
 												"name": "InviteDTO",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "FindConfig",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -7117,7 +7117,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7137,7 +7137,7 @@
 													"type": "reference",
 													"target": 16750,
 													"name": "InviteDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											},
 											{
@@ -7215,7 +7215,7 @@
 											"type": "reference",
 											"target": 16806,
 											"name": "CreateInviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -7239,7 +7239,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7256,7 +7256,7 @@
 											"type": "reference",
 											"target": 16750,
 											"name": "InviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -7317,7 +7317,7 @@
 										"type": "reference",
 										"target": 16806,
 										"name": "CreateInviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -7340,7 +7340,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7355,7 +7355,7 @@
 										"type": "reference",
 										"target": 16750,
 										"name": "InviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -7426,7 +7426,7 @@
 											"type": "reference",
 											"target": 16810,
 											"name": "UpdateInviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								},
@@ -7450,7 +7450,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7467,7 +7467,7 @@
 											"type": "reference",
 											"target": 16750,
 											"name": "InviteDTO",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								],
@@ -7528,7 +7528,7 @@
 										"type": "reference",
 										"target": 16810,
 										"name": "UpdateInviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -7551,7 +7551,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7566,7 +7566,7 @@
 										"type": "reference",
 										"target": 16750,
 										"name": "InviteDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -7659,7 +7659,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7794,12 +7794,12 @@
 												"type": "reference",
 												"target": 16700,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "SoftDeleteReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -7822,7 +7822,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -7851,7 +7851,7 @@
 														"type": "reference",
 														"target": 16700,
 														"name": "TReturnableLinkableKeys",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													},
 													{
@@ -7995,12 +7995,12 @@
 												"type": "reference",
 												"target": 16706,
 												"name": "TReturnableLinkableKeys",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "RestoreReturn",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -8023,7 +8023,7 @@
 										"type": "reference",
 										"target": 16737,
 										"name": "Context",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -8052,7 +8052,7 @@
 														"type": "reference",
 														"target": 16706,
 														"name": "TReturnableLinkableKeys",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													},
 													{
@@ -8106,7 +8106,7 @@
 					"type": "reference",
 					"target": 16723,
 					"name": "IModuleService",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		}
@@ -8150,7 +8150,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/types",
+	"packageName": "@srinivasulu-narayanam/types",
 	"symbolIdMap": {
 		"16610": {
 			"sourceFileName": "../../../../packages/core/types/src/user/service.ts",

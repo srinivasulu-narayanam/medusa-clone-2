@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivasulu-narayanam/framework/utils"
 
 const PaymentMethodToken = model.define("PaymentMethodToken", {
   id: model.id({ prefix: "paymttok" }).primaryKey(),

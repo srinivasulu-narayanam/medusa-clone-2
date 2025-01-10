@@ -1,6 +1,6 @@
-import StripePaymentProvider from "@medusajs/payment-stripe"
+import StripePaymentProvider from "@srinivasulu-narayanam/payment-stripe"
 
-export * from "@medusajs/payment-stripe"
+export * from "@srinivasulu-narayanam/payment-stripe"
 
 export default StripePaymentProvider
-export const discoveryPath = require.resolve("@medusajs/payment-stripe")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/payment-stripe")

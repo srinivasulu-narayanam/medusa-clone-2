@@ -1,10 +1,10 @@
 import { useTranslation } from "react-i18next"
 
 import React from "react"
-import { IconButton, Input, Text } from "@medusajs/ui"
+import { IconButton, Input, Text } from "@srinivasulu-narayanam/ui"
 import { UseFormReturn } from "react-hook-form"
-import { HttpTypes, AdminOrderLineItem } from "@medusajs/types"
-import { ChatBubble, DocumentText, XCircle, XMark } from "@medusajs/icons"
+import { HttpTypes, AdminOrderLineItem } from "@srinivasulu-narayanam/types"
+import { ChatBubble, DocumentText, XCircle, XMark } from "@srinivasulu-narayanam/icons"
 
 import { Thumbnail } from "../../../../../components/common/thumbnail"
 import { MoneyAmountCell } from "../../../../../components/table/table-cells/common/money-amount-cell"

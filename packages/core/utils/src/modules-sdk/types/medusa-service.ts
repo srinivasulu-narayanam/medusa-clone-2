@@ -7,7 +7,7 @@ import {
   Pluralize,
   RestoreReturn,
   SoftDeleteReturn,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { DmlEntity } from "../../dml"
 
 export type BaseMethods =

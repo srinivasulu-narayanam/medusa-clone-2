@@ -13,7 +13,7 @@ import logMessage from "../utils/log-message.js"
 import createAbortController, {
   isAbortError,
 } from "../utils/create-abort-controller.js"
-import { track } from "@medusajs/telemetry"
+import { track } from "@srinivasulu-narayanam/telemetry"
 import boxen from "boxen"
 import { emojify } from "node-emoji"
 import ProcessManager from "../utils/process-manager.js"

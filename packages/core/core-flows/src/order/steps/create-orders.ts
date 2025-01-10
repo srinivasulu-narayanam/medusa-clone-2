@@ -1,6 +1,6 @@
-import { CreateOrderDTO, IOrderModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { CreateOrderDTO, IOrderModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const createOrdersStepId = "create-orders"
 /**

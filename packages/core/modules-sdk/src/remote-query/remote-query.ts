@@ -2,7 +2,7 @@ import {
   RemoteFetchDataCallback,
   RemoteJoiner,
   toRemoteJoinerQuery,
-} from "@medusajs/orchestration"
+} from "@srinivasulu-narayanam/orchestration"
 import {
   JoinerArgument,
   JoinerRelationship,
@@ -13,8 +13,8 @@ import {
   RemoteJoinerOptions,
   RemoteJoinerQuery,
   RemoteNestedExpands,
-} from "@medusajs/types"
-import { isString, toPascalCase } from "@medusajs/utils"
+} from "@srinivasulu-narayanam/types"
+import { isString, toPascalCase } from "@srinivasulu-narayanam/utils"
 import { MedusaModule } from "../medusa-module"
 
 export class RemoteQuery {

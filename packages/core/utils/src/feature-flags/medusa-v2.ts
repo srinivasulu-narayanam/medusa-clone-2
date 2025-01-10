@@ -1,4 +1,4 @@
-import { FeatureFlagTypes } from "@medusajs/types"
+import { FeatureFlagTypes } from "@srinivasulu-narayanam/types"
 
 export const MedusaV2Flag: FeatureFlagTypes.FlagSettings = {
   key: "medusa_v2",

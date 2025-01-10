@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { ThreadType } from "../.."
 import clsx from "clsx"
 import { Button, type ButtonProps } from "@/components"
-import { Check, SquareTwoStackMini, ThumbDown, ThumbUp } from "@medusajs/icons"
+import { Check, SquareTwoStackMini, ThumbDown, ThumbUp } from "@srinivasulu-narayanam/icons"
 import { useCopy } from "@/hooks"
 import { AiAssistantFeedbackType, useAiAssistant } from "@/providers"
 

@@ -24,7 +24,7 @@ In this chapter, you'll learn about `moduleIntegrationTestRunner` from Medusa's 
 For example, assuming you have a `hello` module, create a test file at `src/modules/hello/__tests__/service.spec.ts`:
 
 ```ts title="src/modules/hello/__tests__/service.spec.ts"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@srinivas-narayanam/test-utils"
 import { HELLO_MODULE } from ".."
 import HelloModuleService from "../service"
 import MyCustom from "../models/my-custom"
@@ -83,7 +83,7 @@ If your module accepts options, you can set them using the `moduleOptions` prope
 For example:
 
 ```ts
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@srinivas-narayanam/test-utils"
 import HelloModuleService from "../service"
 
 moduleIntegrationTestRunner<HelloModuleService>({
@@ -103,9 +103,9 @@ If your module doesn't have a data model, pass a dummy model in the `moduleModel
 For example:
 
 ```ts
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@srinivas-narayanam/test-utils"
 import HelloModuleService from "../service"
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivas-narayanam/framework/utils"
 
 const DummyModel = model.define("dummy_model", {
   id: model.id().primaryKey(),

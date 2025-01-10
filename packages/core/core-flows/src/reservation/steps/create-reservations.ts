@@ -1,7 +1,7 @@
-import { InventoryTypes } from "@medusajs/framework/types"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { InventoryTypes } from "@srinivasulu-narayanam/framework/types"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const createReservationsStepId = "create-reservations-step"
 /**

@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Button, Input } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Button, Input } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import * as zod from "zod"
 import { Form } from "../../../../../components/common/form"

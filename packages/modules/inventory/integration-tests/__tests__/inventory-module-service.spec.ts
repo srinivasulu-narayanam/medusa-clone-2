@@ -1,6 +1,6 @@
-import { IInventoryService, InventoryItemDTO } from "@medusajs/framework/types"
-import { BigNumber, Module, Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { IInventoryService, InventoryItemDTO } from "@srinivasulu-narayanam/framework/types"
+import { BigNumber, Module, Modules } from "@srinivasulu-narayanam/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import { InventoryModuleService } from "../../src/services"
 
 jest.setTimeout(100000)

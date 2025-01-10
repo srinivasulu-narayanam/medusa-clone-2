@@ -1,4 +1,4 @@
-import { Kbd, Text, clx } from "@medusajs/ui"
+import { Kbd, Text, clx } from "@srinivasulu-narayanam/ui"
 import * as Collapsible from "@radix-ui/react-collapsible"
 import {
   PropsWithChildren,

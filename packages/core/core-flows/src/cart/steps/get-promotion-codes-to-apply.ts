@@ -1,6 +1,6 @@
-import { IPromotionModuleService } from "@medusajs/framework/types"
-import { Modules, PromotionActions } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { IPromotionModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Modules, PromotionActions } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface GetPromotionCodesToApplyStepInput {
   cart: {

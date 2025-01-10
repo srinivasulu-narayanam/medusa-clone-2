@@ -4,7 +4,7 @@ import {
   ModuleJoinerConfig,
   ModuleServiceInitializeOptions,
   PlannerActionLinkDescriptor,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 
 import {
   arrayDifference,
@@ -12,7 +12,7 @@ import {
   ModulesSdkUtils,
   normalizeMigrationSQL,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { EntitySchema, MikroORM } from "@mikro-orm/core"
 import { DatabaseSchema, PostgreSqlDriver } from "@mikro-orm/postgresql"
 import { generateEntity } from "../utils"

@@ -1,4 +1,4 @@
-import { clx } from "@medusajs/ui"
+import { clx } from "@srinivasulu-narayanam/ui"
 import { ComponentPropsWithoutRef, forwardRef } from "react"
 import { useTranslation } from "react-i18next"
 
@@ -23,7 +23,7 @@ interface InlineTipProps extends ComponentPropsWithoutRef<"div"> {
  * </InlineTip>
  * ```
  *
- * TODO: Move to `@medusajs/ui` package.
+ * TODO: Move to `@srinivasulu-narayanam/ui` package.
  */
 export const InlineTip = forwardRef<HTMLDivElement, InlineTipProps>(
   ({ variant = "tip", label, className, children, ...props }, ref) => {

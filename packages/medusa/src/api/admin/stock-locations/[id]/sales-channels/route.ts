@@ -1,10 +1,10 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 
-import { linkSalesChannelsToStockLocationWorkflow } from "@medusajs/core-flows"
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
+import { linkSalesChannelsToStockLocationWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes, LinkMethodRequest } from "@srinivasulu-narayanam/framework/types"
 import { refetchStockLocation } from "../../helpers"
 
 export const POST = async (

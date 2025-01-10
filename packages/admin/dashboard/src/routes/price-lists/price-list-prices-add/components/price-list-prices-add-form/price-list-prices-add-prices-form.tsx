@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { useEffect } from "react"
 import { UseFormReturn, useWatch } from "react-hook-form"
 

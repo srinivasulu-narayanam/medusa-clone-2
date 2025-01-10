@@ -1,4 +1,4 @@
-import { InventoryTypes, StockLocationDTO } from "@medusajs/types"
+import { InventoryTypes, StockLocationDTO } from "@srinivasulu-narayanam/types"
 
 import { LocationActions } from "./location-actions"
 import { PlaceholderCell } from "../../../../../components/table/table-cells/common/placeholder-cell"

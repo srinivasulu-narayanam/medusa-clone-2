@@ -1,5 +1,5 @@
-import { MedusaStoreRequest } from "@medusajs/framework/http"
-import { arrayDifference, MedusaError } from "@medusajs/framework/utils"
+import { MedusaStoreRequest } from "@srinivasulu-narayanam/framework/http"
+import { arrayDifference, MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import { NextFunction } from "express"
 
 // Selection of sales channels happens in the following priority:

@@ -13,7 +13,7 @@ Medusa UI is a React UI library and while it's intended for usage within Medusa 
 
 Install the React UI library with the following command:
 
-<PackageInstall packageName="@medusajs/ui" />
+<PackageInstall packageName="@srinivas-narayanam/ui" />
 
 ### Configuring Tailwind CSS
 
@@ -23,37 +23,37 @@ For more information on how to install Tailwind CSS, please refer to the [Tailwi
 All of the classes used for Medusa UI are shipped as a Tailwind CSS customization.
 You can install it with the following command:
 
-<PackageInstall packageName="@medusajs/ui-preset" devDependency />
+<PackageInstall packageName="@srinivas-narayanam/ui-preset" devDependency />
 
 After you have installed Tailwind CSS and the Medusa UI preset, you need to add the following to your `tailwind.config.js`file:
 
 ```tsx
 module.exports = {
-  presets: [require("@medusajs/ui-preset")],
+  presets: [require("@srinivas-narayanam/ui-preset")],
   // ...
 }
 ```
 
 In order for the styles to be applied correctly to the components, you will also need to ensure that
-`@medusajs/ui` is included in the content field of your `tailwind.config.js` file:
+`@srinivas-narayanam/ui` is included in the content field of your `tailwind.config.js` file:
 
 ```tsx
 module.exports = {
   content: [
     // ...
-    "./node_modules/@medusajs/ui/dist/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@srinivas-narayanam/ui/dist/**/*.{js,jsx,ts,tsx}",
   ],
   // ...
 }
 ```
 
-If you are working within a monorepo, you may need to add the path to the `@medusajs/ui` package in your `tailwind.config.js` like so:
+If you are working within a monorepo, you may need to add the path to the `@srinivas-narayanam/ui` package in your `tailwind.config.js` like so:
 
 ```tsx
 const path = require("path")
 
 const uiPath = path.resolve(
-  require.resolve("@medusajs/ui"),
+  require.resolve("@srinivas-narayanam/ui"),
   "../..",
   "\*_/_.{js,jsx,ts,tsx}"
 )
@@ -75,7 +75,7 @@ module.exports = {
 You are now ready to start building your application with Medusa UI. You can import the components like so:
 
 ```tsx
-import { Button, Drawer } from "@medusajs/ui"
+import { Button, Drawer } from "@srinivas-narayanam/ui"
 ```
 
 <Feedback title={"Install in Standalone Project"} />

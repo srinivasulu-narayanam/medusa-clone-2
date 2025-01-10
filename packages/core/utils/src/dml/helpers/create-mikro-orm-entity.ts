@@ -5,7 +5,7 @@ import type {
   IDmlEntity,
   Infer,
   PropertyType,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { Entity, Filter } from "@mikro-orm/core"
 
 import { DmlEntity } from "../entity"

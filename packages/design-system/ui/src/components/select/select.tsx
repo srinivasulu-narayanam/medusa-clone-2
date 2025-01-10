@@ -1,6 +1,6 @@
 "use client"
 
-import { Check, TrianglesMini } from "@medusajs/icons"
+import { Check, TrianglesMini } from "@srinivasulu-narayanam/icons"
 import * as SelectPrimitive from "@radix-ui/react-select"
 import { cva } from "cva"
 import * as React from "react"

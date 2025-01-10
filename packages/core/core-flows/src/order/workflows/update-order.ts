@@ -1,21 +1,21 @@
-import { OrderDTO, OrderWorkflow } from "@medusajs/framework/types"
+import { OrderDTO, OrderWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createStep,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import {
   OrderPreviewDTO,
   RegisterOrderChangeDTO,
   UpdateOrderDTO,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   MedusaError,
   OrderWorkflowEvents,
   validateEmail,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 import { throwIfOrderIsCancelled } from "../utils/order-validation"
 import {

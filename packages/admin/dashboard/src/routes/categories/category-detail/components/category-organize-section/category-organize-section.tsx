@@ -2,9 +2,9 @@ import {
   FolderIllustration,
   PencilSquare,
   TriangleRightMini,
-} from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Badge, Container, Heading, Text, Tooltip } from "@medusajs/ui"
+} from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Badge, Container, Heading, Text, Tooltip } from "@srinivasulu-narayanam/ui"
 import { useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"

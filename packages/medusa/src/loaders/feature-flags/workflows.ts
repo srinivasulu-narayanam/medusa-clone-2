@@ -1,3 +1,3 @@
-import { WorkflowsFeatureFlag } from "@medusajs/framework/utils"
+import { WorkflowsFeatureFlag } from "@srinivasulu-narayanam/framework/utils"
 
 export default WorkflowsFeatureFlag

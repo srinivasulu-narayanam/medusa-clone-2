@@ -19,7 +19,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "```ts\nimport { Logger } from \"@medusajs/framework/types\"\nimport { AbstractFileProviderService } from \"@medusajs/framework/utils\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyFileProviderService extends AbstractFileProviderService {\n  protected logger_: Logger\n  protected options_: Options\n  static identifier = \"my-file\"\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super()\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n}\n\nexport default MyFileProviderService\n```"
+						"text": "```ts\nimport { Logger } from \"@srinivasulu-narayanam/framework/types\"\nimport { AbstractFileProviderService } from \"@srinivasulu-narayanam/framework/utils\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyFileProviderService extends AbstractFileProviderService {\n  protected logger_: Logger\n  protected options_: Options\n  static identifier = \"my-file\"\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super()\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n}\n\nexport default MyFileProviderService\n```"
 					}
 				]
 			},
@@ -190,7 +190,7 @@
 								"type": "reference",
 								"target": 38599,
 								"name": "AbstractFileProviderService",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -258,7 +258,7 @@
 											"qualifiedName": "ProviderUploadFileDTO"
 										},
 										"name": "ProviderUploadFileDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -276,7 +276,7 @@
 											"qualifiedName": "ProviderFileResultDTO"
 										},
 										"name": "ProviderFileResultDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -358,7 +358,7 @@
 											"qualifiedName": "ProviderDeleteFileDTO"
 										},
 										"name": "ProviderDeleteFileDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -453,7 +453,7 @@
 											"qualifiedName": "ProviderGetFileDTO"
 										},
 										"name": "ProviderGetFileDTO",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -517,7 +517,7 @@
 						"qualifiedName": "IFileProvider"
 					},
 					"name": "IFileProvider",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		}
@@ -530,7 +530,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@srinivasulu-narayanam/utils",
 	"symbolIdMap": {
 		"38598": {
 			"sourceFileName": "../../../../packages/core/utils/src/file/abstract-file-provider.ts",

@@ -1,4 +1,4 @@
-import { IconProps } from "@medusajs/icons/dist/types"
+import { IconProps } from "@srinivasulu-narayanam/icons/dist/types"
 
 export const Figma = (props: IconProps) => {
   return (

@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Button, Checkbox, toast } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Button, Checkbox, toast } from "@srinivasulu-narayanam/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useEffect, useMemo, useState } from "react"

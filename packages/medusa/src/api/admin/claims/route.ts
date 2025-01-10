@@ -1,15 +1,15 @@
-import { beginClaimOrderWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { beginClaimOrderWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   promiseAll,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { AdminPostOrderClaimsReqSchemaType } from "./validators"
 
 export const GET = async (

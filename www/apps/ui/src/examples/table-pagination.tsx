@@ -1,4 +1,4 @@
-import { Table } from "@medusajs/ui"
+import { Table } from "@srinivasulu-narayanam/ui"
 import { useMemo, useState } from "react"
 
 type Order = {

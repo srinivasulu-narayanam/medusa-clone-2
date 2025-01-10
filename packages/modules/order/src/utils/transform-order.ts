@@ -4,7 +4,7 @@ import {
   deduplicate,
   isDefined,
   isObject,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 // Reshape the order object to match the OrderDTO
 // This function is used to format the order object before returning to the main module methods

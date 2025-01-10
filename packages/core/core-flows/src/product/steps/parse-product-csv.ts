@@ -2,9 +2,9 @@ import {
   IProductModuleService,
   IRegionModuleService,
   ISalesChannelModuleService,
-} from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/types"
+import { MedusaError, Modules } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { normalizeForImport } from "../helpers/normalize-for-import"
 import { normalizeV1Products } from "../helpers/normalize-v1-import"
 import { convertCsvToJson } from "../utlils"

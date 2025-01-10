@@ -2,20 +2,20 @@ import {
   OrderChangeDTO,
   OrderDTO,
   OrderWorkflow,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createStep,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
-import { OrderPreviewDTO } from "@medusajs/types"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
+import { OrderPreviewDTO } from "@srinivasulu-narayanam/types"
 import {
   ChangeActionType,
   MedusaError,
   OrderChangeStatus,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 
 import { useQueryGraphStep } from "../../../common"
 import { throwIfOrderIsCancelled } from "../../utils/order-validation"

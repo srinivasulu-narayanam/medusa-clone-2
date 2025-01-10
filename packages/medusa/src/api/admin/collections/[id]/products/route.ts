@@ -1,9 +1,9 @@
-import { batchLinkProductsToCollectionWorkflow } from "@medusajs/core-flows"
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
+import { batchLinkProductsToCollectionWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes, LinkMethodRequest } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { refetchCollection } from "../../helpers"
 
 export const POST = async (

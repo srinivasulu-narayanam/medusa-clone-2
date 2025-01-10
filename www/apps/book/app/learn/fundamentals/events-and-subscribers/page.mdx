@@ -39,7 +39,7 @@ For example, create the file `src/subscribers/order-placed.ts` with the followin
 ![Example of subscriber file in the application's directory structure](https://res.cloudinary.com/dza7lstvk/image/upload/v1732866244/Medusa%20Book/subscriber-dir-overview_pusyeu.jpg)
 
 ```ts title="src/subscribers/product-created.ts"
-import { SubscriberArgs, type SubscriberConfig } from "@medusajs/framework"
+import { SubscriberArgs, type SubscriberConfig } from "@srinivas-narayanam/framework"
 import { sendOrderConfirmationWorkflow } from "../workflows/send-order-confirmation"
 
 export default async function orderPlacedHandler({

@@ -2,9 +2,9 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { CreateStockLocationInput } from "@medusajs/framework/types"
+import { CreateStockLocationInput } from "@srinivasulu-narayanam/framework/types"
 import { createStockLocations } from "../steps"
 
 export interface CreateStockLocationsWorkflowInput {

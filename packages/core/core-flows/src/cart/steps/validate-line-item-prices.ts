@@ -1,5 +1,5 @@
-import { MedusaError, isPresent } from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+import { MedusaError, isPresent } from "@srinivasulu-narayanam/framework/utils"
+import { createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface ValidateLineItemPricesStepInput {
   items: {

@@ -36,7 +36,7 @@ Learn about the authentication flow for third-party providers in [this guide](..
 Add the module to the array of providers passed to the Auth Module:
 
 ```ts title="medusa-config.ts"
-import { Modules, ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { Modules, ContainerRegistrationKeys } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -46,13 +46,13 @@ module.exports = defineConfig({
     {
       // ...
       [Modules.AUTH]: {
-        resolve: "@medusajs/medusa/auth",
+        resolve: "@srinivas-narayanam/medusa/auth",
         dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
         options: {
           providers: [
             // other providers...
             {
-              resolve: "@medusajs/medusa/auth-google",
+              resolve: "@srinivas-narayanam/medusa/auth-google",
               id: "google",
               options: {
                 clientId: process.env.GOOGLE_CLIENT_ID,

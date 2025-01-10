@@ -1,4 +1,4 @@
-import { Input, Switch } from "@medusajs/ui"
+import { Input, Switch } from "@srinivasulu-narayanam/ui"
 import { ComponentType } from "react"
 import { ControllerRenderProps, UseFormReturn } from "react-hook-form"
 import { Form } from "../../../components/common/form"

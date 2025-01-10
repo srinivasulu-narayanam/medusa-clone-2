@@ -1,10 +1,10 @@
-import { DAL } from "@medusajs/framework/types"
+import { DAL } from "@srinivasulu-narayanam/framework/types"
 import {
   createPsqlIndexStatementHelper,
   DALUtils,
   generateEntityId,
   OrderChangeStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   BeforeCreate,
   Cascade,

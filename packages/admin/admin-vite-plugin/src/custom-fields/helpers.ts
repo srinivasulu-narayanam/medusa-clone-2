@@ -1,7 +1,7 @@
 import {
   CustomFieldModel,
   isValidCustomFieldModel,
-} from "@medusajs/admin-shared"
+} from "@srinivasulu-narayanam/admin-shared"
 import {
   ExportDefaultDeclaration,
   isCallExpression,

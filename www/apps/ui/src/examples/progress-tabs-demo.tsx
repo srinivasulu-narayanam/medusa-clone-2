@@ -1,4 +1,4 @@
-import { ProgressTabs, Text } from "@medusajs/ui"
+import { ProgressTabs, Text } from "@srinivasulu-narayanam/ui"
 
 export default function ProgressTabsDemo() {
   return (

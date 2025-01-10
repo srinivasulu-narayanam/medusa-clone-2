@@ -3,7 +3,7 @@ import presets from "./theme-presets"
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  presets: [require("@medusajs/ui-preset")],
+  presets: [require("@srinivasulu-narayanam/ui-preset")],
   darkMode: ["class", `[data-theme="dark"]`],
   theme: {
     extend: {

@@ -12,12 +12,12 @@ import {
   ProviderWebhookPayload,
   UpdatePaymentProviderSession,
   WebhookActionResult,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   isPaymentProviderError,
   MedusaError,
   ModulesSdkUtils,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { PaymentProvider } from "@models"
 import { EOL } from "os"
 

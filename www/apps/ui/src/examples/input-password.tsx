@@ -1,4 +1,4 @@
-import { Input } from "@medusajs/ui"
+import { Input } from "@srinivasulu-narayanam/ui"
 
 export default function InputPassword() {
   return (

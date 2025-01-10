@@ -13,7 +13,7 @@ import {
   EllipsisHorizontal,
   SidebarLeft,
   TimelineVertical,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import { HouseIcon } from "../../../Icons/House"
 import { Menu } from "../../../Menu"
 

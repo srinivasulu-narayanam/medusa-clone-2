@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { Client } from "../client"
 import { Config } from "../types"
 

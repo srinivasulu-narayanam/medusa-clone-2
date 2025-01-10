@@ -1,5 +1,5 @@
-import { JoinerServiceConfig, ModuleJoinerConfig } from "@medusajs/types"
-import { isObject, isString } from "@medusajs/utils"
+import { JoinerServiceConfig, ModuleJoinerConfig } from "@srinivasulu-narayanam/types"
+import { isObject, isString } from "@srinivasulu-narayanam/utils"
 import { MedusaModule } from "../medusa-module"
 
 const joinerConfigMapCache = new Map()

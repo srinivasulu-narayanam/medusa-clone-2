@@ -3,12 +3,12 @@ import {
   LoadedModule,
   MedusaContainer,
   PluginDetails,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   GraphQLSchema,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { asValue } from "awilix"
 import { Express, NextFunction, Request, Response } from "express"
 import { join } from "path"
@@ -16,16 +16,16 @@ import requestIp from "request-ip"
 import { v4 } from "uuid"
 import adminLoader from "./admin"
 import apiLoader from "./api"
-import { configLoader } from "@medusajs/framework/config"
-import { expressLoader } from "@medusajs/framework/http"
-import { JobLoader } from "@medusajs/framework/jobs"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { container, MedusaAppLoader } from "@medusajs/framework"
-import { pgConnectionLoader } from "@medusajs/framework/database"
-import { SubscriberLoader } from "@medusajs/framework/subscribers"
-import { WorkflowLoader } from "@medusajs/framework/workflows"
-import { featureFlagsLoader } from "@medusajs/framework/feature-flags"
+import { configLoader } from "@srinivasulu-narayanam/framework/config"
+import { expressLoader } from "@srinivasulu-narayanam/framework/http"
+import { JobLoader } from "@srinivasulu-narayanam/framework/jobs"
+import { LinkLoader } from "@srinivasulu-narayanam/framework/links"
+import { logger } from "@srinivasulu-narayanam/framework/logger"
+import { container, MedusaAppLoader } from "@srinivasulu-narayanam/framework"
+import { pgConnectionLoader } from "@srinivasulu-narayanam/framework/database"
+import { SubscriberLoader } from "@srinivasulu-narayanam/framework/subscribers"
+import { WorkflowLoader } from "@srinivasulu-narayanam/framework/workflows"
+import { featureFlagsLoader } from "@srinivasulu-narayanam/framework/feature-flags"
 import { getResolvedPlugins } from "./helpers/resolve-plugins"
 
 type Options = {
@@ -171,7 +171,7 @@ export default async ({
     rootDirectory
   )
 
-  const { createDefaultsWorkflow } = await import("@medusajs/core-flows")
+  const { createDefaultsWorkflow } = await import("@srinivasulu-narayanam/core-flows")
   await createDefaultsWorkflow(container).run()
   await onApplicationStart()
 

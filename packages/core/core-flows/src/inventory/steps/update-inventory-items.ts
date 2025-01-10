@@ -1,11 +1,11 @@
-import { IInventoryService, InventoryTypes } from "@medusajs/framework/types"
+import { IInventoryService, InventoryTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   convertItemResponseToUpdateRequest,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const updateInventoryItemsStepId = "update-inventory-items-step"
 /**

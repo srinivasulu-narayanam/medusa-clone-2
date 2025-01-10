@@ -1,4 +1,4 @@
-import { Button, usePrompt } from "@medusajs/ui"
+import { Button, usePrompt } from "@srinivasulu-narayanam/ui"
 
 export default function usePromptVerification() {
   const entityName = "foo-bar-baz"

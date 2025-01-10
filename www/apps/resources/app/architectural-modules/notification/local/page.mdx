@@ -27,7 +27,7 @@ Only one provider can be defined for a channel.
 </Note>
 
 ```ts title="medusa-config.ts"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -35,12 +35,12 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/notification",
+      resolve: "@srinivas-narayanam/medusa/notification",
       options: {
         providers: [
           // ...
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@srinivas-narayanam/medusa/notification-local",
             id: "local",
             options: {
               channels: ["email"],

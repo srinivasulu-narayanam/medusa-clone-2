@@ -1,18 +1,18 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import {
   AdminGetReservationParamsType,
   AdminUpdateReservationType,
 } from "../validators"
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   deleteReservationsWorkflow,
   updateReservationsWorkflow,
-} from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/core-flows"
 import { refetchReservation } from "../helpers"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<AdminGetReservationParamsType>,

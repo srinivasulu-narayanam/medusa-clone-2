@@ -1,5 +1,5 @@
-import { CheckMini, EllipseMiniSolid, XMarkMini } from "@medusajs/icons"
-import { clx } from "@medusajs/ui"
+import { CheckMini, EllipseMiniSolid, XMarkMini } from "@srinivasulu-narayanam/icons"
+import { clx } from "@srinivasulu-narayanam/ui"
 import * as Popover from "@radix-ui/react-popover"
 import { Command } from "cmdk"
 import { useState } from "react"

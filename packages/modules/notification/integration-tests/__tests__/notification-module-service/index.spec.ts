@@ -1,4 +1,4 @@
-import { INotificationModuleService } from "@medusajs/framework/types"
+import { INotificationModuleService } from "@srinivasulu-narayanam/framework/types"
 import {
   CommonEvents,
   composeMessage,
@@ -6,12 +6,12 @@ import {
   Modules,
   NotificationEvents,
   NotificationStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { NotificationModuleService } from "@services"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/test-utils"
 import { resolve } from "path"
 
 let moduleOptions = {

@@ -1,4 +1,4 @@
-import { ChangeActionType } from "@medusajs/framework/utils"
+import { ChangeActionType } from "@srinivasulu-narayanam/framework/utils"
 import { VirtualOrder } from "@types"
 import { calculateOrderChange } from "../../../../utils"
 

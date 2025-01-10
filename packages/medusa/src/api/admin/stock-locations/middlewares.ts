@@ -1,8 +1,8 @@
-import { maybeApplyLinkFilter, MiddlewareRoute } from "@medusajs/framework/http"
+import { maybeApplyLinkFilter, MiddlewareRoute } from "@srinivasulu-narayanam/framework/http"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework"
 import { createLinkBody } from "../../utils/validators"
 import * as QueryConfig from "./query-config"
 import {

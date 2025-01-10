@@ -1,4 +1,4 @@
-import { RemoteFetchDataCallback } from "@medusajs/orchestration"
+import { RemoteFetchDataCallback } from "@srinivasulu-narayanam/orchestration"
 import {
   ExternalModuleDeclaration,
   ILinkMigrationsPlanner,
@@ -11,7 +11,7 @@ import {
   ModuleJoinerConfig,
   ModuleServiceInitializeOptions,
   RemoteQueryFunction,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   ContainerRegistrationKeys,
   createMedusaContainer,
@@ -25,7 +25,7 @@ import {
   Modules,
   ModulesSdkUtils,
   promiseAll,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { asValue } from "awilix"
 import {
   MedusaModule,

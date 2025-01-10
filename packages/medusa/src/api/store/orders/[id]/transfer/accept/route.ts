@@ -1,9 +1,9 @@
-import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework"
-import { HttpTypes } from "@medusajs/framework/types"
+import { AuthenticatedMedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   acceptOrderTransferWorkflow,
   getOrderDetailWorkflow,
-} from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/core-flows"
 
 import { StoreAcceptOrderTransferType } from "../../../validators"
 

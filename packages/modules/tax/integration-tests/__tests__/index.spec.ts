@@ -1,7 +1,7 @@
-import { ITaxModuleService } from "@medusajs/framework/types"
-import { Module, Modules, toMikroORMEntity } from "@medusajs/framework/utils"
+import { ITaxModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Module, Modules, toMikroORMEntity } from "@srinivasulu-narayanam/framework/utils"
 import { TaxModuleService } from "@services"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import { setupTaxStructure } from "../utils/setup-tax-structure"
 
 jest.setTimeout(30000)

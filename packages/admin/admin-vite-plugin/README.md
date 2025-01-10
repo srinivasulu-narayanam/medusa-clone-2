@@ -1,1 +1,1 @@
-# @medusajs/admin-vite-plugin
+# @srinivas-narayanam/admin-vite-plugin

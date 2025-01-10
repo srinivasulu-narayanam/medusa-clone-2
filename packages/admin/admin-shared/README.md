@@ -1,1 +1,1 @@
-# @medusajs/admin-shared
+# @srinivas-narayanam/admin-shared

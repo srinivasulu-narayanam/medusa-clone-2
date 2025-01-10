@@ -1,5 +1,5 @@
-import { RemoteLink } from "@medusajs/modules-sdk"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { RemoteLink } from "@srinivasulu-narayanam/modules-sdk"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   IApiKeyModuleService,
   ICartModuleService,
@@ -13,14 +13,14 @@ import {
   ISalesChannelModuleService,
   IStoreModuleService,
   ITaxModuleService,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   Modules,
   ProductStatus,
   PromotionType,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import {
   createAdminUser,
   generatePublishableKey,

@@ -3,11 +3,11 @@ import {
   MedusaResponse,
   refetchEntities,
   refetchEntity,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 
-import { createProductOptionsWorkflow } from "@medusajs/core-flows"
+import { createProductOptionsWorkflow } from "@srinivasulu-narayanam/core-flows"
 import { remapKeysForProduct, remapProductResponse } from "../../helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminProductOptionParams>,

@@ -36,17 +36,17 @@ export const highlights = [
 ]
 
 ```ts title="src/scripts/demo-products.ts" highlights={highlights} collapsibleLines="1-12" expandButtonLabel="Show Imports"
-import { ExecArgs } from "@medusajs/framework/types"
+import { ExecArgs } from "@srinivas-narayanam/framework/types"
 import { faker } from "@faker-js/faker"
 import { 
   ContainerRegistrationKeys, 
   Modules, 
   ProductStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 import { 
   createInventoryLevelsWorkflow,
   createProductsWorkflow,
-} from "@medusajs/medusa/core-flows"
+} from "@srinivas-narayanam/medusa/core-flows"
 
 export default async function seedDummyProducts({
   container,
@@ -151,7 +151,7 @@ logger.info(`Seeded ${products.length} products.`)
 // TODO add inventory levels
 ```
 
-You create the generated products using the `createProductsWorkflow` imported previously from `@medusajs/medusa/core-flows`. It accepts the product data as input, and returns the created products.
+You create the generated products using the `createProductsWorkflow` imported previously from `@srinivas-narayanam/medusa/core-flows`. It accepts the product data as input, and returns the created products.
 
 Only thing left is to create inventory levels for the products. So, replace the last `TODO` with the following:
 

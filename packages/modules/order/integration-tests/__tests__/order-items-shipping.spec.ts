@@ -1,9 +1,9 @@
 import {
   CreateOrderLineItemTaxLineDTO,
   IOrderModuleService,
-} from "@medusajs/framework/types"
-import { Modules, OrderStatus } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { Modules, OrderStatus } from "@srinivasulu-narayanam/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 
 jest.setTimeout(100000)
 

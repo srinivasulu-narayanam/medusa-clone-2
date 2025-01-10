@@ -1,12 +1,12 @@
 import {
   CartWorkflowDTO,
   UsageComputedActions,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   OrderStatus,
   OrderWorkflowEvents,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   createWorkflow,
   parallelize,
@@ -14,7 +14,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import {
   createRemoteLinkStep,
   emitEventStep,

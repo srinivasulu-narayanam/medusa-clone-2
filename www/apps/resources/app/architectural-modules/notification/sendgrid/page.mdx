@@ -38,7 +38,7 @@ Only one provider can be defined for a channel.
 </Note>
 
 ```ts title="medusa-config.ts"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -46,12 +46,12 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/notification",
+      resolve: "@srinivas-narayanam/medusa/notification",
       options: {
         providers: [
           // ...
           {
-            resolve: "@medusajs/medusa/notification-sendgrid",
+            resolve: "@srinivas-narayanam/medusa/notification-sendgrid",
             id: "sendgrid",
             options: {
               channels: ["email"],
@@ -131,9 +131,9 @@ export const highlights = [
 import type {
   SubscriberArgs,
   SubscriberConfig,
-} from "@medusajs/framework"
-import { Modules } from "@medusajs/framework/utils"
-import { INotificationModuleService } from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework"
+import { Modules } from "@srinivas-narayanam/framework/utils"
+import { INotificationModuleService } from "@srinivas-narayanam/framework/types"
 
 export default async function productCreateHandler({
   event: { data },
@@ -144,7 +144,7 @@ export default async function productCreateHandler({
 
   await notificationModuleService.createNotifications({
     to: "test@gmail.com",
-    from: "test@medusajs.com", // Optional var, verified sender required
+    from: "test@srinivas-narayanam.com", // Optional var, verified sender required
     channel: "email",
     template: "product-created",
     data,

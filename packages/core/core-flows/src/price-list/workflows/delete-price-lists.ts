@@ -1,4 +1,4 @@
-import { createWorkflow, WorkflowData } from "@medusajs/framework/workflows-sdk"
+import { createWorkflow, WorkflowData } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { deletePriceListsStep } from "../steps"
 
 export const deletePriceListsWorkflowId = "delete-price-lists"

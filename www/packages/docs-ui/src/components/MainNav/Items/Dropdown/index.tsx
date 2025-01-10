@@ -1,6 +1,6 @@
 "use client"
 
-import { TriangleDownMini } from "@medusajs/icons"
+import { TriangleDownMini } from "@srinivasulu-narayanam/icons"
 import clsx from "clsx"
 import React, { useRef, useState } from "react"
 import { NavigationItemDropdown } from "types"

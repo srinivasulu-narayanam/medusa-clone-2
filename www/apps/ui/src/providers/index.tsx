@@ -9,7 +9,7 @@ import SearchProvider from "./search"
 import SidebarProvider from "./sidebar"
 import { siteConfig } from "../config/site"
 import { MainNavProvider } from "./main-nav"
-import { TooltipProvider } from "@medusajs/ui"
+import { TooltipProvider } from "@srinivasulu-narayanam/ui"
 
 type ProvidersProps = {
   children: React.ReactNode

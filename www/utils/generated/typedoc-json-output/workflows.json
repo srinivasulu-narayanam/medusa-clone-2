@@ -63,7 +63,7 @@
 										"qualifiedName": "SymbolWorkflowHook"
 									},
 									"name": "OrchestrationUtils.SymbolWorkflowHook",
-									"package": "@medusajs/utils",
+									"package": "@srinivasulu-narayanam/utils",
 									"qualifiedName": "SymbolWorkflowHook",
 									"preferValues": true
 								}
@@ -79,7 +79,7 @@
 								"type": "reference",
 								"target": 52504,
 								"name": "Name",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						},
@@ -101,7 +101,7 @@
 								"type": "reference",
 								"target": 52505,
 								"name": "Input",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						}
@@ -154,7 +154,7 @@
 								"content": [
 									{
 										"kind": "code",
-										"text": "```ts\nimport {\n  createStep,\n  createHook,\n  createWorkflow,\n  WorkflowResponse,\n} from \"@medusajs/framework/workflows-sdk\"\nimport { createProductStep } from \"./steps/create-product\"\n\nexport const myWorkflow = createWorkflow(\n  \"my-workflow\",\n  function (input) {\n    const product = createProductStep(input)\n    const productCreatedHook = createHook(\n      \"productCreated\",\n      { productId: product.id }\n    )\n\n    return new WorkflowResponse(product, {\n      hooks: [productCreatedHook],\n    })\n  }\n)\n```"
+										"text": "```ts\nimport {\n  createStep,\n  createHook,\n  createWorkflow,\n  WorkflowResponse,\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport { createProductStep } from \"./steps/create-product\"\n\nexport const myWorkflow = createWorkflow(\n  \"my-workflow\",\n  function (input) {\n    const product = createProductStep(input)\n    const productCreatedHook = createHook(\n      \"productCreated\",\n      { productId: product.id }\n    )\n\n    return new WorkflowResponse(product, {\n      hooks: [productCreatedHook],\n    })\n  }\n)\n```"
 									}
 								]
 							}
@@ -199,7 +199,7 @@
 								"type": "reference",
 								"target": 52495,
 								"name": "Name",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						},
@@ -221,7 +221,7 @@
 								"type": "reference",
 								"target": 52496,
 								"name": "TInvokeInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						}
@@ -234,19 +234,19 @@
 								"type": "reference",
 								"target": 52495,
 								"name": "Name",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 52496,
 								"name": "TInvokeInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "Hook",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			]
@@ -360,7 +360,7 @@
 										"type": "reference",
 										"target": 52409,
 										"name": "TInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									}
 								},
@@ -374,7 +374,7 @@
 										"type": "reference",
 										"target": 52649,
 										"name": "StepExecutionContext",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								}
 							],
@@ -393,7 +393,7 @@
 												"type": "reference",
 												"target": 52410,
 												"name": "TOutput",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											},
 											{
@@ -402,7 +402,7 @@
 													"type": "reference",
 													"target": 52411,
 													"name": "TCompensateInput",
-													"package": "@medusajs/workflows-sdk",
+													"package": "@srinivasulu-narayanam/workflows-sdk",
 													"refersToTypeParameter": true
 												},
 												"extendsType": {
@@ -413,20 +413,20 @@
 													"type": "reference",
 													"target": 52410,
 													"name": "TOutput",
-													"package": "@medusajs/workflows-sdk",
+													"package": "@srinivasulu-narayanam/workflows-sdk",
 													"refersToTypeParameter": true
 												},
 												"falseType": {
 													"type": "reference",
 													"target": 52411,
 													"name": "TCompensateInput",
-													"package": "@medusajs/workflows-sdk",
+													"package": "@srinivasulu-narayanam/workflows-sdk",
 													"refersToTypeParameter": true
 												}
 											}
 										],
 										"name": "StepResponse",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									},
 									{
 										"type": "reference",
@@ -450,7 +450,7 @@
 																"type": "reference",
 																"target": 52410,
 																"name": "TOutput",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"refersToTypeParameter": true
 															},
 															{
@@ -459,7 +459,7 @@
 																	"type": "reference",
 																	"target": 52411,
 																	"name": "TCompensateInput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																"extendsType": {
@@ -470,20 +470,20 @@
 																	"type": "reference",
 																	"target": 52410,
 																	"name": "TOutput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																"falseType": {
 																	"type": "reference",
 																	"target": 52411,
 																	"name": "TCompensateInput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																}
 															}
 														],
 														"name": "StepResponse",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												]
 											}
@@ -572,7 +572,7 @@
 												"type": "reference",
 												"target": 52417,
 												"name": "T",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											},
 											{
@@ -592,7 +592,7 @@
 										"type": "reference",
 										"target": 52649,
 										"name": "StepExecutionContext",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								}
 							],
@@ -681,7 +681,7 @@
 									"qualifiedName": "TransactionStepsDefinition"
 								},
 								"name": "TransactionStepsDefinition",
-								"package": "@medusajs/orchestration"
+								"package": "@srinivasulu-narayanam/orchestration"
 							},
 							{
 								"type": "union",
@@ -740,7 +740,7 @@
 							"qualifiedName": "TransactionStepsDefinition"
 						},
 						"name": "TransactionStepsDefinition",
-						"package": "@medusajs/orchestration"
+						"package": "@srinivasulu-narayanam/orchestration"
 					}
 				},
 				{
@@ -755,7 +755,7 @@
 						"type": "reference",
 						"target": 52427,
 						"name": "TStepInputs",
-						"package": "@medusajs/workflows-sdk",
+						"package": "@srinivasulu-narayanam/workflows-sdk",
 						"qualifiedName": "ApplyStepOptions.TStepInputs",
 						"refersToTypeParameter": true
 					}
@@ -774,7 +774,7 @@
 								"type": "reference",
 								"target": 52428,
 								"name": "TInvokeInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"qualifiedName": "ApplyStepOptions.TInvokeInput",
 								"refersToTypeParameter": true
 							},
@@ -782,7 +782,7 @@
 								"type": "reference",
 								"target": 52429,
 								"name": "TInvokeResultOutput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"qualifiedName": "ApplyStepOptions.TInvokeResultOutput",
 								"refersToTypeParameter": true
 							},
@@ -790,13 +790,13 @@
 								"type": "reference",
 								"target": 52430,
 								"name": "TInvokeResultCompensateInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"qualifiedName": "ApplyStepOptions.TInvokeResultCompensateInput",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "InvokeFn",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				},
 				{
@@ -815,13 +815,13 @@
 								"type": "reference",
 								"target": 52430,
 								"name": "TInvokeResultCompensateInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"qualifiedName": "ApplyStepOptions.TInvokeResultCompensateInput",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "CompensateFn",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			],
@@ -854,7 +854,7 @@
 								"type": "reference",
 								"target": 52428,
 								"name": "TInvokeInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"qualifiedName": "ApplyStepOptions.TInvokeInput",
 								"refersToTypeParameter": true
 							}
@@ -872,21 +872,21 @@
 											"qualifiedName": "K"
 										},
 										"name": "K",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									},
 									"objectType": {
 										"type": "reference",
 										"target": 52428,
 										"name": "TInvokeInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "ApplyStepOptions.TInvokeInput",
 										"refersToTypeParameter": true
 									}
 								}
 							],
 							"name": "WorkflowData",
-							"package": "@medusajs/workflows-sdk"
+							"package": "@srinivasulu-narayanam/workflows-sdk"
 						}
 					}
 				},
@@ -968,7 +968,7 @@
 								"content": [
 									{
 										"kind": "code",
-										"text": "```ts\nimport {\n  createStep,\n  StepResponse\n} from \"@medusajs/framework/workflows-sdk\"\n\ninterface CreateProductInput {\n  title: string\n}\n\nexport const createProductStep = createStep(\n  \"createProductStep\",\n  async function (\n    input: CreateProductInput,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n    const product = await productService.createProducts(input)\n    return new StepResponse({\n      product\n    }, {\n      product_id: product.id\n    })\n  },\n  async function (\n    input,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n    await productService.deleteProducts(input.product_id)\n  }\n)\n```"
+										"text": "```ts\nimport {\n  createStep,\n  StepResponse\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\n\ninterface CreateProductInput {\n  title: string\n}\n\nexport const createProductStep = createStep(\n  \"createProductStep\",\n  async function (\n    input: CreateProductInput,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n    const product = await productService.createProducts(input)\n    return new StepResponse({\n      product\n    }, {\n      product_id: product.id\n    })\n  },\n  async function (\n    input,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n    await productService.deleteProducts(input.product_id)\n  }\n)\n```"
 									}
 								]
 							}
@@ -1091,7 +1091,7 @@
 															"qualifiedName": "TransactionStepsDefinition"
 														},
 														"name": "TransactionStepsDefinition",
-														"package": "@medusajs/orchestration"
+														"package": "@srinivasulu-narayanam/orchestration"
 													},
 													{
 														"type": "union",
@@ -1161,26 +1161,26 @@
 										"type": "reference",
 										"target": 52396,
 										"name": "TInvokeInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									},
 									{
 										"type": "reference",
 										"target": 52397,
 										"name": "TInvokeResultOutput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									},
 									{
 										"type": "reference",
 										"target": 52398,
 										"name": "TInvokeResultCompensateInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "InvokeFn",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						},
 						{
@@ -1233,12 +1233,12 @@
 										"type": "reference",
 										"target": 52398,
 										"name": "TInvokeResultCompensateInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "CompensateFn",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						}
 					],
@@ -1250,19 +1250,19 @@
 								"type": "reference",
 								"target": 52396,
 								"name": "TInvokeInput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 52397,
 								"name": "TInvokeResultOutput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "StepFunction",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			]
@@ -1338,7 +1338,7 @@
 								"content": [
 									{
 										"kind": "code",
-										"text": "```ts\nimport {\n  createWorkflow,\n  WorkflowResponse\n} from \"@medusajs/framework/workflows-sdk\"\nimport { MedusaRequest, MedusaResponse } from \"@medusajs/framework/http\"\nimport {\n  createProductStep,\n  getProductStep,\n  createPricesStep\n} from \"./steps\"\n\ninterface WorkflowInput {\n title: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"my-workflow\",\n  (input: WorkflowInput) => {\n   // Everything here will be executed and resolved later\n   // during the execution. Including the data access.\n\n    const product = createProductStep(input)\n    const prices = createPricesStep(product)\n    return new WorkflowResponse(getProductStep(product.id))\n  }\n)\n\nexport async function GET(\n  req: MedusaRequest,\n  res: MedusaResponse\n) {\n  const { result: product } = await myWorkflow(req.scope)\n    .run({\n      input: {\n        title: \"Shirt\"\n      }\n    })\n\n  res.json({\n    product\n  })\n}\n```"
+										"text": "```ts\nimport {\n  createWorkflow,\n  WorkflowResponse\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport { MedusaRequest, MedusaResponse } from \"@srinivasulu-narayanam/framework/http\"\nimport {\n  createProductStep,\n  getProductStep,\n  createPricesStep\n} from \"./steps\"\n\ninterface WorkflowInput {\n title: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"my-workflow\",\n  (input: WorkflowInput) => {\n   // Everything here will be executed and resolved later\n   // during the execution. Including the data access.\n\n    const product = createProductStep(input)\n    const prices = createPricesStep(product)\n    return new WorkflowResponse(getProductStep(product.id))\n  }\n)\n\nexport async function GET(\n  req: MedusaRequest,\n  res: MedusaResponse\n) {\n  const { result: product } = await myWorkflow(req.scope)\n    .run({\n      input: {\n        title: \"Shirt\"\n      }\n    })\n\n  res.json({\n    product\n  })\n}\n```"
 									}
 								]
 							}
@@ -1461,7 +1461,7 @@
 													"qualifiedName": "TransactionModelOptions"
 												},
 												"name": "TransactionModelOptions",
-												"package": "@medusajs/orchestration"
+												"package": "@srinivasulu-narayanam/orchestration"
 											}
 										]
 									}
@@ -1540,12 +1540,12 @@
 																"type": "reference",
 																"target": 52433,
 																"name": "TData",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"refersToTypeParameter": true
 															}
 														],
 														"name": "WorkflowData",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											],
@@ -1564,19 +1564,19 @@
 																"type": "reference",
 																"target": 52434,
 																"name": "TResult",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"refersToTypeParameter": true
 															},
 															{
 																"type": "reference",
 																"target": 52435,
 																"name": "THooks",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"refersToTypeParameter": true
 															}
 														],
 														"name": "WorkflowResponse",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												]
 											}
@@ -1594,26 +1594,26 @@
 								"type": "reference",
 								"target": 52433,
 								"name": "TData",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 52434,
 								"name": "TResult",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							},
 							{
 								"type": "reference",
 								"target": 52435,
 								"name": "THooks",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "ReturnWorkflow",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			]
@@ -1712,7 +1712,7 @@
 										"type": "reference",
 										"target": 52456,
 										"name": "TOutput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "StepResponse.TOutput",
 										"refersToTypeParameter": true
 									}
@@ -1739,7 +1739,7 @@
 										"type": "reference",
 										"target": 52456,
 										"name": "TOutput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "StepResponse.TOutput",
 										"refersToTypeParameter": true
 									}
@@ -1772,7 +1772,7 @@
 										"type": "reference",
 										"target": 52457,
 										"name": "TCompensateInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "StepResponse.TCompensateInput",
 										"refersToTypeParameter": true
 									}
@@ -1786,7 +1786,7 @@
 										"type": "reference",
 										"target": 52456,
 										"name": "TOutput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "StepResponse.TOutput",
 										"refersToTypeParameter": true
 									},
@@ -1794,13 +1794,13 @@
 										"type": "reference",
 										"target": 52457,
 										"name": "TCompensateInput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "StepResponse.TCompensateInput",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "StepResponse",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						}
 					]
@@ -1833,7 +1833,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { Product } from \"@medusajs/medusa\"\nimport {\n  createStep,\n  StepResponse,\n  createWorkflow\n} from \"@medusajs/workflows-sdk\"\n\ninterface CreateProductInput {\n  title: string\n}\n\nexport const createProductStep = createStep(\n  \"createProductStep\",\n  async function (\n    input: CreateProductInput,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n\n    try {\n      const product = await productService.createProducts(input)\n      return new StepResponse({\n        product\n      }, {\n        product_id: product.id\n      })\n    } catch (e) {\n      return StepResponse.permanentFailure(`Couldn't create the product: ${e}`)\n    }\n  }\n)\n\ninterface WorkflowInput {\n title: string\n}\n\nconst myWorkflow = createWorkflow<\n    WorkflowInput,\n    Product\n  >(\"my-workflow\", (input) => {\n   // Everything here will be executed and resolved later\n   // during the execution. Including the data access.\n\n    const product = createProductStep(input)\n  }\n)\n\nmyWorkflow()\n  .run({\n    input: {\n      title: \"Shirt\"\n    }\n  })\n  .then(({ errors, result }) => {\n    if (errors.length) {\n      errors.forEach((err) => {\n        if (typeof err.error === \"object\" && \"message\" in err.error) {\n          console.error(err.error.message)\n        } else {\n          console.error(err.error)\n        }\n      })\n    }\n    console.log(result)\n  })\n```"
+												"text": "```ts\nimport { Product } from \"@srinivasulu-narayanam/medusa\"\nimport {\n  createStep,\n  StepResponse,\n  createWorkflow\n} from \"@srinivasulu-narayanam/workflows-sdk\"\n\ninterface CreateProductInput {\n  title: string\n}\n\nexport const createProductStep = createStep(\n  \"createProductStep\",\n  async function (\n    input: CreateProductInput,\n    context\n  ) {\n    const productService = context.container.resolve(\n      \"productService\"\n    )\n\n    try {\n      const product = await productService.createProducts(input)\n      return new StepResponse({\n        product\n      }, {\n        product_id: product.id\n      })\n    } catch (e) {\n      return StepResponse.permanentFailure(`Couldn't create the product: ${e}`)\n    }\n  }\n)\n\ninterface WorkflowInput {\n title: string\n}\n\nconst myWorkflow = createWorkflow<\n    WorkflowInput,\n    Product\n  >(\"my-workflow\", (input) => {\n   // Everything here will be executed and resolved later\n   // during the execution. Including the data access.\n\n    const product = createProductStep(input)\n  }\n)\n\nmyWorkflow()\n  .run({\n    input: {\n      title: \"Shirt\"\n    }\n  })\n  .then(({ errors, result }) => {\n    if (errors.length) {\n      errors.forEach((err) => {\n        if (typeof err.error === \"object\" && \"message\" in err.error) {\n          console.error(err.error.message)\n        } else {\n          console.error(err.error)\n        }\n      })\n    }\n    console.log(result)\n  })\n```"
 											}
 										]
 									}
@@ -1903,7 +1903,7 @@
 									"qualifiedName": "SkipStepResponse"
 								},
 								"name": "SkipStepResponse",
-								"package": "@medusajs/orchestration"
+								"package": "@srinivasulu-narayanam/orchestration"
 							}
 						}
 					]
@@ -1974,7 +1974,7 @@
 						"type": "reference",
 						"target": 52456,
 						"name": "TOutput",
-						"package": "@medusajs/workflows-sdk",
+						"package": "@srinivasulu-narayanam/workflows-sdk",
 						"qualifiedName": "StepResponse.TOutput",
 						"refersToTypeParameter": true
 					}
@@ -2058,13 +2058,13 @@
 														"type": "reference",
 														"target": 52480,
 														"name": "TResult",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"qualifiedName": "WorkflowResponse.TResult",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "WorkflowData",
-												"package": "@medusajs/workflows-sdk"
+												"package": "@srinivasulu-narayanam/workflows-sdk"
 											},
 											{
 												"type": "mapped",
@@ -2098,14 +2098,14 @@
 																	"qualifiedName": "K"
 																},
 																"name": "K",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"refersToTypeParameter": true
 															},
 															"objectType": {
 																"type": "reference",
 																"target": 52480,
 																"name": "TResult",
-																"package": "@medusajs/workflows-sdk",
+																"package": "@srinivasulu-narayanam/workflows-sdk",
 																"qualifiedName": "WorkflowResponse.TResult",
 																"refersToTypeParameter": true
 															}
@@ -2123,21 +2123,21 @@
 																			"qualifiedName": "K"
 																		},
 																		"name": "K",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"refersToTypeParameter": true
 																	},
 																	"objectType": {
 																		"type": "reference",
 																		"target": 52480,
 																		"name": "TResult",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"qualifiedName": "WorkflowResponse.TResult",
 																		"refersToTypeParameter": true
 																	}
 																}
 															],
 															"name": "WorkflowDataProperties",
-															"package": "@medusajs/workflows-sdk"
+															"package": "@srinivasulu-narayanam/workflows-sdk"
 														},
 														{
 															"type": "reference",
@@ -2152,21 +2152,21 @@
 																			"qualifiedName": "K"
 																		},
 																		"name": "K",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"refersToTypeParameter": true
 																	},
 																	"objectType": {
 																		"type": "reference",
 																		"target": 52480,
 																		"name": "TResult",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"qualifiedName": "WorkflowResponse.TResult",
 																		"refersToTypeParameter": true
 																	}
 																}
 															],
 															"name": "WorkflowData",
-															"package": "@medusajs/workflows-sdk"
+															"package": "@srinivasulu-narayanam/workflows-sdk"
 														}
 													]
 												}
@@ -2201,7 +2201,7 @@
 														"type": "reference",
 														"target": 52481,
 														"name": "THooks",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"qualifiedName": "WorkflowResponse.THooks",
 														"refersToTypeParameter": true
 													}
@@ -2227,7 +2227,7 @@
 										"type": "reference",
 										"target": 52480,
 										"name": "TResult",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "WorkflowResponse.TResult",
 										"refersToTypeParameter": true
 									},
@@ -2235,13 +2235,13 @@
 										"type": "reference",
 										"target": 52481,
 										"name": "THooks",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "WorkflowResponse.THooks",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "WorkflowResponse",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						}
 					]
@@ -2265,13 +2265,13 @@
 										"type": "reference",
 										"target": 52480,
 										"name": "TResult",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "WorkflowResponse.TResult",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "WorkflowData",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							},
 							{
 								"type": "mapped",
@@ -2305,14 +2305,14 @@
 													"qualifiedName": "K"
 												},
 												"name": "K",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											},
 											"objectType": {
 												"type": "reference",
 												"target": 52480,
 												"name": "TResult",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"qualifiedName": "WorkflowResponse.TResult",
 												"refersToTypeParameter": true
 											}
@@ -2330,21 +2330,21 @@
 															"qualifiedName": "K"
 														},
 														"name": "K",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													"objectType": {
 														"type": "reference",
 														"target": 52480,
 														"name": "TResult",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"qualifiedName": "WorkflowResponse.TResult",
 														"refersToTypeParameter": true
 													}
 												}
 											],
 											"name": "WorkflowDataProperties",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										},
 										{
 											"type": "reference",
@@ -2359,21 +2359,21 @@
 															"qualifiedName": "K"
 														},
 														"name": "K",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													"objectType": {
 														"type": "reference",
 														"target": 52480,
 														"name": "TResult",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"qualifiedName": "WorkflowResponse.TResult",
 														"refersToTypeParameter": true
 													}
 												}
 											],
 											"name": "WorkflowData",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										}
 									]
 								}
@@ -2409,7 +2409,7 @@
 										"type": "reference",
 										"target": 52481,
 										"name": "THooks",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"qualifiedName": "WorkflowResponse.THooks",
 										"refersToTypeParameter": true
 									}
@@ -2498,7 +2498,7 @@
 								"content": [
 									{
 										"kind": "code",
-										"text": "```ts\nimport {\n  createWorkflow,\n  parallelize,\n  WorkflowResponse\n} from \"@medusajs/framework/workflows-sdk\"\nimport {\n  createProductStep,\n  getProductStep,\n  createPricesStep,\n  attachProductToSalesChannelStep\n} from \"./steps\"\n\ninterface WorkflowInput {\n  title: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"my-workflow\",\n  (input: WorkflowInput) => {\n   const product = createProductStep(input)\n\n   const [prices, productSalesChannel] = parallelize(\n     createPricesStep(product),\n     attachProductToSalesChannelStep(product)\n   )\n\n   const id = product.id\n   return new WorkflowResponse(getProductStep(product.id))\n }\n)\n```"
+										"text": "```ts\nimport {\n  createWorkflow,\n  parallelize,\n  WorkflowResponse\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport {\n  createProductStep,\n  getProductStep,\n  createPricesStep,\n  attachProductToSalesChannelStep\n} from \"./steps\"\n\ninterface WorkflowInput {\n  title: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"my-workflow\",\n  (input: WorkflowInput) => {\n   const product = createProductStep(input)\n\n   const [prices, productSalesChannel] = parallelize(\n     createPricesStep(product),\n     attachProductToSalesChannelStep(product)\n   )\n\n   const id = product.id\n   return new WorkflowResponse(getProductStep(product.id))\n }\n)\n```"
 									}
 								]
 							}
@@ -2525,7 +2525,7 @@
 									"type": "reference",
 									"target": 52609,
 									"name": "WorkflowData",
-									"package": "@medusajs/workflows-sdk"
+									"package": "@srinivasulu-narayanam/workflows-sdk"
 								}
 							}
 						}
@@ -2543,7 +2543,7 @@
 								"type": "reference",
 								"target": 52508,
 								"name": "TResult",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						}
@@ -2552,7 +2552,7 @@
 						"type": "reference",
 						"target": 52508,
 						"name": "TResult",
-						"package": "@medusajs/workflows-sdk",
+						"package": "@srinivasulu-narayanam/workflows-sdk",
 						"refersToTypeParameter": true
 					}
 				}
@@ -2619,7 +2619,7 @@
 								"content": [
 									{
 										"kind": "code",
-										"text": "```ts\nimport {\n  createWorkflow,\n  transform,\n  WorkflowResponse\n} from \"@medusajs/framework/workflows-sdk\"\nimport { step1, step2 } from \"./steps\"\n\ntype WorkflowInput = {\n  name: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"hello-world\",\n  (input: WorkflowInput) => {\n    const str1 = step1(input)\n    const str2 = step2(input)\n\n    const message = transform({\n      str1,\n      str2\n    }, (input) => `${input.str1}${input.str2}`)\n\n    return new WorkflowResponse(message)\n})\n```"
+										"text": "```ts\nimport {\n  createWorkflow,\n  transform,\n  WorkflowResponse\n} from \"@srinivasulu-narayanam/framework/workflows-sdk\"\nimport { step1, step2 } from \"./steps\"\n\ntype WorkflowInput = {\n  name: string\n}\n\nconst myWorkflow = createWorkflow(\n  \"hello-world\",\n  (input: WorkflowInput) => {\n    const str1 = step1(input)\n    const str2 = step2(input)\n\n    const message = transform({\n      str1,\n      str2\n    }, (input) => `${input.str1}${input.str2}`)\n\n    return new WorkflowResponse(message)\n})\n```"
 									}
 								]
 							}
@@ -2643,7 +2643,7 @@
 										"type": "reference",
 										"target": 52609,
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -2675,7 +2675,7 @@
 								"type": "reference",
 								"target": 52512,
 								"name": "T",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						},
@@ -2717,19 +2717,19 @@
 												"type": "reference",
 												"target": 52512,
 												"name": "T",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											},
 											{
 												"type": "reference",
 												"target": 52513,
 												"name": "RFinal",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "Func1",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -2743,12 +2743,12 @@
 								"type": "reference",
 								"target": 52513,
 								"name": "RFinal",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "WorkflowData",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			]
@@ -2814,7 +2814,7 @@
 										"type": "reference",
 										"target": 52617,
 										"name": "CreateWorkflowComposerContext",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								}
 							],
@@ -2826,12 +2826,12 @@
 										"type": "reference",
 										"target": 52571,
 										"name": "TOutput",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "WorkflowData",
-								"package": "@medusajs/workflows-sdk"
+								"package": "@srinivasulu-narayanam/workflows-sdk"
 							}
 						}
 					]
@@ -2932,7 +2932,7 @@
 																	"qualifiedName": "TransactionStepsDefinition"
 																},
 																"name": "TransactionStepsDefinition",
-																"package": "@medusajs/orchestration"
+																"package": "@srinivasulu-narayanam/orchestration"
 															},
 															{
 																"type": "union",
@@ -2967,12 +2967,12 @@
 												"type": "reference",
 												"target": 52579,
 												"name": "TOutput",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								}
 							]
@@ -3123,12 +3123,12 @@
 									"type": "reference",
 									"target": 52602,
 									"name": "TInput",
-									"package": "@medusajs/workflows-sdk",
+									"package": "@srinivasulu-narayanam/workflows-sdk",
 									"refersToTypeParameter": true
 								}
 							],
 							"name": "KeysOfUnion",
-							"package": "@medusajs/workflows-sdk"
+							"package": "@srinivasulu-narayanam/workflows-sdk"
 						},
 						"extendsType": {
 							"type": "tuple"
@@ -3157,7 +3157,7 @@
 														"type": "reference",
 														"target": 52603,
 														"name": "TOutput",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													"extendsType": {
@@ -3169,7 +3169,7 @@
 																"qualifiedName": "Item"
 															},
 															"name": "Item",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													},
@@ -3185,7 +3185,7 @@
 																		"qualifiedName": "Item"
 																	},
 																	"name": "Item",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																{
@@ -3199,12 +3199,12 @@
 																				"qualifiedName": "Item"
 																			},
 																			"name": "Item",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "WorkflowData",
-																	"package": "@medusajs/workflows-sdk"
+																	"package": "@srinivasulu-narayanam/workflows-sdk"
 																}
 															]
 														}
@@ -3215,7 +3215,7 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														},
 														"extendsType": {
@@ -3254,7 +3254,7 @@
 																				"qualifiedName": "Key"
 																			},
 																			"name": "Key",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		},
 																		"objectType": {
@@ -3267,7 +3267,7 @@
 																				}
 																			],
 																			"name": "TOutput",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	},
@@ -3288,7 +3288,7 @@
 																			}
 																		],
 																		"name": "WorkflowData",
-																		"package": "@medusajs/workflows-sdk"
+																		"package": "@srinivasulu-narayanam/workflows-sdk"
 																	}
 																]
 															}
@@ -3300,7 +3300,7 @@
 																	"type": "reference",
 																	"target": 52603,
 																	"name": "TOutput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																{
@@ -3311,12 +3311,12 @@
 																			"type": "reference",
 																			"target": 52603,
 																			"name": "TOutput",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "WorkflowDataProperties",
-																	"package": "@medusajs/workflows-sdk"
+																	"package": "@srinivasulu-narayanam/workflows-sdk"
 																}
 															]
 														}
@@ -3326,7 +3326,7 @@
 													"type": "reference",
 													"target": 52603,
 													"name": "TOutput",
-													"package": "@medusajs/workflows-sdk",
+													"package": "@srinivasulu-narayanam/workflows-sdk",
 													"refersToTypeParameter": true
 												},
 												{
@@ -3337,12 +3337,12 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "WorkflowDataProperties",
-													"package": "@medusajs/workflows-sdk"
+													"package": "@srinivasulu-narayanam/workflows-sdk"
 												},
 												{
 													"type": "reflection",
@@ -3423,7 +3423,7 @@
 																										"qualifiedName": "TransactionStepsDefinition"
 																									},
 																									"name": "TransactionStepsDefinition",
-																									"package": "@medusajs/orchestration"
+																									"package": "@srinivasulu-narayanam/orchestration"
 																								},
 																								{
 																									"type": "union",
@@ -3458,12 +3458,12 @@
 																					"type": "reference",
 																					"target": 52603,
 																					"name": "TOutput",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				}
 																			],
 																			"name": "WorkflowData",
-																			"package": "@medusajs/workflows-sdk"
+																			"package": "@srinivasulu-narayanam/workflows-sdk"
 																		}
 																	}
 																]
@@ -3487,12 +3487,12 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "StepFunctionReturnConfig",
-													"package": "@medusajs/workflows-sdk"
+													"package": "@srinivasulu-narayanam/workflows-sdk"
 												}
 											]
 										}
@@ -3529,7 +3529,7 @@
 															"type": "reference",
 															"target": 52602,
 															"name": "TInput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														},
 														{
@@ -3540,12 +3540,12 @@
 																	"type": "reference",
 																	"target": 52602,
 																	"name": "TInput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																}
 															],
 															"name": "WorkflowData",
-															"package": "@medusajs/workflows-sdk"
+															"package": "@srinivasulu-narayanam/workflows-sdk"
 														}
 													]
 												}
@@ -3560,7 +3560,7 @@
 														"type": "reference",
 														"target": 52603,
 														"name": "TOutput",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													"extendsType": {
@@ -3572,7 +3572,7 @@
 																"qualifiedName": "Item"
 															},
 															"name": "Item",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													},
@@ -3588,7 +3588,7 @@
 																		"qualifiedName": "Item"
 																	},
 																	"name": "Item",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																{
@@ -3602,12 +3602,12 @@
 																				"qualifiedName": "Item"
 																			},
 																			"name": "Item",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "WorkflowData",
-																	"package": "@medusajs/workflows-sdk"
+																	"package": "@srinivasulu-narayanam/workflows-sdk"
 																}
 															]
 														}
@@ -3618,7 +3618,7 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														},
 														"extendsType": {
@@ -3657,7 +3657,7 @@
 																				"qualifiedName": "Key"
 																			},
 																			"name": "Key",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		},
 																		"objectType": {
@@ -3670,7 +3670,7 @@
 																				}
 																			],
 																			"name": "TOutput",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	},
@@ -3691,7 +3691,7 @@
 																			}
 																		],
 																		"name": "WorkflowData",
-																		"package": "@medusajs/workflows-sdk"
+																		"package": "@srinivasulu-narayanam/workflows-sdk"
 																	}
 																]
 															}
@@ -3703,7 +3703,7 @@
 																	"type": "reference",
 																	"target": 52603,
 																	"name": "TOutput",
-																	"package": "@medusajs/workflows-sdk",
+																	"package": "@srinivasulu-narayanam/workflows-sdk",
 																	"refersToTypeParameter": true
 																},
 																{
@@ -3714,12 +3714,12 @@
 																			"type": "reference",
 																			"target": 52603,
 																			"name": "TOutput",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "WorkflowDataProperties",
-																	"package": "@medusajs/workflows-sdk"
+																	"package": "@srinivasulu-narayanam/workflows-sdk"
 																}
 															]
 														}
@@ -3729,7 +3729,7 @@
 													"type": "reference",
 													"target": 52603,
 													"name": "TOutput",
-													"package": "@medusajs/workflows-sdk",
+													"package": "@srinivasulu-narayanam/workflows-sdk",
 													"refersToTypeParameter": true
 												},
 												{
@@ -3740,12 +3740,12 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "WorkflowDataProperties",
-													"package": "@medusajs/workflows-sdk"
+													"package": "@srinivasulu-narayanam/workflows-sdk"
 												},
 												{
 													"type": "reflection",
@@ -3826,7 +3826,7 @@
 																										"qualifiedName": "TransactionStepsDefinition"
 																									},
 																									"name": "TransactionStepsDefinition",
-																									"package": "@medusajs/orchestration"
+																									"package": "@srinivasulu-narayanam/orchestration"
 																								},
 																								{
 																									"type": "union",
@@ -3861,12 +3861,12 @@
 																					"type": "reference",
 																					"target": 52603,
 																					"name": "TOutput",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				}
 																			],
 																			"name": "WorkflowData",
-																			"package": "@medusajs/workflows-sdk"
+																			"package": "@srinivasulu-narayanam/workflows-sdk"
 																		}
 																	}
 																]
@@ -3890,12 +3890,12 @@
 															"type": "reference",
 															"target": 52603,
 															"name": "TOutput",
-															"package": "@medusajs/workflows-sdk",
+															"package": "@srinivasulu-narayanam/workflows-sdk",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "StepFunctionReturnConfig",
-													"package": "@medusajs/workflows-sdk"
+													"package": "@srinivasulu-narayanam/workflows-sdk"
 												}
 											]
 										}
@@ -3912,12 +3912,12 @@
 								"type": "reference",
 								"target": 52603,
 								"name": "TOutput",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "WorkflowDataProperties",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				]
 			}
@@ -4029,7 +4029,7 @@
 							"type": "reference",
 							"target": 52616,
 							"name": "T",
-							"package": "@medusajs/workflows-sdk",
+							"package": "@srinivasulu-narayanam/workflows-sdk",
 							"refersToTypeParameter": true
 						},
 						"extendsType": {
@@ -4051,7 +4051,7 @@
 											"qualifiedName": "Item"
 										},
 										"name": "Item",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									},
 									{
@@ -4065,12 +4065,12 @@
 													"qualifiedName": "Item"
 												},
 												"name": "Item",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "WorkflowData",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -4081,7 +4081,7 @@
 								"type": "reference",
 								"target": 52616,
 								"name": "T",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							},
 							"extendsType": {
@@ -4098,7 +4098,7 @@
 										"type": "reference",
 										"target": 52616,
 										"name": "T",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									}
 								},
@@ -4114,14 +4114,14 @@
 													"qualifiedName": "Key"
 												},
 												"name": "Key",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											},
 											"objectType": {
 												"type": "reference",
 												"target": 52616,
 												"name": "T",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										},
@@ -4138,20 +4138,20 @@
 															"qualifiedName": "Key"
 														},
 														"name": "Key",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													"objectType": {
 														"type": "reference",
 														"target": 52616,
 														"name": "T",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													}
 												}
 											],
 											"name": "WorkflowData",
-											"package": "@medusajs/workflows-sdk"
+											"package": "@srinivasulu-narayanam/workflows-sdk"
 										}
 									]
 								}
@@ -4163,7 +4163,7 @@
 										"type": "reference",
 										"target": 52616,
 										"name": "T",
-										"package": "@medusajs/workflows-sdk",
+										"package": "@srinivasulu-narayanam/workflows-sdk",
 										"refersToTypeParameter": true
 									},
 									{
@@ -4174,12 +4174,12 @@
 												"type": "reference",
 												"target": 52616,
 												"name": "T",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "WorkflowDataProperties",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								]
 							}
@@ -4189,7 +4189,7 @@
 						"type": "reference",
 						"target": 52616,
 						"name": "T",
-						"package": "@medusajs/workflows-sdk",
+						"package": "@srinivasulu-narayanam/workflows-sdk",
 						"refersToTypeParameter": true
 					},
 					{
@@ -4200,12 +4200,12 @@
 								"type": "reference",
 								"target": 52616,
 								"name": "T",
-								"package": "@medusajs/workflows-sdk",
+								"package": "@srinivasulu-narayanam/workflows-sdk",
 								"refersToTypeParameter": true
 							}
 						],
 						"name": "WorkflowDataProperties",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					},
 					{
 						"type": "reflection",
@@ -4286,7 +4286,7 @@
 																			"qualifiedName": "TransactionStepsDefinition"
 																		},
 																		"name": "TransactionStepsDefinition",
-																		"package": "@medusajs/orchestration"
+																		"package": "@srinivasulu-narayanam/orchestration"
 																	},
 																	{
 																		"type": "union",
@@ -4321,12 +4321,12 @@
 														"type": "reference",
 														"target": 52616,
 														"name": "T",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "WorkflowData",
-												"package": "@medusajs/workflows-sdk"
+												"package": "@srinivasulu-narayanam/workflows-sdk"
 											}
 										}
 									]
@@ -4448,7 +4448,7 @@
 										"type": "reference",
 										"target": 52580,
 										"name": "HookHandler",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								],
 								"name": "Record",
@@ -4479,7 +4479,7 @@
 									"qualifiedName": "OrchestratorBuilder"
 								},
 								"name": "OrchestratorBuilder",
-								"package": "@medusajs/orchestration"
+								"package": "@srinivasulu-narayanam/orchestration"
 							}
 						},
 						{
@@ -4506,7 +4506,7 @@
 									"qualifiedName": "WorkflowHandler"
 								},
 								"name": "WorkflowHandler",
-								"package": "@medusajs/orchestration"
+								"package": "@srinivasulu-narayanam/orchestration"
 							}
 						},
 						{
@@ -4554,7 +4554,7 @@
 														"type": "reference",
 														"target": 52567,
 														"name": "StepFunctionResult",
-														"package": "@medusajs/workflows-sdk"
+														"package": "@srinivasulu-narayanam/workflows-sdk"
 													}
 												}
 											],
@@ -4566,12 +4566,12 @@
 														"type": "reference",
 														"target": 52633,
 														"name": "TOutput",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "WorkflowData",
-												"package": "@medusajs/workflows-sdk"
+												"package": "@srinivasulu-narayanam/workflows-sdk"
 											}
 										}
 									]
@@ -4636,7 +4636,7 @@
 																		"type": "reference",
 																		"target": 52580,
 																		"name": "HookHandler",
-																		"package": "@medusajs/workflows-sdk"
+																		"package": "@srinivasulu-narayanam/workflows-sdk"
 																	}
 																}
 															]
@@ -4687,7 +4687,7 @@
 															"type": "reference",
 															"target": 52609,
 															"name": "WorkflowData",
-															"package": "@medusajs/workflows-sdk"
+															"package": "@srinivasulu-narayanam/workflows-sdk"
 														}
 													},
 													"default": {
@@ -4696,7 +4696,7 @@
 															"type": "reference",
 															"target": 52609,
 															"name": "WorkflowData",
-															"package": "@medusajs/workflows-sdk"
+															"package": "@srinivasulu-narayanam/workflows-sdk"
 														}
 													}
 												}
@@ -4734,7 +4734,7 @@
 																				"type": "reference",
 																				"target": 52617,
 																				"name": "CreateWorkflowComposerContext",
-																				"package": "@medusajs/workflows-sdk"
+																				"package": "@srinivasulu-narayanam/workflows-sdk"
 																			}
 																		}
 																	],
@@ -4742,7 +4742,7 @@
 																		"type": "reference",
 																		"target": 52648,
 																		"name": "TOutput",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"refersToTypeParameter": true
 																	}
 																}
@@ -4755,7 +4755,7 @@
 												"type": "reference",
 												"target": 52648,
 												"name": "TOutput",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										}
@@ -4945,7 +4945,7 @@
 							"qualifiedName": "MedusaContainer"
 						},
 						"name": "MedusaContainer",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -4969,7 +4969,7 @@
 							"qualifiedName": "TransactionMetadata"
 						},
 						"name": "TransactionMetadata",
-						"package": "@medusajs/orchestration"
+						"package": "@srinivasulu-narayanam/orchestration"
 					}
 				},
 				{
@@ -4994,7 +4994,7 @@
 							"qualifiedName": "Context"
 						},
 						"name": "Context",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -5072,7 +5072,7 @@
 						"type": "reference",
 						"target": 52649,
 						"name": "StepExecutionContext",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					},
 					{
 						"type": "reference",
@@ -5081,7 +5081,7 @@
 							"qualifiedName": "TransactionContext"
 						},
 						"name": "OriginalWorkflowTransactionContext",
-						"package": "@medusajs/orchestration",
+						"package": "@srinivasulu-narayanam/orchestration",
 						"qualifiedName": "TransactionContext"
 					},
 					{
@@ -5226,7 +5226,7 @@
 							},
 							{
 								"kind": "code",
-								"text": "```ts\nimport type {\n  MedusaRequest,\n  MedusaResponse\n} from \"@medusajs/medusa\";\nimport myWorkflow from \"../../../workflows/hello-world\";\n\nexport async function GET(\n  req: MedusaRequest,\n  res: MedusaResponse\n) {\n  const { result } = await myWorkflow(req.scope)\n    .run({\n      input: {\n        name: req.query.name as string\n      }\n    })\n\n  res.send(result)\n}\n```"
+								"text": "```ts\nimport type {\n  MedusaRequest,\n  MedusaResponse\n} from \"@srinivasulu-narayanam/medusa\";\nimport myWorkflow from \"../../../workflows/hello-world\";\n\nexport async function GET(\n  req: MedusaRequest,\n  res: MedusaResponse\n) {\n  const { result } = await myWorkflow(req.scope)\n    .run({\n      input: {\n        name: req.query.name as string\n      }\n    })\n\n  res.send(result)\n}\n```"
 							}
 						]
 					}
@@ -5323,7 +5323,7 @@
 															"qualifiedName": "MedusaContainer"
 														},
 														"name": "MedusaContainer",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													},
 													{
 														"type": "array",
@@ -5349,7 +5349,7 @@
 																				"qualifiedName": "ModuleJoinerConfig"
 																			},
 																			"name": "ModuleJoinerConfig",
-																			"package": "@medusajs/types"
+																			"package": "@srinivasulu-narayanam/types"
 																		}
 																	},
 																	{
@@ -5365,7 +5365,7 @@
 																				"qualifiedName": "ModuleDefinition"
 																			},
 																			"name": "ModuleDefinition",
-																			"package": "@medusajs/types"
+																			"package": "@srinivasulu-narayanam/types"
 																		}
 																	}
 																],
@@ -5402,7 +5402,7 @@
 															"qualifiedName": "LocalWorkflow"
 														},
 														"name": "LocalWorkflow",
-														"package": "@medusajs/orchestration"
+														"package": "@srinivasulu-narayanam/orchestration"
 													},
 													{
 														"type": "union",
@@ -5440,33 +5440,33 @@
 														"type": "reference",
 														"target": 52699,
 														"name": "TData",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													{
 														"type": "reference",
 														"target": 52700,
 														"name": "TResult",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													{
 														"type": "reference",
 														"target": 52672,
 														"name": "TDataOverride",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													},
 													{
 														"type": "reference",
 														"target": 52673,
 														"name": "TResultOverride",
-														"package": "@medusajs/workflows-sdk",
+														"package": "@srinivasulu-narayanam/workflows-sdk",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "ExportedWorkflow",
-												"package": "@medusajs/workflows-sdk"
+												"package": "@srinivasulu-narayanam/workflows-sdk"
 											}
 										]
 									}
@@ -5563,7 +5563,7 @@
 																						"type": "reference",
 																						"target": 52699,
 																						"name": "TData",
-																						"package": "@medusajs/workflows-sdk",
+																						"package": "@srinivasulu-narayanam/workflows-sdk",
 																						"refersToTypeParameter": true
 																					},
 																					{
@@ -5574,12 +5574,12 @@
 																								"type": "reference",
 																								"target": 52699,
 																								"name": "TData",
-																								"package": "@medusajs/workflows-sdk",
+																								"package": "@srinivasulu-narayanam/workflows-sdk",
 																								"refersToTypeParameter": true
 																							}
 																						],
 																						"name": "WorkflowData",
-																						"package": "@medusajs/workflows-sdk"
+																						"package": "@srinivasulu-narayanam/workflows-sdk"
 																					}
 																				]
 																			}
@@ -5612,19 +5612,19 @@
 																		"type": "reference",
 																		"target": 52699,
 																		"name": "TData",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"refersToTypeParameter": true
 																	},
 																	{
 																		"type": "reference",
 																		"target": 52700,
 																		"name": "TResult",
-																		"package": "@medusajs/workflows-sdk",
+																		"package": "@srinivasulu-narayanam/workflows-sdk",
 																		"refersToTypeParameter": true
 																	}
 																],
 																"name": "StepFunction",
-																"package": "@medusajs/workflows-sdk"
+																"package": "@srinivasulu-narayanam/workflows-sdk"
 															}
 														],
 														"name": "ReturnType",
@@ -5743,33 +5743,33 @@
 																					"type": "reference",
 																					"target": 52699,
 																					"name": "TData",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				},
 																				{
 																					"type": "reference",
 																					"target": 52700,
 																					"name": "TResult",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				},
 																				{
 																					"type": "reference",
 																					"target": 52689,
 																					"name": "TDataOverride",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				},
 																				{
 																					"type": "reference",
 																					"target": 52690,
 																					"name": "TResultOverride",
-																					"package": "@medusajs/workflows-sdk",
+																					"package": "@srinivasulu-narayanam/workflows-sdk",
 																					"refersToTypeParameter": true
 																				}
 																			],
 																			"name": "ExportedWorkflow",
-																			"package": "@medusajs/workflows-sdk"
+																			"package": "@srinivasulu-narayanam/workflows-sdk"
 																		}
 																	}
 																],
@@ -5802,33 +5802,33 @@
 																			"type": "reference",
 																			"target": 52699,
 																			"name": "TData",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		},
 																		{
 																			"type": "reference",
 																			"target": 52700,
 																			"name": "TResult",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		},
 																		{
 																			"type": "reference",
 																			"target": 52689,
 																			"name": "TDataOverride",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		},
 																		{
 																			"type": "reference",
 																			"target": 52690,
 																			"name": "TResultOverride",
-																			"package": "@medusajs/workflows-sdk",
+																			"package": "@srinivasulu-narayanam/workflows-sdk",
 																			"refersToTypeParameter": true
 																		}
 																	],
 																	"name": "ExportedWorkflow",
-																	"package": "@medusajs/workflows-sdk"
+																	"package": "@srinivasulu-narayanam/workflows-sdk"
 																}
 															}
 														],
@@ -5921,7 +5921,7 @@
 																	"qualifiedName": "TransactionModelOptions"
 																},
 																"name": "TransactionModelOptions",
-																"package": "@medusajs/orchestration"
+																"package": "@srinivasulu-narayanam/orchestration"
 															}
 														}
 													],
@@ -5959,12 +5959,12 @@
 												"type": "reference",
 												"target": 52701,
 												"name": "THooks",
-												"package": "@medusajs/workflows-sdk",
+												"package": "@srinivasulu-narayanam/workflows-sdk",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "ConvertHooksToFunctions",
-										"package": "@medusajs/workflows-sdk"
+										"package": "@srinivasulu-narayanam/workflows-sdk"
 									}
 								}
 							],
@@ -6035,7 +6035,7 @@
 							}
 						],
 						"name": "ReturnWorkflow",
-						"package": "@medusajs/workflows-sdk"
+						"package": "@srinivasulu-narayanam/workflows-sdk"
 					}
 				}
 			],
@@ -6045,7 +6045,7 @@
 					"type": "reference",
 					"target": 52703,
 					"name": "T",
-					"package": "@medusajs/workflows-sdk",
+					"package": "@srinivasulu-narayanam/workflows-sdk",
 					"refersToTypeParameter": true
 				},
 				"extendsType": {
@@ -6066,7 +6066,7 @@
 						}
 					],
 					"name": "ReturnWorkflow",
-					"package": "@medusajs/workflows-sdk"
+					"package": "@srinivasulu-narayanam/workflows-sdk"
 				},
 				"trueType": {
 					"type": "reference",
@@ -6075,7 +6075,7 @@
 						"qualifiedName": "TData"
 					},
 					"name": "TData",
-					"package": "@medusajs/workflows-sdk",
+					"package": "@srinivasulu-narayanam/workflows-sdk",
 					"refersToTypeParameter": true
 				},
 				"falseType": {
@@ -6130,7 +6130,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/workflows-sdk",
+	"packageName": "@srinivasulu-narayanam/workflows-sdk",
 	"symbolIdMap": {
 		"52386": {
 			"sourceFileName": "../../../../packages/core/workflows-sdk/src/utils/composer/index.ts",

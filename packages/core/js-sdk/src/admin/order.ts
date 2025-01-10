@@ -3,8 +3,8 @@ import {
   HttpTypes,
   PaginatedResponse,
   SelectParams,
-} from "@medusajs/types"
-import { AdminOrderChangesResponse } from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
+import { AdminOrderChangesResponse } from "@srinivasulu-narayanam/types"
 
 import { Client } from "../client"
 import { ClientHeaders } from "../types"

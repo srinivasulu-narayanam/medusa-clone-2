@@ -1,4 +1,4 @@
-# @medusajs/toolbox
+# @srinivasulu-narayanam/toolbox
 
 ## 2.2.0
 

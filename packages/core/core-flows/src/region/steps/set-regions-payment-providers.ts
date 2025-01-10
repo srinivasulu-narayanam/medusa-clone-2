@@ -1,8 +1,8 @@
-import { Link } from "@medusajs/framework/modules-sdk"
+import { Link } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   IPaymentModuleService,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   LINKS,
@@ -10,8 +10,8 @@ import {
   Modules,
   arrayDifference,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface SetRegionsPaymentProvidersStepInput {
   input: {

@@ -1,4 +1,4 @@
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { WorkflowData, createWorkflow } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { refreshCartItemsWorkflow } from "../../cart/workflows/refresh-cart-items"
 import { deleteLineItemsStep } from "../steps/delete-line-items"
 

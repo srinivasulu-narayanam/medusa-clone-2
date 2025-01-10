@@ -1,6 +1,6 @@
-import { PencilSquare } from "@medusajs/icons"
-import { AdminStore } from "@medusajs/types"
-import { Badge, Container, Heading, Text } from "@medusajs/ui"
+import { PencilSquare } from "@srinivasulu-narayanam/icons"
+import { AdminStore } from "@srinivasulu-narayanam/types"
+import { Badge, Container, Heading, Text } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"

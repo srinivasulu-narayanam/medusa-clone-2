@@ -1,7 +1,7 @@
-import { LinkWorkflowInput } from "@medusajs/framework/types"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { LinkWorkflowInput } from "@srinivasulu-narayanam/framework/types"
+import { WorkflowData, createWorkflow } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { associateProductsWithSalesChannelsStep } from "../steps/associate-products-with-channels"
-import { transform } from "@medusajs/framework/workflows-sdk"
+import { transform } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { detachProductsFromSalesChannelsStep } from "../steps"
 
 export const linkProductsToSalesChannelWorkflowId =

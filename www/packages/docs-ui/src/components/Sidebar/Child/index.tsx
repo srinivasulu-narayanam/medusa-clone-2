@@ -3,7 +3,7 @@
 import React from "react"
 import clsx from "clsx"
 import { InteractiveSidebarItem } from "types"
-import { ArrowUturnLeft } from "@medusajs/icons"
+import { ArrowUturnLeft } from "@srinivasulu-narayanam/icons"
 import { useSidebar } from "../../.."
 
 type SidebarTitleProps = {

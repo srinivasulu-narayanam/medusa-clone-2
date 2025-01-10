@@ -10,11 +10,11 @@ import {
   AdminUpdateCustomerAddress,
 } from "./validators"
 
-import { MiddlewareRoute } from "@medusajs/framework/http"
+import { MiddlewareRoute } from "@srinivasulu-narayanam/framework/http"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework"
 import { createLinkBody } from "../../utils/validators"
 
 export const adminCustomerRoutesMiddlewares: MiddlewareRoute[] = [

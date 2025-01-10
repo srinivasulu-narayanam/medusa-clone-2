@@ -2,10 +2,10 @@ import {
   AdminCreateInventoryLocationLevelType,
   AdminUpdateInventoryLocationLevelType,
 } from "../../../validators"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
 
-import { bulkCreateDeleteLevelsWorkflow } from "@medusajs/core-flows"
-import { BatchMethodRequest } from "@medusajs/framework/types"
+import { bulkCreateDeleteLevelsWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { BatchMethodRequest } from "@srinivasulu-narayanam/framework/types"
 
 export const POST = async (
   req: MedusaRequest<

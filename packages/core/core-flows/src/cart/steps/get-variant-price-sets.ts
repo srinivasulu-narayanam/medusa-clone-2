@@ -1,6 +1,6 @@
-import { IPricingModuleService } from "@medusajs/framework/types"
-import { MedusaError, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { IPricingModuleService } from "@srinivasulu-narayanam/framework/types"
+import { MedusaError, Modules } from "@srinivasulu-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface GetVariantPriceSetsStepInput {
   variantIds: string[]

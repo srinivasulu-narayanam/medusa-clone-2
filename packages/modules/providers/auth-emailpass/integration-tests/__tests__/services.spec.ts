@@ -1,4 +1,4 @@
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import Scrypt from "scrypt-kdf"
 import { EmailPassAuthService } from "../../src/services/emailpass"
 jest.setTimeout(100000)

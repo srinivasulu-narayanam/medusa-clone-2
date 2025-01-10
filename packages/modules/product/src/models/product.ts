@@ -1,4 +1,4 @@
-import { model, ProductUtils } from "@medusajs/framework/utils"
+import { model, ProductUtils } from "@srinivasulu-narayanam/framework/utils"
 
 import ProductTag from "./product-tag"
 import ProductType from "./product-type"

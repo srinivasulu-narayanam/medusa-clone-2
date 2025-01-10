@@ -1,12 +1,12 @@
 import {
   IOrderModuleService,
   UpdateOrderExchangeDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const updateOrderExchangesStepId = "update-order-exchange"
 /**

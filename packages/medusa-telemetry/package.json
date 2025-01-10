@@ -1,11 +1,11 @@
 {
-  "name": "@medusajs/telemetry",
+  "name": "@srinivasulu-narayanam/telemetry",
   "version": "2.2.0",
   "description": "Telemetry for Medusa",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/medusajs/medusa",
+    "url": "https://github.com/srinivasulu-narayanam/medusa-clone-2",
     "directory": "packages/medusa-telemetry"
   },
   "engines": {

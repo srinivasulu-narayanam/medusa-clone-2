@@ -1,12 +1,12 @@
 import {
   getOrderDetailWorkflow,
   requestOrderTransferWorkflow,
-} from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import { StoreRequestOrderTransferType } from "../../../validators"
 
 export const POST = async (

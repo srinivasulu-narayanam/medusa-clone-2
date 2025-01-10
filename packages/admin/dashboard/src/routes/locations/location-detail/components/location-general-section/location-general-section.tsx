@@ -6,8 +6,8 @@ import {
   Plus,
   Trash,
   TriangleDownMini,
-} from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+} from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import {
   Badge,
   Container,
@@ -17,7 +17,7 @@ import {
   Text,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { useMemo, useState } from "react"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"

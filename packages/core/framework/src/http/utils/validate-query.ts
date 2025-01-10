@@ -1,5 +1,5 @@
-import { BaseEntity, QueryConfig, RequestQueryFields } from "@medusajs/types"
-import { MedusaError, removeUndefinedProperties } from "@medusajs/utils"
+import { BaseEntity, QueryConfig, RequestQueryFields } from "@srinivasulu-narayanam/types"
+import { MedusaError, removeUndefinedProperties } from "@srinivasulu-narayanam/utils"
 import { NextFunction } from "express"
 import { omit } from "lodash"
 import { z } from "zod"

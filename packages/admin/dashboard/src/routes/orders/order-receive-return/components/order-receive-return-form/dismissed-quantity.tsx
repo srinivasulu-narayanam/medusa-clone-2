@@ -1,10 +1,10 @@
 import { useMemo, useState } from "react"
-import { HeartBroken } from "@medusajs/icons"
+import { HeartBroken } from "@srinivasulu-narayanam/icons"
 import { UseFormReturn } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 
-import { AdminOrderLineItem } from "@medusajs/types"
-import { Button, Input, Popover, toast } from "@medusajs/ui"
+import { AdminOrderLineItem } from "@srinivasulu-narayanam/types"
+import { Button, Input, Popover, toast } from "@srinivasulu-narayanam/ui"
 
 import { ReceiveReturnSchema } from "./constants"
 import { Form } from "../../../../../components/common/form"

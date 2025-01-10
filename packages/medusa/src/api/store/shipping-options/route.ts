@@ -1,6 +1,6 @@
-import { listShippingOptionsForCartWorkflow } from "@medusajs/core-flows"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+import { listShippingOptionsForCartWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: MedusaRequest<{}, HttpTypes.StoreGetShippingOptionList>,

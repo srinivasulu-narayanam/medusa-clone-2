@@ -4,14 +4,14 @@ import {
   CreateProductWorkflowInputDTO,
   ProductTypes,
   UpdateProductWorkflowInputDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createProductsWorkflow } from "./create-products"
 import { deleteProductsWorkflow } from "./delete-products"
 import { updateProductsWorkflow } from "./update-products"

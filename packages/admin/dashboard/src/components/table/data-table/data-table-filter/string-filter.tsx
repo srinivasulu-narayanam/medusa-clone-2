@@ -1,4 +1,4 @@
-import { Input, Label, clx } from "@medusajs/ui"
+import { Input, Label, clx } from "@srinivasulu-narayanam/ui"
 import * as Popover from "@radix-ui/react-popover"
 import { debounce } from "lodash"
 import { ChangeEvent, useCallback, useEffect, useState } from "react"

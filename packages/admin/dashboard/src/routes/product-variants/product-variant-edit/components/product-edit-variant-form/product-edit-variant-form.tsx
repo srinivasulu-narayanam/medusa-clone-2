@@ -1,10 +1,10 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { Button, Heading, Input, Switch, toast } from "@medusajs/ui"
+import { Button, Heading, Input, Switch, toast } from "@srinivasulu-narayanam/ui"
 import { useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 import { z } from "zod"
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { Divider } from "../../../../../components/common/divider"
 import { Form } from "../../../../../components/common/form"
 import { Combobox } from "../../../../../components/inputs/combobox"

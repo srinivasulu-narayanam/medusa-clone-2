@@ -16,7 +16,7 @@ import {
   normalizePath,
 } from "../utils"
 import { getRoute } from "./helpers"
-import { NESTED_ROUTE_POSITIONS } from "@medusajs/admin-shared"
+import { NESTED_ROUTE_POSITIONS } from "@srinivasulu-narayanam/admin-shared"
 
 type RouteConfig = {
   label: boolean

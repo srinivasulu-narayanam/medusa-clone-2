@@ -9,7 +9,7 @@ import { AlgoliaProps, useSearch } from "@/providers"
 import { checkArraySameElms } from "@/utils"
 import { SearchHitsWrapper } from "./Hits"
 import { Button, SelectBadge, SpinnerLoading } from "@/components"
-import { XMark } from "@medusajs/icons"
+import { XMark } from "@srinivasulu-narayanam/icons"
 import { useSearchNavigation, type OptionType } from "@/hooks"
 import { SearchFooter } from "./Footer"
 

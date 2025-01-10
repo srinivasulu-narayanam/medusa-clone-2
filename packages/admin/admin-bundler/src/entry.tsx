@@ -1,4 +1,4 @@
-import App from "@medusajs/dashboard";
+import App from "@srinivasulu-narayanam/dashboard";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

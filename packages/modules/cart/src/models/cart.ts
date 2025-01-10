@@ -1,4 +1,4 @@
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivasulu-narayanam/framework/utils"
 import Address from "./address"
 import LineItem from "./line-item"
 import ShippingMethod from "./shipping-method"

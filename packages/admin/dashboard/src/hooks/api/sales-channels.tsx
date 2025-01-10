@@ -9,12 +9,12 @@ import {
   AdminSalesChannelListResponse,
   AdminSalesChannelResponse,
   HttpTypes,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { sdk } from "../../lib/client"
 import { queryClient } from "../../lib/query-client"
 import { queryKeysFactory } from "../../lib/query-key-factory"
 import { productsQueryKeys } from "./products"
-import { FetchError } from "@medusajs/js-sdk"
+import { FetchError } from "@srinivasulu-narayanam/js-sdk"
 
 const SALES_CHANNELS_QUERY_KEY = "sales-channels" as const
 export const salesChannelsQueryKeys = queryKeysFactory(SALES_CHANNELS_QUERY_KEY)

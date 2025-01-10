@@ -1,7 +1,7 @@
-import { createWorkflow, WorkflowData } from "@medusajs/framework/workflows-sdk"
+import { createWorkflow, WorkflowData } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { removeRemoteLinkStep } from "../../common/steps/remove-remote-links"
 import { deleteApiKeysStep } from "../steps"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export type DeleteApiKeysWorkflowInput = { ids: string[] }
 

@@ -1,6 +1,6 @@
 "use client"
 
-import { CheckMini, MinusMini } from "@medusajs/icons"
+import { CheckMini, MinusMini } from "@srinivasulu-narayanam/icons"
 import * as Primitives from "@radix-ui/react-checkbox"
 import * as React from "react"
 

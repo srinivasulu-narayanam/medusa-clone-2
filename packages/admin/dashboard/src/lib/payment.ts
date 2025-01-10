@@ -1,4 +1,4 @@
-import { AdminPaymentCollection } from "@medusajs/types"
+import { AdminPaymentCollection } from "@srinivasulu-narayanam/types"
 
 export const getTotalCaptured = (
   paymentCollections: AdminPaymentCollection[]

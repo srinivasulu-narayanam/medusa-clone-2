@@ -1,4 +1,4 @@
-import { InventoryTypes, ProductVariantDTO } from "@medusajs/types"
+import { InventoryTypes, ProductVariantDTO } from "@srinivasulu-narayanam/types"
 
 import { InventoryActions } from "./inventory-actions"
 import { PlaceholderCell } from "../../../../components/table/table-cells/common/placeholder-cell"

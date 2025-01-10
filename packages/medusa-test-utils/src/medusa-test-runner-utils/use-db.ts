@@ -1,14 +1,14 @@
-import type { MedusaAppLoader } from "@medusajs/framework"
+import type { MedusaAppLoader } from "@srinivasulu-narayanam/framework"
 import { join } from "path"
-import { MedusaContainer } from "@medusajs/framework/types"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { MedusaContainer } from "@srinivasulu-narayanam/framework/types"
+import { ContainerRegistrationKeys } from "@srinivasulu-narayanam/framework/utils"
 
 /**
  * Initiates the database connection
  */
 export async function initDb() {
   const { pgConnectionLoader, featureFlagsLoader } = await import(
-    "@medusajs/framework"
+    "@srinivasulu-narayanam/framework"
   )
 
   const pgConnection = pgConnectionLoader()
@@ -56,7 +56,7 @@ async function loadCustomLinks(directory: string, container: MedusaContainer) {
   // TODO: move to framework once settle down
   const {
     getResolvedPlugins,
-  } = require("@medusajs/medusa/loaders/helpers/resolve-plugins")
+  } = require("@srinivasulu-narayanam/medusa/loaders/helpers/resolve-plugins")
 
   const configModule = container.resolve(
     ContainerRegistrationKeys.CONFIG_MODULE
@@ -66,6 +66,6 @@ async function loadCustomLinks(directory: string, container: MedusaContainer) {
     join(plugin.resolve, "links")
   )
 
-  const { LinkLoader } = await import("@medusajs/framework")
+  const { LinkLoader } = await import("@srinivasulu-narayanam/framework")
   await new LinkLoader(linksSourcePaths).load()
 }

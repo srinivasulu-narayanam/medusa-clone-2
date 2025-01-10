@@ -1,5 +1,5 @@
 import { Card, Prerequisites, Details } from "docs-ui"
-import { Github } from "@medusajs/icons"
+import { Github } from "@srinivas-narayanam/icons"
 
 export const ogImage = "https://res.cloudinary.com/dza7lstvk/image/upload/v1734607836/Medusa%20Resources/integrations-shipstation_nlabgy.jpg"
 
@@ -185,7 +185,7 @@ export const serviceHighlights1 = [
 ]
 
 ```ts title="src/modules/shipstation/service.ts" highlights={serviceHighlights1}
-import { AbstractFulfillmentProviderService } from "@medusajs/framework/utils"
+import { AbstractFulfillmentProviderService } from "@srinivas-narayanam/framework/utils"
 
 export type ShipStationOptions = {
   api_key: string
@@ -233,7 +233,7 @@ export const clientHighlights1 = [
 
 ```ts title="src/modules/shipstation/client.ts" highlights={clientHighlights1}
 import { ShipStationOptions } from "./service"
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivas-narayanam/framework/utils"
 
 export class ShipStationClient {
   options: ShipStationOptions
@@ -400,7 +400,7 @@ export const serviceHighlights3 = [
 // other imports...
 import { 
   FulfillmentOption,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 
 class ShipStationProviderService extends AbstractFulfillmentProviderService {
   // ...
@@ -457,7 +457,7 @@ Add the method to `ShipStationProviderService` in `src/modules/shipstation/servi
 import {
   // ...
   CreateShippingOptionDTO,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 
 class ShipStationProviderService extends AbstractFulfillmentProviderService {
   // ...
@@ -650,11 +650,11 @@ export const serviceHighlights8 = [
 import {
   // ...
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 import { 
   // ...
   CalculateShippingOptionPriceDTO,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 import {
   GetShippingRatesResponse,
   ShipStationAddress,
@@ -798,7 +798,7 @@ export const serviceHighlights5 = [
 import { 
   // ...
   CalculatedShippingOptionPrice,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 
 class ShipStationProviderService extends AbstractFulfillmentProviderService {
   // ...
@@ -1200,7 +1200,7 @@ import ShipStationProviderService from "./service"
 import { 
   ModuleProvider, 
   Modules,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 
 export default ModuleProvider(Modules.FULFILLMENT, {
   services: [ShipStationProviderService],
@@ -1222,12 +1222,12 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/fulfillment",
+      resolve: "@srinivas-narayanam/medusa/fulfillment",
       options: {
         providers: [
           // default provider
           {
-            resolve: "@medusajs/medusa/fulfillment-manual",
+            resolve: "@srinivas-narayanam/medusa/fulfillment-manual",
             id: "manual",
           },
           {

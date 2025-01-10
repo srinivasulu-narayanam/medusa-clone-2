@@ -7,12 +7,12 @@ import {
   RemoteQueryInput,
   RemoteQueryObjectConfig,
   RemoteQueryObjectFromStringResult,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   MedusaError,
   isObject,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { RemoteQuery } from "./remote-query"
 import { toRemoteQuery } from "./to-remote-query"
 

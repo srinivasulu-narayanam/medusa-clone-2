@@ -1,1 +1,1 @@
-# @medusajs/admin-sdk
+# @srinivas-narayanam/admin-sdk

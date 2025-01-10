@@ -2,15 +2,15 @@ import {
   moduleLoader,
   ModulesDefinition,
   registerMedusaModule,
-} from "@medusajs/modules-sdk"
-import { ContainerRegistrationKeys, generateJwtToken } from "@medusajs/utils"
+} from "@srinivasulu-narayanam/modules-sdk"
+import { ContainerRegistrationKeys, generateJwtToken } from "@srinivasulu-narayanam/utils"
 import { asValue } from "awilix"
 import express from "express"
 import querystring from "querystring"
 import supertest from "supertest"
 
 import { config } from "../mocks"
-import { MedusaContainer } from "@medusajs/types"
+import { MedusaContainer } from "@srinivasulu-narayanam/types"
 import { configManager, ConfigModule } from "../../../config"
 import { container } from "../../../container"
 import { featureFlagsLoader } from "../../../feature-flags"

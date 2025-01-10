@@ -1,5 +1,5 @@
-import { ConfigModule, PluginDetails } from "@medusajs/framework/types"
-import { isString } from "@medusajs/framework/utils"
+import { ConfigModule, PluginDetails } from "@srinivasulu-narayanam/framework/types"
+import { isString } from "@srinivasulu-narayanam/framework/utils"
 import fs from "fs"
 import { sync as existsSync } from "fs-exists-cached"
 import path, { isAbsolute } from "path"

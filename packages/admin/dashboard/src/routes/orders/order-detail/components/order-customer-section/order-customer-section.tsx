@@ -1,9 +1,9 @@
-import { Container, Heading } from "@medusajs/ui"
+import { Container, Heading } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
-import { ArrowPath, CurrencyDollar, Envelope, FlyingBox } from "@medusajs/icons"
+import { ArrowPath, CurrencyDollar, Envelope, FlyingBox } from "@srinivasulu-narayanam/icons"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { CustomerInfo } from "../../../../../components/common/customer-info"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 type OrderCustomerSectionProps = {
   order: HttpTypes.AdminOrder

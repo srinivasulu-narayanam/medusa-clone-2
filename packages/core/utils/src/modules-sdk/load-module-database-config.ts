@@ -1,4 +1,4 @@
-import { ModulesSdkTypes } from "@medusajs/types"
+import { ModulesSdkTypes } from "@srinivasulu-narayanam/types"
 import { MedusaError } from "../common"
 
 function getEnv(key: string, moduleName: string): string {

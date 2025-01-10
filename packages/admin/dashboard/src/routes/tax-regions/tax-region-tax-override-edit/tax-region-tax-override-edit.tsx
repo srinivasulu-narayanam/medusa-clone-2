@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Heading } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Heading } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { useParams } from "react-router-dom"
 

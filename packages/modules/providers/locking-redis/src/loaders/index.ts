@@ -1,5 +1,5 @@
-import { Modules } from "@medusajs/framework/utils"
-import { ProviderLoaderOptions } from "@medusajs/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
+import { ProviderLoaderOptions } from "@srinivasulu-narayanam/types"
 import { RedisCacheModuleOptions } from "@types"
 import { asValue } from "awilix"
 import Redis from "ioredis"

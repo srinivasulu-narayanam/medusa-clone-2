@@ -1,6 +1,6 @@
-import { IOrderModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { IOrderModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 
 jest.setTimeout(100000)
 

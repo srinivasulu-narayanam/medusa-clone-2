@@ -77,7 +77,7 @@
 						"type": "reference",
 						"target": 41226,
 						"name": "HTTP_METHODS",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					}
 				}
 			}
@@ -103,7 +103,7 @@
 						"type": "reference",
 						"target": 41163,
 						"name": "RouteVerb",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					}
 				]
 			}
@@ -121,7 +121,7 @@
 						"type": "reference",
 						"target": 41084,
 						"name": "MedusaRequestHandler",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					},
 					{
 						"type": "reflection",
@@ -210,7 +210,7 @@
 										"type": "reference",
 										"target": 41111,
 										"name": "MedusaRequest",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								},
 								{
@@ -223,7 +223,7 @@
 										"type": "reference",
 										"target": 41160,
 										"name": "MedusaResponse",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								},
 								{
@@ -236,7 +236,7 @@
 										"type": "reference",
 										"target": 41162,
 										"name": "MedusaNextFunction",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								}
 							],
@@ -349,7 +349,7 @@
 						"type": "reference",
 						"target": 41164,
 						"name": "ParserConfigArgs",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					}
 				]
 			}
@@ -384,7 +384,7 @@
 										"type": "reference",
 										"target": 41092,
 										"name": "MiddlewareVerb",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									},
 									{
 										"type": "array",
@@ -392,7 +392,7 @@
 											"type": "reference",
 											"target": 41092,
 											"name": "MiddlewareVerb",
-											"package": "@medusajs/framework"
+											"package": "@srinivasulu-narayanam/framework"
 										}
 									}
 								]
@@ -435,7 +435,7 @@
 								"type": "reference",
 								"target": 41093,
 								"name": "ParserConfig",
-								"package": "@medusajs/framework"
+								"package": "@srinivasulu-narayanam/framework"
 							}
 						},
 						{
@@ -452,7 +452,7 @@
 									"type": "reference",
 									"target": 40963,
 									"name": "MiddlewareFunction",
-									"package": "@medusajs/framework"
+									"package": "@srinivasulu-narayanam/framework"
 								}
 							}
 						}
@@ -505,7 +505,7 @@
 										"type": "reference",
 										"target": 41094,
 										"name": "MedusaErrorHandlerFunction",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								]
 							}
@@ -524,7 +524,7 @@
 									"type": "reference",
 									"target": 40967,
 									"name": "MiddlewareRoute",
-									"package": "@medusajs/framework"
+									"package": "@srinivasulu-narayanam/framework"
 								}
 							}
 						}
@@ -558,7 +558,7 @@
 						"type": "reference",
 						"target": 41158,
 						"name": "Body",
-						"package": "@medusajs/framework",
+						"package": "@srinivasulu-narayanam/framework",
 						"qualifiedName": "MedusaRequest.Body",
 						"refersToTypeParameter": true
 					},
@@ -581,13 +581,13 @@
 								"type": "reference",
 								"target": 41171,
 								"name": "RequestQueryFields",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "reference",
 								"target": 41159,
 								"name": "QueryFields",
-								"package": "@medusajs/framework",
+								"package": "@srinivasulu-narayanam/framework",
 								"qualifiedName": "MedusaRequest.QueryFields",
 								"refersToTypeParameter": true
 							}
@@ -650,7 +650,7 @@
 							}
 						],
 						"name": "FindConfig",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					"overwrites": {
 						"type": "reference",
@@ -682,7 +682,7 @@
 							}
 						],
 						"name": "FindConfig",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					},
 					"overwrites": {
 						"type": "reference",
@@ -1011,7 +1011,7 @@
 						"type": "reference",
 						"target": 41159,
 						"name": "QueryFields",
-						"package": "@medusajs/framework",
+						"package": "@srinivasulu-narayanam/framework",
 						"qualifiedName": "MedusaRequest.QueryFields",
 						"refersToTypeParameter": true
 					},
@@ -1112,7 +1112,7 @@
 						"type": "reference",
 						"target": 41186,
 						"name": "MedusaContainer",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					},
 					"overwrites": {
 						"type": "reference",
@@ -1176,7 +1176,7 @@
 						"type": "reference",
 						"target": 41207,
 						"name": "RestrictedFields",
-						"package": "@medusajs/framework"
+						"package": "@srinivasulu-narayanam/framework"
 					}
 				},
 				{
@@ -1199,7 +1199,7 @@
 						"type": "reference",
 						"target": 41216,
 						"name": "MedusaPricingContext",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -1566,7 +1566,7 @@
 							"type": "reference",
 							"target": 41158,
 							"name": "Body",
-							"package": "@medusajs/framework",
+							"package": "@srinivasulu-narayanam/framework",
 							"qualifiedName": "MedusaRequest.Body",
 							"refersToTypeParameter": true
 						}
@@ -1607,7 +1607,7 @@
 						"type": "reference",
 						"target": 41161,
 						"name": "Body",
-						"package": "@medusajs/framework",
+						"package": "@srinivasulu-narayanam/framework",
 						"refersToTypeParameter": true
 					}
 				],
@@ -1693,12 +1693,12 @@
 												"type": "reference",
 												"target": 41090,
 												"name": "Body",
-												"package": "@medusajs/framework",
+												"package": "@srinivasulu-narayanam/framework",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "MedusaRequest",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								},
 								{
@@ -1715,12 +1715,12 @@
 												"type": "reference",
 												"target": 41091,
 												"name": "Res",
-												"package": "@medusajs/framework",
+												"package": "@srinivasulu-narayanam/framework",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "MedusaResponse",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								},
 								{
@@ -1733,7 +1733,7 @@
 										"type": "reference",
 										"target": 41162,
 										"name": "MedusaNextFunction",
-										"package": "@medusajs/framework"
+										"package": "@srinivasulu-narayanam/framework"
 									}
 								}
 							],
@@ -1790,7 +1790,7 @@
 								"type": "reference",
 								"target": 41207,
 								"name": "RestrictedFields",
-								"package": "@medusajs/framework"
+								"package": "@srinivasulu-narayanam/framework"
 							}
 						}
 					]
@@ -1914,7 +1914,7 @@
 							"qualifiedName": "ModuleImplementations"
 						},
 						"name": "ModuleImplementations",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				}
 			],
@@ -2004,7 +2004,7 @@
 														"type": "reference",
 														"target": 41190,
 														"name": "K",
-														"package": "@medusajs/framework",
+														"package": "@srinivasulu-narayanam/framework",
 														"refersToTypeParameter": true
 													}
 												},
@@ -2033,14 +2033,14 @@
 													"type": "reference",
 													"target": 41190,
 													"name": "K",
-													"package": "@medusajs/framework",
+													"package": "@srinivasulu-narayanam/framework",
 													"refersToTypeParameter": true
 												},
 												"objectType": {
 													"type": "reference",
 													"target": 41206,
 													"name": "Cradle",
-													"package": "@medusajs/framework",
+													"package": "@srinivasulu-narayanam/framework",
 													"refersToTypeParameter": true
 												}
 											}
@@ -2095,7 +2095,7 @@
 												"type": "reference",
 												"target": 41194,
 												"name": "T",
-												"package": "@medusajs/framework",
+												"package": "@srinivasulu-narayanam/framework",
 												"refersToTypeParameter": true
 											}
 										}
@@ -2159,7 +2159,7 @@
 																"type": "reference",
 																"target": 41202,
 																"name": "T",
-																"package": "@medusajs/framework",
+																"package": "@srinivasulu-narayanam/framework",
 																"refersToTypeParameter": true
 															}
 														}
@@ -2168,7 +2168,7 @@
 														"type": "reference",
 														"target": 41186,
 														"name": "MedusaContainer",
-														"package": "@medusajs/framework"
+														"package": "@srinivasulu-narayanam/framework"
 													}
 												}
 											]
@@ -2206,7 +2206,7 @@
 														"type": "reference",
 														"target": 41186,
 														"name": "MedusaContainer",
-														"package": "@medusajs/framework"
+														"package": "@srinivasulu-narayanam/framework"
 													}
 												}
 											]
@@ -2283,7 +2283,7 @@
 										"type": "reference",
 										"target": 41227,
 										"name": "FindConfigOrder",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									{
 										"type": "literal",
@@ -2374,7 +2374,7 @@
 										"type": "reference",
 										"target": 41185,
 										"name": "Entity",
-										"package": "@medusajs/types",
+										"package": "@srinivasulu-narayanam/types",
 										"qualifiedName": "FindConfig.Entity",
 										"refersToTypeParameter": true
 									}
@@ -2503,7 +2503,7 @@
 						"type": "reference",
 						"target": 41227,
 						"name": "FindConfigOrder",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				},
 				{
@@ -2801,7 +2801,7 @@
 							"qualifiedName": "ModuleImplementations"
 						},
 						"name": "ModuleImplementations",
-						"package": "@medusajs/types"
+						"package": "@srinivasulu-narayanam/types"
 					}
 				}
 			],
@@ -2891,7 +2891,7 @@
 														"type": "reference",
 														"target": 41010,
 														"name": "K",
-														"package": "@medusajs/types",
+														"package": "@srinivasulu-narayanam/types",
 														"refersToTypeParameter": true
 													}
 												},
@@ -2920,14 +2920,14 @@
 													"type": "reference",
 													"target": 41010,
 													"name": "K",
-													"package": "@medusajs/types",
+													"package": "@srinivasulu-narayanam/types",
 													"refersToTypeParameter": true
 												},
 												"objectType": {
 													"type": "reference",
 													"target": 41026,
 													"name": "Cradle",
-													"package": "@medusajs/types",
+													"package": "@srinivasulu-narayanam/types",
 													"refersToTypeParameter": true
 												}
 											}
@@ -2982,7 +2982,7 @@
 												"type": "reference",
 												"target": 41014,
 												"name": "T",
-												"package": "@medusajs/types",
+												"package": "@srinivasulu-narayanam/types",
 												"refersToTypeParameter": true
 											}
 										}
@@ -3046,7 +3046,7 @@
 																"type": "reference",
 																"target": 41022,
 																"name": "T",
-																"package": "@medusajs/types",
+																"package": "@srinivasulu-narayanam/types",
 																"refersToTypeParameter": true
 															}
 														}
@@ -3055,7 +3055,7 @@
 														"type": "reference",
 														"target": 41006,
 														"name": "MedusaContainer",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												}
 											]
@@ -3093,7 +3093,7 @@
 														"type": "reference",
 														"target": 41006,
 														"name": "MedusaContainer",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												}
 											]
@@ -3236,7 +3236,7 @@
 								"type": "reference",
 								"target": 41168,
 								"name": "EventMetadata",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -3249,7 +3249,7 @@
 								"type": "reference",
 								"target": 41110,
 								"name": "TData",
-								"package": "@medusajs/types",
+								"package": "@srinivasulu-narayanam/types",
 								"refersToTypeParameter": true
 							}
 						}
@@ -4471,7 +4471,7 @@
 								"type": "reference",
 								"target": 40955,
 								"name": "T",
-								"package": "@medusajs/medusa",
+								"package": "@srinivasulu-narayanam/medusa",
 								"refersToTypeParameter": true
 							}
 						}
@@ -4489,7 +4489,7 @@
 				"type": "reference",
 				"target": 41006,
 				"name": "coreMedusaContainer",
-				"package": "@medusajs/types",
+				"package": "@srinivasulu-narayanam/types",
 				"qualifiedName": "MedusaContainer"
 			}
 		},
@@ -4503,7 +4503,7 @@
 				"type": "reference",
 				"target": 41027,
 				"name": "coreLogger",
-				"package": "@medusajs/types",
+				"package": "@srinivasulu-narayanam/types",
 				"qualifiedName": "Logger"
 			}
 		},
@@ -4559,7 +4559,7 @@
 								"type": "reference",
 								"target": 40962,
 								"name": "T",
-								"package": "@medusajs/medusa",
+								"package": "@srinivasulu-narayanam/medusa",
 								"refersToTypeParameter": true
 							}
 						}
@@ -4694,7 +4694,7 @@
 								"type": "reference",
 								"target": 41101,
 								"name": "SubscriberContext",
-								"package": "@medusajs/medusa"
+								"package": "@srinivasulu-narayanam/medusa"
 							}
 						}
 					],
@@ -4752,12 +4752,12 @@
 										"type": "reference",
 										"target": 40986,
 										"name": "T",
-										"package": "@medusajs/medusa",
+										"package": "@srinivasulu-narayanam/medusa",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "Event",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -4770,7 +4770,7 @@
 								"type": "reference",
 								"target": 41006,
 								"name": "MedusaContainer",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -4875,7 +4875,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/medusa",
+	"packageName": "@srinivasulu-narayanam/medusa",
 	"symbolIdMap": {
 		"40950": {
 			"sourceFileName": "../../../../packages/medusa/src/index.ts",

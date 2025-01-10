@@ -1,4 +1,4 @@
-import { BigNumberInput, BigNumberRawValue } from "@medusajs/types"
+import { BigNumberInput, BigNumberRawValue } from "@srinivasulu-narayanam/types"
 import { BigNumber as BigNumberJS } from "bignumber.js"
 import { isDefined } from "../common"
 import { BigNumber } from "./big-number"

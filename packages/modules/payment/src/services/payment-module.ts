@@ -30,7 +30,7 @@ import {
   UpdatePaymentSessionDTO,
   UpsertPaymentCollectionDTO,
   WebhookActionResult,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   BigNumber,
   InjectManager,
@@ -43,7 +43,7 @@ import {
   PaymentCollectionStatus,
   PaymentSessionStatus,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   Capture,
   Payment,

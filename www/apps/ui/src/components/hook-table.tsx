@@ -1,4 +1,4 @@
-import { InformationCircleSolid } from "@medusajs/icons"
+import { InformationCircleSolid } from "@srinivasulu-narayanam/icons"
 
 import { HookData, HookDataMap } from "@/types/hooks"
 import { EnumType, FunctionType, ObjectType } from "@/types/props"

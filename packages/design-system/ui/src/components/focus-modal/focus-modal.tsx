@@ -1,6 +1,6 @@
 "use client"
 
-import { XMark } from "@medusajs/icons"
+import { XMark } from "@srinivasulu-narayanam/icons"
 import * as FocusModalPrimitives from "@radix-ui/react-dialog"
 import * as React from "react"
 

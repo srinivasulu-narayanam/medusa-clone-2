@@ -3,9 +3,9 @@ import {
   RemoteJoinerOptions,
   RemoteQueryFunction,
   RemoteQueryInput,
-} from "@medusajs/framework/types"
-import { createStep, StepFunction, StepResponse } from "@medusajs/workflows-sdk"
-import { ContainerRegistrationKeys } from "@medusajs/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { createStep, StepFunction, StepResponse } from "@srinivasulu-narayanam/workflows-sdk"
+import { ContainerRegistrationKeys } from "@srinivasulu-narayanam/utils"
 
 export type UseQueryGraphStepInput<TEntry extends string> = RemoteQueryInput<TEntry> & {
   options?: RemoteJoinerOptions
@@ -37,10 +37,10 @@ const step = createStep(
  * ```ts
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   useQueryGraphStep
- * } from "@medusajs/medusa/core-flows"
+ * } from "@srinivasulu-narayanam/medusa/core-flows"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",

@@ -3,7 +3,7 @@ const {
   Region,
   Discount,
   DiscountRule,
-} = require("@medusajs/medusa")
+} = require("@srinivasulu-narayanam/medusa")
 module.exports = async (dataSource, data = {}) => {
   const manager = dataSource.manager
 

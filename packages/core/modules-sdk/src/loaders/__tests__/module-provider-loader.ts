@@ -1,4 +1,4 @@
-import { createMedusaContainer } from "@medusajs/utils"
+import { createMedusaContainer } from "@srinivasulu-narayanam/utils"
 import { asFunction, Lifetime } from "awilix"
 import { moduleProviderLoader } from "../module-provider-loader"
 

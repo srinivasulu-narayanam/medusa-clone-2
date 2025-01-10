@@ -22,7 +22,7 @@ In this chapter, find an example of writing an integration test for a module usi
 Consider a `hello` module with a `HelloModuleService` that has a `getMessage` method:
 
 ```ts title="src/modules/hello/service.ts"
-import { MedusaService } from "@medusajs/framework/utils"
+import { MedusaService } from "@srinivas-narayanam/framework/utils"
 import MyCustom from "./models/my-custom"
 
 class HelloModuleService extends MedusaService({
@@ -39,7 +39,7 @@ export default HelloModuleService
 To create an integration test for the method, create the file `src/modules/hello/__tests__/service.spec.ts` with the following content:
 
 ```ts title="src/modules/hello/__tests__/service.spec.ts"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { moduleIntegrationTestRunner } from "@srinivas-narayanam/test-utils"
 import { HELLO_MODULE } from ".."
 import HelloModuleService from "../service"
 import MyCustom from "../models/my-custom"

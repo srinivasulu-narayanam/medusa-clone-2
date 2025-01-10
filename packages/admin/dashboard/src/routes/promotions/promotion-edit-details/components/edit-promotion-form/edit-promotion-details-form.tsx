@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { PromotionDTO } from "@medusajs/types"
-import { Button, CurrencyInput, Input, RadioGroup, Text } from "@medusajs/ui"
+import { PromotionDTO } from "@srinivasulu-narayanam/types"
+import { Button, CurrencyInput, Input, RadioGroup, Text } from "@srinivasulu-narayanam/ui"
 import { useForm, useWatch } from "react-hook-form"
 import { Trans, useTranslation } from "react-i18next"
 import * as zod from "zod"

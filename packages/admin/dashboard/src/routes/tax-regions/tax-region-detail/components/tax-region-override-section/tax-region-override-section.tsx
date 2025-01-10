@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Container, Heading } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Container, Heading } from "@srinivasulu-narayanam/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useTranslation } from "react-i18next"
 

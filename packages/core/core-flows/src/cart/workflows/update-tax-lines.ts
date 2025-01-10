@@ -1,12 +1,12 @@
 import {
   CartLineItemDTO,
   CartShippingMethodDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../common"
 import { getItemTaxLinesStep } from "../../tax/steps/get-item-tax-lines"
 import { setTaxLinesForItemsStep } from "../steps"

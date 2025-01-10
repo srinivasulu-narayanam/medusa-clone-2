@@ -2,7 +2,7 @@ import {
   createStep,
   createWorkflow,
   StepResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 const step_1 = createStep(
   "step_1",

@@ -1,7 +1,7 @@
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { IInventoryService, InventoryTypes } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { IInventoryService, InventoryTypes } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const createInventoryItemsStepId = "create-inventory-items"
 /**

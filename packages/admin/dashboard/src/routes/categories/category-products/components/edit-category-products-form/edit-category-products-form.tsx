@@ -2,8 +2,8 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { z } from "zod"
 
-import { HttpTypes } from "@medusajs/types"
-import { Button, Checkbox, Hint, Tooltip, toast } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Button, Checkbox, Hint, Tooltip, toast } from "@srinivasulu-narayanam/ui"
 import {
   OnChangeFn,
   RowSelectionState,

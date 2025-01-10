@@ -1,4 +1,4 @@
-import { isObject, isPresent } from "@medusajs/utils"
+import { isObject, isPresent } from "@srinivasulu-narayanam/utils"
 import { MedusaNextFunction, MedusaRequest } from "../types"
 
 export function applyDefaultFilters<TFilter extends object>(

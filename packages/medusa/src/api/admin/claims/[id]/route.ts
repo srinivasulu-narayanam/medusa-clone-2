@@ -2,9 +2,9 @@ import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntity,
-} from "@medusajs/framework/http"
-import { MedusaError } from "@medusajs/framework/utils"
-import { AdminClaimResponse } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
+import { AdminClaimResponse } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

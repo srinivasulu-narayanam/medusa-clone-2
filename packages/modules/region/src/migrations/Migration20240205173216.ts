@@ -1,4 +1,4 @@
-import { generatePostgresAlterColummnIfExistStatement } from "@medusajs/framework/utils"
+import { generatePostgresAlterColummnIfExistStatement } from "@srinivasulu-narayanam/framework/utils"
 import { Migration } from "@mikro-orm/migrations"
 
 export class RegionModuleSetup20240205173216 extends Migration {

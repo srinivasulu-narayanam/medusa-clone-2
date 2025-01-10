@@ -37,7 +37,7 @@ export const methodsHighlight = [
 import { 
   InjectManager,
   MedusaContext,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/knex"
 
 class HelloModuleService {
@@ -101,8 +101,8 @@ import {
   InjectManager,
   InjectTransactionManager,
   MedusaContext,
-} from "@medusajs/framework/utils"
-import { Context } from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/utils"
+import { Context } from "@srinivas-narayanam/framework/types"
 import { EntityManager } from "@mikro-orm/knex"
 
 class HelloModuleService {
@@ -252,9 +252,9 @@ For example, resolve the `baseRepository` in your service's constructor:
   <CodeTab label="Extending Service Factory" value="service-factory">
 
 ```ts highlights={[["14"]]}
-import { MedusaService } from "@medusajs/framework/utils"
+import { MedusaService } from "@srinivas-narayanam/framework/utils"
 import MyCustom from "./models/my-custom"
-import { DAL } from "@medusajs/framework/types"
+import { DAL } from "@srinivas-narayanam/framework/types"
 
 type InjectedDependencies = {
   baseRepository: DAL.RepositoryService
@@ -277,7 +277,7 @@ export default HelloModuleService
   <CodeTab label="Without Service Factory" value="no-service-factory">
 
 ```ts highlights={[["10"]]}
-import { DAL } from "@medusajs/framework/types"
+import { DAL } from "@srinivas-narayanam/framework/types"
 
 type InjectedDependencies = {
   baseRepository: DAL.RepositoryService
@@ -309,8 +309,8 @@ import {
   InjectManager,
   InjectTransactionManager,
   MedusaContext,
-} from "@medusajs/framework/utils"
-import { Context } from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/utils"
+import { Context } from "@srinivas-narayanam/framework/types"
 import { EntityManager } from "@mikro-orm/knex"
 
 class HelloModuleService {

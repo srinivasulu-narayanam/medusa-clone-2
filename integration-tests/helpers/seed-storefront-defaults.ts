@@ -1,10 +1,10 @@
-import { createDefaultsWorkflow } from "@medusajs/core-flows"
+import { createDefaultsWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   IRegionModuleService,
   IStoreModuleService,
   MedusaContainer,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const seedStorefrontDefaults = async (
   container: MedusaContainer,

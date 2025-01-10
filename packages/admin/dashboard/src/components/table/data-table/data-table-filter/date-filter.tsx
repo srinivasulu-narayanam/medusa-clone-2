@@ -1,5 +1,5 @@
-import { EllipseMiniSolid } from "@medusajs/icons"
-import { DatePicker, Text, clx } from "@medusajs/ui"
+import { EllipseMiniSolid } from "@srinivasulu-narayanam/icons"
+import { DatePicker, Text, clx } from "@srinivasulu-narayanam/ui"
 import * as Popover from "@radix-ui/react-popover"
 import isEqual from "lodash/isEqual"
 import { useMemo, useState } from "react"

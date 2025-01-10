@@ -11,7 +11,7 @@ import {
   ExclamationCircle,
   PencilSquare,
   TriangleDownMini,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import {
   AdminClaim,
   AdminExchange,
@@ -20,7 +20,7 @@ import {
   AdminOrderPreview,
   AdminRegion,
   AdminReturn,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   Badge,
   Button,
@@ -33,9 +33,9 @@ import {
   toast,
   Tooltip,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 
-import { AdminReservation } from "@medusajs/types/src/http"
+import { AdminReservation } from "@srinivasulu-narayanam/types/src/http"
 import { AdminPaymentCollection } from "../../../../../../../../core/types/dist/http/payment/admin/entities"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { Thumbnail } from "../../../../../components/common/thumbnail"

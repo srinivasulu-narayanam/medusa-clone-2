@@ -1,4 +1,4 @@
-import { CodeBlock, Label } from "@medusajs/ui"
+import { CodeBlock, Label } from "@srinivasulu-narayanam/ui"
 
 const snippets = [
   {

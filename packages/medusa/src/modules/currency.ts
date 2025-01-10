@@ -1,6 +1,6 @@
-import CurrencyModule from "@medusajs/currency"
+import CurrencyModule from "@srinivasulu-narayanam/currency"
 
-export * from "@medusajs/currency"
+export * from "@srinivasulu-narayanam/currency"
 
 export default CurrencyModule
-export const discoveryPath = require.resolve("@medusajs/currency")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/currency")

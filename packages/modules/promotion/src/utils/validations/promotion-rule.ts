@@ -2,7 +2,7 @@ import {
   ApplicationMethodTargetTypeValues,
   PromotionRuleDTO,
   PromotionRuleOperatorValues,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ApplicationMethodTargetType,
   MedusaError,
@@ -10,7 +10,7 @@ import {
   isPresent,
   isString,
   pickValueFromObject,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { CreatePromotionRuleDTO } from "@types"
 
 export function validatePromotionRuleAttributes(

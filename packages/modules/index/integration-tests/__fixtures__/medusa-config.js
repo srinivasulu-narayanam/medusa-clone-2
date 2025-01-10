@@ -1,4 +1,4 @@
-const { defineConfig, Modules } = require("@medusajs/framework/utils")
+const { defineConfig, Modules } = require("@srinivasulu-narayanam/framework/utils")
 const { schema } = require("./schema")
 
 export const dbName = "medusa-index-integration-2024"
@@ -25,7 +25,7 @@ Object.keys(config.modules).forEach((key) => {
 })
 
 config.modules[Modules.INDEX] = {
-  resolve: "@medusajs/index",
+  resolve: "@srinivasulu-narayanam/index",
   dependencies: [Modules.EVENT_BUS],
   options: {
     schema,

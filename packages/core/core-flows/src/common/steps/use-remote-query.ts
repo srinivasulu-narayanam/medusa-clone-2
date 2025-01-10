@@ -1,8 +1,8 @@
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 /**
  * The remote query's details.
@@ -65,10 +65,10 @@ export const useRemoteQueryStepId = "use-remote-query"
  * ```ts
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   useRemoteQueryStep
- * } from "@medusajs/medusa/core-flows"
+ * } from "@srinivasulu-narayanam/medusa/core-flows"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",
@@ -89,10 +89,10 @@ export const useRemoteQueryStepId = "use-remote-query"
  * ```ts
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   useRemoteQueryStep
- * } from "@medusajs/core-flows"
+ * } from "@srinivasulu-narayanam/core-flows"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",
@@ -119,10 +119,10 @@ export const useRemoteQueryStepId = "use-remote-query"
  * ```ts
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   useRemoteQueryStep
- * } from "@medusajs/core-flows"
+ * } from "@srinivasulu-narayanam/core-flows"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",

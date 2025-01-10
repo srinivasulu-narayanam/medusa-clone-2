@@ -3,7 +3,7 @@ import {
   IEventBusModuleService,
   Message,
   Subscriber,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 
 export class EventBusServiceMock implements IEventBusModuleService {
   protected readonly subscribers_: Map<string | symbol, Set<Subscriber>> =

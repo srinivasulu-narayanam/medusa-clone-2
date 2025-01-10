@@ -1,8 +1,8 @@
-import { Button, Container, Heading } from "@medusajs/ui"
+import { Button, Container, Heading } from "@srinivasulu-narayanam/ui"
 import { Link } from "react-router-dom"
 import { ReservationItemTable } from "./reservations-table/reservation-list-table"
 import { useTranslation } from "react-i18next"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 type InventoryItemLocationLevelsSectionProps = {
   inventoryItem: HttpTypes.AdminInventoryItemResponse["inventory_item"]

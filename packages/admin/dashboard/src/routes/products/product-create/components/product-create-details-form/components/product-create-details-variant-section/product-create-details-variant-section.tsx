@@ -1,4 +1,4 @@
-import { XMarkMini } from "@medusajs/icons"
+import { XMarkMini } from "@srinivasulu-narayanam/icons"
 import {
   Alert,
   Button,
@@ -10,7 +10,7 @@ import {
   Label,
   Text,
   clx,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import {
   Controller,
   FieldArrayWithId,

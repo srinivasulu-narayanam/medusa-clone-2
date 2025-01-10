@@ -1,6 +1,6 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { AdminSalesChannelResponse } from "@medusajs/types"
-import { Button, Checkbox, Hint, Tooltip, toast } from "@medusajs/ui"
+import { AdminSalesChannelResponse } from "@srinivasulu-narayanam/types"
+import { Button, Checkbox, Hint, Tooltip, toast } from "@srinivasulu-narayanam/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import {
   OnChangeFn,

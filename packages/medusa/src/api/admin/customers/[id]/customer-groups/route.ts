@@ -1,10 +1,10 @@
-import { linkCustomerGroupsToCustomerWorkflow } from "@medusajs/core-flows"
+import { linkCustomerGroupsToCustomerWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
+import { HttpTypes, LinkMethodRequest } from "@srinivasulu-narayanam/framework/types"
 
 import { refetchCustomer } from "../../helpers"
 

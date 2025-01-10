@@ -1,6 +1,6 @@
 import { registerInstrumentation } from "../start"
-import * as utils from "@medusajs/framework/utils"
-import * as logger from "@medusajs/framework/logger"
+import * as utils from "@srinivasulu-narayanam/framework/utils"
+import * as logger from "@srinivasulu-narayanam/framework/logger"
 import * as instrumentationFixture from "../__fixtures__/instrumentation"
 import * as instrumentationFailureFixture from "../__fixtures__/instrumentation-failure/instrumentation"
 import path from "path"

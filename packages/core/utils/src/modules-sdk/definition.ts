@@ -28,32 +28,32 @@ export const Modules = {
 } as const
 
 export const MODULE_PACKAGE_NAMES = {
-  [Modules.AUTH]: "@medusajs/medusa/auth",
-  [Modules.CACHE]: "@medusajs/medusa/cache-inmemory",
-  [Modules.CART]: "@medusajs/medusa/cart",
-  [Modules.CUSTOMER]: "@medusajs/medusa/customer",
-  [Modules.EVENT_BUS]: "@medusajs/medusa/event-bus-local",
-  [Modules.INVENTORY]: "@medusajs/medusa/inventory",
-  [Modules.LINK]: "@medusajs/medusa/link-modules",
-  [Modules.PAYMENT]: "@medusajs/medusa/payment",
-  [Modules.PRICING]: "@medusajs/medusa/pricing",
-  [Modules.PRODUCT]: "@medusajs/medusa/product",
-  [Modules.PROMOTION]: "@medusajs/medusa/promotion",
-  [Modules.SALES_CHANNEL]: "@medusajs/medusa/sales-channel",
-  [Modules.FULFILLMENT]: "@medusajs/medusa/fulfillment",
-  [Modules.STOCK_LOCATION]: "@medusajs/medusa/stock-location",
-  [Modules.TAX]: "@medusajs/medusa/tax",
-  [Modules.USER]: "@medusajs/medusa/user",
-  [Modules.WORKFLOW_ENGINE]: "@medusajs/medusa/workflow-engine-inmemory",
-  [Modules.REGION]: "@medusajs/medusa/region",
-  [Modules.ORDER]: "@medusajs/medusa/order",
-  [Modules.API_KEY]: "@medusajs/medusa/api-key",
-  [Modules.STORE]: "@medusajs/medusa/store",
-  [Modules.CURRENCY]: "@medusajs/medusa/currency",
-  [Modules.FILE]: "@medusajs/medusa/file",
-  [Modules.NOTIFICATION]: "@medusajs/medusa/notification",
-  [Modules.INDEX]: "@medusajs/medusa/index-module",
-  [Modules.LOCKING]: "@medusajs/medusa/locking",
+  [Modules.AUTH]: "@srinivasulu-narayanam/medusa/auth",
+  [Modules.CACHE]: "@srinivasulu-narayanam/medusa/cache-inmemory",
+  [Modules.CART]: "@srinivasulu-narayanam/medusa/cart",
+  [Modules.CUSTOMER]: "@srinivasulu-narayanam/medusa/customer",
+  [Modules.EVENT_BUS]: "@srinivasulu-narayanam/medusa/event-bus-local",
+  [Modules.INVENTORY]: "@srinivasulu-narayanam/medusa/inventory",
+  [Modules.LINK]: "@srinivasulu-narayanam/medusa/link-modules",
+  [Modules.PAYMENT]: "@srinivasulu-narayanam/medusa/payment",
+  [Modules.PRICING]: "@srinivasulu-narayanam/medusa/pricing",
+  [Modules.PRODUCT]: "@srinivasulu-narayanam/medusa/product",
+  [Modules.PROMOTION]: "@srinivasulu-narayanam/medusa/promotion",
+  [Modules.SALES_CHANNEL]: "@srinivasulu-narayanam/medusa/sales-channel",
+  [Modules.FULFILLMENT]: "@srinivasulu-narayanam/medusa/fulfillment",
+  [Modules.STOCK_LOCATION]: "@srinivasulu-narayanam/medusa/stock-location",
+  [Modules.TAX]: "@srinivasulu-narayanam/medusa/tax",
+  [Modules.USER]: "@srinivasulu-narayanam/medusa/user",
+  [Modules.WORKFLOW_ENGINE]: "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
+  [Modules.REGION]: "@srinivasulu-narayanam/medusa/region",
+  [Modules.ORDER]: "@srinivasulu-narayanam/medusa/order",
+  [Modules.API_KEY]: "@srinivasulu-narayanam/medusa/api-key",
+  [Modules.STORE]: "@srinivasulu-narayanam/medusa/store",
+  [Modules.CURRENCY]: "@srinivasulu-narayanam/medusa/currency",
+  [Modules.FILE]: "@srinivasulu-narayanam/medusa/file",
+  [Modules.NOTIFICATION]: "@srinivasulu-narayanam/medusa/notification",
+  [Modules.INDEX]: "@srinivasulu-narayanam/medusa/index-module",
+  [Modules.LOCKING]: "@srinivasulu-narayanam/medusa/locking",
 }
 
 export const REVERSED_MODULE_PACKAGE_NAMES = Object.entries(
@@ -64,10 +64,10 @@ export const REVERSED_MODULE_PACKAGE_NAMES = Object.entries(
 }, {})
 
 // TODO: temporary fix until the event bus, cache and workflow engine are migrated to use providers and therefore only a single resolution will be good
-REVERSED_MODULE_PACKAGE_NAMES["@medusajs/medusa/event-bus-redis"] =
+REVERSED_MODULE_PACKAGE_NAMES["@srinivasulu-narayanam/medusa/event-bus-redis"] =
   Modules.EVENT_BUS
-REVERSED_MODULE_PACKAGE_NAMES["@medusajs/medusa/cache-redis"] = Modules.CACHE
-REVERSED_MODULE_PACKAGE_NAMES["@medusajs/medusa/workflow-engine-redis"] =
+REVERSED_MODULE_PACKAGE_NAMES["@srinivasulu-narayanam/medusa/cache-redis"] = Modules.CACHE
+REVERSED_MODULE_PACKAGE_NAMES["@srinivasulu-narayanam/medusa/workflow-engine-redis"] =
   Modules.WORKFLOW_ENGINE
 
 /**

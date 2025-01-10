@@ -1,10 +1,10 @@
-import { createProductCategoriesWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { createProductCategoriesWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntities,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminProductCategoryListParams>,

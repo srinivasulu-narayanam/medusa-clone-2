@@ -4,9 +4,9 @@ import {
   TriangleRightMini,
   TrianglesMini,
   XMarkMini,
-} from "@medusajs/icons"
-import { AdminProductCategoryResponse } from "@medusajs/types"
-import { Text, clx } from "@medusajs/ui"
+} from "@srinivasulu-narayanam/icons"
+import { AdminProductCategoryResponse } from "@srinivasulu-narayanam/types"
+import { Text, clx } from "@srinivasulu-narayanam/ui"
 import * as Popover from "@radix-ui/react-popover"
 import {
   CSSProperties,

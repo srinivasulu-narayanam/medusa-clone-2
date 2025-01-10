@@ -5238,1646 +5238,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@medusajs/admin-bundler@^2.2.0, @medusajs/admin-bundler@workspace:packages/admin/admin-bundler":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-bundler@workspace:packages/admin/admin-bundler"
-  dependencies:
-    "@medusajs/admin-shared": 2.2.0
-    "@medusajs/admin-vite-plugin": 2.2.0
-    "@medusajs/dashboard": 2.2.0
-    "@medusajs/types": ^2.2.0
-    "@types/compression": ^1.7.5
-    "@vitejs/plugin-react": ^4.2.1
-    autoprefixer: ^10.4.16
-    compression: ^1.7.4
-    copyfiles: ^2.4.1
-    express: ^4.21.0
-    postcss: ^8.4.32
-    tailwindcss: ^3.3.6
-    tsup: ^8.0.1
-    typescript: ^5.3.3
-    vite: ^5.2.11
-  peerDependencies:
-    express: ^4.21.0
-    react-dom: ^18.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-sdk@workspace:packages/admin/admin-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-sdk@workspace:packages/admin/admin-sdk"
-  dependencies:
-    "@medusajs/admin-shared": ^2.2.0
-    "@types/react": ^18.3.2
-    tsup: ^8.0.1
-    typescript: ^5.3.3
-    zod: ^3.22
-  peerDependencies:
-    zod: ^3.22
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-shared@2.2.0, @medusajs/admin-shared@^2.2.0, @medusajs/admin-shared@workspace:packages/admin/admin-shared":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-shared@workspace:packages/admin/admin-shared"
-  dependencies:
-    "@types/react": ^18.3.2
-    tsup: ^8.0.2
-    typescript: ^5.3.3
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/admin-vite-plugin@2.2.0, @medusajs/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin"
-  dependencies:
-    "@babel/parser": 7.25.6
-    "@babel/traverse": 7.25.6
-    "@babel/types": 7.25.6
-    "@medusajs/admin-shared": 2.2.0
-    "@types/node": ^20.10.4
-    chokidar: 3.5.3
-    fdir: 6.1.1
-    magic-string: 0.30.5
-    outdent: ^0.8.0
-    picocolors: ^1.1.0
-    tsup: 8.0.1
-    typescript: 5.3.3
-    vite: ^5.2.11
-    vitest: ^2.1.3
-  peerDependencies:
-    vite: ^5.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/api-key@^2.2.0, @medusajs/api-key@workspace:^, @medusajs/api-key@workspace:packages/modules/api-key":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/api-key@workspace:packages/modules/api-key"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-emailpass@^2.2.0, @medusajs/auth-emailpass@workspace:packages/modules/providers/auth-emailpass":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-emailpass@workspace:packages/modules/providers/auth-emailpass"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    scrypt-kdf: ^2.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-github@^2.2.0, @medusajs/auth-github@workspace:packages/modules/providers/auth-github":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-github@workspace:packages/modules/providers/auth-github"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    msw: ^2.3.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth-google@^2.2.0, @medusajs/auth-google@workspace:packages/modules/providers/auth-google":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth-google@workspace:packages/modules/providers/auth-google"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    msw: ^2.3.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/auth@^2.2.0, @medusajs/auth@workspace:*, @medusajs/auth@workspace:packages/modules/auth":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/auth@workspace:packages/modules/auth"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cache-inmemory@^2.2.0, @medusajs/cache-inmemory@workspace:*, @medusajs/cache-inmemory@workspace:packages/modules/cache-inmemory":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cache-inmemory@workspace:packages/modules/cache-inmemory"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cache-redis@^2.2.0, @medusajs/cache-redis@workspace:packages/modules/cache-redis":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cache-redis@workspace:packages/modules/cache-redis"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cart@^2.2.0, @medusajs/cart@workspace:packages/modules/cart":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cart@workspace:packages/modules/cart"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/cli@^2.2.0, @medusajs/cli@workspace:packages/cli/medusa-cli":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/cli@workspace:packages/cli/medusa-cli"
-  dependencies:
-    "@medusajs/telemetry": ^2.2.0
-    "@medusajs/utils": 2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.17
-    "@types/yargs": ^15.0.15
-    awilix: ^8.0.1
-    chalk: ^4.0.0
-    configstore: 5.0.1
-    dotenv: ^16.4.5
-    execa: ^5.1.1
-    express: ^4.21.0
-    fs-exists-cached: ^1.0.0
-    fs-extra: ^10.0.0
-    glob: ^7.1.6
-    hosted-git-info: ^4.0.2
-    inquirer: ^8.0.0
-    is-valid-path: ^0.1.1
-    jest: ^29.7.0
-    meant: ^1.0.3
-    ora: ^5.4.1
-    pg: ^8.13.0
-    pg-god: ^1.0.12
-    prompts: ^2.4.2
-    resolve-cwd: ^3.0.0
-    rimraf: ^5.0.1
-    stack-trace: ^0.0.10
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-    winston: ^3.8.2
-    yargs: ^15.3.1
-  peerDependencies:
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    pg: ^8.13.0
-  bin:
-    medusa: cli.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/core-flows@^2.2.0, @medusajs/core-flows@workspace:*, @medusajs/core-flows@workspace:^, @medusajs/core-flows@workspace:packages/core/core-flows":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/core-flows@workspace:packages/core/core-flows"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    expect-type: ^0.20.0
-    jest: ^29.7.0
-    json-2-csv: ^5.5.4
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/currency@^2.2.0, @medusajs/currency@workspace:^, @medusajs/currency@workspace:packages/modules/currency":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/currency@workspace:packages/modules/currency"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/customer@^2.2.0, @medusajs/customer@workspace:^, @medusajs/customer@workspace:packages/modules/customer":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/customer@workspace:packages/modules/customer"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/dashboard@2.2.0, @medusajs/dashboard@workspace:packages/admin/dashboard":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/dashboard@workspace:packages/admin/dashboard"
-  dependencies:
-    "@ariakit/react": ^0.4.1
-    "@dnd-kit/core": ^6.1.0
-    "@dnd-kit/sortable": ^8.0.0
-    "@hookform/error-message": ^2.0.1
-    "@hookform/resolvers": 3.4.2
-    "@medusajs/admin-shared": ^2.2.0
-    "@medusajs/admin-vite-plugin": 2.2.0
-    "@medusajs/icons": 2.2.0
-    "@medusajs/js-sdk": 2.2.0
-    "@medusajs/types": 2.2.0
-    "@medusajs/ui": 4.0.3
-    "@medusajs/ui-preset": 2.2.0
-    "@radix-ui/react-collapsible": 1.1.0
-    "@tanstack/react-query": ^5.28.14
-    "@tanstack/react-table": 8.20.5
-    "@tanstack/react-virtual": ^3.8.3
-    "@types/node": ^20.11.15
-    "@types/react": ^18.2.79
-    "@types/react-dom": ^18.2.25
-    "@uiw/react-json-view": ^2.0.0-alpha.17
-    "@vitejs/plugin-react": 4.2.1
-    ajv: ^8.17.1
-    autoprefixer: ^10.4.17
-    cmdk: ^0.2.0
-    date-fns: ^3.6.0
-    framer-motion: ^11.0.3
-    i18next: 23.7.11
-    i18next-browser-languagedetector: 7.2.0
-    i18next-http-backend: 2.4.2
-    lodash: ^4.17.21
-    match-sorter: ^6.3.4
-    postcss: ^8.4.33
-    prettier: ^3.1.1
-    qs: ^6.12.0
-    react: ^18.2.0
-    react-country-flag: ^3.1.0
-    react-currency-input-field: ^3.6.11
-    react-dom: ^18.2.0
-    react-helmet-async: ^2.0.5
-    react-hook-form: 7.49.1
-    react-i18next: 13.5.0
-    react-jwt: ^1.2.0
-    react-router-dom: 6.20.1
-    tailwindcss: ^3.4.1
-    tsup: ^8.0.2
-    typescript: 5.2.2
-    vite: ^5.2.11
-    vite-plugin-inspect: ^0.8.7
-    vitest: ^2.1.4
-    zod: 3.22.4
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/event-bus-local@^2.2.0, @medusajs/event-bus-local@workspace:*, @medusajs/event-bus-local@workspace:packages/modules/event-bus-local":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/event-bus-local@workspace:packages/modules/event-bus-local"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/event-bus-redis@^2.2.0, @medusajs/event-bus-redis@workspace:packages/modules/event-bus-redis":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/event-bus-redis@workspace:packages/modules/event-bus-redis"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    bullmq: 5.13.0
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file-local@^2.2.0, @medusajs/file-local@workspace:packages/modules/providers/file-local":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file-local@workspace:packages/modules/providers/file-local"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file-s3@^2.2.0, @medusajs/file-s3@workspace:packages/modules/providers/file-s3":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file-s3@workspace:packages/modules/providers/file-s3"
-  dependencies:
-    "@aws-sdk/client-s3": ^3.556.0
-    "@aws-sdk/s3-request-presigner": ^3.556.0
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    axios: ^1.6.8
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/file@^2.2.0, @medusajs/file@workspace:packages/modules/file":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/file@workspace:packages/modules/file"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/framework@^2.2.0, @medusajs/framework@workspace:^, @medusajs/framework@workspace:packages/core/framework":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/framework@workspace:packages/core/framework"
-  dependencies:
-    "@jercle/yargonaut": ^1.1.5
-    "@medusajs/cli": ^2.2.0
-    "@medusajs/modules-sdk": ^2.2.0
-    "@medusajs/orchestration": ^2.2.0
-    "@medusajs/telemetry": ^2.2.0
-    "@medusajs/types": ^2.2.0
-    "@medusajs/utils": ^2.2.0
-    "@medusajs/workflows-sdk": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@opentelemetry/api": ^1.9.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/cors": ^2.8.17
-    "@types/express": ^4.17.17
-    "@types/jsonwebtoken": ^8.5.9
-    awilix: ^8.0.1
-    connect-redis: 5.2.0
-    cookie-parser: ^1.4.6
-    cors: ^2.8.5
-    express: ^4.21.0
-    express-session: ^1.17.3
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    morgan: ^1.9.1
-    pg: ^8.13.0
-    rimraf: ^3.0.2
-    supertest: ^4.0.2
-    tsconfig-paths: ^4.2.0
-    typescript: ^5.6.2
-    vite: ^5.2.11
-    zod: 3.22.4
-  peerDependencies:
-    "@medusajs/cli": ^2.0.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    ioredis: ^5.4.1
-    pg: ^8.13.0
-    vite: ^5.2.11
-  peerDependenciesMeta:
-    "@mikro-orm/cli":
-      optional: true
-    ioredis:
-      optional: true
-    vite:
-      optional: true
-  bin:
-    medusa-mikro-orm: ./dist/mikro-orm-cli/bin.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/fulfillment-manual@^2.2.0, @medusajs/fulfillment-manual@workspace:^, @medusajs/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/fulfillment@^2.2.0, @medusajs/fulfillment@workspace:^, @medusajs/fulfillment@workspace:packages/modules/fulfillment":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/fulfillment@workspace:packages/modules/fulfillment"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/icons@2.2.0, @medusajs/icons@^2.2.0, @medusajs/icons@workspace:packages/design-system/icons":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/icons@workspace:packages/design-system/icons"
-  dependencies:
-    "@atomico/rollup-plugin-sizes": ^1.1.4
-    "@medusajs/toolbox": ^2.2.0
-    "@rollup/plugin-node-resolve": ^15.1.0
-    "@rollup/plugin-replace": ^5.0.2
-    "@testing-library/dom": ^9.3.1
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^14.0.0
-    "@types/jsdom": ^21.1.1
-    "@types/react": ^18.2.14
-    "@types/react-dom": ^18.2.6
-    esbuild: ^0.18.11
-    eslint: ^7.32.0
-    jsdom: ^22.1.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    resize-observer-polyfill: ^1.5.1
-    rimraf: ^5.0.1
-    rollup: ^3.26.0
-    rollup-plugin-esbuild: ^5.0.0
-    rollup-plugin-license: ^3.0.1
-    rollup-plugin-ts: ^3.2.0
-    rollup-plugin-visualizer: ^5.9.2
-    typescript: ^5.1.6
-    vite: ^4.3.9
-    vitest: ^0.32.2
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/index@^2.2.0, @medusajs/index@workspace:packages/modules/index":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/index@workspace:packages/modules/index"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/inventory@^2.2.0, @medusajs/inventory@workspace:^, @medusajs/inventory@workspace:packages/modules/inventory":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/inventory@workspace:packages/modules/inventory"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/js-sdk@2.2.0, @medusajs/js-sdk@workspace:packages/core/js-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/js-sdk@workspace:packages/core/js-sdk"
-  dependencies:
-    "@medusajs/types": ^2.2.0
-    fetch-event-stream: ^0.1.5
-    jest: ^29.7.0
-    msw: ^2.3.0
-    qs: ^6.12.1
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/link-modules@^2.2.0, @medusajs/link-modules@workspace:^, @medusajs/link-modules@workspace:packages/modules/link-modules":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/link-modules@workspace:packages/modules/link-modules"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    cross-env: ^5.2.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking-postgres@^2.2.0, @medusajs/locking-postgres@workspace:packages/modules/providers/locking-postgres":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking-postgres@workspace:packages/modules/providers/locking-postgres"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking-redis@^2.2.0, @medusajs/locking-redis@workspace:packages/modules/providers/locking-redis":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking-redis@workspace:packages/modules/providers/locking-redis"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/locking@^2.2.0, @medusajs/locking@workspace:packages/modules/locking":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/locking@workspace:packages/modules/locking"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa-oas-cli@2.2.0, @medusajs/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli"
-  dependencies:
-    "@medusajs/medusa": ^2.2.0
-    "@medusajs/types": ^2.2.0
-    "@medusajs/utils": ^2.2.0
-    "@readme/json-schema-ref-parser": ^1.2.0
-    "@readme/openapi-parser": ^2.4.0
-    "@redocly/cli": ^1.7.0
-    "@types/js-yaml": ^4.0.9
-    "@types/lodash": ^4.14.191
-    commander: ^10.0.0
-    execa: 1.0.0
-    jest: ^29.1.0
-    js-yaml: ^4.1.0
-    lodash: ^4.17.21
-    openapi3-ts: ^3.1.2
-    swagger-inline: ^6.1.0
-    ts-jest: ^29.1.0
-    ts-node: ^10.9.1
-    typescript: 4.9.5
-    uuid: ^9.0.0
-    yargs: ^17.7.2
-  bin:
-    medusa-oas: ./dist/index.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/medusa@^2.2.0, @medusajs/medusa@workspace:*, @medusajs/medusa@workspace:packages/medusa":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/medusa@workspace:packages/medusa"
-  dependencies:
-    "@inquirer/checkbox": ^2.3.11
-    "@inquirer/input": ^2.2.9
-    "@medusajs/admin-bundler": ^2.2.0
-    "@medusajs/api-key": ^2.2.0
-    "@medusajs/auth": ^2.2.0
-    "@medusajs/auth-emailpass": ^2.2.0
-    "@medusajs/auth-github": ^2.2.0
-    "@medusajs/auth-google": ^2.2.0
-    "@medusajs/cache-inmemory": ^2.2.0
-    "@medusajs/cache-redis": ^2.2.0
-    "@medusajs/cart": ^2.2.0
-    "@medusajs/core-flows": ^2.2.0
-    "@medusajs/currency": ^2.2.0
-    "@medusajs/customer": ^2.2.0
-    "@medusajs/event-bus-local": ^2.2.0
-    "@medusajs/event-bus-redis": ^2.2.0
-    "@medusajs/file": ^2.2.0
-    "@medusajs/file-local": ^2.2.0
-    "@medusajs/file-s3": ^2.2.0
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/fulfillment": ^2.2.0
-    "@medusajs/fulfillment-manual": ^2.2.0
-    "@medusajs/index": ^2.2.0
-    "@medusajs/inventory": ^2.2.0
-    "@medusajs/link-modules": ^2.2.0
-    "@medusajs/locking": ^2.2.0
-    "@medusajs/locking-postgres": ^2.2.0
-    "@medusajs/locking-redis": ^2.2.0
-    "@medusajs/notification": ^2.2.0
-    "@medusajs/notification-local": ^2.2.0
-    "@medusajs/notification-sendgrid": ^2.2.0
-    "@medusajs/order": ^2.2.0
-    "@medusajs/payment": ^2.2.0
-    "@medusajs/payment-stripe": ^2.2.0
-    "@medusajs/pricing": ^2.2.0
-    "@medusajs/product": ^2.2.0
-    "@medusajs/promotion": ^2.2.0
-    "@medusajs/region": ^2.2.0
-    "@medusajs/sales-channel": ^2.2.0
-    "@medusajs/stock-location": ^2.2.0
-    "@medusajs/store": ^2.2.0
-    "@medusajs/tax": ^2.2.0
-    "@medusajs/telemetry": ^2.2.0
-    "@medusajs/user": ^2.2.0
-    "@medusajs/workflow-engine-inmemory": ^2.2.0
-    "@medusajs/workflow-engine-redis": ^2.2.0
-    "@opentelemetry/api": ^1.9.0
-    "@opentelemetry/instrumentation": ^0.53.0
-    "@opentelemetry/instrumentation-pg": ^0.44.0
-    "@opentelemetry/resources": ^1.26.0
-    "@opentelemetry/sdk-node": ^0.53.0
-    "@opentelemetry/sdk-trace-node": ^1.26.0
-    "@swc/core": ^1.7.28
-    "@swc/helpers": ^0.5.11
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.17
-    "@types/jsonwebtoken": ^8.5.9
-    "@types/lodash": ^4.14.191
-    "@types/multer": ^1.4.7
-    boxen: ^5.0.1
-    chalk: ^4.0.0
-    chokidar: ^3.4.2
-    compression: ^1.7.4
-    express: ^4.21.0
-    fs-exists-cached: ^1.0.0
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    lodash: ^4.17.21
-    multer: ^1.4.5-lts.1
-    node-schedule: ^2.1.1
-    qs: ^6.11.2
-    request-ip: ^3.3.0
-    rimraf: ^5.0.1
-    slugify: ^1.6.6
-    typescript: ^5.6.2
-    uuid: ^9.0.0
-    zod: 3.22.4
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/modules-sdk@^2.2.0, @medusajs/modules-sdk@workspace:^, @medusajs/modules-sdk@workspace:packages/core/modules-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/modules-sdk@workspace:packages/core/modules-sdk"
-  dependencies:
-    "@medusajs/orchestration": ^2.2.0
-    "@medusajs/types": ^2.2.0
-    "@medusajs/utils": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    cross-env: ^5.2.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification-local@^2.2.0, @medusajs/notification-local@workspace:packages/modules/providers/notification-local":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification-local@workspace:packages/modules/providers/notification-local"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification-sendgrid@^2.2.0, @medusajs/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@sendgrid/mail": ^8.1.3
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/notification@^2.2.0, @medusajs/notification@workspace:packages/modules/notification":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/notification@workspace:packages/modules/notification"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/oas-github-ci@workspace:packages/cli/oas/oas-github-ci":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/oas-github-ci@workspace:packages/cli/oas/oas-github-ci"
-  dependencies:
-    "@medusajs/medusa-oas-cli": 2.2.0
-    execa: ^5.1.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/orchestration@^2.2.0, @medusajs/orchestration@workspace:packages/core/orchestration":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/orchestration@workspace:packages/core/orchestration"
-  dependencies:
-    "@medusajs/types": ^2.2.0
-    "@medusajs/utils": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-  peerDependencies:
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/order@^2.2.0, @medusajs/order@workspace:packages/modules/order":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/order@workspace:packages/modules/order"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/payment-stripe@^2.2.0, @medusajs/payment-stripe@workspace:packages/modules/providers/payment-stripe":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/payment-stripe@workspace:packages/modules/providers/payment-stripe"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    stripe: ^15.5.0
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/payment@^2.2.0, @medusajs/payment@workspace:^, @medusajs/payment@workspace:packages/modules/payment":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/payment@workspace:packages/modules/payment"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/pricing@^2.2.0, @medusajs/pricing@workspace:^, @medusajs/pricing@workspace:packages/modules/pricing":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/pricing@workspace:packages/modules/pricing"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/product@^2.2.0, @medusajs/product@workspace:^, @medusajs/product@workspace:packages/modules/product":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/product@workspace:packages/modules/product"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    faker: ^5.5.3
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/promotion@^2.2.0, @medusajs/promotion@workspace:^, @medusajs/promotion@workspace:packages/modules/promotion":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/promotion@workspace:packages/modules/promotion"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/region@^2.2.0, @medusajs/region@workspace:^, @medusajs/region@workspace:packages/modules/region":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/region@workspace:packages/modules/region"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/sales-channel@^2.2.0, @medusajs/sales-channel@workspace:packages/modules/sales-channel":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/sales-channel@workspace:packages/modules/sales-channel"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/stock-location@^2.2.0, @medusajs/stock-location@workspace:^, @medusajs/stock-location@workspace:packages/modules/stock-location":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/stock-location@workspace:packages/modules/stock-location"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^5.0.1
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/store@^2.2.0, @medusajs/store@workspace:^, @medusajs/store@workspace:packages/modules/store":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/store@workspace:packages/modules/store"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/tax@^2.2.0, @medusajs/tax@workspace:^, @medusajs/tax@workspace:packages/modules/tax":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/tax@workspace:packages/modules/tax"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/telemetry@^2.2.0, @medusajs/telemetry@workspace:packages/medusa-telemetry":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/telemetry@workspace:packages/medusa-telemetry"
-  dependencies:
-    "@babel/runtime": ^7.22.10
-    axios: ^0.21.4
-    axios-retry: ^3.1.9
-    boxen: ^5.0.1
-    ci-info: ^3.2.0
-    configstore: 5.0.1
-    cross-env: ^5.2.1
-    global: ^4.4.0
-    is-docker: ^2.2.1
-    jest: ^29.7.0
-    nodemon: ^2.0.20
-    remove-trailing-slash: ^0.1.1
-    rimraf: ^3.0.2
-    typescript: ^5.6.2
-    uuid: ^8.3.2
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/test-utils@^2.2.0, @medusajs/test-utils@workspace:*, @medusajs/test-utils@workspace:packages/medusa-test-utils":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/test-utils@workspace:packages/medusa-test-utils"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@types/express": ^4.17.17
-    awilix: ^8.0.1
-    axios: ^0.21.4
-    express: ^4.21.0
-    get-port: ^5.1.0
-    jest: ^29.7.0
-    pg: ^8.13.0
-    pg-god: ^1.0.12
-    randomatic: ^3.1.1
-    rimraf: ^3.0.2
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@medusajs/medusa": ^2.0.0
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  peerDependenciesMeta:
-    "@medusajs/medusa":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/toolbox@^2.2.0, @medusajs/toolbox@workspace:packages/design-system/toolbox":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/toolbox@workspace:packages/design-system/toolbox"
-  dependencies:
-    "@svgr/core": 8.0.0
-    "@svgr/plugin-jsx": 8.0.1
-    "@svgr/plugin-prettier": 8.0.1
-    "@svgr/plugin-svgo": 8.0.1
-    "@types/fs-extra": 11.0.1
-    "@types/react": ^18.2.14
-    axios: ^0.24.0
-    axios-retry: ^3.1.9
-    commander: 11.0.0
-    dotenv: ^16.4.5
-    eslint: 7.32.0
-    fs-extra: 11.1.1
-    picocolors: ^1.0.0
-    react: ^18.2.0
-    ts-dedent: 2.2.0
-    tsup: 7.1.0
-    typescript: 5.1.6
-  bin:
-    toolbox: ./bin/toolbox.js
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/types@2.2.0, @medusajs/types@^2.2.0, @medusajs/types@workspace:^, @medusajs/types@workspace:packages/core/types":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/types@workspace:packages/core/types"
-  dependencies:
-    awilix: ^8.0.1
-    bignumber.js: ^9.1.2
-    expect-type: ^0.20.0
-    ioredis: ^5.4.1
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    vite: ^5.2.11
-  peerDependencies:
-    awilix: ^8.0.1
-    ioredis: ^5.4.1
-    vite: ^5.2.11
-  peerDependenciesMeta:
-    ioredis:
-      optional: true
-    vite:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/ui-preset@2.2.0, @medusajs/ui-preset@^2.2.0, @medusajs/ui-preset@workspace:packages/design-system/ui-preset":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/ui-preset@workspace:packages/design-system/ui-preset"
-  dependencies:
-    "@medusajs/toolbox": ^2.2.0
-    "@tailwindcss/forms": ^0.5.3
-    tailwindcss: ^3.4.1
-    tailwindcss-animate: ^1.0.6
-    tsup: ^7.1.0
-    typescript: ^5.1.6
-  peerDependencies:
-    tailwindcss: ">=3.0.0"
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/ui@4.0.3, @medusajs/ui@workspace:packages/design-system/ui":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/ui@workspace:packages/design-system/ui"
-  dependencies:
-    "@medusajs/icons": ^2.2.0
-    "@medusajs/ui-preset": ^2.2.0
-    "@radix-ui/react-accordion": 1.2.0
-    "@radix-ui/react-alert-dialog": 1.1.1
-    "@radix-ui/react-avatar": 1.1.0
-    "@radix-ui/react-checkbox": 1.1.1
-    "@radix-ui/react-dialog": 1.1.1
-    "@radix-ui/react-dropdown-menu": 2.1.1
-    "@radix-ui/react-label": 2.1.0
-    "@radix-ui/react-popover": 1.1.1
-    "@radix-ui/react-portal": 1.1.1
-    "@radix-ui/react-radio-group": 1.2.0
-    "@radix-ui/react-select": 2.1.1
-    "@radix-ui/react-slot": 1.1.0
-    "@radix-ui/react-switch": 1.1.0
-    "@radix-ui/react-tabs": 1.1.0
-    "@radix-ui/react-tooltip": 1.1.2
-    "@storybook/addon-essentials": ^8.3.5
-    "@storybook/addon-interactions": ^8.3.5
-    "@storybook/addon-links": ^8.3.5
-    "@storybook/addon-styling": ^1.3.7
-    "@storybook/blocks": ^8.3.5
-    "@storybook/react": ^8.3.5
-    "@storybook/react-vite": ^8.3.5
-    "@storybook/testing-library": ^0.2.2
-    "@testing-library/dom": ^9.3.1
-    "@testing-library/jest-dom": ^5.16.5
-    "@testing-library/react": ^14.0.0
-    "@testing-library/user-event": ^14.4.3
-    "@types/jsdom": ^21.1.1
-    "@types/react": ^18.2.0
-    "@types/react-dom": ^18.2.0
-    "@vitejs/plugin-react": ^4.0.1
-    "@vitest/coverage-v8": ^0.32.2
-    autoprefixer: ^10.4.19
-    chromatic: ^6.20.0
-    clsx: ^1.2.1
-    copy-to-clipboard: ^3.3.3
-    cva: 1.0.0-beta.1
-    eslint: ^7.32.0
-    eslint-plugin-storybook: ^0.6.12
-    jsdom: ^22.1.0
-    postcss: ^8.4.38
-    prism-react-renderer: ^2.0.6
-    prismjs: ^1.29.0
-    prop-types: ^15.8.1
-    react: ^18.3.1
-    react-aria: ^3.33.1
-    react-currency-input-field: ^3.6.11
-    react-dom: ^18.3.1
-    react-stately: ^3.31.1
-    resize-observer-polyfill: ^1.5.1
-    rimraf: ^5.0.1
-    sonner: ^1.5.0
-    storybook: ^8.3.5
-    tailwind-merge: ^2.2.1
-    tailwindcss: ^3.4.3
-    tsc-alias: ^1.8.7
-    typescript: ^5.1.6
-    vite: ^4.3.9
-    vite-plugin-turbosnap: ^1.0.2
-    vitest: ^0.32.2
-  peerDependencies:
-    react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-    react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/user@^2.2.0, @medusajs/user@workspace:^, @medusajs/user@workspace:packages/modules/user":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/user@workspace:packages/modules/user"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/utils@2.2.0, @medusajs/utils@^2.2.0, @medusajs/utils@workspace:^, @medusajs/utils@workspace:packages/core/utils":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/utils@workspace:packages/core/utils"
-  dependencies:
-    "@graphql-codegen/core": ^4.0.2
-    "@graphql-codegen/typescript": ^4.0.9
-    "@graphql-tools/merge": ^9.0.7
-    "@graphql-tools/schema": ^10.0.6
-    "@medusajs/types": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    "@types/express": ^4.17.21
-    "@types/pluralize": ^0.0.33
-    awilix: ^8.0.1
-    bignumber.js: ^9.1.2
-    dotenv: ^16.4.5
-    dotenv-expand: ^11.0.6
-    expect-type: ^0.20.0
-    express: ^4.21.0
-    graphql: ^16.9.0
-    jest: ^29.7.0
-    jsonwebtoken: ^9.0.2
-    pg: ^8.13.0
-    pg-connection-string: ^2.7.0
-    pg-god: ^1.0.12
-    pluralize: ^8.0.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflow-engine-inmemory@^2.2.0, @medusajs/workflow-engine-inmemory@workspace:*, @medusajs/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    cron-parser: ^4.9.0
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflow-engine-redis@^2.2.0, @medusajs/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis"
-  dependencies:
-    "@medusajs/framework": ^2.2.0
-    "@medusajs/test-utils": ^2.2.0
-    "@mikro-orm/cli": 5.9.7
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    bullmq: 5.13.0
-    ioredis: ^5.4.1
-    jest: ^29.7.0
-    rimraf: ^3.0.2
-    tsc-alias: ^1.8.6
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@medusajs/framework": ^2.0.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-  languageName: unknown
-  linkType: soft
-
-"@medusajs/workflows-sdk@^2.2.0, @medusajs/workflows-sdk@workspace:packages/core/workflows-sdk":
-  version: 0.0.0-use.local
-  resolution: "@medusajs/workflows-sdk@workspace:packages/core/workflows-sdk"
-  dependencies:
-    "@medusajs/modules-sdk": ^2.2.0
-    "@medusajs/orchestration": ^2.2.0
-    "@medusajs/types": ^2.2.0
-    "@medusajs/utils": ^2.2.0
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    "@swc/core": ^1.7.28
-    "@swc/jest": ^0.2.36
-    awilix: ^8.0.1
-    jest: ^29.7.0
-    pg: ^8.13.0
-    rimraf: ^5.0.1
-    typescript: ^5.6.2
-    ulid: ^2.3.0
-  peerDependencies:
-    "@mikro-orm/core": 5.9.7
-    "@mikro-orm/knex": 5.9.7
-    "@mikro-orm/migrations": 5.9.7
-    "@mikro-orm/postgresql": 5.9.7
-    awilix: ^8.0.1
-    express: ^4.21.0
-    pg: ^8.13.0
-  languageName: unknown
-  linkType: soft
-
 "@mikro-orm/cli@npm:5.9.7":
   version: 5.9.7
   resolution: "@mikro-orm/cli@npm:5.9.7"
@@ -11949,6 +10309,1646 @@ __metadata:
   checksum: a9554c79eaeaf9dfbe213986ff79bbae1055e0d4fedee6c6026cb2d42eddf778b103bb027585919cd1263a7d77df2eabe26ef8d574d40416c019f645c0064591
   languageName: node
   linkType: hard
+
+"@srinivasulu-narayanam/admin-bundler@^2.2.0, @srinivasulu-narayanam/admin-bundler@workspace:packages/admin/admin-bundler":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/admin-bundler@workspace:packages/admin/admin-bundler"
+  dependencies:
+    "@srinivasulu-narayanam/admin-shared": 2.2.0
+    "@srinivasulu-narayanam/admin-vite-plugin": 2.2.0
+    "@srinivasulu-narayanam/dashboard": 2.2.0
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@types/compression": ^1.7.5
+    "@vitejs/plugin-react": ^4.2.1
+    autoprefixer: ^10.4.16
+    compression: ^1.7.4
+    copyfiles: ^2.4.1
+    express: ^4.21.0
+    postcss: ^8.4.32
+    tailwindcss: ^3.3.6
+    tsup: ^8.0.1
+    typescript: ^5.3.3
+    vite: ^5.2.11
+  peerDependencies:
+    express: ^4.21.0
+    react-dom: ^18.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/admin-sdk@workspace:packages/admin/admin-sdk":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/admin-sdk@workspace:packages/admin/admin-sdk"
+  dependencies:
+    "@srinivasulu-narayanam/admin-shared": ^2.2.0
+    "@types/react": ^18.3.2
+    tsup: ^8.0.1
+    typescript: ^5.3.3
+    zod: ^3.22
+  peerDependencies:
+    zod: ^3.22
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/admin-shared@2.2.0, @srinivasulu-narayanam/admin-shared@^2.2.0, @srinivasulu-narayanam/admin-shared@workspace:packages/admin/admin-shared":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/admin-shared@workspace:packages/admin/admin-shared"
+  dependencies:
+    "@types/react": ^18.3.2
+    tsup: ^8.0.2
+    typescript: ^5.3.3
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/admin-vite-plugin@2.2.0, @srinivasulu-narayanam/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/admin-vite-plugin@workspace:packages/admin/admin-vite-plugin"
+  dependencies:
+    "@babel/parser": 7.25.6
+    "@babel/traverse": 7.25.6
+    "@babel/types": 7.25.6
+    "@srinivasulu-narayanam/admin-shared": 2.2.0
+    "@types/node": ^20.10.4
+    chokidar: 3.5.3
+    fdir: 6.1.1
+    magic-string: 0.30.5
+    outdent: ^0.8.0
+    picocolors: ^1.1.0
+    tsup: 8.0.1
+    typescript: 5.3.3
+    vite: ^5.2.11
+    vitest: ^2.1.3
+  peerDependencies:
+    vite: ^5.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/api-key@^2.2.0, @srinivasulu-narayanam/api-key@workspace:^, @srinivasulu-narayanam/api-key@workspace:packages/modules/api-key":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/api-key@workspace:packages/modules/api-key"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/auth-emailpass@^2.2.0, @srinivasulu-narayanam/auth-emailpass@workspace:packages/modules/providers/auth-emailpass":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/auth-emailpass@workspace:packages/modules/providers/auth-emailpass"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    scrypt-kdf: ^2.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/auth-github@^2.2.0, @srinivasulu-narayanam/auth-github@workspace:packages/modules/providers/auth-github":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/auth-github@workspace:packages/modules/providers/auth-github"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    msw: ^2.3.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/auth-google@^2.2.0, @srinivasulu-narayanam/auth-google@workspace:packages/modules/providers/auth-google":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/auth-google@workspace:packages/modules/providers/auth-google"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    msw: ^2.3.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/auth@^2.2.0, @srinivasulu-narayanam/auth@workspace:*, @srinivasulu-narayanam/auth@workspace:packages/modules/auth":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/auth@workspace:packages/modules/auth"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/cache-inmemory@^2.2.0, @srinivasulu-narayanam/cache-inmemory@workspace:*, @srinivasulu-narayanam/cache-inmemory@workspace:packages/modules/cache-inmemory":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/cache-inmemory@workspace:packages/modules/cache-inmemory"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/cache-redis@^2.2.0, @srinivasulu-narayanam/cache-redis@workspace:packages/modules/cache-redis":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/cache-redis@workspace:packages/modules/cache-redis"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/cart@^2.2.0, @srinivasulu-narayanam/cart@workspace:packages/modules/cart":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/cart@workspace:packages/modules/cart"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/cli@^2.2.0, @srinivasulu-narayanam/cli@workspace:packages/cli/medusa-cli":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/cli@workspace:packages/cli/medusa-cli"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/telemetry": ^2.2.0
+    "@srinivasulu-narayanam/utils": 2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.17
+    "@types/yargs": ^15.0.15
+    awilix: ^8.0.1
+    chalk: ^4.0.0
+    configstore: 5.0.1
+    dotenv: ^16.4.5
+    execa: ^5.1.1
+    express: ^4.21.0
+    fs-exists-cached: ^1.0.0
+    fs-extra: ^10.0.0
+    glob: ^7.1.6
+    hosted-git-info: ^4.0.2
+    inquirer: ^8.0.0
+    is-valid-path: ^0.1.1
+    jest: ^29.7.0
+    meant: ^1.0.3
+    ora: ^5.4.1
+    pg: ^8.13.0
+    pg-god: ^1.0.12
+    prompts: ^2.4.2
+    resolve-cwd: ^3.0.0
+    rimraf: ^5.0.1
+    stack-trace: ^0.0.10
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+    winston: ^3.8.2
+    yargs: ^15.3.1
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    awilix: ^8.0.1
+    pg: ^8.13.0
+  bin:
+    medusa: cli.js
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/core-flows@^2.2.0, @srinivasulu-narayanam/core-flows@workspace:*, @srinivasulu-narayanam/core-flows@workspace:^, @srinivasulu-narayanam/core-flows@workspace:packages/core/core-flows":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/core-flows@workspace:packages/core/core-flows"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    expect-type: ^0.20.0
+    jest: ^29.7.0
+    json-2-csv: ^5.5.4
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/currency@^2.2.0, @srinivasulu-narayanam/currency@workspace:^, @srinivasulu-narayanam/currency@workspace:packages/modules/currency":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/currency@workspace:packages/modules/currency"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/customer@^2.2.0, @srinivasulu-narayanam/customer@workspace:^, @srinivasulu-narayanam/customer@workspace:packages/modules/customer":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/customer@workspace:packages/modules/customer"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/dashboard@2.2.0, @srinivasulu-narayanam/dashboard@workspace:packages/admin/dashboard":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/dashboard@workspace:packages/admin/dashboard"
+  dependencies:
+    "@ariakit/react": ^0.4.1
+    "@dnd-kit/core": ^6.1.0
+    "@dnd-kit/sortable": ^8.0.0
+    "@hookform/error-message": ^2.0.1
+    "@hookform/resolvers": 3.4.2
+    "@radix-ui/react-collapsible": 1.1.0
+    "@srinivasulu-narayanam/admin-shared": ^2.2.0
+    "@srinivasulu-narayanam/admin-vite-plugin": 2.2.0
+    "@srinivasulu-narayanam/icons": 2.2.0
+    "@srinivasulu-narayanam/js-sdk": 2.2.0
+    "@srinivasulu-narayanam/types": 2.2.0
+    "@srinivasulu-narayanam/ui": 4.0.3
+    "@srinivasulu-narayanam/ui-preset": 2.2.0
+    "@tanstack/react-query": ^5.28.14
+    "@tanstack/react-table": 8.20.5
+    "@tanstack/react-virtual": ^3.8.3
+    "@types/node": ^20.11.15
+    "@types/react": ^18.2.79
+    "@types/react-dom": ^18.2.25
+    "@uiw/react-json-view": ^2.0.0-alpha.17
+    "@vitejs/plugin-react": 4.2.1
+    ajv: ^8.17.1
+    autoprefixer: ^10.4.17
+    cmdk: ^0.2.0
+    date-fns: ^3.6.0
+    framer-motion: ^11.0.3
+    i18next: 23.7.11
+    i18next-browser-languagedetector: 7.2.0
+    i18next-http-backend: 2.4.2
+    lodash: ^4.17.21
+    match-sorter: ^6.3.4
+    postcss: ^8.4.33
+    prettier: ^3.1.1
+    qs: ^6.12.0
+    react: ^18.2.0
+    react-country-flag: ^3.1.0
+    react-currency-input-field: ^3.6.11
+    react-dom: ^18.2.0
+    react-helmet-async: ^2.0.5
+    react-hook-form: 7.49.1
+    react-i18next: 13.5.0
+    react-jwt: ^1.2.0
+    react-router-dom: 6.20.1
+    tailwindcss: ^3.4.1
+    tsup: ^8.0.2
+    typescript: 5.2.2
+    vite: ^5.2.11
+    vite-plugin-inspect: ^0.8.7
+    vitest: ^2.1.4
+    zod: 3.22.4
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/event-bus-local@^2.2.0, @srinivasulu-narayanam/event-bus-local@workspace:*, @srinivasulu-narayanam/event-bus-local@workspace:packages/modules/event-bus-local":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/event-bus-local@workspace:packages/modules/event-bus-local"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/event-bus-redis@^2.2.0, @srinivasulu-narayanam/event-bus-redis@workspace:packages/modules/event-bus-redis":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/event-bus-redis@workspace:packages/modules/event-bus-redis"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    bullmq: 5.13.0
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/file-local@^2.2.0, @srinivasulu-narayanam/file-local@workspace:packages/modules/providers/file-local":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/file-local@workspace:packages/modules/providers/file-local"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/file-s3@^2.2.0, @srinivasulu-narayanam/file-s3@workspace:packages/modules/providers/file-s3":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/file-s3@workspace:packages/modules/providers/file-s3"
+  dependencies:
+    "@aws-sdk/client-s3": ^3.556.0
+    "@aws-sdk/s3-request-presigner": ^3.556.0
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    axios: ^1.6.8
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/file@^2.2.0, @srinivasulu-narayanam/file@workspace:packages/modules/file":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/file@workspace:packages/modules/file"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/framework@^2.2.0, @srinivasulu-narayanam/framework@workspace:^, @srinivasulu-narayanam/framework@workspace:packages/core/framework":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/framework@workspace:packages/core/framework"
+  dependencies:
+    "@jercle/yargonaut": ^1.1.5
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@opentelemetry/api": ^1.9.0
+    "@srinivasulu-narayanam/cli": ^2.2.0
+    "@srinivasulu-narayanam/modules-sdk": ^2.2.0
+    "@srinivasulu-narayanam/orchestration": ^2.2.0
+    "@srinivasulu-narayanam/telemetry": ^2.2.0
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@srinivasulu-narayanam/utils": ^2.2.0
+    "@srinivasulu-narayanam/workflows-sdk": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/cors": ^2.8.17
+    "@types/express": ^4.17.17
+    "@types/jsonwebtoken": ^8.5.9
+    awilix: ^8.0.1
+    connect-redis: 5.2.0
+    cookie-parser: ^1.4.6
+    cors: ^2.8.5
+    express: ^4.21.0
+    express-session: ^1.17.3
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    morgan: ^1.9.1
+    pg: ^8.13.0
+    rimraf: ^3.0.2
+    supertest: ^4.0.2
+    tsconfig-paths: ^4.2.0
+    typescript: ^5.6.2
+    vite: ^5.2.11
+    zod: 3.22.4
+  peerDependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/cli": ^2.0.0
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    pg: ^8.13.0
+    vite: ^5.2.11
+  peerDependenciesMeta:
+    "@mikro-orm/cli":
+      optional: true
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  bin:
+    medusa-mikro-orm: ./dist/mikro-orm-cli/bin.js
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/fulfillment-manual@^2.2.0, @srinivasulu-narayanam/fulfillment-manual@workspace:^, @srinivasulu-narayanam/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/fulfillment-manual@workspace:packages/modules/providers/fulfillment-manual"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/fulfillment@^2.2.0, @srinivasulu-narayanam/fulfillment@workspace:^, @srinivasulu-narayanam/fulfillment@workspace:packages/modules/fulfillment":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/fulfillment@workspace:packages/modules/fulfillment"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/icons@2.2.0, @srinivasulu-narayanam/icons@^2.2.0, @srinivasulu-narayanam/icons@workspace:packages/design-system/icons":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/icons@workspace:packages/design-system/icons"
+  dependencies:
+    "@atomico/rollup-plugin-sizes": ^1.1.4
+    "@rollup/plugin-node-resolve": ^15.1.0
+    "@rollup/plugin-replace": ^5.0.2
+    "@srinivasulu-narayanam/toolbox": ^2.2.0
+    "@testing-library/dom": ^9.3.1
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@types/jsdom": ^21.1.1
+    "@types/react": ^18.2.14
+    "@types/react-dom": ^18.2.6
+    esbuild: ^0.18.11
+    eslint: ^7.32.0
+    jsdom: ^22.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    resize-observer-polyfill: ^1.5.1
+    rimraf: ^5.0.1
+    rollup: ^3.26.0
+    rollup-plugin-esbuild: ^5.0.0
+    rollup-plugin-license: ^3.0.1
+    rollup-plugin-ts: ^3.2.0
+    rollup-plugin-visualizer: ^5.9.2
+    typescript: ^5.1.6
+    vite: ^4.3.9
+    vitest: ^0.32.2
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/index@^2.2.0, @srinivasulu-narayanam/index@workspace:packages/modules/index":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/index@workspace:packages/modules/index"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/inventory@^2.2.0, @srinivasulu-narayanam/inventory@workspace:^, @srinivasulu-narayanam/inventory@workspace:packages/modules/inventory":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/inventory@workspace:packages/modules/inventory"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/js-sdk@2.2.0, @srinivasulu-narayanam/js-sdk@workspace:packages/core/js-sdk":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/js-sdk@workspace:packages/core/js-sdk"
+  dependencies:
+    "@srinivasulu-narayanam/types": ^2.2.0
+    fetch-event-stream: ^0.1.5
+    jest: ^29.7.0
+    msw: ^2.3.0
+    qs: ^6.12.1
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/link-modules@^2.2.0, @srinivasulu-narayanam/link-modules@workspace:^, @srinivasulu-narayanam/link-modules@workspace:packages/modules/link-modules":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/link-modules@workspace:packages/modules/link-modules"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    cross-env: ^5.2.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/locking-postgres@^2.2.0, @srinivasulu-narayanam/locking-postgres@workspace:packages/modules/providers/locking-postgres":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/locking-postgres@workspace:packages/modules/providers/locking-postgres"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/locking-redis@^2.2.0, @srinivasulu-narayanam/locking-redis@workspace:packages/modules/providers/locking-redis":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/locking-redis@workspace:packages/modules/providers/locking-redis"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/locking@^2.2.0, @srinivasulu-narayanam/locking@workspace:packages/modules/locking":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/locking@workspace:packages/modules/locking"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/medusa-oas-cli@2.2.0, @srinivasulu-narayanam/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/medusa-oas-cli@workspace:packages/cli/oas/medusa-oas-cli"
+  dependencies:
+    "@readme/json-schema-ref-parser": ^1.2.0
+    "@readme/openapi-parser": ^2.4.0
+    "@redocly/cli": ^1.7.0
+    "@srinivasulu-narayanam/medusa": ^2.2.0
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@srinivasulu-narayanam/utils": ^2.2.0
+    "@types/js-yaml": ^4.0.9
+    "@types/lodash": ^4.14.191
+    commander: ^10.0.0
+    execa: 1.0.0
+    jest: ^29.1.0
+    js-yaml: ^4.1.0
+    lodash: ^4.17.21
+    openapi3-ts: ^3.1.2
+    swagger-inline: ^6.1.0
+    ts-jest: ^29.1.0
+    ts-node: ^10.9.1
+    typescript: 4.9.5
+    uuid: ^9.0.0
+    yargs: ^17.7.2
+  bin:
+    medusa-oas: ./dist/index.js
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/medusa@^2.2.0, @srinivasulu-narayanam/medusa@workspace:*, @srinivasulu-narayanam/medusa@workspace:packages/medusa":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/medusa@workspace:packages/medusa"
+  dependencies:
+    "@inquirer/checkbox": ^2.3.11
+    "@inquirer/input": ^2.2.9
+    "@opentelemetry/api": ^1.9.0
+    "@opentelemetry/instrumentation": ^0.53.0
+    "@opentelemetry/instrumentation-pg": ^0.44.0
+    "@opentelemetry/resources": ^1.26.0
+    "@opentelemetry/sdk-node": ^0.53.0
+    "@opentelemetry/sdk-trace-node": ^1.26.0
+    "@srinivasulu-narayanam/admin-bundler": ^2.2.0
+    "@srinivasulu-narayanam/api-key": ^2.2.0
+    "@srinivasulu-narayanam/auth": ^2.2.0
+    "@srinivasulu-narayanam/auth-emailpass": ^2.2.0
+    "@srinivasulu-narayanam/auth-github": ^2.2.0
+    "@srinivasulu-narayanam/auth-google": ^2.2.0
+    "@srinivasulu-narayanam/cache-inmemory": ^2.2.0
+    "@srinivasulu-narayanam/cache-redis": ^2.2.0
+    "@srinivasulu-narayanam/cart": ^2.2.0
+    "@srinivasulu-narayanam/core-flows": ^2.2.0
+    "@srinivasulu-narayanam/currency": ^2.2.0
+    "@srinivasulu-narayanam/customer": ^2.2.0
+    "@srinivasulu-narayanam/event-bus-local": ^2.2.0
+    "@srinivasulu-narayanam/event-bus-redis": ^2.2.0
+    "@srinivasulu-narayanam/file": ^2.2.0
+    "@srinivasulu-narayanam/file-local": ^2.2.0
+    "@srinivasulu-narayanam/file-s3": ^2.2.0
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/fulfillment": ^2.2.0
+    "@srinivasulu-narayanam/fulfillment-manual": ^2.2.0
+    "@srinivasulu-narayanam/index": ^2.2.0
+    "@srinivasulu-narayanam/inventory": ^2.2.0
+    "@srinivasulu-narayanam/link-modules": ^2.2.0
+    "@srinivasulu-narayanam/locking": ^2.2.0
+    "@srinivasulu-narayanam/locking-postgres": ^2.2.0
+    "@srinivasulu-narayanam/locking-redis": ^2.2.0
+    "@srinivasulu-narayanam/notification": ^2.2.0
+    "@srinivasulu-narayanam/notification-local": ^2.2.0
+    "@srinivasulu-narayanam/notification-sendgrid": ^2.2.0
+    "@srinivasulu-narayanam/order": ^2.2.0
+    "@srinivasulu-narayanam/payment": ^2.2.0
+    "@srinivasulu-narayanam/payment-stripe": ^2.2.0
+    "@srinivasulu-narayanam/pricing": ^2.2.0
+    "@srinivasulu-narayanam/product": ^2.2.0
+    "@srinivasulu-narayanam/promotion": ^2.2.0
+    "@srinivasulu-narayanam/region": ^2.2.0
+    "@srinivasulu-narayanam/sales-channel": ^2.2.0
+    "@srinivasulu-narayanam/stock-location": ^2.2.0
+    "@srinivasulu-narayanam/store": ^2.2.0
+    "@srinivasulu-narayanam/tax": ^2.2.0
+    "@srinivasulu-narayanam/telemetry": ^2.2.0
+    "@srinivasulu-narayanam/user": ^2.2.0
+    "@srinivasulu-narayanam/workflow-engine-inmemory": ^2.2.0
+    "@srinivasulu-narayanam/workflow-engine-redis": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/helpers": ^0.5.11
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.17
+    "@types/jsonwebtoken": ^8.5.9
+    "@types/lodash": ^4.14.191
+    "@types/multer": ^1.4.7
+    boxen: ^5.0.1
+    chalk: ^4.0.0
+    chokidar: ^3.4.2
+    compression: ^1.7.4
+    express: ^4.21.0
+    fs-exists-cached: ^1.0.0
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    lodash: ^4.17.21
+    multer: ^1.4.5-lts.1
+    node-schedule: ^2.1.1
+    qs: ^6.11.2
+    request-ip: ^3.3.0
+    rimraf: ^5.0.1
+    slugify: ^1.6.6
+    typescript: ^5.6.2
+    uuid: ^9.0.0
+    zod: 3.22.4
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/modules-sdk@^2.2.0, @srinivasulu-narayanam/modules-sdk@workspace:^, @srinivasulu-narayanam/modules-sdk@workspace:packages/core/modules-sdk":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/modules-sdk@workspace:packages/core/modules-sdk"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/orchestration": ^2.2.0
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@srinivasulu-narayanam/utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    cross-env: ^5.2.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/notification-local@^2.2.0, @srinivasulu-narayanam/notification-local@workspace:packages/modules/providers/notification-local":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/notification-local@workspace:packages/modules/providers/notification-local"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/notification-sendgrid@^2.2.0, @srinivasulu-narayanam/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/notification-sendgrid@workspace:packages/modules/providers/notification-sendgrid"
+  dependencies:
+    "@sendgrid/mail": ^8.1.3
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/notification@^2.2.0, @srinivasulu-narayanam/notification@workspace:packages/modules/notification":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/notification@workspace:packages/modules/notification"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/oas-github-ci@workspace:packages/cli/oas/oas-github-ci":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/oas-github-ci@workspace:packages/cli/oas/oas-github-ci"
+  dependencies:
+    "@srinivasulu-narayanam/medusa-oas-cli": 2.2.0
+    execa: ^5.1.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/orchestration@^2.2.0, @srinivasulu-narayanam/orchestration@workspace:packages/core/orchestration":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/orchestration@workspace:packages/core/orchestration"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@srinivasulu-narayanam/utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/order@^2.2.0, @srinivasulu-narayanam/order@workspace:packages/modules/order":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/order@workspace:packages/modules/order"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/payment-stripe@^2.2.0, @srinivasulu-narayanam/payment-stripe@workspace:packages/modules/providers/payment-stripe":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/payment-stripe@workspace:packages/modules/providers/payment-stripe"
+  dependencies:
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    stripe: ^15.5.0
+    typescript: ^5.6.2
+  peerDependencies:
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/payment@^2.2.0, @srinivasulu-narayanam/payment@workspace:^, @srinivasulu-narayanam/payment@workspace:packages/modules/payment":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/payment@workspace:packages/modules/payment"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/pricing@^2.2.0, @srinivasulu-narayanam/pricing@workspace:^, @srinivasulu-narayanam/pricing@workspace:packages/modules/pricing":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/pricing@workspace:packages/modules/pricing"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/product@^2.2.0, @srinivasulu-narayanam/product@workspace:^, @srinivasulu-narayanam/product@workspace:packages/modules/product":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/product@workspace:packages/modules/product"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    faker: ^5.5.3
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/promotion@^2.2.0, @srinivasulu-narayanam/promotion@workspace:^, @srinivasulu-narayanam/promotion@workspace:packages/modules/promotion":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/promotion@workspace:packages/modules/promotion"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/region@^2.2.0, @srinivasulu-narayanam/region@workspace:^, @srinivasulu-narayanam/region@workspace:packages/modules/region":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/region@workspace:packages/modules/region"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/sales-channel@^2.2.0, @srinivasulu-narayanam/sales-channel@workspace:packages/modules/sales-channel":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/sales-channel@workspace:packages/modules/sales-channel"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/stock-location@^2.2.0, @srinivasulu-narayanam/stock-location@workspace:^, @srinivasulu-narayanam/stock-location@workspace:packages/modules/stock-location":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/stock-location@workspace:packages/modules/stock-location"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^5.0.1
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/store@^2.2.0, @srinivasulu-narayanam/store@workspace:^, @srinivasulu-narayanam/store@workspace:packages/modules/store":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/store@workspace:packages/modules/store"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/tax@^2.2.0, @srinivasulu-narayanam/tax@workspace:^, @srinivasulu-narayanam/tax@workspace:packages/modules/tax":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/tax@workspace:packages/modules/tax"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/telemetry@^2.2.0, @srinivasulu-narayanam/telemetry@workspace:packages/medusa-telemetry":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/telemetry@workspace:packages/medusa-telemetry"
+  dependencies:
+    "@babel/runtime": ^7.22.10
+    axios: ^0.21.4
+    axios-retry: ^3.1.9
+    boxen: ^5.0.1
+    ci-info: ^3.2.0
+    configstore: 5.0.1
+    cross-env: ^5.2.1
+    global: ^4.4.0
+    is-docker: ^2.2.1
+    jest: ^29.7.0
+    nodemon: ^2.0.20
+    remove-trailing-slash: ^0.1.1
+    rimraf: ^3.0.2
+    typescript: ^5.6.2
+    uuid: ^8.3.2
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/test-utils@^2.2.0, @srinivasulu-narayanam/test-utils@workspace:*, @srinivasulu-narayanam/test-utils@workspace:packages/medusa-test-utils":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/test-utils@workspace:packages/medusa-test-utils"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@types/express": ^4.17.17
+    awilix: ^8.0.1
+    axios: ^0.21.4
+    express: ^4.21.0
+    get-port: ^5.1.0
+    jest: ^29.7.0
+    pg: ^8.13.0
+    pg-god: ^1.0.12
+    randomatic: ^3.1.1
+    rimraf: ^3.0.2
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    "@srinivasulu-narayanam/medusa": ^2.0.0
+    awilix: ^8.0.1
+  peerDependenciesMeta:
+    "@srinivasulu-narayanam/medusa":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/toolbox@^2.2.0, @srinivasulu-narayanam/toolbox@workspace:packages/design-system/toolbox":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/toolbox@workspace:packages/design-system/toolbox"
+  dependencies:
+    "@svgr/core": 8.0.0
+    "@svgr/plugin-jsx": 8.0.1
+    "@svgr/plugin-prettier": 8.0.1
+    "@svgr/plugin-svgo": 8.0.1
+    "@types/fs-extra": 11.0.1
+    "@types/react": ^18.2.14
+    axios: ^0.24.0
+    axios-retry: ^3.1.9
+    commander: 11.0.0
+    dotenv: ^16.4.5
+    eslint: 7.32.0
+    fs-extra: 11.1.1
+    picocolors: ^1.0.0
+    react: ^18.2.0
+    ts-dedent: 2.2.0
+    tsup: 7.1.0
+    typescript: 5.1.6
+  bin:
+    toolbox: ./bin/toolbox.js
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/types@2.2.0, @srinivasulu-narayanam/types@^2.2.0, @srinivasulu-narayanam/types@workspace:^, @srinivasulu-narayanam/types@workspace:packages/core/types":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/types@workspace:packages/core/types"
+  dependencies:
+    awilix: ^8.0.1
+    bignumber.js: ^9.1.2
+    expect-type: ^0.20.0
+    ioredis: ^5.4.1
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    vite: ^5.2.11
+  peerDependencies:
+    awilix: ^8.0.1
+    ioredis: ^5.4.1
+    vite: ^5.2.11
+  peerDependenciesMeta:
+    ioredis:
+      optional: true
+    vite:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/ui-preset@2.2.0, @srinivasulu-narayanam/ui-preset@^2.2.0, @srinivasulu-narayanam/ui-preset@workspace:packages/design-system/ui-preset":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/ui-preset@workspace:packages/design-system/ui-preset"
+  dependencies:
+    "@srinivasulu-narayanam/toolbox": ^2.2.0
+    "@tailwindcss/forms": ^0.5.3
+    tailwindcss: ^3.4.1
+    tailwindcss-animate: ^1.0.6
+    tsup: ^7.1.0
+    typescript: ^5.1.6
+  peerDependencies:
+    tailwindcss: ">=3.0.0"
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/ui@4.0.3, @srinivasulu-narayanam/ui@workspace:packages/design-system/ui":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/ui@workspace:packages/design-system/ui"
+  dependencies:
+    "@radix-ui/react-accordion": 1.2.0
+    "@radix-ui/react-alert-dialog": 1.1.1
+    "@radix-ui/react-avatar": 1.1.0
+    "@radix-ui/react-checkbox": 1.1.1
+    "@radix-ui/react-dialog": 1.1.1
+    "@radix-ui/react-dropdown-menu": 2.1.1
+    "@radix-ui/react-label": 2.1.0
+    "@radix-ui/react-popover": 1.1.1
+    "@radix-ui/react-portal": 1.1.1
+    "@radix-ui/react-radio-group": 1.2.0
+    "@radix-ui/react-select": 2.1.1
+    "@radix-ui/react-slot": 1.1.0
+    "@radix-ui/react-switch": 1.1.0
+    "@radix-ui/react-tabs": 1.1.0
+    "@radix-ui/react-tooltip": 1.1.2
+    "@srinivasulu-narayanam/icons": ^2.2.0
+    "@srinivasulu-narayanam/ui-preset": ^2.2.0
+    "@storybook/addon-essentials": ^8.3.5
+    "@storybook/addon-interactions": ^8.3.5
+    "@storybook/addon-links": ^8.3.5
+    "@storybook/addon-styling": ^1.3.7
+    "@storybook/blocks": ^8.3.5
+    "@storybook/react": ^8.3.5
+    "@storybook/react-vite": ^8.3.5
+    "@storybook/testing-library": ^0.2.2
+    "@testing-library/dom": ^9.3.1
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^14.0.0
+    "@testing-library/user-event": ^14.4.3
+    "@types/jsdom": ^21.1.1
+    "@types/react": ^18.2.0
+    "@types/react-dom": ^18.2.0
+    "@vitejs/plugin-react": ^4.0.1
+    "@vitest/coverage-v8": ^0.32.2
+    autoprefixer: ^10.4.19
+    chromatic: ^6.20.0
+    clsx: ^1.2.1
+    copy-to-clipboard: ^3.3.3
+    cva: 1.0.0-beta.1
+    eslint: ^7.32.0
+    eslint-plugin-storybook: ^0.6.12
+    jsdom: ^22.1.0
+    postcss: ^8.4.38
+    prism-react-renderer: ^2.0.6
+    prismjs: ^1.29.0
+    prop-types: ^15.8.1
+    react: ^18.3.1
+    react-aria: ^3.33.1
+    react-currency-input-field: ^3.6.11
+    react-dom: ^18.3.1
+    react-stately: ^3.31.1
+    resize-observer-polyfill: ^1.5.1
+    rimraf: ^5.0.1
+    sonner: ^1.5.0
+    storybook: ^8.3.5
+    tailwind-merge: ^2.2.1
+    tailwindcss: ^3.4.3
+    tsc-alias: ^1.8.7
+    typescript: ^5.1.6
+    vite: ^4.3.9
+    vite-plugin-turbosnap: ^1.0.2
+    vitest: ^0.32.2
+  peerDependencies:
+    react: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+    react-dom: ^18.0.0 || ^19.0.0 || ^19.0.0-rc
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/user@^2.2.0, @srinivasulu-narayanam/user@workspace:^, @srinivasulu-narayanam/user@workspace:packages/modules/user":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/user@workspace:packages/modules/user"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/utils@2.2.0, @srinivasulu-narayanam/utils@^2.2.0, @srinivasulu-narayanam/utils@workspace:^, @srinivasulu-narayanam/utils@workspace:packages/core/utils":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/utils@workspace:packages/core/utils"
+  dependencies:
+    "@graphql-codegen/core": ^4.0.2
+    "@graphql-codegen/typescript": ^4.0.9
+    "@graphql-tools/merge": ^9.0.7
+    "@graphql-tools/schema": ^10.0.6
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    "@types/express": ^4.17.21
+    "@types/pluralize": ^0.0.33
+    awilix: ^8.0.1
+    bignumber.js: ^9.1.2
+    dotenv: ^16.4.5
+    dotenv-expand: ^11.0.6
+    expect-type: ^0.20.0
+    express: ^4.21.0
+    graphql: ^16.9.0
+    jest: ^29.7.0
+    jsonwebtoken: ^9.0.2
+    pg: ^8.13.0
+    pg-connection-string: ^2.7.0
+    pg-god: ^1.0.12
+    pluralize: ^8.0.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/workflow-engine-inmemory@^2.2.0, @srinivasulu-narayanam/workflow-engine-inmemory@workspace:*, @srinivasulu-narayanam/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/workflow-engine-inmemory@workspace:packages/modules/workflow-engine-inmemory"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    cron-parser: ^4.9.0
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/workflow-engine-redis@^2.2.0, @srinivasulu-narayanam/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/workflow-engine-redis@workspace:packages/modules/workflow-engine-redis"
+  dependencies:
+    "@mikro-orm/cli": 5.9.7
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.2.0
+    "@srinivasulu-narayanam/test-utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    bullmq: 5.13.0
+    ioredis: ^5.4.1
+    jest: ^29.7.0
+    rimraf: ^3.0.2
+    tsc-alias: ^1.8.6
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/framework": ^2.0.0
+    awilix: ^8.0.1
+  languageName: unknown
+  linkType: soft
+
+"@srinivasulu-narayanam/workflows-sdk@^2.2.0, @srinivasulu-narayanam/workflows-sdk@workspace:packages/core/workflows-sdk":
+  version: 0.0.0-use.local
+  resolution: "@srinivasulu-narayanam/workflows-sdk@workspace:packages/core/workflows-sdk"
+  dependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    "@srinivasulu-narayanam/modules-sdk": ^2.2.0
+    "@srinivasulu-narayanam/orchestration": ^2.2.0
+    "@srinivasulu-narayanam/types": ^2.2.0
+    "@srinivasulu-narayanam/utils": ^2.2.0
+    "@swc/core": ^1.7.28
+    "@swc/jest": ^0.2.36
+    awilix: ^8.0.1
+    jest: ^29.7.0
+    pg: ^8.13.0
+    rimraf: ^5.0.1
+    typescript: ^5.6.2
+    ulid: ^2.3.0
+  peerDependencies:
+    "@mikro-orm/core": 5.9.7
+    "@mikro-orm/knex": 5.9.7
+    "@mikro-orm/migrations": 5.9.7
+    "@mikro-orm/postgresql": 5.9.7
+    awilix: ^8.0.1
+    express: ^4.21.0
+    pg: ^8.13.0
+  languageName: unknown
+  linkType: soft
 
 "@storybook/addon-actions@npm:8.3.5":
   version: 8.3.5
@@ -17393,7 +17393,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-medusa-app@workspace:packages/cli/create-medusa-app"
   dependencies:
-    "@medusajs/telemetry": ^2.2.0
+    "@srinivasulu-narayanam/telemetry": ^2.2.0
     "@types/chalk": ^2.2.0
     "@types/commander": ^2.12.2
     "@types/configstore": ^6.0.0
@@ -21980,23 +21980,23 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-api@workspace:integration-tests/api"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/payment": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/api-key": "workspace:^"
+    "@srinivasulu-narayanam/auth": "workspace:*"
+    "@srinivasulu-narayanam/cache-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/customer": "workspace:^"
+    "@srinivasulu-narayanam/event-bus-local": "workspace:*"
+    "@srinivasulu-narayanam/medusa": "workspace:*"
+    "@srinivasulu-narayanam/modules-sdk": "workspace:^"
+    "@srinivasulu-narayanam/payment": "workspace:^"
+    "@srinivasulu-narayanam/pricing": "workspace:^"
+    "@srinivasulu-narayanam/product": "workspace:^"
+    "@srinivasulu-narayanam/promotion": "workspace:^"
+    "@srinivasulu-narayanam/region": "workspace:^"
+    "@srinivasulu-narayanam/store": "workspace:^"
+    "@srinivasulu-narayanam/tax": "workspace:^"
+    "@srinivasulu-narayanam/user": "workspace:^"
+    "@srinivasulu-narayanam/utils": "workspace:^"
+    "@srinivasulu-narayanam/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     jest: ^29.7.0
@@ -22009,29 +22009,29 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-http@workspace:integration-tests/http"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/core-flows": "workspace:*"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/fulfillment": "workspace:^"
-    "@medusajs/fulfillment-manual": "workspace:^"
-    "@medusajs/inventory": "workspace:^"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/stock-location": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/test-utils": "workspace:*"
-    "@medusajs/types": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/api-key": "workspace:^"
+    "@srinivasulu-narayanam/auth": "workspace:*"
+    "@srinivasulu-narayanam/cache-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/core-flows": "workspace:*"
+    "@srinivasulu-narayanam/customer": "workspace:^"
+    "@srinivasulu-narayanam/event-bus-local": "workspace:*"
+    "@srinivasulu-narayanam/fulfillment": "workspace:^"
+    "@srinivasulu-narayanam/fulfillment-manual": "workspace:^"
+    "@srinivasulu-narayanam/inventory": "workspace:^"
+    "@srinivasulu-narayanam/medusa": "workspace:*"
+    "@srinivasulu-narayanam/modules-sdk": "workspace:^"
+    "@srinivasulu-narayanam/pricing": "workspace:^"
+    "@srinivasulu-narayanam/product": "workspace:^"
+    "@srinivasulu-narayanam/promotion": "workspace:^"
+    "@srinivasulu-narayanam/region": "workspace:^"
+    "@srinivasulu-narayanam/stock-location": "workspace:^"
+    "@srinivasulu-narayanam/store": "workspace:^"
+    "@srinivasulu-narayanam/tax": "workspace:^"
+    "@srinivasulu-narayanam/test-utils": "workspace:*"
+    "@srinivasulu-narayanam/types": "workspace:^"
+    "@srinivasulu-narayanam/user": "workspace:^"
+    "@srinivasulu-narayanam/utils": "workspace:^"
+    "@srinivasulu-narayanam/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     form-data: ^4.0.0
@@ -22046,33 +22046,33 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "integration-tests-modules@workspace:integration-tests/modules"
   dependencies:
-    "@medusajs/api-key": "workspace:^"
-    "@medusajs/auth": "workspace:*"
-    "@medusajs/cache-inmemory": "workspace:*"
-    "@medusajs/core-flows": "workspace:^"
-    "@medusajs/currency": "workspace:^"
-    "@medusajs/customer": "workspace:^"
-    "@medusajs/event-bus-local": "workspace:*"
-    "@medusajs/framework": "workspace:^"
-    "@medusajs/fulfillment": "workspace:^"
-    "@medusajs/fulfillment-manual": "workspace:^"
-    "@medusajs/inventory": "workspace:^"
-    "@medusajs/link-modules": "workspace:^"
-    "@medusajs/medusa": "workspace:*"
-    "@medusajs/modules-sdk": "workspace:^"
-    "@medusajs/payment": "workspace:^"
-    "@medusajs/pricing": "workspace:^"
-    "@medusajs/product": "workspace:^"
-    "@medusajs/promotion": "workspace:^"
-    "@medusajs/region": "workspace:^"
-    "@medusajs/stock-location": "workspace:^"
-    "@medusajs/store": "workspace:^"
-    "@medusajs/tax": "workspace:^"
-    "@medusajs/test-utils": "workspace:*"
-    "@medusajs/types": "workspace:^"
-    "@medusajs/user": "workspace:^"
-    "@medusajs/utils": "workspace:^"
-    "@medusajs/workflow-engine-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/api-key": "workspace:^"
+    "@srinivasulu-narayanam/auth": "workspace:*"
+    "@srinivasulu-narayanam/cache-inmemory": "workspace:*"
+    "@srinivasulu-narayanam/core-flows": "workspace:^"
+    "@srinivasulu-narayanam/currency": "workspace:^"
+    "@srinivasulu-narayanam/customer": "workspace:^"
+    "@srinivasulu-narayanam/event-bus-local": "workspace:*"
+    "@srinivasulu-narayanam/framework": "workspace:^"
+    "@srinivasulu-narayanam/fulfillment": "workspace:^"
+    "@srinivasulu-narayanam/fulfillment-manual": "workspace:^"
+    "@srinivasulu-narayanam/inventory": "workspace:^"
+    "@srinivasulu-narayanam/link-modules": "workspace:^"
+    "@srinivasulu-narayanam/medusa": "workspace:*"
+    "@srinivasulu-narayanam/modules-sdk": "workspace:^"
+    "@srinivasulu-narayanam/payment": "workspace:^"
+    "@srinivasulu-narayanam/pricing": "workspace:^"
+    "@srinivasulu-narayanam/product": "workspace:^"
+    "@srinivasulu-narayanam/promotion": "workspace:^"
+    "@srinivasulu-narayanam/region": "workspace:^"
+    "@srinivasulu-narayanam/stock-location": "workspace:^"
+    "@srinivasulu-narayanam/store": "workspace:^"
+    "@srinivasulu-narayanam/tax": "workspace:^"
+    "@srinivasulu-narayanam/test-utils": "workspace:*"
+    "@srinivasulu-narayanam/types": "workspace:^"
+    "@srinivasulu-narayanam/user": "workspace:^"
+    "@srinivasulu-narayanam/utils": "workspace:^"
+    "@srinivasulu-narayanam/workflow-engine-inmemory": "workspace:*"
     "@swc/core": ^1.4.8
     "@swc/jest": ^0.2.36
     faker: ^5.5.3

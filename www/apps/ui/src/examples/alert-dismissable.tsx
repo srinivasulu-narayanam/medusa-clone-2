@@ -1,4 +1,4 @@
-import { Alert } from "@medusajs/ui"
+import { Alert } from "@srinivasulu-narayanam/ui"
 
 export default function AlertDismissable() {
   return <Alert dismissible={true}>You are viewing Medusa docs.</Alert>

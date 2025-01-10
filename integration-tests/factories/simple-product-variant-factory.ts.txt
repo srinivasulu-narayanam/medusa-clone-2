@@ -3,7 +3,7 @@ import {
   ProductOptionValue,
   ProductVariant,
   ProductVariantMoneyAmount,
-} from "@medusajs/medusa"
+} from "@srinivasulu-narayanam/medusa"
 
 import { DataSource } from "typeorm"
 import faker from "faker"

@@ -83,5 +83,8 @@
     "@redocly/cli/react": "^17.0.1",
     "@redocly/cli/react-dom": "^17.0.1",
     "pg": "8.11.3"
+  },
+  "publishConfig": {
+    "registry": "http://npm.pkg.github.com"
   }
 }

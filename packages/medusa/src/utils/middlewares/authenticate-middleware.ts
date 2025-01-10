@@ -1,3 +1,3 @@
-import { authenticate as originalAuthenticate } from "@medusajs/framework/http"
+import { authenticate as originalAuthenticate } from "@srinivasulu-narayanam/framework/http"
 
 export const authenticate = originalAuthenticate

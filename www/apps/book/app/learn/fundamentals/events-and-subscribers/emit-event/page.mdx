@@ -38,7 +38,7 @@ Some examples of service events:
 
 ## Emit Event in a Workflow
 
-To emit a workflow event, use the `emitEventStep` helper step provided in the `@medusajs/medusa/core-flows` package.
+To emit a workflow event, use the `emitEventStep` helper step provided in the `@srinivas-narayanam/medusa/core-flows` package.
 
 For example:
 
@@ -51,10 +51,10 @@ export const highlights = [
 ```ts highlights={highlights}
 import { 
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivas-narayanam/framework/workflows-sdk"
 import {
   emitEventStep,
-} from "@medusajs/medusa/core-flows"
+} from "@srinivas-narayanam/medusa/core-flows"
 
 const helloWorldWorkflow = createWorkflow(
   "hello-world",
@@ -97,8 +97,8 @@ To emit a service event:
   <CodeTab label="Extending Service Factory" value="service_factory">
 
 ```ts title="src/modules/hello/service.ts" highlights={["9"]}
-import { IEventBusService } from "@medusajs/framework/types"
-import { MedusaService } from "@medusajs/framework/utils"
+import { IEventBusService } from "@srinivas-narayanam/framework/types"
+import { MedusaService } from "@srinivas-narayanam/framework/utils"
 
 class HelloModuleService extends MedusaService({
   MyCustom,
@@ -116,7 +116,7 @@ class HelloModuleService extends MedusaService({
   <CodeTab label="Without Service Factory" value="no_service_factory">
 
 ```ts title="src/modules/hello/service.ts" highlights={["6"]}
-import { IEventBusService } from "@medusajs/framework/types"
+import { IEventBusService } from "@srinivas-narayanam/framework/types"
 
 class HelloModuleService {
   protected eventBusService_: AbstractEventBusModuleService
@@ -167,7 +167,7 @@ export const depsHighlight = [
 ]
 
 ```ts title="medusa-config.ts" highlights={depsHighlight}
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 module.exports = defineConfig({
   // ...

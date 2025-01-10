@@ -1,4 +1,4 @@
-# @medusajs/dashboard
+# @srinivas-narayanam/dashboard
 
 ## 2.2.0
 
@@ -7,19 +7,19 @@
 - [#10667](https://github.com/medusajs/medusa/pull/10667) [`47594192b79fbc798cfaf21821b60673745d1374`](https://github.com/medusajs/medusa/commit/47594192b79fbc798cfaf21821b60673745d1374) Thanks [@riqwan](https://github.com/riqwan)! - feat(dashboard,core-flows,types,utils,medusa,order): Order cancelations will refund payments
 
 - Updated dependencies [[`13ddf27c68fc2831b3661940bc5f27bab23ce8c0`](https://github.com/medusajs/medusa/commit/13ddf27c68fc2831b3661940bc5f27bab23ce8c0), [`f7aaf2c8bb243c8478a943285628ba8eb331feb6`](https://github.com/medusajs/medusa/commit/f7aaf2c8bb243c8478a943285628ba8eb331feb6), [`3253e19b3603adacd913b8cbb3e88c9beb0c931a`](https://github.com/medusajs/medusa/commit/3253e19b3603adacd913b8cbb3e88c9beb0c931a)]:
-  - @medusajs/js-sdk@2.2.0
-  - @medusajs/icons@2.2.0
-  - @medusajs/ui@4.0.3
-  - @medusajs/admin-shared@2.2.0
+  - @srinivas-narayanam/js-sdk@2.2.0
+  - @srinivas-narayanam/icons@2.2.0
+  - @srinivas-narayanam/ui@4.0.3
+  - @srinivas-narayanam/admin-shared@2.2.0
 
 ## 2.1.3
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.1.3
-  - @medusajs/js-sdk@2.1.3
-  - @medusajs/icons@2.1.3
+  - @srinivas-narayanam/admin-shared@2.1.3
+  - @srinivas-narayanam/js-sdk@2.1.3
+  - @srinivas-narayanam/icons@2.1.3
 
 ## 2.1.2
 
@@ -30,9 +30,9 @@
 - [#10547](https://github.com/medusajs/medusa/pull/10547) [`dc5e73af4d2fe4eed8239660d74af6cd2a0994cd`](https://github.com/medusajs/medusa/commit/dc5e73af4d2fe4eed8239660d74af6cd2a0994cd) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard): Prevent fulfillment provider modal from rerendering before form submission is complete
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.1.2
-  - @medusajs/js-sdk@2.1.2
-  - @medusajs/icons@2.1.2
+  - @srinivas-narayanam/admin-shared@2.1.2
+  - @srinivas-narayanam/js-sdk@2.1.2
+  - @srinivas-narayanam/icons@2.1.2
 
 ## 2.1.1
 
@@ -55,10 +55,10 @@
 - [#10457](https://github.com/medusajs/medusa/pull/10457) [`864f53011b892e1ed0abee2e241b662eccef7e6d`](https://github.com/medusajs/medusa/commit/864f53011b892e1ed0abee2e241b662eccef7e6d) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard,types): Fix TS errors
 
 - Updated dependencies [[`c9a66b19afcfcc626f9e2e4531771dc36f66a65e`](https://github.com/medusajs/medusa/commit/c9a66b19afcfcc626f9e2e4531771dc36f66a65e)]:
-  - @medusajs/ui@4.0.2
-  - @medusajs/admin-shared@2.1.1
-  - @medusajs/js-sdk@2.1.1
-  - @medusajs/icons@2.1.1
+  - @srinivas-narayanam/ui@4.0.2
+  - @srinivas-narayanam/admin-shared@2.1.1
+  - @srinivas-narayanam/js-sdk@2.1.1
+  - @srinivas-narayanam/icons@2.1.1
 
 ## 2.1.0
 
@@ -75,9 +75,9 @@
 - [#10430](https://github.com/medusajs/medusa/pull/10430) [`c6f955f0b51a795b4f6a1aeaa1de36205d2d32e5`](https://github.com/medusajs/medusa/commit/c6f955f0b51a795b4f6a1aeaa1de36205d2d32e5) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard): Add Shipping Profile metadata route
 
 - Updated dependencies [[`94f6265dfc074969f2f141a19f2fc33a6ab96af1`](https://github.com/medusajs/medusa/commit/94f6265dfc074969f2f141a19f2fc33a6ab96af1)]:
-  - @medusajs/icons@2.1.0
-  - @medusajs/admin-shared@2.1.0
-  - @medusajs/js-sdk@2.1.0
+  - @srinivas-narayanam/icons@2.1.0
+  - @srinivas-narayanam/admin-shared@2.1.0
+  - @srinivas-narayanam/js-sdk@2.1.0
 
 ## 2.0.7
 
@@ -94,9 +94,9 @@
 - [#10285](https://github.com/medusajs/medusa/pull/10285) [`344a6c9ea05a1d59a3a7de5282ae7ecda141d6ae`](https://github.com/medusajs/medusa/commit/344a6c9ea05a1d59a3a7de5282ae7ecda141d6ae) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard): Add Metadata form to Variant page
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.0.7
-  - @medusajs/js-sdk@2.0.7
-  - @medusajs/icons@2.0.7
+  - @srinivas-narayanam/admin-shared@2.0.7
+  - @srinivas-narayanam/js-sdk@2.0.7
+  - @srinivas-narayanam/icons@2.0.7
 
 ## 2.0.6
 
@@ -105,9 +105,9 @@
 - [#10254](https://github.com/medusajs/medusa/pull/10254) [`c28d0db1647a5c8edaf0ba0faba6426e8a740399`](https://github.com/medusajs/medusa/commit/c28d0db1647a5c8edaf0ba0faba6426e8a740399) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(product,dashboard): Avoid duplicating images
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.0.6
-  - @medusajs/js-sdk@2.0.6
-  - @medusajs/icons@2.0.6
+  - @srinivas-narayanam/admin-shared@2.0.6
+  - @srinivas-narayanam/js-sdk@2.0.6
+  - @srinivas-narayanam/icons@2.0.6
 
 ## 2.0.5
 
@@ -126,9 +126,9 @@
 - [#10213](https://github.com/medusajs/medusa/pull/10213) [`60b13c191ed8164951e4743f19e1cdc1efd3b5fc`](https://github.com/medusajs/medusa/commit/60b13c191ed8164951e4743f19e1cdc1efd3b5fc) Thanks [@ederwii](https://github.com/ederwii)! - feat(dashboard): Add Spanish i18n
 
 - Updated dependencies [[`6680f69588332e25e6be2115248dd72fe18334b7`](https://github.com/medusajs/medusa/commit/6680f69588332e25e6be2115248dd72fe18334b7), [`a153bc477c421cd3cfc6f2cb7e30f2f3661f5922`](https://github.com/medusajs/medusa/commit/a153bc477c421cd3cfc6f2cb7e30f2f3661f5922), [`d6ff8d7aa16fe83a6cb15e9cc46360316625189e`](https://github.com/medusajs/medusa/commit/d6ff8d7aa16fe83a6cb15e9cc46360316625189e)]:
-  - @medusajs/js-sdk@2.0.5
-  - @medusajs/admin-shared@2.0.5
-  - @medusajs/icons@2.0.5
+  - @srinivas-narayanam/js-sdk@2.0.5
+  - @srinivas-narayanam/admin-shared@2.0.5
+  - @srinivas-narayanam/icons@2.0.5
 
 ## 2.0.4
 
@@ -139,18 +139,18 @@
 - [#9770](https://github.com/medusajs/medusa/pull/9770) [`5c22c57cb8f549c9b16829ab313eb954339b1f6a`](https://github.com/medusajs/medusa/commit/5c22c57cb8f549c9b16829ab313eb954339b1f6a) Thanks [@nexthis](https://github.com/nexthis)! - feat(dashboard): Add Polish translation of admin dashboard
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.0.4
-  - @medusajs/js-sdk@2.0.4
-  - @medusajs/icons@2.0.4
+  - @srinivas-narayanam/admin-shared@2.0.4
+  - @srinivas-narayanam/js-sdk@2.0.4
+  - @srinivas-narayanam/icons@2.0.4
 
 ## 2.0.3
 
 ### Patch Changes
 
 - Updated dependencies []:
-  - @medusajs/admin-shared@2.0.3
-  - @medusajs/js-sdk@2.0.3
-  - @medusajs/icons@2.0.3
+  - @srinivas-narayanam/admin-shared@2.0.3
+  - @srinivas-narayanam/js-sdk@2.0.3
+  - @srinivas-narayanam/icons@2.0.3
 
 ## 2.0.2
 
@@ -159,9 +159,9 @@
 - [#9947](https://github.com/medusajs/medusa/pull/9947) [`b3cbc160eb94025402b5a0ef21653c207bbe8ccd`](https://github.com/medusajs/medusa/commit/b3cbc160eb94025402b5a0ef21653c207bbe8ccd) Thanks [@sradevski](https://github.com/sradevski)! - fix: Default to a relative path for backend URL in admin
 
 - Updated dependencies [[`30edc8fa40ff5ed6ecc8c55f555f9d975df497f5`](https://github.com/medusajs/medusa/commit/30edc8fa40ff5ed6ecc8c55f555f9d975df497f5)]:
-  - @medusajs/js-sdk@2.0.2
-  - @medusajs/admin-shared@2.0.2
-  - @medusajs/icons@2.0.2
+  - @srinivas-narayanam/js-sdk@2.0.2
+  - @srinivas-narayanam/admin-shared@2.0.2
+  - @srinivas-narayanam/icons@2.0.2
 
 ## 2.0.1
 
@@ -174,10 +174,10 @@
 - [#9775](https://github.com/medusajs/medusa/pull/9775) [`59e6747800133e091d20c2c167f600981abc5c0d`](https://github.com/medusajs/medusa/commit/59e6747800133e091d20c2c167f600981abc5c0d) Thanks [@kasperkristensen](https://github.com/kasperkristensen)! - fix(dashboard,ui): DateFilter should remain open
 
 - Updated dependencies [[`59e6747800133e091d20c2c167f600981abc5c0d`](https://github.com/medusajs/medusa/commit/59e6747800133e091d20c2c167f600981abc5c0d)]:
-  - @medusajs/ui@4.0.1
-  - @medusajs/admin-shared@2.0.1
-  - @medusajs/js-sdk@2.0.1
-  - @medusajs/icons@2.0.1
+  - @srinivas-narayanam/ui@4.0.1
+  - @srinivas-narayanam/admin-shared@2.0.1
+  - @srinivas-narayanam/js-sdk@2.0.1
+  - @srinivas-narayanam/icons@2.0.1
 
 ## 2.0.0
 
@@ -188,7 +188,7 @@
 ### Patch Changes
 
 - Updated dependencies [[`2e42e053d4c9d5445d227bdc268c66713aad8e2e`](https://github.com/medusajs/medusa/commit/2e42e053d4c9d5445d227bdc268c66713aad8e2e)]:
-  - @medusajs/icons@2.0.0
-  - @medusajs/ui@4.0.0
-  - @medusajs/js-sdk@2.0.0
-  - @medusajs/admin-shared@2.0.0
+  - @srinivas-narayanam/icons@2.0.0
+  - @srinivas-narayanam/ui@4.0.0
+  - @srinivas-narayanam/js-sdk@2.0.0
+  - @srinivas-narayanam/admin-shared@2.0.0

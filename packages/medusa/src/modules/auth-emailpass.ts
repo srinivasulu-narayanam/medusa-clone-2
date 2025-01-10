@@ -1,6 +1,6 @@
-import EmailPassAuthProvider from "@medusajs/auth-emailpass"
+import EmailPassAuthProvider from "@srinivasulu-narayanam/auth-emailpass"
 
-export * from "@medusajs/auth-emailpass"
+export * from "@srinivasulu-narayanam/auth-emailpass"
 
 export default EmailPassAuthProvider
-export const discoveryPath = require.resolve("@medusajs/auth-emailpass")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/auth-emailpass")

@@ -2,14 +2,14 @@ import {
   BigNumberInput,
   ComputeActionItemLine,
   PromotionTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ApplicationMethodTargetType,
   ComputedActions,
   MathBN,
   MedusaError,
   PromotionType,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { areRulesValidForContext } from "../validations"
 import { computeActionForBudgetExceeded } from "./usage"
 

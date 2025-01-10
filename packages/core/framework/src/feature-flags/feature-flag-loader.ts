@@ -1,4 +1,4 @@
-import { trackFeatureFlag } from "@medusajs/telemetry"
+import { trackFeatureFlag } from "@srinivasulu-narayanam/telemetry"
 import {
   ContainerRegistrationKeys,
   dynamicImport,
@@ -9,7 +9,7 @@ import {
   isTruthy,
   objectFromStringPath,
   readDirRecursive,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { asFunction } from "awilix"
 import { join, normalize } from "path"
 import { configManager } from "../config"

@@ -1,12 +1,12 @@
 import {
   IFulfillmentModuleService,
   UpdateFulfillmentDTO,
-} from "@medusajs/framework/types"
-import { FulfillmentEvents, Modules } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { FulfillmentEvents, Modules } from "@srinivasulu-narayanam/framework/utils"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/test-utils"
 import { resolve } from "path"
 import {
   buildExpectedEventMessageShape,

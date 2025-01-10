@@ -1,10 +1,10 @@
-import { markPaymentCollectionAsPaid } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { markPaymentCollectionAsPaid } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
   refetchEntity,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { AdminMarkPaymentCollectionPaidType } from "../../validators"
 
 export const POST = async (

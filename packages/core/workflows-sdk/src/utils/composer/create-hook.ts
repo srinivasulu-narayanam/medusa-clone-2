@@ -1,5 +1,5 @@
 import { CompensateFn, createStep, InvokeFn } from "./create-step"
-import { OrchestrationUtils } from "@medusajs/utils"
+import { OrchestrationUtils } from "@srinivasulu-narayanam/utils"
 import { CreateWorkflowComposerContext } from "./type"
 import { createStepHandler } from "./helpers/create-step-handler"
 
@@ -35,7 +35,7 @@ export type Hook<Name extends string, Input> = {
  *   createHook,
  *   createWorkflow,
  *   WorkflowResponse,
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import { createProductStep } from "./steps/create-product"
  *
  * export const myWorkflow = createWorkflow(

@@ -2,7 +2,7 @@ import {
   arrayIntersection,
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { MedusaNextFunction, MedusaRequest } from "../types"
 
 export function maybeApplyLinkFilter({
