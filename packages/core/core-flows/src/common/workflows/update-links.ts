@@ -1,9 +1,9 @@
-import { LinkDefinition } from "@medusajs/framework/types"
+import { LinkDefinition } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { updateRemoteLinksStep } from "../steps/update-remote-links"
 
 export const updateLinksWorkflowId = "update-link"

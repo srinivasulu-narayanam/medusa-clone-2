@@ -1,10 +1,10 @@
-import { linkSalesChannelsToApiKeyWorkflow } from "@medusajs/core-flows"
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
-import { ApiKeyType, MedusaError } from "@medusajs/framework/utils"
+import { linkSalesChannelsToApiKeyWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes, LinkMethodRequest } from "@srinivasulu-narayanam/framework/types"
+import { ApiKeyType, MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { refetchApiKey } from "../../helpers"
 
 export const POST = async (

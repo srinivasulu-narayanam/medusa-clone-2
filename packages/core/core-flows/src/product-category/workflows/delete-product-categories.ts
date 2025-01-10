@@ -1,10 +1,10 @@
-import { ProductCategoryWorkflowEvents } from "@medusajs/framework/utils"
+import { ProductCategoryWorkflowEvents } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { emitEventStep } from "../../common"
 import { deleteProductCategoriesStep } from "../steps"
 

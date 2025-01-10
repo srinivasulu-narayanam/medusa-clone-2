@@ -753,7 +753,7 @@ export type ProjectConfigOptions = {
  *
  * The configurations for your Medusa application are in `medusa-config.js` located in the root of your Medusa project. The configurations include configurations for database, modules, and more.
  *
- * `medusa-config.js` exports the value returned by the `defineConfig` utility function imported from `@medusajs/utils`.
+ * `medusa-config.js` exports the value returned by the `defineConfig` utility function imported from `@srinivasulu-narayanam/utils`.
  *
  * `defineConfig` accepts as a parameter an object with the following properties:
  *

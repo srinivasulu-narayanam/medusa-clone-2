@@ -27,7 +27,7 @@ import {
   createStep,
   StepResponse,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivas-narayanam/framework/workflows-sdk"
 
 const step1 = createStep("step-1", () => {
   return new StepResponse("Hello, World!")
@@ -46,7 +46,7 @@ export const helloWorldWorkflow = createWorkflow(
 To write a test for this workflow, create the file `integration-tests/http/workflow.spec.ts` with the following content:
 
 ```ts title="integration-tests/http/workflow.spec.ts"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@srinivas-narayanam/test-utils"
 import { helloWorldWorkflow } from "../../src/workflows/hello-world"
 
 medusaIntegrationTestRunner({

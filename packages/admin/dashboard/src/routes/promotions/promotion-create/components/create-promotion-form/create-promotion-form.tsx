@@ -12,7 +12,7 @@ import {
   RadioGroup,
   Text,
   toast,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { useEffect, useMemo, useState } from "react"
 import { useForm, useWatch } from "react-hook-form"
 import { Trans, useTranslation } from "react-i18next"
@@ -24,7 +24,7 @@ import {
   ApplicationMethodTypeValues,
   PromotionRuleOperatorValues,
   PromotionTypeValues,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { Divider } from "../../../../../components/common/divider"
 import { Form } from "../../../../../components/common/form"
 import { DeprecatedPercentageInput } from "../../../../../components/inputs/percentage-input"

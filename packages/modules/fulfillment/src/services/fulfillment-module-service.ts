@@ -18,7 +18,7 @@ import {
   UpdateFulfillmentSetDTO,
   UpdateServiceZoneDTO,
   ValidateFulfillmentDataContext,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   arrayDifference,
   deepCopy,
@@ -34,7 +34,7 @@ import {
   MedusaError,
   ModulesSdkUtils,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   Fulfillment,
   FulfillmentProvider,

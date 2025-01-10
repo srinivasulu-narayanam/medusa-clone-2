@@ -1,11 +1,11 @@
-import { batchLinksWorkflow } from "@medusajs/core-flows"
-import { HttpTypes, LinkMethodRequest } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { batchLinksWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes, LinkMethodRequest } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { refetchStockLocation } from "../../helpers"
 
 const buildLinks = (id, fulfillmentProviderIds: string[]) => {

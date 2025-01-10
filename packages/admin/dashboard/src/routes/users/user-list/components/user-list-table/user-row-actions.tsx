@@ -1,5 +1,5 @@
-import { PencilSquare } from "@medusajs/icons"
-import { UserDTO } from "@medusajs/types"
+import { PencilSquare } from "@srinivasulu-narayanam/icons"
+import { UserDTO } from "@srinivasulu-narayanam/types"
 import { useTranslation } from "react-i18next"
 import { ActionMenu } from "../../../../../components/common/action-menu"
 

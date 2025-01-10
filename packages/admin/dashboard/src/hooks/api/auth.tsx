@@ -1,5 +1,5 @@
-import { FetchError } from "@medusajs/js-sdk"
-import { HttpTypes } from "@medusajs/types"
+import { FetchError } from "@srinivasulu-narayanam/js-sdk"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { UseMutationOptions, useMutation } from "@tanstack/react-query"
 import { sdk } from "../../lib/client"
 

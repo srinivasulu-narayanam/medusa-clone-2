@@ -1,4 +1,4 @@
-import { Button, Container, Heading, Text } from "@medusajs/ui"
+import { Button, Container, Heading, Text } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
 

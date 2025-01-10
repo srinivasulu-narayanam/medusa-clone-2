@@ -76,11 +76,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@srinivasulu-narayanam/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -107,7 +107,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -132,7 +132,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -157,7 +157,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -184,7 +184,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -211,7 +211,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -238,7 +238,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -265,7 +265,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -292,7 +292,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -319,7 +319,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -346,7 +346,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -373,7 +373,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -400,7 +400,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -427,7 +427,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -454,7 +454,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -489,7 +489,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -521,7 +521,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					{
 						"type": "literal",
@@ -529,7 +529,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -592,11 +592,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@srinivasulu-narayanam/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -623,7 +623,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -650,7 +650,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -685,7 +685,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -720,7 +720,7 @@
 													}
 												],
 												"name": "BelongsTo",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -741,7 +741,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					{
 						"type": "literal",
@@ -749,7 +749,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -812,11 +812,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@srinivasulu-narayanam/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -841,7 +841,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -868,7 +868,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -895,7 +895,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -930,7 +930,7 @@
 													}
 												],
 												"name": "ManyToMany",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -951,7 +951,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					{
 						"type": "literal",
@@ -959,7 +959,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			},
 			"defaultValue": "..."
 		},
@@ -1022,11 +1022,11 @@
 															"qualifiedName": "IdProperty"
 														},
 														"name": "IdProperty",
-														"package": "@medusajs/utils"
+														"package": "@srinivasulu-narayanam/utils"
 													}
 												],
 												"name": "PrimaryKeyModifier",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1053,7 +1053,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1080,7 +1080,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1107,7 +1107,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1134,7 +1134,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1161,7 +1161,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1186,7 +1186,7 @@
 													"qualifiedName": "BooleanProperty"
 												},
 												"name": "BooleanProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1213,7 +1213,7 @@
 													"qualifiedName": "JSONProperty"
 												},
 												"name": "JSONProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1240,7 +1240,7 @@
 													"qualifiedName": "TextProperty"
 												},
 												"name": "TextProperty",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1275,7 +1275,7 @@
 													}
 												],
 												"name": "ManyToMany",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										},
@@ -1310,7 +1310,7 @@
 													}
 												],
 												"name": "HasMany",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											"defaultValue": "..."
 										}
@@ -1337,7 +1337,7 @@
 							}
 						],
 						"name": "DMLEntitySchemaBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					{
 						"type": "literal",
@@ -1345,7 +1345,7 @@
 					}
 				],
 				"name": "DmlEntity",
-				"package": "@medusajs/utils"
+				"package": "@srinivasulu-narayanam/utils"
 			},
 			"defaultValue": "..."
 		}
@@ -1361,7 +1361,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/customer",
+	"packageName": "@srinivasulu-narayanam/customer",
 	"symbolIdMap": {
 		"3166": {
 			"sourceFileName": "../../../../packages/modules/customer/src/models/index.ts",

@@ -1,5 +1,5 @@
-import { ArrowPathMini, MinusMini, PlusMini } from "@medusajs/icons"
-import { Container, DropdownMenu, Heading, Text, clx } from "@medusajs/ui"
+import { ArrowPathMini, MinusMini, PlusMini } from "@srinivasulu-narayanam/icons"
+import { Container, DropdownMenu, Heading, Text, clx } from "@srinivasulu-narayanam/ui"
 import {
   motion,
   useAnimationControls,
@@ -17,7 +17,7 @@ import {
   STEP_OK_STATES,
   STEP_SKIPPED_STATES,
 } from "../../../constants"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 type WorkflowExecutionTimelineSectionProps = {
   execution: HttpTypes.AdminWorkflowExecutionResponse["workflow_execution"]

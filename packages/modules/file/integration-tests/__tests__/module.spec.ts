@@ -1,7 +1,7 @@
 import { resolve } from "path"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
-import { IFileModuleService } from "@medusajs/framework/types"
-import { Module, Modules } from "@medusajs/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
+import { IFileModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Module, Modules } from "@srinivasulu-narayanam/framework/utils"
 import { FileModuleService } from "@services"
 
 jest.setTimeout(100000)

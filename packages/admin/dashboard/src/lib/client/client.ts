@@ -1,4 +1,4 @@
-import Medusa from "@medusajs/js-sdk"
+import Medusa from "@srinivasulu-narayanam/js-sdk"
 
 export const backendUrl = __BACKEND_URL__ ?? "/"
 

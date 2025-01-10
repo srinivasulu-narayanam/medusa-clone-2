@@ -13,7 +13,7 @@ import {
   Link,
 } from "@/components"
 import { useAiAssistant, useSearch } from "@/providers"
-import { ArrowUturnLeft } from "@medusajs/icons"
+import { ArrowUturnLeft } from "@srinivasulu-narayanam/icons"
 import clsx from "clsx"
 import { useSearchNavigation } from "@/hooks"
 import { AiAssistantThreadItem } from "./ThreadItem"

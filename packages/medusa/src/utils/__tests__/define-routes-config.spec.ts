@@ -1,6 +1,6 @@
 import zod from "zod"
 import { defineMiddlewares } from "../define-middlewares"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
 
 describe("defineMiddlewares", function () {
   test("define custom middleware for a route", () => {

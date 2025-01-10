@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  @medusajs/event-bus-local
+  @srinivasulu-narayanam/event-bus-local
 </h1>
 
 <h4 align="center">
@@ -30,7 +30,7 @@ An open source composable commerce engine built for developers.
     <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
   </a>
   <a href="https://twitter.com/intent/follow?screen_name=medusajs">
-    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
+    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@srinivasulu-narayanam" alt="Follow @srinivasulu-narayanam" />
   </a>
 </p>
 
@@ -38,14 +38,14 @@ An open source composable commerce engine built for developers.
 
 Local Event Bus module for Medusa. When installed, the events system of Medusa is powered by the Node EventEmitter. This module installed by default in new (> v1.8.0) Medusa projects.
 
-The Node EventEmitter is limited to a single process environment. We generally recommend using the `@medusajs/event-bus-redis` module in a production environment.
+The Node EventEmitter is limited to a single process environment. We generally recommend using the `@srinivasulu-narayanam/event-bus-redis` module in a production environment.
 
 ## Getting started
 
 Install the module:
 
 ```bash
-yarn add @medusajs/event-bus-local
+yarn add @srinivasulu-narayanam/event-bus-local
 ```
 
 You don't need to add the module to your project configuration as it is the default one. Medusa will try to use it, if no other event buses are installed.

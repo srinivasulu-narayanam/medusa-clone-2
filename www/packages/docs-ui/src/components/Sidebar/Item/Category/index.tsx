@@ -6,7 +6,7 @@ import React, { useEffect, useMemo, useState } from "react"
 import { SidebarItemCategory as SidebarItemCategoryType } from "types"
 import { Loading, SidebarItem, useSidebar } from "../../../.."
 import clsx from "clsx"
-import { MinusMini, PlusMini } from "@medusajs/icons"
+import { MinusMini, PlusMini } from "@srinivasulu-narayanam/icons"
 
 export type SidebarItemCategory = {
   item: SidebarItemCategoryType

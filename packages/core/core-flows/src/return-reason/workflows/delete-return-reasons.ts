@@ -1,4 +1,4 @@
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { WorkflowData, createWorkflow } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { deleteReturnReasonStep } from "../steps"
 
 export type DeleteReturnReasonsWorkflowInput = { ids: string[] }

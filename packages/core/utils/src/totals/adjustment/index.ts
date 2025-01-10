@@ -1,4 +1,4 @@
-import { AdjustmentLineDTO, BigNumberInput } from "@medusajs/types"
+import { AdjustmentLineDTO, BigNumberInput } from "@srinivasulu-narayanam/types"
 import { isDefined } from "../../common"
 import { BigNumber } from "../big-number"
 import { MathBN } from "../math"

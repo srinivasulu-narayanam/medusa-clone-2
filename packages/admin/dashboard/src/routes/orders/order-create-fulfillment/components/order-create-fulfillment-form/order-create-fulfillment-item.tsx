@@ -1,9 +1,9 @@
 import { useMemo } from "react"
 import { useTranslation } from "react-i18next"
 import * as zod from "zod"
-import { Input, Text } from "@medusajs/ui"
+import { Input, Text } from "@srinivasulu-narayanam/ui"
 import { UseFormReturn } from "react-hook-form"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 import { Form } from "../../../../../components/common/form/index"
 import { Thumbnail } from "../../../../../components/common/thumbnail/index"

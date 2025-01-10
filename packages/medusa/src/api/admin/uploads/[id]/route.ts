@@ -1,14 +1,14 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { deleteFilesWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { deleteFilesWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,

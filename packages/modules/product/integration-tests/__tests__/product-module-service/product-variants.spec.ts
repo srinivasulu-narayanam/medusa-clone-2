@@ -5,19 +5,19 @@ import {
   ProductDTO,
   ProductVariantDTO,
   UpdateProductVariantDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   CommonEvents,
   composeMessage,
   Modules,
   ProductEvents,
   ProductStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/test-utils"
 
 jest.setTimeout(30000)
 

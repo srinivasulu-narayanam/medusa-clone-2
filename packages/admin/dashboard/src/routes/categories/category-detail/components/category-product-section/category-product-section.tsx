@@ -1,5 +1,5 @@
-import { PlusMini } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+import { PlusMini } from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import {
   Checkbox,
   CommandBar,
@@ -7,7 +7,7 @@ import {
   Heading,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { keepPreviousData } from "@tanstack/react-query"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { useMemo, useState } from "react"

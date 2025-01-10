@@ -1,12 +1,12 @@
 import {
   EventBusTypes,
   IEventBusModuleService,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 import {
   StepExecutionContext,
   createStep,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 /**
  * The event's details.
@@ -43,10 +43,10 @@ export const emitEventStepId = "emit-event-step"
  * @example
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   emitEventStep
- * } from "@medusajs/medusa/core-flows"
+ * } from "@srinivasulu-narayanam/medusa/core-flows"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",

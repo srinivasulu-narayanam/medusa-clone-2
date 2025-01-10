@@ -1,6 +1,6 @@
-import CartModule from "@medusajs/cart"
+import CartModule from "@srinivasulu-narayanam/cart"
 
-export * from "@medusajs/cart"
+export * from "@srinivasulu-narayanam/cart"
 
 export default CartModule
-export const discoveryPath = require.resolve("@medusajs/cart")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/cart")

@@ -1,4 +1,4 @@
-import { Input } from "@medusajs/ui"
+import { Input } from "@srinivasulu-narayanam/ui"
 import { ChangeEvent, useCallback, useEffect } from "react"
 import { useTranslation } from "react-i18next"
 

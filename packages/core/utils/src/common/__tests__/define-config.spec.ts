@@ -12,61 +12,61 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@srinivasulu-narayanam/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -79,50 +79,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -171,61 +171,61 @@ describe("defineConfig", function () {
             "resolve": "./modules/github",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@srinivasulu-narayanam/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -238,50 +238,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -338,61 +338,61 @@ describe("defineConfig", function () {
             )}",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@srinivasulu-narayanam/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -405,50 +405,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -506,61 +506,61 @@ describe("defineConfig", function () {
             )}",
           },
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@srinivasulu-narayanam/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -573,50 +573,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -662,61 +662,61 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "cart": {
-            "resolve": "@medusajs/medusa/cart",
+            "resolve": "@srinivasulu-narayanam/medusa/cart",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -729,50 +729,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],
@@ -821,58 +821,58 @@ describe("defineConfig", function () {
         "featureFlags": {},
         "modules": {
           "api_key": {
-            "resolve": "@medusajs/medusa/api-key",
+            "resolve": "@srinivasulu-narayanam/medusa/api-key",
           },
           "auth": {
             "options": {
               "providers": [
                 {
                   "id": "emailpass",
-                  "resolve": "@medusajs/medusa/auth-emailpass",
+                  "resolve": "@srinivasulu-narayanam/medusa/auth-emailpass",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/auth",
+            "resolve": "@srinivasulu-narayanam/medusa/auth",
           },
           "cache": {
-            "resolve": "@medusajs/medusa/cache-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/cache-inmemory",
           },
           "currency": {
-            "resolve": "@medusajs/medusa/currency",
+            "resolve": "@srinivasulu-narayanam/medusa/currency",
           },
           "customer": {
-            "resolve": "@medusajs/medusa/customer",
+            "resolve": "@srinivasulu-narayanam/medusa/customer",
           },
           "event_bus": {
-            "resolve": "@medusajs/medusa/event-bus-local",
+            "resolve": "@srinivasulu-narayanam/medusa/event-bus-local",
           },
           "file": {
             "options": {
               "providers": [
                 {
                   "id": "local",
-                  "resolve": "@medusajs/medusa/file-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/file-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/file",
+            "resolve": "@srinivasulu-narayanam/medusa/file",
           },
           "fulfillment": {
             "options": {
               "providers": [
                 {
                   "id": "manual",
-                  "resolve": "@medusajs/medusa/fulfillment-manual",
+                  "resolve": "@srinivasulu-narayanam/medusa/fulfillment-manual",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/fulfillment",
+            "resolve": "@srinivasulu-narayanam/medusa/fulfillment",
           },
           "inventory": {
-            "resolve": "@medusajs/medusa/inventory",
+            "resolve": "@srinivasulu-narayanam/medusa/inventory",
           },
           "locking": {
-            "resolve": "@medusajs/medusa/locking",
+            "resolve": "@srinivasulu-narayanam/medusa/locking",
           },
           "notification": {
             "options": {
@@ -885,50 +885,50 @@ describe("defineConfig", function () {
                     ],
                     "name": "Local Notification Provider",
                   },
-                  "resolve": "@medusajs/medusa/notification-local",
+                  "resolve": "@srinivasulu-narayanam/medusa/notification-local",
                 },
               ],
             },
-            "resolve": "@medusajs/medusa/notification",
+            "resolve": "@srinivasulu-narayanam/medusa/notification",
           },
           "order": {
-            "resolve": "@medusajs/medusa/order",
+            "resolve": "@srinivasulu-narayanam/medusa/order",
           },
           "payment": {
-            "resolve": "@medusajs/medusa/payment",
+            "resolve": "@srinivasulu-narayanam/medusa/payment",
           },
           "pricing": {
-            "resolve": "@medusajs/medusa/pricing",
+            "resolve": "@srinivasulu-narayanam/medusa/pricing",
           },
           "product": {
-            "resolve": "@medusajs/medusa/product",
+            "resolve": "@srinivasulu-narayanam/medusa/product",
           },
           "promotion": {
-            "resolve": "@medusajs/medusa/promotion",
+            "resolve": "@srinivasulu-narayanam/medusa/promotion",
           },
           "region": {
-            "resolve": "@medusajs/medusa/region",
+            "resolve": "@srinivasulu-narayanam/medusa/region",
           },
           "sales_channel": {
-            "resolve": "@medusajs/medusa/sales-channel",
+            "resolve": "@srinivasulu-narayanam/medusa/sales-channel",
           },
           "stock_location": {
-            "resolve": "@medusajs/medusa/stock-location",
+            "resolve": "@srinivasulu-narayanam/medusa/stock-location",
           },
           "store": {
-            "resolve": "@medusajs/medusa/store",
+            "resolve": "@srinivasulu-narayanam/medusa/store",
           },
           "tax": {
-            "resolve": "@medusajs/medusa/tax",
+            "resolve": "@srinivasulu-narayanam/medusa/tax",
           },
           "user": {
             "options": {
               "jwt_secret": "supersecret",
             },
-            "resolve": "@medusajs/medusa/user",
+            "resolve": "@srinivasulu-narayanam/medusa/user",
           },
           "workflows": {
-            "resolve": "@medusajs/medusa/workflow-engine-inmemory",
+            "resolve": "@srinivasulu-narayanam/medusa/workflow-engine-inmemory",
           },
         },
         "plugins": [],

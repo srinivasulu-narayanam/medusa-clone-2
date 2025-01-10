@@ -2,13 +2,13 @@ import {
   IPaymentModuleService,
   Logger,
   PaymentSessionDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface DeletePaymentSessionStepInput {
   ids: string[]

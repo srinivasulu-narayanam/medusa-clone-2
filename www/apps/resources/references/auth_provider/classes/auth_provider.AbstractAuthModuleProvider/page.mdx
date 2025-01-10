@@ -18,10 +18,10 @@ Start by creating a new directory for your module. For example, `src/modules/my-
 
 ## 2. Create the Auth Provider Service
 
-Create the file `src/modules/my-auth/service.ts` that holds the module's main service. It must extend the `AbstractAuthModuleProvider` class imported from `@medusajs/framework/utils`:
+Create the file `src/modules/my-auth/service.ts` that holds the module's main service. It must extend the `AbstractAuthModuleProvider` class imported from `@srinivas-narayanam/framework/utils`:
 
 ```ts title="src/modules/my-auth/service.ts"
-import { AbstractAuthModuleProvider } from "@medusajs/framework/utils"
+import { AbstractAuthModuleProvider } from "@srinivas-narayanam/framework/utils"
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
   // TODO implement methods
@@ -40,8 +40,8 @@ If you're creating a client or establishing a connection with a third-party serv
 #### Example
 
 ```ts
-import { AbstractAuthModuleProvider } from "@medusajs/framework/utils"
-import { Logger } from "@medusajs/framework/types"
+import { AbstractAuthModuleProvider } from "@srinivas-narayanam/framework/utils"
+import { Logger } from "@srinivas-narayanam/framework/types"
 
 type InjectedDependencies = {
   logger: Logger
@@ -154,7 +154,7 @@ import {
   AuthIdentityProviderService,
   AuthenticationInput,
   AuthenticationResponse
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 // ...
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
@@ -197,7 +197,7 @@ import {
   AuthIdentityProviderService,
   AuthenticationInput,
   AuthenticationResponse
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 // ...
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
@@ -255,8 +255,8 @@ import {
   AuthIdentityProviderService,
   AuthenticationInput,
   AuthenticationResponse
-} from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/types"
+import { MedusaError } from "@srinivas-narayanam/framework/utils"
 // ...
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
@@ -317,8 +317,8 @@ import {
   AuthIdentityProviderService,
   AuthenticationInput,
   AuthenticationResponse
-} from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/types"
+import { MedusaError } from "@srinivas-narayanam/framework/utils"
 // ...
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
@@ -379,7 +379,7 @@ import {
   AuthIdentityProviderService,
   AuthenticationInput,
   AuthenticationResponse
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 // ...
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
@@ -451,7 +451,7 @@ import MyAuthProviderService from "./service"
 import { 
   ModuleProvider, 
   Modules
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 
 export default ModuleProvider(Modules.AUTH, {
   services: [MyAuthProviderService],
@@ -467,18 +467,18 @@ This exports the module's definition, indicating that the `MyAuthProviderService
 To use your Auth Module Provider, add it to the `providers` array of the Auth Module in `medusa-config.ts`:
 
 ```ts title="medusa-config.ts"
-import { Modules, ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { Modules, ContainerRegistrationKeys } from "@srinivas-narayanam/framework/utils"
 
 module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/auth",
+      resolve: "@srinivas-narayanam/medusa/auth",
       options: {
         providers: [
           // default provider
           {
-            resolve: "@medusajs/medusa/auth-emailpass",
+            resolve: "@srinivas-narayanam/medusa/auth-emailpass",
             dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
             id: "emailpass",
           },

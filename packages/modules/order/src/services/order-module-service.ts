@@ -17,7 +17,7 @@ import {
   SoftDeleteReturn,
   UpdateOrderItemWithSelectorDTO,
   UpdateOrderReturnReasonDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   BigNumber,
   ChangeActionType,
@@ -38,7 +38,7 @@ import {
   OrderStatus,
   promiseAll,
   transformPropertiesToBigNumber,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   Order,
   OrderAddress,

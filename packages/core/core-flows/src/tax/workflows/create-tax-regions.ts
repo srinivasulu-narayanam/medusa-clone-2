@@ -1,9 +1,9 @@
-import { CreateTaxRegionDTO, TaxRegionDTO } from "@medusajs/framework/types"
+import { CreateTaxRegionDTO, TaxRegionDTO } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createTaxRegionsStep } from "../steps"
 
 export const createTaxRegionsWorkflowId = "create-tax-regions"

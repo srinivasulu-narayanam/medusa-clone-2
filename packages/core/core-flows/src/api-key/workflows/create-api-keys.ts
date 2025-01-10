@@ -1,9 +1,9 @@
-import { ApiKeyDTO, CreateApiKeyDTO } from "@medusajs/framework/types"
+import { ApiKeyDTO, CreateApiKeyDTO } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createApiKeysStep } from "../steps"
 
 export type CreateApiKeysWorkflowInput = { api_keys: CreateApiKeyDTO[] }

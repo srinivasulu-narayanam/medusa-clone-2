@@ -3,12 +3,12 @@ import {
   BatchResponse,
   MedusaContainer,
   PromotionRuleDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   promiseAll,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export const refetchPromotion = async (
   promotionId: string,

@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { Outlet, RouteObject, UIMatch } from "react-router-dom"
 
 import { t } from "i18next"

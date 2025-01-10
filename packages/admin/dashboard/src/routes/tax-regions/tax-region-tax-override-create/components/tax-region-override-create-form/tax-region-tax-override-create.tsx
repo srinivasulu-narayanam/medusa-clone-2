@@ -9,12 +9,12 @@ import {
   Text,
   clx,
   toast,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { useFieldArray, useForm, useWatch } from "react-hook-form"
 import { z } from "zod"
 
-import { MagnifyingGlass } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+import { MagnifyingGlass } from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { useTranslation } from "react-i18next"
 import { Divider } from "../../../../../components/common/divider"
 import { Form } from "../../../../../components/common/form"

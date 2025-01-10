@@ -1,4 +1,4 @@
-import { BigNumberInput, CartLikeWithTotals } from "@medusajs/types"
+import { BigNumberInput, CartLikeWithTotals } from "@srinivasulu-narayanam/types"
 import { BigNumber } from "../big-number"
 import { GetItemTotalInput, getLineItemsTotals } from "../line-item"
 import { MathBN } from "../math"

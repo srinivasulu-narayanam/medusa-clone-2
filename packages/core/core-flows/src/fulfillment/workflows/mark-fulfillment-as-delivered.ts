@@ -1,5 +1,5 @@
-import { FulfillmentDTO } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
+import { FulfillmentDTO } from "@srinivasulu-narayanam/framework/types"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   StepResponse,
   WorkflowData,
@@ -7,7 +7,7 @@ import {
   createStep,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../common"
 import { updateFulfillmentWorkflow } from "./update-fulfillment"
 

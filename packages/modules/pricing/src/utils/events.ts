@@ -3,7 +3,7 @@ import {
   moduleEventBuilderFactory,
   Modules,
   PricingEvents,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export const eventBuilders = {
   createdPriceSet: moduleEventBuilderFactory({

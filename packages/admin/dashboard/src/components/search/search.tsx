@@ -6,7 +6,7 @@ import {
   IconButton,
   Kbd,
   Text,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import * as Dialog from "@radix-ui/react-dialog"
 import { Command } from "cmdk"
 import {
@@ -31,7 +31,7 @@ import {
   Plus,
   Spinner,
   TriangleDownMini,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import { matchSorter } from "match-sorter"
 
 import { useSearch } from "../../providers/search-provider"

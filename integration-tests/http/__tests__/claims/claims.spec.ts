@@ -1,11 +1,11 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   ClaimReason,
   ClaimType,
   ContainerRegistrationKeys,
   Modules,
   RuleOperator,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import {
   adminHeaders,
   createAdminUser,

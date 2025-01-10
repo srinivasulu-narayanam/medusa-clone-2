@@ -1,11 +1,11 @@
-import { MedusaContainer, ModuleProvider } from "@medusajs/types"
+import { MedusaContainer, ModuleProvider } from "@srinivasulu-narayanam/types"
 import {
   dynamicImport,
   isString,
   lowerCaseFirst,
   normalizeImportPathWithSource,
   promiseAll,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { asFunction, Lifetime } from "awilix"
 
 export async function moduleProviderLoader({

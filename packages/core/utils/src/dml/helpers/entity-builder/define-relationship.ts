@@ -4,7 +4,7 @@ import {
   PropertyType,
   RelationshipMetadata,
   RelationshipType,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   BeforeCreate,
   BeforeUpdate,

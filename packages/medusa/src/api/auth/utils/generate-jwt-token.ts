@@ -1,5 +1,5 @@
-import { AuthIdentityDTO } from "@medusajs/framework/types"
-import { generateJwtToken } from "@medusajs/framework/utils"
+import { AuthIdentityDTO } from "@srinivasulu-narayanam/framework/types"
+import { generateJwtToken } from "@srinivasulu-narayanam/framework/utils"
 
 export function generateJwtTokenForAuthIdentity(
   {

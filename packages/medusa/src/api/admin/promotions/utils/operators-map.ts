@@ -1,4 +1,4 @@
-import { RuleOperator } from "@medusajs/framework/utils"
+import { RuleOperator } from "@srinivasulu-narayanam/framework/utils"
 
 export const operatorsMap = {
   [RuleOperator.IN]: {

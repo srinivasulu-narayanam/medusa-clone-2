@@ -5,12 +5,12 @@ import {
   CreateMoneyAmountDTO,
   ProductTypes,
   UpdateProductVariantWorkflowInputDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   ProductWorkflowEvents,
   arrayDifference,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
@@ -18,7 +18,7 @@ import {
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import {
   createRemoteLinkStep,
   dismissRemoteLinkStep,

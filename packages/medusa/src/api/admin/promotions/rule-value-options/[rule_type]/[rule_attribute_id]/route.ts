@@ -1,18 +1,18 @@
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import {
   ruleQueryConfigurations,
   validateRuleAttribute,
   validateRuleType,
 } from "../../../utils"
 import { AdminGetPromotionRuleParamsType } from "../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 /*
   This endpoint returns all the potential values for rules (promotion rules, target rules and buy rules)

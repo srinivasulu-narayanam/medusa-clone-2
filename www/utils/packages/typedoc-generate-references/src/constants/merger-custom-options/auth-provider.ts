@@ -27,10 +27,10 @@ const authProviderOptions: FormattingOptionsType = {
 Start by creating a new directory for your module. For example, \`src/modules/my-auth\`.`,
       `## 2. Create the Auth Provider Service
 
-Create the file \`src/modules/my-auth/service.ts\` that holds the module's main service. It must extend the \`AbstractAuthModuleProvider\` class imported from \`@medusajs/framework/utils\`:
+Create the file \`src/modules/my-auth/service.ts\` that holds the module's main service. It must extend the \`AbstractAuthModuleProvider\` class imported from \`@srinivasulu-narayanam/framework/utils\`:
 
 \`\`\`ts title="src/modules/my-auth/service.ts"
-import { AbstractAuthModuleProvider } from "@medusajs/framework/utils"
+import { AbstractAuthModuleProvider } from "@srinivasulu-narayanam/framework/utils"
 
 class MyAuthProviderService extends AbstractAuthModuleProvider {
   // TODO implement methods
@@ -49,7 +49,7 @@ import MyAuthProviderService from "./service"
 import { 
   ModuleProvider, 
   Modules
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export default ModuleProvider(Modules.AUTH, {
   services: [MyAuthProviderService],
@@ -62,18 +62,18 @@ This exports the module's definition, indicating that the \`MyAuthProviderServic
 To use your Auth Module Provider, add it to the \`providers\` array of the Auth Module in \`medusa-config.ts\`:
 
 \`\`\`ts title="medusa-config.ts"
-import { Modules, ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { Modules, ContainerRegistrationKeys } from "@srinivasulu-narayanam/framework/utils"
 
 module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/auth",
+      resolve: "@srinivasulu-narayanam/medusa/auth",
       options: {
         providers: [
           // default provider
           {
-            resolve: "@medusajs/medusa/auth-emailpass",
+            resolve: "@srinivasulu-narayanam/medusa/auth-emailpass",
             dependencies: [Modules.CACHE, ContainerRegistrationKeys.LOGGER],
             id: "emailpass",
           },

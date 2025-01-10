@@ -1,4 +1,4 @@
-import { PromotionRuleResponse } from "@medusajs/types"
+import { PromotionRuleResponse } from "@srinivasulu-narayanam/types"
 
 export const generateRuleAttributes = (rules?: PromotionRuleResponse[]) =>
   (rules || []).map((rule) => ({

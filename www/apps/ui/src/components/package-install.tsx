@@ -1,4 +1,4 @@
-import { clx } from "@medusajs/ui"
+import { clx } from "@srinivasulu-narayanam/ui"
 import { CodeBlock, CodeTab, CodeTabs } from "docs-ui"
 
 type PackageInstallProps = {

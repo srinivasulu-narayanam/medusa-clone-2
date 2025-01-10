@@ -35,7 +35,7 @@ You create a data model in a TypeScript or JavaScript file under the `models` di
 ![Updated directory overview after adding the data model](https://res.cloudinary.com/dza7lstvk/image/upload/v1732806790/Medusa%20Book/blog-dir-overview-1_jfvovj.jpg)
 
 ```ts title="src/modules/blog/models/post.ts"
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivas-narayanam/framework/utils"
 
 const Post = model.define("post", {
   id: model.id().primaryKey(),
@@ -73,7 +73,7 @@ export const highlights = [
 ]
 
 ```ts title="src/modules/blog/service.ts" highlights={highlights}
-import { MedusaService } from "@medusajs/framework/utils"
+import { MedusaService } from "@srinivas-narayanam/framework/utils"
 import Post from "./models/post"
 
 class BlogModuleService extends MedusaService({
@@ -114,7 +114,7 @@ export const moduleDefinitionHighlights = [
 
 ```ts title="src/modules/blog/index.ts" highlights={moduleDefinitionHighlights}
 import BlogModuleService from "./service"
-import { Module } from "@medusajs/framework/utils"
+import { Module } from "@srinivas-narayanam/framework/utils"
 
 export const BLOG_MODULE = "blog"
 
@@ -231,7 +231,7 @@ import {
   createWorkflow, 
   StepResponse, 
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivas-narayanam/framework/workflows-sdk"
 import { BLOG_MODULE } from "../modules/blog"
 import BlogModuleService from "../modules/blog/service"
 
@@ -277,7 +277,7 @@ You'll now execute that workflow in an API route to expose the feature of creati
 import type { 
   MedusaRequest, 
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import { 
   createPostWorkflow,
 } from "../../../workflows/create-post"

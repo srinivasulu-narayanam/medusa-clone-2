@@ -1,17 +1,17 @@
-import type { SchedulerOptions } from "@medusajs/orchestration"
-import { MedusaContainer } from "@medusajs/types"
+import type { SchedulerOptions } from "@srinivasulu-narayanam/orchestration"
+import { MedusaContainer } from "@srinivasulu-narayanam/types"
 import {
   dynamicImport,
   isObject,
   MedusaError,
   promiseAll,
   readDirRecursive,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import {
   createStep,
   createWorkflow,
   StepResponse,
-} from "@medusajs/workflows-sdk"
+} from "@srinivasulu-narayanam/workflows-sdk"
 import { Dirent } from "fs"
 import { access } from "fs/promises"
 import { join } from "path"

@@ -1,6 +1,6 @@
 "use client"
 
-import { CheckMini, ChevronRightMini, EllipseMiniSolid } from "@medusajs/icons"
+import { CheckMini, ChevronRightMini, EllipseMiniSolid } from "@srinivasulu-narayanam/icons"
 import * as Primitives from "@radix-ui/react-dropdown-menu"
 import * as React from "react"
 

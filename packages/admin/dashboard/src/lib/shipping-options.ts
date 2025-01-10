@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 export function isReturnOption(shippingOption: HttpTypes.AdminShippingOption) {
   return !!shippingOption.rules?.find(

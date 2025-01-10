@@ -1,10 +1,10 @@
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { NextFunction } from "express"
-import { MedusaRequest } from "@medusajs/framework/http"
+import { MedusaRequest } from "@srinivasulu-narayanam/framework/http"
 
 export function maybeApplyPriceListsFilter() {
   return async function applyPriceListsFilter(

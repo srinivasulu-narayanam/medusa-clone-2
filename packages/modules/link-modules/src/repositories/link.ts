@@ -1,10 +1,10 @@
-import { Context, ModuleJoinerConfig } from "@medusajs/framework/types"
+import { Context, ModuleJoinerConfig } from "@srinivasulu-narayanam/framework/types"
 import { EntitySchema } from "@mikro-orm/core"
 
 import {
   generateEntityId,
   mikroOrmBaseRepositoryFactory,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 
 export function getLinkRepository(model: EntitySchema) {

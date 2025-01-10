@@ -8,7 +8,7 @@ import {
   ModulesSdkTypes,
   TaxRegionDTO,
   TaxTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   InjectManager,
   InjectTransactionManager,
@@ -18,7 +18,7 @@ import {
   MedusaError,
   ModulesSdkUtils,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { TaxProvider, TaxRate, TaxRateRule, TaxRegion } from "@models"
 
 type InjectedDependencies = {

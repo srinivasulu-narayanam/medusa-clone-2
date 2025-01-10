@@ -1,3 +1,3 @@
 import "../types/container"
 
-export * from "@medusajs/utils"
+export * from "@srinivasulu-narayanam/utils"

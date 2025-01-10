@@ -2,11 +2,11 @@ import {
   LoaderOptions,
   Logger,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   defaultCurrencies,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { Currency } from "@models"
 
 export default async ({

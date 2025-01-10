@@ -1,6 +1,6 @@
 "use client"
 
-import { EllipseMiniSolid } from "@medusajs/icons"
+import { EllipseMiniSolid } from "@srinivasulu-narayanam/icons"
 import clsx from "clsx"
 import React from "react"
 import { ToCItemUi } from "types"

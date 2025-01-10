@@ -43,7 +43,7 @@ Learn how to create a module in [this chapter](../page.mdx).
 ```ts title="src/modules/hello/loaders/hello-world.ts"
 import {
   LoaderOptions,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 
 export default async function helloWorldLoader({
   container,
@@ -131,7 +131,7 @@ export const loaderHighlights = [
 ]
 
 ```ts title="src/modules/mongo/loaders/connection.ts" highlights={loaderHighlights}
-import { LoaderOptions } from "@medusajs/framework/types"
+import { LoaderOptions } from "@srinivas-narayanam/framework/types"
 import { asValue } from "awilix"
 import { MongoClient } from "mongodb"
 
@@ -264,7 +264,7 @@ The service `MongoModuleService` resolves the `mongoClient` resource you registe
 Make sure to export the loader in the module's definition in the `index.ts` file at the root directory of the module:
 
 ```ts title="src/modules/mongo/index.ts" highlights={[["9"]]}
-import { Module } from "@medusajs/framework/utils"
+import { Module } from "@srinivas-narayanam/framework/utils"
 import MongoModuleService from "./service"
 import mongoConnectionLoader from "./loaders/connection"
 

@@ -1,4 +1,4 @@
-import { Logger, MedusaContainer, ModuleResolution } from "@medusajs/types"
+import { Logger, MedusaContainer, ModuleResolution } from "@srinivasulu-narayanam/types"
 import { asValue } from "awilix"
 import { EOL } from "os"
 import { MODULE_SCOPE } from "../types"

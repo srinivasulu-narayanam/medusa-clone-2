@@ -7,7 +7,7 @@ import {
   TimelineVertical,
   User as UserIcon,
   XMark,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import {
   Avatar,
   DropdownMenu,
@@ -17,7 +17,7 @@ import {
   Kbd,
   Text,
   clx,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import * as Dialog from "@radix-ui/react-dialog"
 import { useTranslation } from "react-i18next"
 

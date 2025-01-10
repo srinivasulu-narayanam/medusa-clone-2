@@ -3,7 +3,7 @@ import {
   createWorkflow,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { deletePromotionsStep } from "../steps"
 
 export type DeletePromotionsWorkflowInput = { ids: string[] }

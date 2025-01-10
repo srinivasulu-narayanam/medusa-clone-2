@@ -1,10 +1,10 @@
-import { FulfillmentWorkflow } from "@medusajs/framework/types"
+import { FulfillmentWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   MedusaError,
   Modules,
   ShippingOptionPriceType,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 type OptionsInput = (
   | FulfillmentWorkflow.CreateShippingOptionsWorkflowInput

@@ -1,7 +1,7 @@
 import * as Dialog from "@radix-ui/react-dialog"
 
-import { SidebarLeft, TriangleRightMini, XMark } from "@medusajs/icons"
-import { IconButton, clx } from "@medusajs/ui"
+import { SidebarLeft, TriangleRightMini, XMark } from "@srinivasulu-narayanam/icons"
+import { IconButton, clx } from "@srinivasulu-narayanam/ui"
 import { PropsWithChildren, ReactNode } from "react"
 import { useTranslation } from "react-i18next"
 import { Link, Outlet, UIMatch, useMatches } from "react-router-dom"

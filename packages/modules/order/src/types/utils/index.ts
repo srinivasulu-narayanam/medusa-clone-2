@@ -1,4 +1,4 @@
-import { BigNumberInput } from "@medusajs/framework/types"
+import { BigNumberInput } from "@srinivasulu-narayanam/framework/types"
 
 export type VirtualOrder = {
   id: string

@@ -13,8 +13,8 @@ import {
   SquaresPlus,
   Tag,
   Users,
-} from "@medusajs/icons"
-import { Avatar, DropdownMenu, Text, clx } from "@medusajs/ui"
+} from "@srinivasulu-narayanam/icons"
+import { Avatar, DropdownMenu, Text, clx } from "@srinivasulu-narayanam/ui"
 import * as Collapsible from "@radix-ui/react-collapsible"
 import { useTranslation } from "react-i18next"
 

@@ -1,6 +1,6 @@
 const path = require("path")
 
-import { ReturnReason, ShippingMethod } from "@medusajs/medusa"
+import { ReturnReason, ShippingMethod } from "@srinivasulu-narayanam/medusa"
 
 import { createReturnableOrder } from "../claims"
 

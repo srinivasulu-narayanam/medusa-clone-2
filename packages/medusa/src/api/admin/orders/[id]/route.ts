@@ -1,17 +1,17 @@
 import {
   getOrderDetailWorkflow,
   updateOrderWorkflow,
-} from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { AdminOrder, HttpTypes } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { AdminOrder, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AdminGetOrdersOrderParamsType,
   AdminUpdateOrderType,
 } from "../validators"
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { ContainerRegistrationKeys } from "@srinivasulu-narayanam/framework/utils"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<AdminGetOrdersOrderParamsType>,

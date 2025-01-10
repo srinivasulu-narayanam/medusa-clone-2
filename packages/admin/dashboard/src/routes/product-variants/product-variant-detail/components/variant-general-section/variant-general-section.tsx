@@ -1,6 +1,6 @@
-import { Component, PencilSquare, Trash } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Badge, Container, Heading, usePrompt } from "@medusajs/ui"
+import { Component, PencilSquare, Trash } from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Badge, Container, Heading, usePrompt } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { useNavigate } from "react-router-dom"
 

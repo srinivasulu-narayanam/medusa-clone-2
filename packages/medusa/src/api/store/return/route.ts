@@ -1,6 +1,6 @@
-import { createAndCompleteReturnOrderWorkflow } from "@medusajs/core-flows"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
+import { createAndCompleteReturnOrderWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const POST = async (
   req: MedusaRequest<HttpTypes.StoreCreateReturn>,

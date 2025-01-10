@@ -1,4 +1,4 @@
-import { AcademicCapSolid, BoltSolid } from "@medusajs/icons"
+import { AcademicCapSolid, BoltSolid } from "@srinivas-narayanam/icons"
 import { BetaBadge } from "docs-ui"
 
 export const metadata = {
@@ -102,18 +102,18 @@ export const syncProductsWorkflowHighlight = [
   ```ts title="src/workflows/sync-products.ts" highlights={syncProductsWorkflowHighlight} collapsibleLines="1-16" expandButtonLabel="Show Imports"
   import { 
     Modules,
-  } from "@medusajs/framework/utils"
+  } from "@srinivas-narayanam/framework/utils"
   import { 
     IProductModuleService, 
     IStoreModuleService, 
     ProductDTO, 
     StoreDTO,
-  } from "@medusajs/framework/types"
+  } from "@srinivas-narayanam/framework/types"
   import { 
     StepResponse, 
     createStep, 
     createWorkflow,
-  } from "@medusajs/framework/workflows-sdk"
+  } from "@srinivas-narayanam/framework/workflows-sdk"
 
   type RetrieveStoreStepInput = {
     id: string
@@ -256,7 +256,7 @@ export const syncProductsWorkflowHighlight = [
   Then, create a scheduled job at `src/jobs/sync-products.ts` that executes the workflow at the specified interval:
 
   ```ts
-  import { MedusaContainer } from "@medusajs/framework/types"
+  import { MedusaContainer } from "@srinivas-narayanam/framework/types"
   import { 
     syncProductsWorkflow,
   } from "../workflows/sync-products"
@@ -402,14 +402,14 @@ The `order.placed` event is currently not emitted.
   import type {
     SubscriberArgs,
     SubscriberConfig,
-  } from "@medusajs/framework"
+  } from "@srinivas-narayanam/framework"
   import { 
     Modules,
-  } from "@medusajs/framework/utils"
+  } from "@srinivas-narayanam/framework/utils"
   import { 
     ICustomerModuleService, 
     IOrderModuleService,
-  } from "@medusajs/framework/types"
+  } from "@srinivas-narayanam/framework/types"
 
   export default async function orderCreatedHandler({
     event: { data },
@@ -516,16 +516,16 @@ export const newsletterHighlights = [
   import type {
     SubscriberArgs,
     SubscriberConfig,
-  } from "@medusajs/framework"
+  } from "@srinivas-narayanam/framework"
   import { 
     Modules,
-  } from "@medusajs/framework/utils"
+  } from "@srinivas-narayanam/framework/utils"
   import { 
     ICustomerModuleService, 
     IProductModuleService, 
     IStoreModuleService,
     INotificationModuleService,
-  } from "@medusajs/framework/types"
+  } from "@srinivas-narayanam/framework/types"
 
   export default async function productCreateHandler({
     container,

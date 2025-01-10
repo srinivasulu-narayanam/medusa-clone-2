@@ -2,11 +2,11 @@ import {
   FilterableStockLocationProps,
   IStockLocationService,
   UpdateStockLocationInput,
-} from "@medusajs/framework/types"
-import { getSelectsAndRelationsFromObjectArray } from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/types"
+import { getSelectsAndRelationsFromObjectArray } from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 interface StepInput {
   selector: FilterableStockLocationProps

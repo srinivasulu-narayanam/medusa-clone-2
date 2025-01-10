@@ -1,6 +1,6 @@
-import LocalNotificationProvider from "@medusajs/notification-local"
+import LocalNotificationProvider from "@srinivasulu-narayanam/notification-local"
 
-export * from "@medusajs/notification-local"
+export * from "@srinivasulu-narayanam/notification-local"
 
 export default LocalNotificationProvider
-export const discoveryPath = require.resolve("@medusajs/notification-local")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/notification-local")

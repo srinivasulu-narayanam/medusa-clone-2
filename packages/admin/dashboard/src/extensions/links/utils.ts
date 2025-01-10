@@ -1,4 +1,4 @@
-import { CustomFieldModel } from "@medusajs/admin-shared"
+import { CustomFieldModel } from "@srinivasulu-narayanam/admin-shared"
 import linkModule from "virtual:medusa/links"
 
 function appendLinkableFields(

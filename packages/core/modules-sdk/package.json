@@ -1,5 +1,5 @@
 {
-  "name": "@medusajs/modules-sdk",
+  "name": "@srinivasulu-narayanam/modules-sdk",
   "version": "2.2.0",
   "description": "SDK for medusa modules",
   "main": "dist/index.js",
@@ -45,9 +45,9 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@medusajs/orchestration": "^2.2.0",
-    "@medusajs/types": "^2.2.0",
-    "@medusajs/utils": "^2.2.0"
+    "@srinivasulu-narayanam/orchestration": "^2.2.0",
+    "@srinivasulu-narayanam/types": "^2.2.0",
+    "@srinivasulu-narayanam/utils": "^2.2.0"
   },
   "peerDependencies": {
     "@mikro-orm/core": "5.9.7",

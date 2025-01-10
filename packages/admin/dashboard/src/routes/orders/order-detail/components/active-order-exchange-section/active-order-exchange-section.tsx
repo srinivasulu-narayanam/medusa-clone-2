@@ -1,8 +1,8 @@
-import { ArrowPath } from "@medusajs/icons"
-import { Button, Container, Heading, Text, toast } from "@medusajs/ui"
+import { ArrowPath } from "@srinivasulu-narayanam/icons"
+import { Button, Container, Heading, Text, toast } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { useNavigate } from "react-router-dom"
 import { useCancelExchangeRequest } from "../../../../../hooks/api/exchanges"
 

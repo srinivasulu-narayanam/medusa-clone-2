@@ -1,14 +1,14 @@
 import slugify from "slugify"
 import { basename } from "path"
 import input from "@inquirer/input"
-import { logger } from "@medusajs/framework/logger"
+import { logger } from "@srinivasulu-narayanam/framework/logger"
 import {
   createClient,
   createDb,
   dbExists,
   EnvEditor,
   parseConnectionString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 async function connectClient(client: ReturnType<typeof createClient>) {
   try {

@@ -1,6 +1,6 @@
-import { IAuthModuleService } from "@medusajs/types"
-import { Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { IAuthModuleService } from "@srinivasulu-narayanam/types"
+import { Modules } from "@srinivasulu-narayanam/utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   adminHeaders,
   createAdminUser,

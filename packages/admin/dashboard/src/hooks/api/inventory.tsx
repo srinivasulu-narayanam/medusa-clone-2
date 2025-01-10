@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import {
   QueryKey,
   UseMutationOptions,
@@ -6,7 +6,7 @@ import {
   useMutation,
   useQuery,
 } from "@tanstack/react-query"
-import { FetchError } from "@medusajs/js-sdk"
+import { FetchError } from "@srinivasulu-narayanam/js-sdk"
 
 import { sdk } from "../../lib/client"
 import { queryClient } from "../../lib/query-client"

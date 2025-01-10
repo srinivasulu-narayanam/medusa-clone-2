@@ -1,4 +1,4 @@
-import { LoaderOptions } from "@medusajs/framework/types"
+import { LoaderOptions } from "@srinivasulu-narayanam/framework/types"
 import { asValue } from "awilix"
 import Redis from "ioredis"
 import { RedisCacheModuleOptions } from "../types"

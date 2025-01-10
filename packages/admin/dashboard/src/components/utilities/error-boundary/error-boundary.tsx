@@ -1,5 +1,5 @@
-import { ExclamationCircle } from "@medusajs/icons"
-import { Text } from "@medusajs/ui"
+import { ExclamationCircle } from "@srinivasulu-narayanam/icons"
+import { Text } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { Navigate, useLocation, useRouteError } from "react-router-dom"
 

@@ -2,14 +2,14 @@ import {
   IPricingModuleService,
   UpdatePriceListDTO,
   UpdatePriceListWorkflowInputDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   buildPriceListRules,
   convertItemResponseToUpdateRequest,
   getSelectsAndRelationsFromObjectArray,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const updatePriceListsStepId = "update-price-lists"
 /**

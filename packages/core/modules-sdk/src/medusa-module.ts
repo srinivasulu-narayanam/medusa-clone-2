@@ -10,14 +10,14 @@ import {
   ModuleExports,
   ModuleJoinerConfig,
   ModuleResolution,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   ContainerRegistrationKeys,
   createMedusaContainer,
   promiseAll,
   simpleHash,
   stringifyCircular,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { asValue } from "awilix"
 import { EOL } from "os"
 import {

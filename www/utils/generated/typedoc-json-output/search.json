@@ -37,7 +37,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "`@medusajs/utils`"
+						"text": "`@srinivasulu-narayanam/utils`"
 					},
 					{
 						"kind": "text",
@@ -77,7 +77,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "```ts title=\"src/services/my-search.ts\"\nimport { AbstractSearchService } from \"@medusajs/utils\"\n\nclass MySearchService extends AbstractSearchService {\n  isDefault = false\n\n  createIndex(indexName: string, options: Record<string, any>) {\n    throw new Error(\"Method not implemented.\")\n  }\n  getIndex(indexName: string) {\n    throw new Error(\"Method not implemented.\")\n  }\n  addDocuments(\n    indexName: string,\n    documents: Record<string, any>[],\n    type: string\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  replaceDocuments(\n    indexName: string,\n    documents: Record<string, any>[],\n    type: string\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  deleteDocument(\n    indexName: string,\n    document_id: string | number\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  deleteAllDocuments(indexName: string) {\n    throw new Error(\"Method not implemented.\")\n  }\n  search(\n    indexName: string,\n    query: string,\n    options: Record<string, any>\n  ) {\n    return {\n      message: \"test\",\n    }\n  }\n  updateSettings(\n    indexName: string,\n    settings: Record<string, any>\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n\n}\n\nexport default MySearchService\n```"
+						"text": "```ts title=\"src/services/my-search.ts\"\nimport { AbstractSearchService } from \"@srinivasulu-narayanam/utils\"\n\nclass MySearchService extends AbstractSearchService {\n  isDefault = false\n\n  createIndex(indexName: string, options: Record<string, any>) {\n    throw new Error(\"Method not implemented.\")\n  }\n  getIndex(indexName: string) {\n    throw new Error(\"Method not implemented.\")\n  }\n  addDocuments(\n    indexName: string,\n    documents: Record<string, any>[],\n    type: string\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  replaceDocuments(\n    indexName: string,\n    documents: Record<string, any>[],\n    type: string\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  deleteDocument(\n    indexName: string,\n    document_id: string | number\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n  deleteAllDocuments(indexName: string) {\n    throw new Error(\"Method not implemented.\")\n  }\n  search(\n    indexName: string,\n    query: string,\n    options: Record<string, any>\n  ) {\n    return {\n      message: \"test\",\n    }\n  }\n  updateSettings(\n    indexName: string,\n    settings: Record<string, any>\n  ) {\n    throw new Error(\"Method not implemented.\")\n  }\n\n}\n\nexport default MySearchService\n```"
 					},
 					{
 						"kind": "text",
@@ -229,7 +229,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\n// ...\nimport { ProductService } from \"@medusajs/medusa\"\n\ntype InjectedDependencies = {\n  productService: ProductService\n}\n\nclass MySearchService extends AbstractSearchService {\n  // ...\n  protected readonly productService_: ProductService\n\n  constructor({ productService }: InjectedDependencies) {\n    // @ts-expect-error prefer-rest-params\n    super(...arguments)\n    this.productService_ = productService\n\n    // you can also initialize a client that\n    // communicates with a third-party service.\n    this.client = new Client(options)\n  }\n\n  // ...\n}\n```"
+												"text": "```ts\n// ...\nimport { ProductService } from \"@srinivasulu-narayanam/medusa\"\n\ntype InjectedDependencies = {\n  productService: ProductService\n}\n\nclass MySearchService extends AbstractSearchService {\n  // ...\n  protected readonly productService_: ProductService\n\n  constructor({ productService }: InjectedDependencies) {\n    // @ts-expect-error prefer-rest-params\n    super(...arguments)\n    this.productService_ = productService\n\n    // you can also initialize a client that\n    // communicates with a third-party service.\n    this.client = new Client(options)\n  }\n\n  // ...\n}\n```"
 											}
 										]
 									}
@@ -279,7 +279,7 @@
 								"type": "reference",
 								"target": 41721,
 								"name": "AbstractSearchService",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1268,7 +1268,7 @@
 						"qualifiedName": "ISearchService"
 					},
 					"name": "ISearchService",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		}
@@ -1281,7 +1281,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@srinivasulu-narayanam/utils",
 	"symbolIdMap": {
 		"41720": {
 			"sourceFileName": "../../../../packages/core/utils/src/search/abstract-service.ts",

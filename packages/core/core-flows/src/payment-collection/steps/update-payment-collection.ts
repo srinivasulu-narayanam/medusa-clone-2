@@ -2,13 +2,13 @@ import {
   FilterablePaymentCollectionProps,
   IPaymentModuleService,
   PaymentCollectionUpdatableFields,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   getSelectsAndRelationsFromObjectArray,
   isPresent,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface UpdatePaymentCollectionStepInput {
   selector: FilterablePaymentCollectionProps

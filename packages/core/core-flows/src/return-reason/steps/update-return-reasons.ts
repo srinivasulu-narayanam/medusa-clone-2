@@ -2,13 +2,13 @@ import {
   FilterableOrderReturnReasonProps,
   IOrderModuleService,
   ReturnReasonUpdatableFields,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   Modules,
   getSelectsAndRelationsFromObjectArray,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 type UpdateReturnReasonStepInput = {
   selector: FilterableOrderReturnReasonProps

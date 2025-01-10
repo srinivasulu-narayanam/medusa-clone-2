@@ -1,6 +1,6 @@
-import { CustomerDTO, ICustomerModuleService } from "@medusajs/framework/types"
-import { isDefined, Modules, validateEmail } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { CustomerDTO, ICustomerModuleService } from "@srinivasulu-narayanam/framework/types"
+import { isDefined, Modules, validateEmail } from "@srinivasulu-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface FindOrCreateCustomerStepInput {
   customerId?: string | null

@@ -1,4 +1,4 @@
-import { ProductTypes } from "@medusajs/framework/types"
+import { ProductTypes } from "@srinivasulu-narayanam/framework/types"
 import faker from "faker"
 
 export const buildProductVariantOnlyData = ({

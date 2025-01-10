@@ -1,4 +1,4 @@
-import { BigNumberInput } from "@medusajs/types"
+import { BigNumberInput } from "@srinivasulu-narayanam/types"
 import { Property } from "@mikro-orm/core"
 import { isDefined, isPresent, trimZeros } from "../../common"
 import { BigNumber } from "../../totals/big-number"

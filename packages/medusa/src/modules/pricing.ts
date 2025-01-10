@@ -1,6 +1,6 @@
-import PricingModule from "@medusajs/pricing"
+import PricingModule from "@srinivasulu-narayanam/pricing"
 
-export * from "@medusajs/pricing"
+export * from "@srinivasulu-narayanam/pricing"
 
 export default PricingModule
-export const discoveryPath = require.resolve("@medusajs/pricing")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/pricing")

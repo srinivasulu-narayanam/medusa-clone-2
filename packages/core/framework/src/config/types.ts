@@ -1,7 +1,7 @@
 import {
   ExternalModuleDeclaration,
   InternalModuleDeclaration,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 
 import type { RedisOptions } from "ioredis"
 // @ts-expect-error
@@ -759,7 +759,7 @@ export type ProjectConfigOptions = {
  *
  * The configurations for your Medusa application are in `medusa-config.ts` located in the root of your Medusa project. The configurations include configurations for database, modules, and more.
  *
- * `medusa-config.ts` exports the value returned by the `defineConfig` utility function imported from `@medusajs/framework/utils`.
+ * `medusa-config.ts` exports the value returned by the `defineConfig` utility function imported from `@srinivasulu-narayanam/framework/utils`.
  *
  * `defineConfig` accepts as a parameter an object with the following properties:
  *

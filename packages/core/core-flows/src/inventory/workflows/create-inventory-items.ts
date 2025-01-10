@@ -3,10 +3,10 @@ import {
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createInventoryItemsStep } from "../steps"
 
-import { InventoryTypes } from "@medusajs/framework/types"
+import { InventoryTypes } from "@srinivasulu-narayanam/framework/types"
 import { createInventoryLevelsWorkflow } from "./create-inventory-levels"
 
 type LocationLevelWithoutInventory = Omit<

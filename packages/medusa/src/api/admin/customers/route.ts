@@ -1,14 +1,14 @@
-import { createCustomersWorkflow } from "@medusajs/core-flows"
+import { createCustomersWorkflow } from "@srinivasulu-narayanam/core-flows"
 
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { refetchCustomer } from "./helpers"
 import { AdminCreateCustomerType } from "./validators"
 

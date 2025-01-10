@@ -1,11 +1,11 @@
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { setAuthAppMetadataStep } from "../../auth"
 import { useRemoteQueryStep } from "../../common"
 import { deleteCustomersWorkflow } from "./delete-customers"

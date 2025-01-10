@@ -1,5 +1,5 @@
-import { XCircle } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
+import { XCircle } from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import {
   Container,
   Copy,
@@ -8,7 +8,7 @@ import {
   Text,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { format } from "date-fns"
 import { useTranslation } from "react-i18next"
 import { isPresent } from "../../../../../../../../core/utils/src/common/is-present"

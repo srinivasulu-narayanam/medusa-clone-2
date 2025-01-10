@@ -67,7 +67,7 @@ export const medusaVitePlugin: MedusaVitePlugin = (options) => {
   }
 
   return {
-    name: "@medusajs/admin-vite-plugin",
+    name: "@srinivasulu-narayanam/admin-vite-plugin",
     enforce: "pre",
     configureServer(server) {
       watcher = server.watcher

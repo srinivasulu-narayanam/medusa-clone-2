@@ -1,11 +1,11 @@
-import { UpdateLineItemInCartWorkflowInputDTO } from "@medusajs/framework/types"
-import { isDefined, MedusaError } from "@medusajs/framework/utils"
+import { UpdateLineItemInCartWorkflowInputDTO } from "@srinivasulu-narayanam/framework/types"
+import { isDefined, MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   createWorkflow,
   transform,
   when,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useQueryGraphStep } from "../../common"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"
 import { updateLineItemsStepWithSelector } from "../../line-item/steps"

@@ -2,13 +2,13 @@ import {
   TransactionModelOptions,
   WorkflowHandler,
   WorkflowManager,
-} from "@medusajs/orchestration"
-import { LoadedModule, MedusaContainer } from "@medusajs/types"
+} from "@srinivasulu-narayanam/orchestration"
+import { LoadedModule, MedusaContainer } from "@srinivasulu-narayanam/types"
 import {
   getCallerFilePath,
   isString,
   OrchestrationUtils,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { ulid } from "ulid"
 import { exportWorkflow, WorkflowResult } from "../../helper"
 import { createStep } from "./create-step"
@@ -41,8 +41,8 @@ global[OrchestrationUtils.SymbolMedusaWorkflowComposerContext] = null
  * import {
  *   createWorkflow,
  *   WorkflowResponse
- * } from "@medusajs/framework/workflows-sdk"
- * import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
+ * import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
  * import {
  *   createProductStep,
  *   getProductStep,

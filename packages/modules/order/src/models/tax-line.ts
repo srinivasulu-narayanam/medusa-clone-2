@@ -1,5 +1,5 @@
-import { BigNumberRawValue } from "@medusajs/framework/types"
-import { BigNumber, MikroOrmBigNumberProperty } from "@medusajs/framework/utils"
+import { BigNumberRawValue } from "@srinivasulu-narayanam/framework/types"
+import { BigNumber, MikroOrmBigNumberProperty } from "@srinivasulu-narayanam/framework/utils"
 import { PrimaryKey, Property } from "@mikro-orm/core"
 
 /**

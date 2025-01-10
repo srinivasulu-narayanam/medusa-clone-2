@@ -1,5 +1,5 @@
-import { BigNumberRawValue, DAL } from "@medusajs/framework/types"
-import { BigNumber, MikroOrmBigNumberProperty } from "@medusajs/framework/utils"
+import { BigNumberRawValue, DAL } from "@srinivasulu-narayanam/framework/types"
+import { BigNumber, MikroOrmBigNumberProperty } from "@srinivasulu-narayanam/framework/utils"
 import { OptionalProps, PrimaryKey, Property } from "@mikro-orm/core"
 
 type OptionalAdjustmentLineProps = DAL.ModelDateColumns

@@ -2,8 +2,8 @@ import {
   WorkflowData,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
-import { WorkflowTypes } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
+import { WorkflowTypes } from "@srinivasulu-narayanam/framework/types"
 import { generateProductCsvStep, getAllProductsStep } from "../steps"
 import { useRemoteQueryStep } from "../../common"
 import { notifyOnFailureStep, sendNotificationsStep } from "../../notification"

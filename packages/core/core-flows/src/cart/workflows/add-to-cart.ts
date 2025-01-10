@@ -1,12 +1,12 @@
-import { AddToCartWorkflowInputDTO } from "@medusajs/framework/types"
-import { CartWorkflowEvents, isDefined } from "@medusajs/framework/utils"
+import { AddToCartWorkflowInputDTO } from "@srinivasulu-narayanam/framework/types"
+import { CartWorkflowEvents, isDefined } from "@srinivasulu-narayanam/framework/utils"
 import {
   createWorkflow,
   parallelize,
   transform,
   when,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useQueryGraphStep } from "../../common"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"

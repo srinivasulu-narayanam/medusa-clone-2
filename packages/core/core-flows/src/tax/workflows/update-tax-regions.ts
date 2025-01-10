@@ -1,9 +1,9 @@
-import { TaxRegionDTO, UpdateTaxRegionDTO } from "@medusajs/framework/types"
+import { TaxRegionDTO, UpdateTaxRegionDTO } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { updateTaxRegionsStep } from "../steps/update-tax-regions"
 
 export const updateTaxRegionsWorkflowId = "update-tax-regions"

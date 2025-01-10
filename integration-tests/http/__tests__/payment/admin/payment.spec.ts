@@ -1,5 +1,5 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { ClaimType } from "@medusajs/utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
+import { ClaimType } from "@srinivasulu-narayanam/utils"
 import {
   adminHeaders,
   createAdminUser,

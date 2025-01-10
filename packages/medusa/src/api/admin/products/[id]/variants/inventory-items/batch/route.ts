@@ -1,11 +1,11 @@
-import { batchLinksWorkflow } from "@medusajs/core-flows"
+import { batchLinksWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { buildBatchVariantInventoryData } from "../../../../helpers"
 import { AdminBatchVariantInventoryItemsType } from "../../../../validators"
-import { HttpTypes } from "@medusajs/framework/types"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<AdminBatchVariantInventoryItemsType>,

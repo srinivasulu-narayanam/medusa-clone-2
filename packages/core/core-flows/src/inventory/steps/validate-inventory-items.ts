@@ -2,8 +2,8 @@ import {
   arrayDifference,
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export const validateInventoryItemsId = "validate-inventory-items-step"
 /**

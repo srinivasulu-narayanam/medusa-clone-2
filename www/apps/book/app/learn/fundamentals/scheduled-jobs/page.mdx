@@ -42,7 +42,7 @@ export const highlights = [
 ]
 
 ```ts title="src/jobs/hello-world.ts" highlights={highlights}
-import { MedusaContainer } from "@medusajs/framework/types"
+import { MedusaContainer } from "@srinivas-narayanam/framework/types"
 
 export default async function greetingJob(container: MedusaContainer) {
   const logger = container.resolve("logger")
@@ -90,7 +90,7 @@ When implementing flows spanning across systems or [modules](../modules/page.mdx
 You can learn how to create a workflow in [this chapter](../workflows/page.mdx), but this example assumes you already have a `syncProductToErpWorkflow` implemented. To execute this workflow once a day, create a scheduled job at `src/jobs/sync-products.ts` with the following content:
 
 ```ts title="src/jobs/sync-products.ts"
-import { MedusaContainer } from "@medusajs/framework/types"
+import { MedusaContainer } from "@srinivas-narayanam/framework/types"
 import { syncProductToErpWorkflow } from "../workflows/sync-products-to-erp"
 
 export default async function syncProductsJob(container: MedusaContainer) {

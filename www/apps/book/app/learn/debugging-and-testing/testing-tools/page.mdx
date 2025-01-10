@@ -6,21 +6,21 @@ export const metadata = {
 
 In this chapter, you'll learn about Medusa's testing tools and how to install and configure them.
 
-## @medusajs/test-utils Package
+## @srinivas-narayanam/test-utils Package
 
 Medusa provides a Testing Framework to create integration tests for your custom API routes, modules, or other Medusa customizations.
 
-To use the Testing Framework, install `@medusajs/test-utils` as a `devDependency`:
+To use the Testing Framework, install `@srinivas-narayanam/test-utils` as a `devDependency`:
 
 ```bash npm2yarn
-npm install --save-dev @medusajs/test-utils@latest
+npm install --save-dev @srinivas-narayanam/test-utils@latest
 ```
 
 ---
 
 ## Install and Configure Jest
 
-Writing tests with `@medusajs/test-utils`'s tools requires installing and configuring Jest in your project.
+Writing tests with `@srinivas-narayanam/test-utils`'s tools requires installing and configuring Jest in your project.
 
 {/* TODO remove this note at some point in the future */}
 
@@ -39,7 +39,7 @@ npm install --save-dev jest @types/jest @swc/jest
 Then, create the file `jest.config.js` with the following content:
 
 ```js title="jest.config.js"
-const { loadEnv } = require("@medusajs/framework/utils")
+const { loadEnv } = require("@srinivas-narayanam/framework/utils")
 loadEnv("test", process.cwd())
 
 module.exports = {
@@ -98,4 +98,4 @@ Medusa's Testing Framework works for integration tests only. You can write unit 
 
 ## Test Tools and Writing Tests
 
-The next chapters explain how to use the testing tools provided by `@medusajs/test-utils` to write tests.
+The next chapters explain how to use the testing tools provided by `@srinivas-narayanam/test-utils` to write tests.

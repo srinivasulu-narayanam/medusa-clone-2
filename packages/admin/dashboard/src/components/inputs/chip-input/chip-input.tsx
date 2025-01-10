@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { Badge, clx } from "@medusajs/ui"
+import { XMarkMini } from "@srinivasulu-narayanam/icons"
+import { Badge, clx } from "@srinivasulu-narayanam/ui"
 import { AnimatePresence, motion } from "framer-motion"
 import {
   FocusEvent,

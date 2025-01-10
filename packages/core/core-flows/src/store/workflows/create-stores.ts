@@ -1,10 +1,10 @@
-import { StoreDTO, StoreWorkflow } from "@medusajs/framework/types"
+import { StoreDTO, StoreWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createStoresStep } from "../steps"
 import { updatePricePreferencesAsArrayStep } from "../../pricing"
 

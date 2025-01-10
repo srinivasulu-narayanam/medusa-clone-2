@@ -1,6 +1,6 @@
-import { IAuthModuleService } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+import { IAuthModuleService } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import { createAuthIdentities } from "../../__fixtures__/auth-identity"
 
 jest.setTimeout(30000)
@@ -293,7 +293,7 @@ moduleIntegrationTestRunner<IAuthModuleService>({
 
           await service.createProviderIdentities({
             id: "test",
-            entity_id: "christian@medusajs.com",
+            entity_id: "christian@srinivasulu-narayanam.com",
             provider: "github",
             auth_identity_id: authIdentity.id,
           })
@@ -316,7 +316,7 @@ moduleIntegrationTestRunner<IAuthModuleService>({
           await service.createProviderIdentities([
             {
               id: "test",
-              entity_id: "christian@medusajs.com",
+              entity_id: "christian@srinivasulu-narayanam.com",
               provider: "github",
               auth_identity_id: "test-id",
             },

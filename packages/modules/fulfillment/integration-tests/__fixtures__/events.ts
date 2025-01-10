@@ -1,4 +1,4 @@
-import { EventBusTypes } from "@medusajs/framework/types"
+import { EventBusTypes } from "@srinivasulu-narayanam/framework/types"
 
 export function buildExpectedEventMessageShape(options: {
   eventName: string

@@ -1,11 +1,11 @@
-import { ProductOptionWorkflowEvents } from "@medusajs/framework/utils"
+import { ProductOptionWorkflowEvents } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createHook,
   createWorkflow,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { emitEventStep } from "../../common/steps/emit-event"
 import { deleteProductOptionsStep } from "../steps"
 

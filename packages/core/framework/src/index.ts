@@ -12,6 +12,6 @@ export * from "./workflows"
 export * from "./telemetry"
 export * from "./zod"
 
-export const MEDUSA_CLI_PATH = require.resolve("@medusajs/cli")
+export const MEDUSA_CLI_PATH = require.resolve("@srinivasulu-narayanam/cli")
 
-export { Query } from "@medusajs/modules-sdk"
+export { Query } from "@srinivasulu-narayanam/modules-sdk"

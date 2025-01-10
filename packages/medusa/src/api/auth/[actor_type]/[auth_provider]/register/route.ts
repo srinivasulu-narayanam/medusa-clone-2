@@ -2,13 +2,13 @@ import {
   AuthenticationInput,
   ConfigModule,
   IAuthModuleService,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   Modules,
-} from "@medusajs/framework/utils"
-import { MedusaRequest, MedusaResponse } from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/utils"
+import { MedusaRequest, MedusaResponse } from "@srinivasulu-narayanam/framework/http"
 import { generateJwtTokenForAuthIdentity } from "../../../utils/generate-jwt-token"
 
 export const POST = async (req: MedusaRequest, res: MedusaResponse) => {

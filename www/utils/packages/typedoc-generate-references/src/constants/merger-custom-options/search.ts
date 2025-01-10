@@ -6,11 +6,11 @@ const searchOptions: FormattingOptionsType = {
 
 ## Prerequisites
 
-A search service must extend the \`AbstractSearchService\` class imported from the \`@medusajs/framework/utils\` package. If you don’t already have the package 
+A search service must extend the \`AbstractSearchService\` class imported from the \`@srinivasulu-narayanam/framework/utils\` package. If you don’t already have the package 
 installed, run the following command to install it within your project:
 
 \`\`\`bash npm2yarn
-npm install @medusajs/utils
+npm install @srinivasulu-narayanam/utils
 \`\`\`
 
 ---`,

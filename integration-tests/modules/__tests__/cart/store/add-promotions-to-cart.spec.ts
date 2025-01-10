@@ -1,11 +1,11 @@
-import { RemoteLink } from "@medusajs/modules-sdk"
-import { ICartModuleService, IPromotionModuleService } from "@medusajs/types"
+import { RemoteLink } from "@srinivasulu-narayanam/modules-sdk"
+import { ICartModuleService, IPromotionModuleService } from "@srinivasulu-narayanam/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   PromotionType,
-} from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   adminHeaders,
   createAdminUser,

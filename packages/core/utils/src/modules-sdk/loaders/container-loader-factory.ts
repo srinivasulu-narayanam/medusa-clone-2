@@ -5,7 +5,7 @@ import {
   ModuleServiceInitializeCustomDataLayerOptions,
   ModuleServiceInitializeOptions,
   RepositoryService,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 
 import { asClass } from "awilix"
 import { MedusaInternalService } from "../medusa-internal-service"

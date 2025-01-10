@@ -2,8 +2,8 @@ import {
   CreatePromotionDTO,
   IPromotionModuleService,
   PromotionDTO,
-} from "@medusajs/framework/types"
-import { isPresent, toMikroORMEntity } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { isPresent, toMikroORMEntity } from "@srinivasulu-narayanam/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { Promotion } from "@models"
 import { defaultPromotionsData } from "./data"

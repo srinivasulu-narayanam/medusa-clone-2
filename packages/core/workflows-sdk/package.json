@@ -1,5 +1,5 @@
 {
-  "name": "@medusajs/workflows-sdk",
+  "name": "@srinivasulu-narayanam/workflows-sdk",
   "version": "2.2.0",
   "description": "Set of workflows tooling for Medusa",
   "main": "dist/index.js",
@@ -40,10 +40,10 @@
     "typescript": "^5.6.2"
   },
   "dependencies": {
-    "@medusajs/modules-sdk": "^2.2.0",
-    "@medusajs/orchestration": "^2.2.0",
-    "@medusajs/types": "^2.2.0",
-    "@medusajs/utils": "^2.2.0",
+    "@srinivasulu-narayanam/modules-sdk": "^2.2.0",
+    "@srinivasulu-narayanam/orchestration": "^2.2.0",
+    "@srinivasulu-narayanam/types": "^2.2.0",
+    "@srinivasulu-narayanam/utils": "^2.2.0",
     "ulid": "^2.3.0"
   },
   "peerDependencies": {

@@ -168,10 +168,13 @@ const nextConfig = {
   },
   redirects,
   outputFileTracingExcludes: {
-    "*": ["node_modules/@medusajs/icons"],
+    "*": ["node_modules/@srinivasulu-narayanam/icons"],
   },
   experimental: {
-    optimizePackageImports: ["@medusajs/icons", "@medusajs/ui"],
+    optimizePackageImports: [
+      "@srinivasulu-narayanam/icons",
+      "@srinivasulu-narayanam/ui",
+    ],
   },
 }
 

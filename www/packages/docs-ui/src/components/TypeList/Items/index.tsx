@@ -18,7 +18,7 @@ import {
   FlagMini,
   Link,
   TriangleRightMini,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import { decodeStr, isInView } from "@/utils"
 import { usePathname } from "next/navigation"
 import { useIsBrowser, useSiteConfig } from "../../.."

@@ -31,10 +31,10 @@ export const exampleHighlights = [
 import {
   MedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import {
   ContainerRegistrationKeys,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 
 export const GET = async (
   req: MedusaRequest,
@@ -301,8 +301,8 @@ The first step is to use the `validateAndTransformQuery` middleware on the `GET`
 import { 
   validateAndTransformQuery,
   defineMiddlewares,
-} from "@medusajs/framework/http"
-import { createFindParams } from "@medusajs/medusa/api/utils/validators"
+} from "@srinivas-narayanam/framework/http"
+import { createFindParams } from "@srinivas-narayanam/medusa/api/utils/validators"
 
 export const GetCustomSchema = createFindParams()
 
@@ -364,10 +364,10 @@ export const queryConfigHighlights = [
 import {
   MedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import {
   ContainerRegistrationKeys,
-} from "@medusajs/framework/utils"
+} from "@srinivas-narayanam/framework/utils"
 
 export const GET = async (
   req: MedusaRequest,

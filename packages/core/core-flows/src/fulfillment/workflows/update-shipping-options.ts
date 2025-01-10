@@ -1,18 +1,18 @@
-import { FulfillmentWorkflow } from "@medusajs/framework/types"
+import { FulfillmentWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   createWorkflow,
   parallelize,
   transform,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import {
   setShippingOptionsPricesStep,
   upsertShippingOptionsStep,
 } from "../steps"
 import { validateFulfillmentProvidersStep } from "../steps/validate-fulfillment-providers"
 import { validateShippingOptionPricesStep } from "../steps/validate-shipping-option-prices"
-import { ShippingOptionPriceType } from "@medusajs/framework/utils"
+import { ShippingOptionPriceType } from "@srinivasulu-narayanam/framework/utils"
 
 export const updateShippingOptionsWorkflowId =
   "update-shipping-options-workflow"

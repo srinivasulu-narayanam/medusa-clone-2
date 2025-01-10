@@ -1,4 +1,4 @@
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import {
   Button,
   Checkbox,
@@ -6,12 +6,12 @@ import {
   Heading,
   toast,
   usePrompt,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import { RowSelectionState, createColumnHelper } from "@tanstack/react-table"
 import { t } from "i18next"
 import { useMemo, useState } from "react"
 
-import { PencilSquare, Trash } from "@medusajs/icons"
+import { PencilSquare, Trash } from "@srinivasulu-narayanam/icons"
 import { keepPreviousData } from "@tanstack/react-query"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"

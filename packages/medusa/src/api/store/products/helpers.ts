@@ -1,13 +1,13 @@
-import { MedusaStoreRequest, refetchEntity } from "@medusajs/framework/http"
+import { MedusaStoreRequest, refetchEntity } from "@srinivasulu-narayanam/framework/http"
 import {
   HttpTypes,
   ItemTaxLineDTO,
   MedusaContainer,
   TaxableItemDTO,
   TaxCalculationContext,
-} from "@medusajs/framework/types"
-import { calculateAmountsWithTax, Modules } from "@medusajs/framework/utils"
-import { TaxModuleService } from "@medusajs/tax/dist/services"
+} from "@srinivasulu-narayanam/framework/types"
+import { calculateAmountsWithTax, Modules } from "@srinivasulu-narayanam/framework/utils"
+import { TaxModuleService } from "@srinivasulu-narayanam/tax/dist/services"
 
 export type RequestWithContext<Body, QueryFields = Record<string, unknown>> = 
   MedusaStoreRequest<Body, QueryFields> & {

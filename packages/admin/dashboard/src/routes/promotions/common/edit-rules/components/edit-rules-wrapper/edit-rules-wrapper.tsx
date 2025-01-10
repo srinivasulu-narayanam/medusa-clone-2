@@ -4,7 +4,7 @@ import {
   PromotionRuleDTO,
   PromotionRuleOperatorValues,
   PromotionRuleResponse,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import { useRouteModal } from "../../../../../../components/modals"
 import {
   usePromotionAddRules,

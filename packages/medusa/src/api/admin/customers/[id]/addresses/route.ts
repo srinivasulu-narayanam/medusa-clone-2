@@ -1,15 +1,15 @@
-import { createCustomerAddressesWorkflow } from "@medusajs/core-flows"
+import { createCustomerAddressesWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { AdminCreateCustomerAddressType } from "../../validators"
 import { refetchCustomer } from "../../helpers"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { AdditionalData, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminCustomerAddressFilters>,

@@ -6,13 +6,13 @@ import {
   LineItemAdjustmentDTO,
   LineItemTaxLineDTO,
   ProductVariantDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   isDefined,
   isPresent,
   MathBN,
   PriceListType,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 interface PrepareItemLineItemInput {
   title?: string

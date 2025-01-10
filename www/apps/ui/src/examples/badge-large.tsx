@@ -1,4 +1,4 @@
-import { Badge } from "@medusajs/ui"
+import { Badge } from "@srinivasulu-narayanam/ui"
 
 export default function BadgeLarge() {
   return <Badge size="large">Badge</Badge>

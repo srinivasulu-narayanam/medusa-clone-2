@@ -21,7 +21,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "```ts\nimport { AbstractAuthModuleProvider } from \"@medusajs/framework/utils\"\nimport { Logger } from \"@medusajs/framework/types\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  static identifier = \"my-auth\"\n  protected logger_: Logger\n  protected options_: Options\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super(...arguments)\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n\n  // ...\n}\n\nexport default MyAuthProviderService\n```"
+						"text": "```ts\nimport { AbstractAuthModuleProvider } from \"@srinivasulu-narayanam/framework/utils\"\nimport { Logger } from \"@srinivasulu-narayanam/framework/types\"\n\ntype InjectedDependencies = {\n  logger: Logger\n}\n\ntype Options = {\n  apiKey: string\n}\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  static identifier = \"my-auth\"\n  protected logger_: Logger\n  protected options_: Options\n  // assuming you're initializing a client\n  protected client\n\n  constructor (\n    { logger }: InjectedDependencies,\n    options: Options\n  ) {\n    super(...arguments)\n\n    this.logger_ = logger\n    this.options_ = options\n\n    // assuming you're initializing a client\n    this.client = new Client(options)\n  }\n\n  // ...\n}\n\nexport default MyAuthProviderService\n```"
 					}
 				]
 			},
@@ -232,7 +232,7 @@
 								"type": "reference",
 								"target": 38391,
 								"name": "AbstractAuthModuleProvider",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -278,7 +278,7 @@
 											},
 											{
 												"kind": "code",
-												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@medusajs/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async authenticate(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // for example, verifying a password\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Incorrect credentials\"\n      }\n    }\n\n    // authentication is successful, retrieve the identity\n    const authIdentity = await authIdentityProviderService.retrieve({\n      entity_id: data.body.email, // email or some ID\n      provider: this.provider\n    })\n\n    return {\n      success: true,\n      authIdentity\n    }\n  }\n}\n```"
+												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@srinivasulu-narayanam/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async authenticate(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // for example, verifying a password\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Incorrect credentials\"\n      }\n    }\n\n    // authentication is successful, retrieve the identity\n    const authIdentity = await authIdentityProviderService.retrieve({\n      entity_id: data.body.email, // email or some ID\n      provider: this.provider\n    })\n\n    return {\n      success: true,\n      authIdentity\n    }\n  }\n}\n```"
 											},
 											{
 												"kind": "text",
@@ -286,7 +286,7 @@
 											},
 											{
 												"kind": "code",
-												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@medusajs/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async authenticate(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // ...\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Incorrect credentials\"\n      }\n    }\n\n    return {\n      success: true,\n      location: \"some-url.com\"\n    }\n  }\n}\n```"
+												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@srinivasulu-narayanam/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async authenticate(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // ...\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Incorrect credentials\"\n      }\n    }\n\n    return {\n      success: true,\n      location: \"some-url.com\"\n    }\n  }\n}\n```"
 											}
 										]
 									}
@@ -314,7 +314,7 @@
 											"qualifiedName": "AuthenticationInput"
 										},
 										"name": "AuthenticationInput",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -354,7 +354,7 @@
 											"qualifiedName": "AuthIdentityProviderService"
 										},
 										"name": "AuthIdentityProviderService",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -372,7 +372,7 @@
 											"qualifiedName": "AuthenticationResponse"
 										},
 										"name": "AuthenticationResponse",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -434,7 +434,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@medusajs/framework/types\"\nimport { MedusaError } from \"@medusajs/framework/utils\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async register(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    try {\n      await authIdentityService.retrieve({\n        entity_id: data.body.email, // email or some ID\n      })\n\n      return {\n        success: false,\n        error: \"Identity with email already exists\",\n      }\n    } catch (error) {\n      if (error.type === MedusaError.Types.NOT_FOUND) {\n        const createdAuthIdentity = await authIdentityProviderService.create({\n          entity_id: data.body.email, // email or some ID\n          provider: this.provider,\n          provider_metadata: {\n            // can include password or any other relevant information\n          }\n        })\n\n        return {\n          success: true,\n          authIdentity: createdAuthIdentity,\n        }\n      }\n\n      return { success: false, error: error.message }\n    }\n  }\n}\n```"
+												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@srinivasulu-narayanam/framework/types\"\nimport { MedusaError } from \"@srinivasulu-narayanam/framework/utils\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async register(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    try {\n      await authIdentityService.retrieve({\n        entity_id: data.body.email, // email or some ID\n      })\n\n      return {\n        success: false,\n        error: \"Identity with email already exists\",\n      }\n    } catch (error) {\n      if (error.type === MedusaError.Types.NOT_FOUND) {\n        const createdAuthIdentity = await authIdentityProviderService.create({\n          entity_id: data.body.email, // email or some ID\n          provider: this.provider,\n          provider_metadata: {\n            // can include password or any other relevant information\n          }\n        })\n\n        return {\n          success: true,\n          authIdentity: createdAuthIdentity,\n        }\n      }\n\n      return { success: false, error: error.message }\n    }\n  }\n}\n```"
 											}
 										]
 									}
@@ -462,7 +462,7 @@
 											"qualifiedName": "AuthenticationInput"
 										},
 										"name": "AuthenticationInput",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -502,7 +502,7 @@
 											"qualifiedName": "AuthIdentityProviderService"
 										},
 										"name": "AuthIdentityProviderService",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -520,7 +520,7 @@
 											"qualifiedName": "AuthenticationResponse"
 										},
 										"name": "AuthenticationResponse",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -582,7 +582,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@medusajs/framework/types\"\nimport { MedusaError } from \"@medusajs/framework/utils\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async update(\n    data: Record<string, unknown>,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    try {\n      const authIdentity = await authIdentityService.update(\n        data.email, // email or some ID used to identify the auth identity\n        {\n          user: data.user // example\n        }\n      )\n\n      return { success: true, authIdentity }\n    } catch (error) {\n      return { success: false, error: error.message }\n    }\n  }\n}\n```"
+												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@srinivasulu-narayanam/framework/types\"\nimport { MedusaError } from \"@srinivasulu-narayanam/framework/utils\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async update(\n    data: Record<string, unknown>,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    try {\n      const authIdentity = await authIdentityService.update(\n        data.email, // email or some ID used to identify the auth identity\n        {\n          user: data.user // example\n        }\n      )\n\n      return { success: true, authIdentity }\n    } catch (error) {\n      return { success: false, error: error.message }\n    }\n  }\n}\n```"
 											}
 										]
 									}
@@ -684,7 +684,7 @@
 											"qualifiedName": "AuthIdentityProviderService"
 										},
 										"name": "AuthIdentityProviderService",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -702,7 +702,7 @@
 											"qualifiedName": "AuthenticationResponse"
 										},
 										"name": "AuthenticationResponse",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -790,7 +790,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@medusajs/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async validateCallback(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // ...\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Something went wrong\"\n      }\n    }\n\n    // authentication is successful, create an auth identity\n    // if doesn't exist\n    let authIdentity\n\n    try {\n      authIdentity = await authIdentityProviderService.retrieve({\n        entity_id: data.body.email, // email or some ID\n        provider: this.provider\n      })\n    } catch (e) {\n      // The auth identity doesn't exist so create it\n      authIdentity = await authIdentityProviderService.create({\n        entity_id: data.body.email, // email or some ID\n        provider: this.provider,\n        provider_metadata: {\n          // can include password or any other relevant information\n        },\n        user_metadata: {\n          // can include data retrieved from the third-party service\n        }\n      })\n    }\n\n    return {\n      success: true,\n      authIdentity\n    }\n  }\n}\n```"
+												"text": "```ts\nimport {\n  AuthIdentityProviderService,\n  AuthenticationInput,\n  AuthenticationResponse\n} from \"@srinivasulu-narayanam/framework/types\"\n// ...\n\nclass MyAuthProviderService extends AbstractAuthModuleProvider {\n  // ...\n  async validateCallback(\n    data: AuthenticationInput,\n    authIdentityProviderService: AuthIdentityProviderService\n  ): Promise<AuthenticationResponse> {\n    const isAuthenticated = false\n    // TODO perform custom logic to authenticate the user\n    // ...\n\n    if (!isAuthenticated) {\n      // if the authentication didn't succeed, return\n      // an object of the following format\n      return {\n        success: false,\n        error: \"Something went wrong\"\n      }\n    }\n\n    // authentication is successful, create an auth identity\n    // if doesn't exist\n    let authIdentity\n\n    try {\n      authIdentity = await authIdentityProviderService.retrieve({\n        entity_id: data.body.email, // email or some ID\n        provider: this.provider\n      })\n    } catch (e) {\n      // The auth identity doesn't exist so create it\n      authIdentity = await authIdentityProviderService.create({\n        entity_id: data.body.email, // email or some ID\n        provider: this.provider,\n        provider_metadata: {\n          // can include password or any other relevant information\n        },\n        user_metadata: {\n          // can include data retrieved from the third-party service\n        }\n      })\n    }\n\n    return {\n      success: true,\n      authIdentity\n    }\n  }\n}\n```"
 											}
 										]
 									}
@@ -818,7 +818,7 @@
 											"qualifiedName": "AuthenticationInput"
 										},
 										"name": "AuthenticationInput",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								},
 								{
@@ -858,7 +858,7 @@
 											"qualifiedName": "AuthIdentityProviderService"
 										},
 										"name": "AuthIdentityProviderService",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -876,7 +876,7 @@
 											"qualifiedName": "AuthenticationResponse"
 										},
 										"name": "AuthenticationResponse",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								],
 								"name": "Promise",
@@ -929,7 +929,7 @@
 						"qualifiedName": "IAuthProvider"
 					},
 					"name": "IAuthProvider",
-					"package": "@medusajs/types"
+					"package": "@srinivasulu-narayanam/types"
 				}
 			]
 		}
@@ -942,7 +942,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@srinivasulu-narayanam/utils",
 	"symbolIdMap": {
 		"38390": {
 			"sourceFileName": "../../../../packages/core/utils/src/auth/abstract-auth-provider.ts",

@@ -1,6 +1,6 @@
-import { ProductTypes } from "@medusajs/framework/types"
-import { HttpTypes, RegionTypes } from "@medusajs/framework/types"
-import { MedusaError, lowerCaseFirst } from "@medusajs/framework/utils"
+import { ProductTypes } from "@srinivasulu-narayanam/framework/types"
+import { HttpTypes, RegionTypes } from "@srinivasulu-narayanam/framework/types"
+import { MedusaError, lowerCaseFirst } from "@srinivasulu-narayanam/framework/utils"
 
 // We want to convert the csv data format to a standard DTO format.
 export const normalizeForImport = (

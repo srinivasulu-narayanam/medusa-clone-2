@@ -4,21 +4,21 @@ import {
   TransactionStepTimeoutError,
   TransactionTimeoutError,
   WorkflowManager,
-} from "@medusajs/framework/orchestration"
+} from "@srinivasulu-narayanam/framework/orchestration"
 import {
   IWorkflowEngineService,
   Logger,
   MedusaContainer,
   RemoteQueryFunction,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   Module,
   Modules,
   TransactionHandlerType,
   TransactionStepState,
-} from "@medusajs/framework/utils"
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import { asValue } from "awilix"
 import { setTimeout } from "timers/promises"
 import { setTimeout as setTimeoutSync } from "timers"

@@ -1,4 +1,4 @@
-import { Button, Toaster, toast } from "@medusajs/ui"
+import { Button, Toaster, toast } from "@srinivasulu-narayanam/ui"
 
 export default function ToasterWithAction() {
   return (

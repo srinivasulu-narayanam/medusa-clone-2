@@ -1,9 +1,9 @@
-import { FulfillmentWorkflow } from "@medusajs/framework/types"
+import { FulfillmentWorkflow } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { updateShippingProfilesStep } from "../steps/update-shipping-profiles"
 
 export const updateShippingProfilesWorkflowId =

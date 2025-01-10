@@ -1,5 +1,5 @@
-import { Cart } from "@medusajs/medusa"
-import { generateEntityId } from "@medusajs/utils"
+import { Cart } from "@srinivasulu-narayanam/medusa"
+import { generateEntityId } from "@srinivasulu-narayanam/utils"
 import faker from "faker"
 import { DataSource } from "typeorm"
 import {

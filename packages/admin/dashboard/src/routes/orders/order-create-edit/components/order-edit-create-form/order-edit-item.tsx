@@ -1,6 +1,6 @@
-import { ArrowUturnLeft, DocumentSeries, XCircle } from "@medusajs/icons"
-import { AdminOrderLineItem } from "@medusajs/types"
-import { Badge, Input, Text, toast } from "@medusajs/ui"
+import { ArrowUturnLeft, DocumentSeries, XCircle } from "@srinivasulu-narayanam/icons"
+import { AdminOrderLineItem } from "@srinivasulu-narayanam/types"
+import { Badge, Input, Text, toast } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"

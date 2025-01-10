@@ -1,11 +1,11 @@
-import { createProductVariantsWorkflow } from "@medusajs/core-flows"
-import { AdditionalData, HttpTypes } from "@medusajs/framework/types"
+import { createProductVariantsWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { AdditionalData, HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { wrapVariantsWithTotalInventoryQuantity } from "../../../../utils/middlewares"
-import { refetchEntities, refetchEntity } from "@medusajs/framework/http"
+import { refetchEntities, refetchEntity } from "@srinivasulu-narayanam/framework/http"
 import {
   remapKeysForProduct,
   remapKeysForVariant,

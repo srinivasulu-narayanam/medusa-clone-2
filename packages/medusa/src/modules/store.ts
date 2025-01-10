@@ -1,6 +1,6 @@
-import StoreModule from "@medusajs/store"
+import StoreModule from "@srinivasulu-narayanam/store"
 
-export * from "@medusajs/store"
+export * from "@srinivasulu-narayanam/store"
 
 export default StoreModule
-export const discoveryPath = require.resolve("@medusajs/store")
+export const discoveryPath = require.resolve("@srinivasulu-narayanam/store")

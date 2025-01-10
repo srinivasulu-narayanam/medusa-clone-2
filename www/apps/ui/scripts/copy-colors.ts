@@ -4,11 +4,11 @@ const fs = require("fs")
 const path = require("path")
 const { execSync } = require("child_process")
 
-// copy colors from the `@medusajs/ui-preset` package
+// copy colors from the `@srinivasulu-narayanam/ui-preset` package
 // to `src/config/colors.ts`
 
 const originalPath = path.join(
-  require.resolve("@medusajs/ui-preset"),
+  require.resolve("@srinivasulu-narayanam/ui-preset"),
   "../..",
   "src/theme/tokens/colors.ts"
 )

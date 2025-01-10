@@ -1,4 +1,4 @@
-import { OrderStatus } from "@medusajs/framework/utils"
+import { OrderStatus } from "@srinivasulu-narayanam/framework/utils"
 
 export interface CreateOrderDTO {
   region_id?: string

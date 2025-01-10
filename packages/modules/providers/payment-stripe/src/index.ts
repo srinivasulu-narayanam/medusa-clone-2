@@ -1,4 +1,4 @@
-import { ModuleProvider, Modules } from "@medusajs/framework/utils"
+import { ModuleProvider, Modules } from "@srinivasulu-narayanam/framework/utils"
 import {
   StripeBancontactService,
   StripeBlikService,

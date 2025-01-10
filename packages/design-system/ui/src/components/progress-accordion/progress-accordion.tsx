@@ -5,7 +5,7 @@ import {
   CircleDottedLine,
   CircleHalfSolid,
   Plus,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import * as Primitves from "@radix-ui/react-accordion"
 import * as React from "react"
 

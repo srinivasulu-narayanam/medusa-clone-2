@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { useTranslation } from "react-i18next"
 
-import { CurrencyDollar } from "@medusajs/icons"
-import { HttpTypes } from "@medusajs/types"
-import { Button, Container, Heading } from "@medusajs/ui"
+import { CurrencyDollar } from "@srinivasulu-narayanam/icons"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Button, Container, Heading } from "@srinivasulu-narayanam/ui"
 
 import { ActionMenu } from "../../../../../components/common/action-menu"
 import { NoRecords } from "../../../../../components/common/empty-table-content"

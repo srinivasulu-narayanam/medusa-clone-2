@@ -1,12 +1,12 @@
 import {
   AdditionalData,
   UpdateCartWorkflowInputDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   CartWorkflowEvents,
   isDefined,
   MedusaError,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   createHook,
   createWorkflow,
@@ -15,7 +15,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import {
   emitEventStep,
   useQueryGraphStep,

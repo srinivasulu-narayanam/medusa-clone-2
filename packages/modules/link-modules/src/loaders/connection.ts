@@ -3,8 +3,8 @@ import {
   LoaderOptions,
   ModuleServiceInitializeCustomDataLayerOptions,
   ModuleServiceInitializeOptions,
-} from "@medusajs/framework/types"
-import { ModulesSdkUtils } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { ModulesSdkUtils } from "@srinivasulu-narayanam/framework/utils"
 
 import { EntitySchema } from "@mikro-orm/core"
 

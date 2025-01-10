@@ -1,9 +1,9 @@
-import { IModuleService, ModuleResolution } from "@medusajs/types"
+import { IModuleService, ModuleResolution } from "@srinivasulu-narayanam/types"
 import {
   createMedusaContainer,
   getProviderRegistrationKey,
   upperCaseFirst,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import { join } from "path"
 import {
   ModuleWithDmlMixedWithoutJoinerConfigFixtures,

@@ -1,7 +1,7 @@
-import { Avatar, Copy, Text } from "@medusajs/ui"
+import { Avatar, Copy, Text } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 import { getFormattedAddress, isSameAddress } from "../../../lib/addresses"
 
 const ID = ({ data }: { data: HttpTypes.AdminOrder }) => {

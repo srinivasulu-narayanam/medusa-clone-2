@@ -1,5 +1,5 @@
-import { XMarkMini } from "@medusajs/icons"
-import { Text, clx } from "@medusajs/ui"
+import { XMarkMini } from "@srinivasulu-narayanam/icons"
+import { Text, clx } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 import { MouseEvent } from "react"
 import * as Popover from "@radix-ui/react-popover"

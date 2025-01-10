@@ -1,4 +1,4 @@
-import { RemoteQueryFunction } from "@medusajs/types"
+import { RemoteQueryFunction } from "@srinivasulu-narayanam/types"
 
 /**
  * Computes the varaint availability for a list of variants in a given sales channel

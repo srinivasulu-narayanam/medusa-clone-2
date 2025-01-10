@@ -11,7 +11,7 @@ import {
   mikroOrmUpdateDeletedAtRecursively,
   SoftDeletableFilterKey,
 } from "../../../dal"
-import { EntityConstructor } from "@medusajs/types"
+import { EntityConstructor } from "@srinivasulu-narayanam/types"
 import { pgGodCredentials } from "../utils"
 import { FileSystem } from "../../../common"
 import { join } from "path"

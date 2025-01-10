@@ -32,7 +32,7 @@ For example, create the file `src/admin/routes/custom/page.tsx` with the followi
 ![Example of UI route file in the application's directory structure](https://res.cloudinary.com/dza7lstvk/image/upload/v1732867243/Medusa%20Book/ui-route-dir-overview_tgju25.jpg)
 
 ```tsx title="src/admin/routes/custom/page.tsx"
-import { Container, Heading } from "@medusajs/ui"
+import { Container, Heading } from "@srinivas-narayanam/ui"
 
 const CustomPage = () => {
   return (
@@ -79,9 +79,9 @@ export const highlights = [
 ]
 
 ```tsx title="src/admin/routes/custom/page.tsx" highlights={highlights}
-import { defineRouteConfig } from "@medusajs/admin-sdk"
-import { ChatBubbleLeftRight } from "@medusajs/icons"
-import { Container, Heading } from "@medusajs/ui"
+import { defineRouteConfig } from "@srinivas-narayanam/admin-sdk"
+import { ChatBubbleLeftRight } from "@srinivas-narayanam/icons"
+import { Container, Heading } from "@srinivas-narayanam/ui"
 
 const CustomPage = () => {
   return (
@@ -115,8 +115,8 @@ Consider that along the UI route above at `src/admin/routes/custom/page.tsx` you
 ![Example of nested UI route file in the application's directory structure](https://res.cloudinary.com/dza7lstvk/image/upload/v1732867243/Medusa%20Book/ui-route-dir-overview_tgju25.jpg)
 
 ```tsx title="src/admin/routes/custom/nested/page.tsx"
-import { defineRouteConfig } from "@medusajs/admin-sdk"
-import { Container, Heading } from "@medusajs/ui"
+import { defineRouteConfig } from "@srinivas-narayanam/admin-sdk"
+import { Container, Heading } from "@srinivas-narayanam/ui"
 
 const NestedCustomPage = () => {
   return (
@@ -156,8 +156,8 @@ For example, create a UI route at `src/admin/routes/settings/custom/page.tsx`:
 ![Example of settings UI route file in the application's directory structure](https://res.cloudinary.com/dza7lstvk/image/upload/v1732867435/Medusa%20Book/setting-ui-route-dir-overview_kytbh8.jpg)
 
 ```tsx title="src/admin/routes/settings/custom/page.tsx"
-import { defineRouteConfig } from "@medusajs/admin-sdk"
-import { Container, Heading } from "@medusajs/ui"
+import { defineRouteConfig } from "@srinivas-narayanam/admin-sdk"
+import { Container, Heading } from "@srinivas-narayanam/ui"
 
 const CustomSettingPage = () => {
   return (
@@ -190,7 +190,7 @@ For example, create the file `src/admin/routes/custom/[id]/page.tsx` with the fo
 
 ```tsx title="src/admin/routes/custom/[id]/page.tsx" highlights={[["5", "", "Retrieve the path parameter."], ["10", "{id}", "Show the path parameter."]]}
 import { useParams } from "react-router-dom"
-import { Container, Heading } from "@medusajs/ui"
+import { Container, Heading } from "@srinivas-narayanam/ui"
 
 const CustomPage = () => {
   const { id } = useParams()

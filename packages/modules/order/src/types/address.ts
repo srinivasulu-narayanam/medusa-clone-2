@@ -1,4 +1,4 @@
-import { OrderTypes } from "@medusajs/framework/types"
+import { OrderTypes } from "@srinivasulu-narayanam/framework/types"
 
 export type UpsertOrderAddressDTO = OrderTypes.UpsertOrderAddressDTO
 

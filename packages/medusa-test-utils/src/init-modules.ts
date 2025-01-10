@@ -2,12 +2,12 @@ import {
   ExternalModuleDeclaration,
   InternalModuleDeclaration,
   ModuleJoinerConfig,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   createPgConnection,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export interface InitModulesOptions {
   injectedDependencies?: Record<string, unknown>
@@ -32,7 +32,7 @@ export async function initModules({
   joinerConfig,
   preventConnectionDestroyWarning = false,
 }: InitModulesOptions) {
-  const moduleSdkImports = require("@medusajs/framework/modules-sdk")
+  const moduleSdkImports = require("@srinivasulu-narayanam/framework/modules-sdk")
 
   injectedDependencies ??= {}
 

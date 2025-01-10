@@ -1,7 +1,7 @@
-import { CreatePriceSetDTO } from "@medusajs/framework/types"
+import { CreatePriceSetDTO } from "@srinivasulu-narayanam/framework/types"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { Price, PriceSet } from "@models"
-import { toMikroORMEntity } from "@medusajs/framework/utils"
+import { toMikroORMEntity } from "@srinivasulu-narayanam/framework/utils"
 import { defaultPriceSetsData } from "./data"
 
 export * from "./data"

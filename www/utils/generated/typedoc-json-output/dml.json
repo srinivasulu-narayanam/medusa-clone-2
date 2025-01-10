@@ -105,7 +105,7 @@
 									"qualifiedName": "RelationshipOptions"
 								},
 								"name": "RelationshipOptions",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							{
 								"type": "union",
@@ -273,7 +273,7 @@
 																			}
 																		],
 																		"name": "DmlEntity",
-																		"package": "@medusajs/utils"
+																		"package": "@srinivasulu-narayanam/utils"
 																	}
 																}
 															]
@@ -396,7 +396,7 @@
 										"type": "reference",
 										"target": 38441,
 										"name": "EntityBuilder",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -427,7 +427,7 @@
 												"content": [
 													{
 														"kind": "code",
-														"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n})\n\nexport default MyCustom\n```"
+														"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n})\n\nexport default MyCustom\n```"
 													}
 												]
 											}
@@ -455,7 +455,7 @@
 													"qualifiedName": "DMLSchema"
 												},
 												"name": "DMLSchema",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -473,7 +473,7 @@
 													"qualifiedName": "IDmlEntityConfig"
 												},
 												"name": "IDmlEntityConfig",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										}
 									],
@@ -496,7 +496,7 @@
 												"type": "reference",
 												"target": 38450,
 												"name": "TConfig",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"refersToTypeParameter": true
 											}
 										},
@@ -518,7 +518,7 @@
 												"type": "reference",
 												"target": 38449,
 												"name": "Schema",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"refersToTypeParameter": true
 											}
 										}
@@ -535,23 +535,23 @@
 														"type": "reference",
 														"target": 38449,
 														"name": "Schema",
-														"package": "@medusajs/utils",
+														"package": "@srinivasulu-narayanam/utils",
 														"refersToTypeParameter": true
 													}
 												],
 												"name": "DMLEntitySchemaBuilder",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											},
 											{
 												"type": "reference",
 												"target": 38450,
 												"name": "TConfig",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "DmlEntity",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -599,7 +599,7 @@
 						"type": "reference",
 						"target": 38441,
 						"name": "EntityBuilder",
-						"package": "@medusajs/utils"
+						"package": "@srinivasulu-narayanam/utils"
 					},
 					"defaultValue": "..."
 				}
@@ -653,7 +653,7 @@
 									"qualifiedName": "DMLSchema"
 								},
 								"name": "DMLSchema",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -671,12 +671,12 @@
 										"type": "reference",
 										"target": 38522,
 										"name": "Schema",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "DMLSchemaWithBigNumber",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							},
 							{
 								"type": "reference",
@@ -685,13 +685,13 @@
 									"qualifiedName": "DMLSchemaDefaults"
 								},
 								"name": "DMLSchemaDefaults",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							},
 							{
 								"type": "reference",
 								"target": 38522,
 								"name": "Schema",
-								"package": "@medusajs/utils",
+								"package": "@srinivasulu-narayanam/utils",
 								"refersToTypeParameter": true
 							}
 						]
@@ -741,13 +741,13 @@
 										"type": "reference",
 										"target": 38530,
 										"name": "TConfig",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "DmlEntity.TConfig",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "InferDmlEntityNameFromConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							},
 							"implementationOf": {
 								"type": "reference",
@@ -765,7 +765,7 @@
 								"type": "reference",
 								"target": 38529,
 								"name": "Schema",
-								"package": "@medusajs/utils",
+								"package": "@srinivasulu-narayanam/utils",
 								"qualifiedName": "DmlEntity.Schema",
 								"refersToTypeParameter": true
 							},
@@ -802,7 +802,7 @@
 													"qualifiedName": "DMLSchema"
 												},
 												"name": "DMLSchema",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -820,7 +820,7 @@
 													"qualifiedName": "IDmlEntityConfig"
 												},
 												"name": "IDmlEntityConfig",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										}
 									],
@@ -835,7 +835,7 @@
 												"type": "reference",
 												"target": 38530,
 												"name": "TConfig",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.TConfig",
 												"refersToTypeParameter": true
 											}
@@ -850,7 +850,7 @@
 												"type": "reference",
 												"target": 38529,
 												"name": "Schema",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.Schema",
 												"refersToTypeParameter": true
 											}
@@ -864,7 +864,7 @@
 												"type": "reference",
 												"target": 38529,
 												"name": "Schema",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.Schema",
 												"refersToTypeParameter": true
 											},
@@ -872,13 +872,13 @@
 												"type": "reference",
 												"target": 38530,
 												"name": "TConfig",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.TConfig",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "DmlEntity",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -937,7 +937,7 @@
 												}
 											],
 											"name": "DmlEntity",
-											"package": "@medusajs/utils"
+											"package": "@srinivasulu-narayanam/utils"
 										}
 									}
 								}
@@ -990,13 +990,13 @@
 																"type": "reference",
 																"target": 38530,
 																"name": "TConfig",
-																"package": "@medusajs/utils",
+																"package": "@srinivasulu-narayanam/utils",
 																"qualifiedName": "DmlEntity.TConfig",
 																"refersToTypeParameter": true
 															}
 														],
 														"name": "InferDmlEntityNameFromConfig",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												},
 												{
@@ -1023,7 +1023,7 @@
 															"qualifiedName": "DMLSchema"
 														},
 														"name": "DMLSchema",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												},
 												{
@@ -1055,7 +1055,7 @@
 															}
 														],
 														"name": "EntityCascades",
-														"package": "@medusajs/types"
+														"package": "@srinivasulu-narayanam/types"
 													}
 												},
 												{
@@ -1077,13 +1077,13 @@
 																	"type": "reference",
 																	"target": 38529,
 																	"name": "Schema",
-																	"package": "@medusajs/utils",
+																	"package": "@srinivasulu-narayanam/utils",
 																	"qualifiedName": "DmlEntity.Schema",
 																	"refersToTypeParameter": true
 																}
 															],
 															"name": "EntityIndex",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												},
@@ -1106,13 +1106,13 @@
 																	"type": "reference",
 																	"target": 38529,
 																	"name": "Schema",
-																	"package": "@medusajs/utils",
+																	"package": "@srinivasulu-narayanam/utils",
 																	"qualifiedName": "DmlEntity.Schema",
 																	"refersToTypeParameter": true
 																}
 															],
 															"name": "CheckConstraint",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													}
 												}
@@ -1168,13 +1168,13 @@
 															"type": "reference",
 															"target": 38529,
 															"name": "Schema",
-															"package": "@medusajs/utils",
+															"package": "@srinivasulu-narayanam/utils",
 															"qualifiedName": "DmlEntity.Schema",
 															"refersToTypeParameter": true
 														}
 													],
 													"name": "CheckConstraint",
-													"package": "@medusajs/types"
+													"package": "@srinivasulu-narayanam/types"
 												}
 											}
 										}
@@ -1187,7 +1187,7 @@
 												"type": "reference",
 												"target": 38529,
 												"name": "Schema",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.Schema",
 												"refersToTypeParameter": true
 											},
@@ -1195,13 +1195,13 @@
 												"type": "reference",
 												"target": 38530,
 												"name": "TConfig",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "DmlEntity.TConfig",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "DmlEntity",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -1247,7 +1247,7 @@
 									"qualifiedName": "DMLSchema"
 								},
 								"name": "DMLSchema",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						},
 						{
@@ -1265,7 +1265,7 @@
 									"qualifiedName": "IDmlEntityConfig"
 								},
 								"name": "IDmlEntityConfig",
-								"package": "@medusajs/types"
+								"package": "@srinivasulu-narayanam/types"
 							}
 						}
 					],
@@ -1281,7 +1281,7 @@
 									"type": "reference",
 									"target": 38529,
 									"name": "Schema",
-									"package": "@medusajs/utils",
+									"package": "@srinivasulu-narayanam/utils",
 									"qualifiedName": "DmlEntity.Schema",
 									"refersToTypeParameter": true
 								},
@@ -1289,13 +1289,13 @@
 									"type": "reference",
 									"target": 38530,
 									"name": "TConfig",
-									"package": "@medusajs/utils",
+									"package": "@srinivasulu-narayanam/utils",
 									"qualifiedName": "DmlEntity.TConfig",
 									"refersToTypeParameter": true
 								}
 							],
 							"name": "IDmlEntity",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					]
 				}
@@ -1369,13 +1369,13 @@
 												"type": "reference",
 												"target": 38564,
 												"name": "T",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "BaseProperty.T",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "BaseProperty",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							]
@@ -1419,7 +1419,7 @@
 													"qualifiedName": "KnownDataTypes"
 												},
 												"name": "KnownDataTypes",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										},
 										{
@@ -1481,7 +1481,7 @@
 								"type": "reference",
 								"target": 38564,
 								"name": "T",
-								"package": "@medusajs/utils",
+								"package": "@srinivasulu-narayanam/utils",
 								"qualifiedName": "BaseProperty.T",
 								"refersToTypeParameter": true
 							},
@@ -1532,7 +1532,7 @@
 											"qualifiedName": "PropertyMetadata"
 										},
 										"name": "PropertyMetadata",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									},
 									"implementationOf": {
 										"type": "reference",
@@ -1595,13 +1595,13 @@
 									"type": "reference",
 									"target": 38564,
 									"name": "T",
-									"package": "@medusajs/utils",
+									"package": "@srinivasulu-narayanam/utils",
 									"qualifiedName": "BaseProperty.T",
 									"refersToTypeParameter": true
 								}
 							],
 							"name": "PropertyType",
-							"package": "@medusajs/types"
+							"package": "@srinivasulu-narayanam/types"
 						}
 					]
 				}
@@ -1648,7 +1648,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst User = model.define(\"User\", {\n  id: model.id().primaryKey(),\n  // ...\n})\n\nexport default User\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst User = model.define(\"User\", {\n  id: model.id().primaryKey(),\n  // ...\n})\n\nexport default User\n```"
 											}
 										]
 									}
@@ -1705,7 +1705,7 @@
 									"qualifiedName": "IdProperty"
 								},
 								"name": "IdProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1736,7 +1736,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  name: model.text(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  name: model.text(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1749,7 +1749,7 @@
 									"qualifiedName": "TextProperty"
 								},
 								"name": "TextProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1780,7 +1780,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  hasAccount: model.boolean(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  hasAccount: model.boolean(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1793,7 +1793,7 @@
 									"qualifiedName": "BooleanProperty"
 								},
 								"name": "BooleanProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1824,7 +1824,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  age: model.number(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  age: model.number(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1837,7 +1837,7 @@
 									"qualifiedName": "NumberProperty"
 								},
 								"name": "NumberProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1868,7 +1868,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  price: model.bigNumber(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  price: model.bigNumber(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1881,7 +1881,7 @@
 									"qualifiedName": "BigNumberProperty"
 								},
 								"name": "BigNumberProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1921,7 +1921,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"tax\", {\n  tax_rate: model.float(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"tax\", {\n  tax_rate: model.float(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1934,7 +1934,7 @@
 									"qualifiedName": "FloatProperty"
 								},
 								"name": "FloatProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -1965,7 +1965,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  names: model.array(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  names: model.array(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -1978,7 +1978,7 @@
 									"qualifiedName": "ArrayProperty"
 								},
 								"name": "ArrayProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2009,7 +2009,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  date_of_birth: model.dateTime(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  date_of_birth: model.dateTime(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -2022,7 +2022,7 @@
 									"qualifiedName": "DateTimeProperty"
 								},
 								"name": "DateTimeProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2053,7 +2053,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  metadata: model.json(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  metadata: model.json(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -2066,7 +2066,7 @@
 									"qualifiedName": "JSONProperty"
 								},
 								"name": "JSONProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2097,7 +2097,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  color: model.enum([\"black\", \"white\"]),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  color: model.enum([\"black\", \"white\"]),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -2145,7 +2145,7 @@
 													"qualifiedName": "EnumLike"
 												},
 												"name": "EnumLike",
-												"package": "@medusajs/utils"
+												"package": "@srinivasulu-narayanam/utils"
 											}
 										]
 									}
@@ -2170,7 +2170,7 @@
 										"type": "reference",
 										"target": 38478,
 										"name": "Values",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								}
@@ -2186,12 +2186,12 @@
 										"type": "reference",
 										"target": 38478,
 										"name": "Values",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "EnumProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2248,7 +2248,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  serial_id: model.autoincrement(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  serial_id: model.autoincrement(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -2261,7 +2261,7 @@
 									"qualifiedName": "AutoIncrementProperty"
 								},
 								"name": "AutoIncrementProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2319,7 +2319,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst User = model.define(\"user\", {\n  id: model.id(),\n  email: model.hasOne(() => Email),\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst User = model.define(\"user\", {\n  id: model.id(),\n  email: model.hasOne(() => Email),\n})\n```"
 											}
 										]
 									}
@@ -2387,7 +2387,7 @@
 										"type": "reference",
 										"target": 38482,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								},
@@ -2516,7 +2516,7 @@
 																"type": "reference",
 																"target": 38483,
 																"name": "ForeignKeyName",
-																"package": "@medusajs/utils",
+																"package": "@srinivasulu-narayanam/utils",
 																"refersToTypeParameter": true
 															}
 														}
@@ -2547,19 +2547,19 @@
 										"type": "reference",
 										"target": 38482,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									},
 									{
 										"type": "reference",
 										"target": 38483,
 										"name": "ForeignKeyName",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "HasOneWithForeignKey",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						},
 						{
@@ -2591,7 +2591,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst User = model.define(\"user\", {\n  id: model.id(),\n  email: model.hasOne(() => Email),\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst User = model.define(\"user\", {\n  id: model.id(),\n  email: model.hasOne(() => Email),\n})\n```"
 											}
 										]
 									},
@@ -2642,7 +2642,7 @@
 										"type": "reference",
 										"target": 38492,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								},
@@ -2789,12 +2789,12 @@
 										"type": "reference",
 										"target": 38492,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "HasOne",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -2845,7 +2845,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst Product = model.define(\"product\", {\n  id: model.id(),\n  store: model.belongsTo(() => Store, {\n    mappedBy: \"products\",\n  }),\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst Product = model.define(\"product\", {\n  id: model.id(),\n  store: model.belongsTo(() => Store, {\n    mappedBy: \"products\",\n  }),\n})\n```"
 											}
 										]
 									}
@@ -2913,7 +2913,7 @@
 										"type": "reference",
 										"target": 38501,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								},
@@ -3033,7 +3033,7 @@
 																"type": "reference",
 																"target": 38502,
 																"name": "ForeignKeyName",
-																"package": "@medusajs/utils",
+																"package": "@srinivasulu-narayanam/utils",
 																"refersToTypeParameter": true
 															}
 														}
@@ -3063,19 +3063,19 @@
 										"type": "reference",
 										"target": 38501,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									},
 									{
 										"type": "reference",
 										"target": 38502,
 										"name": "ForeignKeyName",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "BelongsTo",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3106,7 +3106,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst Store = model.define(\"store\", {\n  id: model.id(),\n  products: model.hasMany(() => Product),\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst Store = model.define(\"store\", {\n  id: model.id(),\n  products: model.hasMany(() => Product),\n})\n```"
 											}
 										]
 									}
@@ -3148,7 +3148,7 @@
 										"type": "reference",
 										"target": 38511,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								},
@@ -3175,7 +3175,7 @@
 											"qualifiedName": "RelationshipOptions"
 										},
 										"name": "RelationshipOptions",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -3190,12 +3190,12 @@
 										"type": "reference",
 										"target": 38511,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "HasMany",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3226,7 +3226,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst Order = model.define(\"order\", {\n  id: model.id(),\n  products: model.manyToMany(() => Product),\n})\n\nconst Product = model.define(\"product\", {\n  id: model.id(),\n  order: model.manyToMany(() => Order),\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst Order = model.define(\"order\", {\n  id: model.id(),\n  products: model.manyToMany(() => Product),\n})\n\nconst Product = model.define(\"product\", {\n  id: model.id(),\n  order: model.manyToMany(() => Order),\n})\n```"
 											}
 										]
 									}
@@ -3268,7 +3268,7 @@
 										"type": "reference",
 										"target": 38516,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								},
@@ -3292,7 +3292,7 @@
 										"type": "reference",
 										"target": 38428,
 										"name": "ManyToManyOptions",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								}
 							],
@@ -3307,12 +3307,12 @@
 										"type": "reference",
 										"target": 38516,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "ManyToMany",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3363,7 +3363,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst Store = model.define(\"store\", {\n  id: model.id(),\n  products: model.hasMany(() => Product),\n})\n.cascades({\n  delete: [\"products\"],\n})\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst Store = model.define(\"store\", {\n  id: model.id(),\n  products: model.hasMany(() => Product),\n})\n.cascades({\n  delete: [\"products\"],\n})\n```"
 											}
 										]
 									}
@@ -3410,7 +3410,7 @@
 														"type": "reference",
 														"target": 38529,
 														"name": "Schema",
-														"package": "@medusajs/utils",
+														"package": "@srinivasulu-narayanam/utils",
 														"qualifiedName": "DmlEntity.Schema",
 														"refersToTypeParameter": true
 													},
@@ -3433,7 +3433,7 @@
 													}
 												],
 												"name": "ExtractEntityRelations",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											},
 											{
 												"type": "reference",
@@ -3446,7 +3446,7 @@
 														"type": "reference",
 														"target": 38529,
 														"name": "Schema",
-														"package": "@medusajs/utils",
+														"package": "@srinivasulu-narayanam/utils",
 														"qualifiedName": "DmlEntity.Schema",
 														"refersToTypeParameter": true
 													},
@@ -3456,11 +3456,11 @@
 													}
 												],
 												"name": "ExtractEntityRelations",
-												"package": "@medusajs/types"
+												"package": "@srinivasulu-narayanam/types"
 											}
 										],
 										"name": "EntityCascades",
-										"package": "@medusajs/types"
+										"package": "@srinivasulu-narayanam/types"
 									}
 								}
 							],
@@ -3472,7 +3472,7 @@
 										"type": "reference",
 										"target": 38529,
 										"name": "Schema",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "DmlEntity.Schema",
 										"refersToTypeParameter": true
 									},
@@ -3480,13 +3480,13 @@
 										"type": "reference",
 										"target": 38530,
 										"name": "TConfig",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "DmlEntity.TConfig",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "DmlEntity",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3521,7 +3521,7 @@
 											},
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n  },\n])\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n  },\n])\n\nexport default MyCustom\n```"
 											},
 											{
 												"kind": "text",
@@ -3537,7 +3537,7 @@
 											},
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n    where: {\n      age: 30\n    }\n  },\n])\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n    where: {\n      age: 30\n    }\n  },\n])\n\nexport default MyCustom\n```"
 											},
 											{
 												"kind": "text",
@@ -3545,7 +3545,7 @@
 											},
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n    where: {\n      age: {\n        $ne: 30\n      }\n    }\n  },\n])\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text(),\n  age: model.number()\n}).indexes([\n  {\n    on: [\"name\", \"age\"],\n    where: {\n      age: {\n        $ne: 30\n      }\n    }\n  },\n])\n\nexport default MyCustom\n```"
 											},
 											{
 												"kind": "text",
@@ -3599,7 +3599,7 @@
 													"type": "reference",
 													"target": 38529,
 													"name": "Schema",
-													"package": "@medusajs/utils",
+													"package": "@srinivasulu-narayanam/utils",
 													"qualifiedName": "DmlEntity.Schema",
 													"refersToTypeParameter": true
 												},
@@ -3621,19 +3621,19 @@
 																	"type": "reference",
 																	"target": 38529,
 																	"name": "Schema",
-																	"package": "@medusajs/utils",
+																	"package": "@srinivasulu-narayanam/utils",
 																	"qualifiedName": "DmlEntity.Schema",
 																	"refersToTypeParameter": true
 																}
 															],
 															"name": "QueryCondition",
-															"package": "@medusajs/types"
+															"package": "@srinivasulu-narayanam/types"
 														}
 													]
 												}
 											],
 											"name": "EntityIndex",
-											"package": "@medusajs/types"
+											"package": "@srinivasulu-narayanam/types"
 										}
 									}
 								}
@@ -3646,7 +3646,7 @@
 										"type": "reference",
 										"target": 38529,
 										"name": "Schema",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "DmlEntity.Schema",
 										"refersToTypeParameter": true
 									},
@@ -3654,13 +3654,13 @@
 										"type": "reference",
 										"target": 38530,
 										"name": "TConfig",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "DmlEntity.TConfig",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "DmlEntity",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3717,7 +3717,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  price: model.bigNumber().nullable(),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  price: model.bigNumber().nullable(),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -3734,7 +3734,7 @@
 										"type": "reference",
 										"target": 38564,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "BaseProperty.T",
 										"refersToTypeParameter": true
 									},
@@ -3746,17 +3746,17 @@
 												"type": "reference",
 												"target": 38564,
 												"name": "T",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "BaseProperty.T",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "BaseProperty",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								],
 								"name": "NullableModifier",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3787,7 +3787,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n calculated_price: model.bigNumber().computed(),\n // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n calculated_price: model.bigNumber().computed(),\n // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -3811,7 +3811,7 @@
 												"type": "reference",
 												"target": 38564,
 												"name": "T",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "BaseProperty.T",
 												"refersToTypeParameter": true
 											}
@@ -3825,17 +3825,17 @@
 												"type": "reference",
 												"target": 38564,
 												"name": "T",
-												"package": "@medusajs/utils",
+												"package": "@srinivasulu-narayanam/utils",
 												"qualifiedName": "BaseProperty.T",
 												"refersToTypeParameter": true
 											}
 										],
 										"name": "BaseProperty",
-										"package": "@medusajs/utils"
+										"package": "@srinivasulu-narayanam/utils"
 									}
 								],
 								"name": "ComputedProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3866,7 +3866,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text().index(\n    \"IDX_MY_CUSTOM_NAME\"\n  ),\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  id: model.id(),\n  name: model.text().index(\n    \"IDX_MY_CUSTOM_NAME\"\n  ),\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -3903,13 +3903,13 @@
 										"type": "reference",
 										"target": 38564,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "BaseProperty.T",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "BaseProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -3940,7 +3940,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst User = model.define(\"user\", {\n  email: model.text().unique(),\n  // ...\n})\n\nexport default User\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst User = model.define(\"user\", {\n  email: model.text().unique(),\n  // ...\n})\n\nexport default User\n```"
 											}
 										]
 									}
@@ -3977,13 +3977,13 @@
 										"type": "reference",
 										"target": 38564,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "BaseProperty.T",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "BaseProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -4014,7 +4014,7 @@
 										"content": [
 											{
 												"kind": "code",
-												"text": "```ts\nimport { model } from \"@medusajs/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  color: model\n    .enum([\"black\", \"white\"])\n    .default(\"black\"),\n  age: model\n    .number()\n    .default(0),\n  // ...\n})\n\nexport default MyCustom\n```"
+												"text": "```ts\nimport { model } from \"@srinivasulu-narayanam/framework/utils\"\n\nconst MyCustom = model.define(\"my_custom\", {\n  color: model\n    .enum([\"black\", \"white\"])\n    .default(\"black\"),\n  age: model\n    .number()\n    .default(0),\n  // ...\n})\n\nexport default MyCustom\n```"
 											}
 										]
 									}
@@ -4039,7 +4039,7 @@
 										"type": "reference",
 										"target": 38564,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "BaseProperty.T",
 										"refersToTypeParameter": true
 									}
@@ -4053,13 +4053,13 @@
 										"type": "reference",
 										"target": 38564,
 										"name": "T",
-										"package": "@medusajs/utils",
+										"package": "@srinivasulu-narayanam/utils",
 										"qualifiedName": "BaseProperty.T",
 										"refersToTypeParameter": true
 									}
 								],
 								"name": "BaseProperty",
-								"package": "@medusajs/utils"
+								"package": "@srinivasulu-narayanam/utils"
 							}
 						}
 					]
@@ -4099,7 +4099,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/utils",
+	"packageName": "@srinivasulu-narayanam/utils",
 	"symbolIdMap": {
 		"38423": {
 			"sourceFileName": "../../../../packages/core/utils/src/dml/entity-builder.ts",

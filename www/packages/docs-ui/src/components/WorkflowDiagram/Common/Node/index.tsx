@@ -1,12 +1,12 @@
 "use client"
 
-import { Text } from "@medusajs/ui"
+import { Text } from "@srinivasulu-narayanam/ui"
 import clsx from "clsx"
 import Link from "next/link"
 import React, { useMemo } from "react"
 import { WorkflowStepUi } from "types"
 import { InlineCode, MarkdownContent, Tooltip } from "../../.."
-import { Bolt, InformationCircle } from "@medusajs/icons"
+import { Bolt, InformationCircle } from "@srinivasulu-narayanam/icons"
 
 export type WorkflowDiagramNodeProps = {
   step: WorkflowStepUi

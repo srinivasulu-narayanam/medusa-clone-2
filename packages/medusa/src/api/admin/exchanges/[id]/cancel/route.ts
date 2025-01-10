@@ -1,9 +1,9 @@
-import { cancelOrderExchangeWorkflow } from "@medusajs/core-flows"
-import { HttpTypes } from "@medusajs/framework/types"
+import { cancelOrderExchangeWorkflow } from "@srinivasulu-narayanam/core-flows"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import { AdminPostCancelExchangeReqSchemaType } from "../../validators"
 
 export const POST = async (

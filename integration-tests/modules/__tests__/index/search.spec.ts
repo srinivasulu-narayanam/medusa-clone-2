@@ -1,6 +1,6 @@
-import { IndexTypes } from "@medusajs/types"
-import { defaultCurrencies, Modules } from "@medusajs/utils"
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { IndexTypes } from "@srinivasulu-narayanam/types"
+import { defaultCurrencies, Modules } from "@srinivasulu-narayanam/utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import { setTimeout } from "timers/promises"
 import {
   adminHeaders,

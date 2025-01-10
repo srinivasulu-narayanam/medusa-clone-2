@@ -1,4 +1,4 @@
-import { UserDTO } from "@medusajs/types"
+import { UserDTO } from "@srinivasulu-narayanam/types"
 import { createColumnHelper } from "@tanstack/react-table"
 import { useMemo } from "react"
 import { useTranslation } from "react-i18next"

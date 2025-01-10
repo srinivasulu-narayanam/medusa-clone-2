@@ -8,8 +8,8 @@ import {
   motion,
 } from "framer-motion"
 import React, { useEffect, useRef, useState } from "react"
-import { ArrowPathMini, MinusMini, PlusMini } from "@medusajs/icons"
-import { DropdownMenu, Text } from "@medusajs/ui"
+import { ArrowPathMini, MinusMini, PlusMini } from "@srinivasulu-narayanam/icons"
+import { DropdownMenu, Text } from "@srinivasulu-narayanam/ui"
 import { createNodeClusters, getNextCluster } from "../../../utils"
 import { WorkflowDiagramCanvasDepth } from "./Depth"
 import { WorkflowDiagramCommonProps } from "../../.."

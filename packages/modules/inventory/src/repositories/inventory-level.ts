@@ -1,9 +1,9 @@
-import { Context } from "@medusajs/framework/types"
+import { Context } from "@srinivasulu-narayanam/framework/types"
 import {
   BigNumber,
   MathBN,
   mikroOrmBaseRepositoryFactory,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { InventoryLevel } from "@models"
 

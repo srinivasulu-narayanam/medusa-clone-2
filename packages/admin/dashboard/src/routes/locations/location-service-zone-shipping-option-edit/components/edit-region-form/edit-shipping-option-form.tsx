@@ -1,5 +1,5 @@
-import { HttpTypes } from "@medusajs/types"
-import { Button, Input, RadioGroup, toast } from "@medusajs/ui"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
+import { Button, Input, RadioGroup, toast } from "@srinivasulu-narayanam/ui"
 import { useForm } from "react-hook-form"
 import { useTranslation } from "react-i18next"
 import { zodResolver } from "@hookform/resolvers/zod"

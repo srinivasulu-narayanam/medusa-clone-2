@@ -1,5 +1,5 @@
-import { OrderChangeActionDTO } from "@medusajs/framework/types"
-import { isDefined } from "@medusajs/framework/utils"
+import { OrderChangeActionDTO } from "@srinivasulu-narayanam/framework/types"
+import { isDefined } from "@srinivasulu-narayanam/framework/utils"
 
 export function prepareShippingMethod(relatedEntityField?: string) {
   return function (data) {

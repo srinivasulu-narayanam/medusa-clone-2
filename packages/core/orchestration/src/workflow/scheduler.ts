@@ -1,4 +1,4 @@
-import { MedusaError } from "@medusajs/utils"
+import { MedusaError } from "@srinivasulu-narayanam/utils"
 import { IDistributedSchedulerStorage, SchedulerOptions } from "../transaction"
 import { WorkflowDefinition } from "./workflow-manager"
 

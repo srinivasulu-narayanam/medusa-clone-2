@@ -3,8 +3,8 @@ import {
   CreateOrderChangeActionDTO,
   OrderExchangeDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
-import { ChangeActionType, promiseAll } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { ChangeActionType, promiseAll } from "@srinivasulu-narayanam/framework/utils"
 
 async function createOrderChange(
   service,

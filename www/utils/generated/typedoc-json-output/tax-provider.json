@@ -49,7 +49,7 @@
 									"qualifiedName": "TaxableShippingDTO"
 								},
 								"name": "TaxableShippingDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivas-narayanam/types"
 							}
 						},
 						{
@@ -75,7 +75,7 @@
 										"qualifiedName": "TaxRateDTO"
 									},
 									"name": "TaxRateDTO",
-									"package": "@medusajs/types"
+									"package": "@srinivas-narayanam/types"
 								}
 							}
 						}
@@ -136,7 +136,7 @@
 									"qualifiedName": "TaxableItemDTO"
 								},
 								"name": "TaxableItemDTO",
-								"package": "@medusajs/types"
+								"package": "@srinivas-narayanam/types"
 							}
 						},
 						{
@@ -162,7 +162,7 @@
 										"qualifiedName": "TaxRateDTO"
 									},
 									"name": "TaxRateDTO",
-									"package": "@medusajs/types"
+									"package": "@srinivas-narayanam/types"
 								}
 							}
 						}
@@ -209,7 +209,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "`@medusajs/framework/types`"
+						"text": "`@srinivas-narayanam/framework/types`"
 					},
 					{
 						"kind": "text",
@@ -233,7 +233,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "```ts title=\"src/services/my-tax.ts\"\nimport { ITaxProvider } from \"@medusajs/framework/types\"\n\nexport default class MyTaxProvider implements ITaxProvider {\n  // ...\n}\n```"
+						"text": "```ts title=\"src/services/my-tax.ts\"\nimport { ITaxProvider } from \"@srinivas-narayanam/framework/types\"\n\nexport default class MyTaxProvider implements ITaxProvider {\n  // ...\n}\n```"
 					},
 					{
 						"kind": "text",
@@ -380,7 +380,7 @@
 											"type": "reference",
 											"target": 41772,
 											"name": "ItemTaxCalculationLine",
-											"package": "@medusajs/types"
+											"package": "@srinivas-narayanam/types"
 										}
 									}
 								},
@@ -404,7 +404,7 @@
 											"type": "reference",
 											"target": 41768,
 											"name": "ShippingTaxCalculationLine",
-											"package": "@medusajs/types"
+											"package": "@srinivas-narayanam/types"
 										}
 									}
 								},
@@ -429,7 +429,7 @@
 											"qualifiedName": "TaxCalculationContext"
 										},
 										"name": "TaxCalculationContext",
-										"package": "@medusajs/types"
+										"package": "@srinivas-narayanam/types"
 									}
 								}
 							],
@@ -452,7 +452,7 @@
 														"qualifiedName": "ItemTaxLineDTO"
 													},
 													"name": "ItemTaxLineDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivas-narayanam/types"
 												},
 												{
 													"type": "reference",
@@ -461,7 +461,7 @@
 														"qualifiedName": "ShippingTaxLineDTO"
 													},
 													"name": "ShippingTaxLineDTO",
-													"package": "@medusajs/types"
+													"package": "@srinivas-narayanam/types"
 												}
 											]
 										}
@@ -499,7 +499,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/types",
+	"packageName": "@srinivas-narayanam/types",
 	"symbolIdMap": {
 		"41767": {
 			"sourceFileName": "../../../../packages/core/types/src/tax/provider.ts",

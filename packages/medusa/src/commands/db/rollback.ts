@@ -2,10 +2,10 @@ import { join } from "path"
 import {
   ContainerRegistrationKeys,
   MedusaError,
-} from "@medusajs/framework/utils"
-import { LinkLoader } from "@medusajs/framework/links"
-import { logger } from "@medusajs/framework/logger"
-import { MedusaAppLoader } from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework/utils"
+import { LinkLoader } from "@srinivasulu-narayanam/framework/links"
+import { logger } from "@srinivasulu-narayanam/framework/logger"
+import { MedusaAppLoader } from "@srinivasulu-narayanam/framework"
 
 import { ensureDbExists } from "../utils"
 import { initializeContainer } from "../../loaders"

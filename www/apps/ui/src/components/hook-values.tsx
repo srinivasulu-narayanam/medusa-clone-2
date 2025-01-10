@@ -1,5 +1,5 @@
-import { Spinner } from "@medusajs/icons"
-import { Container } from "@medusajs/ui"
+import { Spinner } from "@srinivasulu-narayanam/icons"
+import { Container } from "@srinivasulu-narayanam/ui"
 import * as React from "react"
 
 import { HookRegistry } from "@/registries/hook-registry"

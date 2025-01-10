@@ -1,4 +1,4 @@
-import { Logger, UpdateRegionDTO } from "@medusajs/framework/types"
+import { Logger, UpdateRegionDTO } from "@srinivasulu-narayanam/framework/types"
 
 export type InitializeModuleInjectableDependencies = {
   logger?: Logger

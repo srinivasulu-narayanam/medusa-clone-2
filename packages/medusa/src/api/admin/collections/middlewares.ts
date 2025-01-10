@@ -1,9 +1,9 @@
 import * as QueryConfig from "./query-config"
-import { MiddlewareRoute } from "@medusajs/framework/http"
+import { MiddlewareRoute } from "@srinivasulu-narayanam/framework/http"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework"
 import {
   AdminCreateCollection,
   AdminGetCollectionParams,

@@ -1,7 +1,7 @@
 import { Knex } from "@mikro-orm/knex"
-import { IndexTypes } from "@medusajs/framework/types"
+import { IndexTypes } from "@srinivasulu-narayanam/framework/types"
 import { OrderBy, QueryFormat, QueryOptions, Select } from "@types"
-import { isObject, isString, GraphQLUtils } from "@medusajs/framework/utils"
+import { isObject, isString, GraphQLUtils } from "@srinivasulu-narayanam/framework/utils"
 
 export const OPERATOR_MAP = {
   $eq: "=",

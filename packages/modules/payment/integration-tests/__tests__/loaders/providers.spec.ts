@@ -1,7 +1,7 @@
-import { IPaymentModuleService } from "@medusajs/framework/types"
+import { IPaymentModuleService } from "@srinivasulu-narayanam/framework/types"
 
-import { moduleIntegrationTestRunner } from "@medusajs/test-utils"
-import { Modules } from "@medusajs/framework/utils"
+import { moduleIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 jest.setTimeout(30000)
 

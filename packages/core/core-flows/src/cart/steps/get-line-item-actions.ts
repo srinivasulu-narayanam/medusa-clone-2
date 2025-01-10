@@ -3,14 +3,14 @@ import {
   CreateLineItemForCartDTO,
   ICartModuleService,
   UpdateLineItemWithSelectorDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   MathBN,
   Modules,
   deepEqualObj,
   isPresent,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
 export interface GetLineItemActionsStepInput {
   id: string

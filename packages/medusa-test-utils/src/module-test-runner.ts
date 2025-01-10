@@ -7,7 +7,7 @@ import {
   ModulesSdkUtils,
   normalizeImportPathWithSource,
   toMikroOrmEntities,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import * as fs from "fs"
 import { getDatabaseURL, getMikroOrmWrapper, TestDatabase } from "./database"
 import { initModules, InitModulesOptions } from "./init-modules"
@@ -87,7 +87,7 @@ export function moduleIntegrationTestRunner<TService = any>({
   debug?: boolean
   testSuite: (options: SuiteOptions<TService>) => void
 }) {
-  const moduleSdkImports = require("@medusajs/framework/modules-sdk")
+  const moduleSdkImports = require("@srinivasulu-narayanam/framework/modules-sdk")
 
   process.env.LOG_LEVEL = "error"
 

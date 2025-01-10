@@ -1,12 +1,12 @@
 import {
   AddPromotionRulesWorkflowDTO,
   PromotionRuleDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { addRulesToPromotionsStep } from "../steps"
 
 export const createPromotionRulesWorkflowId = "create-promotion-rules-workflow"

@@ -1,9 +1,9 @@
-import { PencilSquare, Trash } from "@medusajs/icons"
+import { PencilSquare, Trash } from "@srinivasulu-narayanam/icons"
 
 import { ActionMenu } from "../../../../components/common/action-menu"
-import { InventoryItemDTO } from "@medusajs/types"
+import { InventoryItemDTO } from "@srinivasulu-narayanam/types"
 import { useDeleteInventoryItem } from "../../../../hooks/api/inventory"
-import { usePrompt } from "@medusajs/ui"
+import { usePrompt } from "@srinivasulu-narayanam/ui"
 import { useTranslation } from "react-i18next"
 
 export const InventoryActions = ({ item }: { item: InventoryItemDTO }) => {

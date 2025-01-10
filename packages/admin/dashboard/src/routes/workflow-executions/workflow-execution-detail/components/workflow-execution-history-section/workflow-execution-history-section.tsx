@@ -1,4 +1,4 @@
-import { Spinner, TriangleDownMini } from "@medusajs/icons"
+import { Spinner, TriangleDownMini } from "@srinivasulu-narayanam/icons"
 import {
   clx,
   CodeBlock,
@@ -6,7 +6,7 @@ import {
   Heading,
   IconButton,
   Text,
-} from "@medusajs/ui"
+} from "@srinivasulu-narayanam/ui"
 import * as Collapsible from "@radix-ui/react-collapsible"
 import { format } from "date-fns"
 import { useEffect, useRef, useState } from "react"
@@ -20,7 +20,7 @@ import {
   STEP_SKIPPED_STATES,
 } from "../../../constants"
 import { TransactionStepState, TransactionStepStatus } from "../../../types"
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivasulu-narayanam/types"
 
 type WorkflowExecutionHistorySectionProps = {
   execution: HttpTypes.AdminWorkflowExecution

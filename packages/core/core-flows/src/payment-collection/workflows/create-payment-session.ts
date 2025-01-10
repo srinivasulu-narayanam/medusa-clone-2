@@ -1,14 +1,14 @@
 import {
   PaymentProviderContext,
   PaymentSessionDTO,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { useRemoteQueryStep } from "../../common"
 import { createPaymentSessionStep } from "../steps"
 import { deletePaymentSessionsWorkflow } from "./delete-payment-sessions"

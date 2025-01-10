@@ -1,10 +1,10 @@
 import {
   AuthenticatedMedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { HttpTypes } from "@medusajs/framework/types"
-import { MedusaError } from "@medusajs/framework/utils"
-import { importProductsWorkflow } from "@medusajs/core-flows"
+} from "@srinivasulu-narayanam/framework/http"
+import { HttpTypes } from "@srinivasulu-narayanam/framework/types"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
+import { importProductsWorkflow } from "@srinivasulu-narayanam/core-flows"
 
 export const POST = async (
   req: AuthenticatedMedusaRequest<HttpTypes.AdminImportProductRequest>,

@@ -2,7 +2,7 @@ import {
   Context,
   CreateOrderChangeActionDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ChangeActionType,
   ClaimType,
@@ -11,7 +11,7 @@ import {
   getShippingMethodsTotals,
   isString,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { OrderClaim, OrderClaimItem, Return, ReturnItem } from "@models"
 
 function createClaimAndReturnEntities(em, data, order) {

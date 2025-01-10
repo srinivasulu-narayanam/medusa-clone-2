@@ -1,5 +1,5 @@
-import { promiseAll } from "@medusajs/framework/utils"
-import { ILockingProvider } from "@medusajs/types"
+import { promiseAll } from "@srinivasulu-narayanam/framework/utils"
+import { ILockingProvider } from "@srinivasulu-narayanam/types"
 import { RedisCacheModuleOptions } from "@types"
 import { Redis } from "ioredis"
 import { setTimeout } from "node:timers/promises"

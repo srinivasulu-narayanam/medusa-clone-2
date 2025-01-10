@@ -15,7 +15,7 @@ To send a request to an API route in the Medusa Application, use Medusa's [JS SD
 First, create the file `src/admin/lib/config.ts` to setup the SDK for use in your customizations:
 
 ```ts
-import Medusa from "@medusajs/js-sdk"
+import Medusa from "@srinivas-narayanam/js-sdk"
 
 export const sdk = new Medusa({
   baseUrl: "http://localhost:9000",
@@ -46,11 +46,11 @@ export const queryHighlights = [
 ]
 
 ```tsx title="src/admin/widgets/product-widget.ts" highlights={queryHighlights}
-import { defineWidgetConfig } from "@medusajs/admin-sdk"
-import { Button, Container } from "@medusajs/ui"
+import { defineWidgetConfig } from "@srinivas-narayanam/admin-sdk"
+import { Button, Container } from "@srinivas-narayanam/ui"
 import { useQuery } from "@tanstack/react-query"
 import { sdk } from "../lib/config"
-import { DetailWidgetProps, HttpTypes } from "@medusajs/framework/types"
+import { DetailWidgetProps, HttpTypes } from "@srinivas-narayanam/framework/types"
 
 const ProductWidget = () => {
   const { data, isLoading } = useQuery({
@@ -88,11 +88,11 @@ export const mutationHighlights = [
 ]
 
 ```tsx title="src/admin/widgets/product-widget.ts" highlights={mutationHighlights}
-import { defineWidgetConfig } from "@medusajs/admin-sdk"
-import { Button, Container } from "@medusajs/ui"
+import { defineWidgetConfig } from "@srinivas-narayanam/admin-sdk"
+import { Button, Container } from "@srinivas-narayanam/ui"
 import { useMutation } from "@tanstack/react-query"
 import { sdk } from "../lib/config"
-import { DetailWidgetProps, HttpTypes } from "@medusajs/framework/types"
+import { DetailWidgetProps, HttpTypes } from "@srinivas-narayanam/framework/types"
 
 const ProductWidget = ({ 
   data: productData,
@@ -142,8 +142,8 @@ export const highlights = [
 ]
 
 ```tsx title="src/admin/widgets/product-widget.tsx" highlights={highlights}
-import { defineWidgetConfig } from "@medusajs/admin-sdk"
-import { Container } from "@medusajs/ui"
+import { defineWidgetConfig } from "@srinivas-narayanam/admin-sdk"
+import { Container } from "@srinivas-narayanam/ui"
 import { Link } from "react-router-dom"
 
 // The widget

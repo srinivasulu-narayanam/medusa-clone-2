@@ -4,12 +4,12 @@ import {
   PaymentProviderSessionResponse,
   ProviderWebhookPayload,
   WebhookActionResult,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   AbstractPaymentProvider,
   PaymentActions,
   PaymentSessionStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export class SystemProviderService extends AbstractPaymentProvider {
   static identifier = "system"

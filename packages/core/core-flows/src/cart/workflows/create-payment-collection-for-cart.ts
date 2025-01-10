@@ -1,15 +1,15 @@
 import {
   CartDTO,
   CreatePaymentCollectionForCartWorkflowInputDTO,
-} from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 import {
   createStep,
   createWorkflow,
   parallelize,
   transform,
   WorkflowData,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { createRemoteLinkStep } from "../../common/steps/create-remote-links"
 import { useRemoteQueryStep } from "../../common/steps/use-remote-query"
 import { createPaymentCollectionsStep } from "../steps/create-payment-collection"

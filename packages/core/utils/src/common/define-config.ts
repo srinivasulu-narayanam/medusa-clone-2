@@ -2,7 +2,7 @@ import {
   ConfigModule,
   ExternalModuleDeclaration,
   InternalModuleDeclaration,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   MODULE_PACKAGE_NAMES,
   Modules,
@@ -184,7 +184,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/auth-emailpass",
+            resolve: "@srinivasulu-narayanam/medusa/auth-emailpass",
             id: "emailpass",
           },
         ],
@@ -201,7 +201,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/file-local",
+            resolve: "@srinivasulu-narayanam/medusa/file-local",
             id: "local",
           },
         ],
@@ -212,7 +212,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/fulfillment-manual",
+            resolve: "@srinivasulu-narayanam/medusa/fulfillment-manual",
             id: "manual",
           },
         ],
@@ -223,7 +223,7 @@ function resolveModules(
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@srinivasulu-narayanam/medusa/notification-local",
             id: "local",
             options: {
               name: "Local Notification Provider",

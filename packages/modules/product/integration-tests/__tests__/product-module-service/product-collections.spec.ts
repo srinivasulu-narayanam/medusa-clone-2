@@ -1,4 +1,4 @@
-import { IProductModuleService } from "@medusajs/framework/types"
+import { IProductModuleService } from "@srinivasulu-narayanam/framework/types"
 import {
   CommonEvents,
   composeMessage,
@@ -6,11 +6,11 @@ import {
   ProductEvents,
   ProductStatus,
   toMikroORMEntity,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   MockEventBusService,
   moduleIntegrationTestRunner,
-} from "@medusajs/test-utils"
+} from "@srinivasulu-narayanam/test-utils"
 import { Product, ProductCollection } from "@models"
 import { createCollections } from "../../__fixtures__/product"
 

@@ -1,9 +1,9 @@
-import { FileDTO } from "@medusajs/framework/types"
+import { FileDTO } from "@srinivasulu-narayanam/framework/types"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { uploadFilesStep } from "../steps"
 
 export type UploadFilesWorkflowInput = {

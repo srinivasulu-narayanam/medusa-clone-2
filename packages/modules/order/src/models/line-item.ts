@@ -1,11 +1,11 @@
-import { BigNumberRawValue, DAL } from "@medusajs/framework/types"
+import { BigNumberRawValue, DAL } from "@srinivasulu-narayanam/framework/types"
 import {
   BigNumber,
   DALUtils,
   MikroOrmBigNumberProperty,
   createPsqlIndexStatementHelper,
   generateEntityId,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   BeforeCreate,
   Cascade,

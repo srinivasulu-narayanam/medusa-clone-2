@@ -7,7 +7,7 @@ import {
 } from "../../helpers/create-mikro-orm-entity"
 import { createDatabase, dropDatabase } from "pg-god"
 import { CustomTsMigrationGenerator, mikroOrmSerializer } from "../../../dal"
-import { EntityConstructor } from "@medusajs/types"
+import { EntityConstructor } from "@srinivasulu-narayanam/types"
 import { pgGodCredentials } from "../utils"
 import { FileSystem } from "../../../common"
 

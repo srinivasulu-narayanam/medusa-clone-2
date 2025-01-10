@@ -3,8 +3,8 @@ import {
   RemoteQueryFilters,
   RemoteQueryGraph,
   RemoteQueryInput,
-} from "@medusajs/types"
-import { isObject, QueryContext } from "@medusajs/utils"
+} from "@srinivasulu-narayanam/types"
+import { isObject, QueryContext } from "@srinivasulu-narayanam/utils"
 import { parseAndAssignFilters } from "./parse-filters"
 
 const FIELDS = "__fields"

@@ -1,4 +1,4 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   Modules,
   PriceListStatus,
@@ -6,7 +6,7 @@ import {
   ProductStatus,
   PromotionRuleOperator,
   PromotionType,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import {
   createAdminUser,
   generatePublishableKey,

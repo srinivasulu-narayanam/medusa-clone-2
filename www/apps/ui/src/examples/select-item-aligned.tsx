@@ -1,4 +1,4 @@
-import { Select } from "@medusajs/ui"
+import { Select } from "@srinivasulu-narayanam/ui"
 
 export default function SelectItemAligned() {
   return (

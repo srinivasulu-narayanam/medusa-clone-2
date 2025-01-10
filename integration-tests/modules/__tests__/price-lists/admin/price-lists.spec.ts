@@ -1,11 +1,11 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
 import {
   ICustomerModuleService,
   IPricingModuleService,
   IProductModuleService,
   IRegionModuleService,
-} from "@medusajs/types"
-import { Modules, PriceListStatus, PriceListType } from "@medusajs/utils"
+} from "@srinivasulu-narayanam/types"
+import { Modules, PriceListStatus, PriceListType } from "@srinivasulu-narayanam/utils"
 import { createAdminUser } from "../../../../helpers/create-admin-user"
 import { createVariantPriceSet } from "../../../helpers/create-variant-price-set"
 

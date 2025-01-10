@@ -239,7 +239,7 @@ export const sendCallbackReactHighlights = [
 ```tsx highlights={sendCallbackReactHighlights}
 "use client" // include with Next.js 13+
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivas-narayanam/types"
 import { useEffect, useMemo, useState } from "react"
 import { decodeToken } from "react-jwt"
 
@@ -305,7 +305,7 @@ const createCustomer = async (token: string) => {
     },
     body: JSON.stringify({
       // TODO show form to retrieve email from customer
-      email: "example@medusajs.com",
+      email: "example@srinivas-narayanam.com",
     }),
   }).then((res) => res.json())
 }
@@ -378,7 +378,7 @@ const validateCallback = async () => {
       },
       body: JSON.stringify({
         // TODO show form to retrieve email from customer
-        email: "example@medusajs.com",
+        email: "example@srinivas-narayanam.com",
       }),
     }
   ).then((res) => res.json())
@@ -421,7 +421,7 @@ const validateCallback = async () => {
       },
       body: JSON.stringify({
         // TODO show form to retrieve email from customer
-        email: "example@medusajs.com",
+        email: "example@srinivas-narayanam.com",
       }),
     }
   ).then((res) => res.json())
@@ -497,7 +497,7 @@ const createCustomer = async (token: string) => {
     },
     body: JSON.stringify({
       // TODO show form to retrieve email from customer
-      email: "example@medusajs.com",
+      email: "example@srinivas-narayanam.com",
     }),
   }).then((res) => res.json())
 }
@@ -538,7 +538,7 @@ const validateCallback = async () => {
       },
       body: JSON.stringify({
         // TODO show form to retrieve email from customer
-        email: "example@medusajs.com",
+        email: "example@srinivas-narayanam.com",
       }),
     }
   ).then((res) => res.json())
@@ -551,7 +551,7 @@ const validateCallback = async () => {
 ```tsx
 "use client" // include with Next.js 13+
 
-import { HttpTypes } from "@medusajs/types"
+import { HttpTypes } from "@srinivas-narayanam/types"
 import { useEffect, useMemo, useState } from "react"
 import { decodeToken } from "react-jwt"
 
@@ -593,7 +593,7 @@ export default function GoogleCallback() {
       },
       body: JSON.stringify({
         // TODO show form to retrieve email from customer
-        email: "example@medusajs.com",
+        email: "example@srinivas-narayanam.com",
       }),
     }).then((res) => res.json())
   }
@@ -634,7 +634,7 @@ export default function GoogleCallback() {
         },
         body: JSON.stringify({
           // TODO show form to retrieve email from customer
-          email: "example@medusajs.com",
+          email: "example@srinivas-narayanam.com",
         }),
       }
     ).then((res) => res.json())

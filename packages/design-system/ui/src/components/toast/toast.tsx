@@ -5,7 +5,7 @@ import {
   Spinner,
   XCircleSolid,
   XMark,
-} from "@medusajs/icons"
+} from "@srinivasulu-narayanam/icons"
 import * as React from "react"
 
 import type { ToastAction, ToastVariant } from "@/types"

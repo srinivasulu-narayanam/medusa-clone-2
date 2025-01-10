@@ -10,12 +10,12 @@ import {
   StoreUpdateCustomerAddress,
 } from "./validators"
 
-import { MiddlewareRoute } from "@medusajs/framework/http"
+import { MiddlewareRoute } from "@srinivasulu-narayanam/framework/http"
 import { authenticate } from "../../../utils/middlewares/authenticate-middleware"
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework"
 
 export const storeCustomerRoutesMiddlewares: MiddlewareRoute[] = [
   {

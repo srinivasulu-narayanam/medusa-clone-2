@@ -1,5 +1,5 @@
-import { ModuleJoinerConfig } from "@medusajs/framework/types"
-import { Modules } from "@medusajs/framework/utils"
+import { ModuleJoinerConfig } from "@srinivasulu-narayanam/framework/types"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const InventoryLevelStockLocation: ModuleJoinerConfig = {
   isLink: true,

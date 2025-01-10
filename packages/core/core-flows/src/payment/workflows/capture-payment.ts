@@ -1,12 +1,12 @@
-import { BigNumberInput, PaymentDTO } from "@medusajs/framework/types"
-import { PaymentEvents } from "@medusajs/framework/utils"
+import { BigNumberInput, PaymentDTO } from "@srinivasulu-narayanam/framework/types"
+import { PaymentEvents } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   transform,
   when,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { emitEventStep, useRemoteQueryStep } from "../../common"
 import { addOrderTransactionStep } from "../../order/steps/add-order-transaction"
 import { capturePaymentStep } from "../steps/capture-payment"

@@ -1,12 +1,12 @@
-import { moduleProviderLoader } from "@medusajs/framework/modules-sdk"
+import { moduleProviderLoader } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   CreatePaymentProviderDTO,
   LoaderOptions,
   ModuleProvider,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import { asFunction, asValue, Lifetime } from "awilix"
-import { MedusaError } from "@medusajs/framework/utils"
+import { MedusaError } from "@srinivasulu-narayanam/framework/utils"
 
 import { PaymentProviderService } from "@services"
 import * as providers from "../providers"

@@ -1,4 +1,4 @@
-import { MedusaContainer } from "@medusajs/types"
+import { MedusaContainer } from "@srinivasulu-narayanam/types"
 import {
   asFunction,
   asValue,

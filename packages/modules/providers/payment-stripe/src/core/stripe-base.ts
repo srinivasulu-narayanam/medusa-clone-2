@@ -9,7 +9,7 @@ import {
   ProviderWebhookPayload,
   UpdatePaymentProviderSession,
   WebhookActionResult,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   AbstractPaymentProvider,
   isDefined,
@@ -18,7 +18,7 @@ import {
   MedusaError,
   PaymentActions,
   PaymentSessionStatus,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import {
   ErrorCodes,
   ErrorIntentStatus,

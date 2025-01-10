@@ -1,14 +1,14 @@
 import {
   IStockLocationService,
   UpsertStockLocationAddressInput,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   getSelectsAndRelationsFromObjectArray,
   promiseAll,
-} from "@medusajs/framework/utils"
-import { StepResponse, createStep } from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/utils"
+import { StepResponse, createStep } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivasulu-narayanam/framework/utils"
 
 export const upsertStockLocationAddressesStepId =
   "upsert-stock-location-addresses-step"

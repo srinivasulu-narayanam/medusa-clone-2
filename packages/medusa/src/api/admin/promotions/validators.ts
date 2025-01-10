@@ -4,7 +4,7 @@ import {
   ApplicationMethodType,
   PromotionRuleOperator,
   PromotionType,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { z } from "zod"
 import {
   createFindParams,

@@ -3,13 +3,13 @@ import {
   MedusaNextFunction,
   MedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
-import { ConfigModule, IAuthModuleService } from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/http"
+import { ConfigModule, IAuthModuleService } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   MedusaError,
   Modules,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { decode, JwtPayload, verify } from "jsonwebtoken"
 
 // Middleware to validate that a token is valid

@@ -1,4 +1,4 @@
-# @medusajs/ui-preset
+# @srinivasulu-narayanam/ui-preset
 
 ## 2.2.0
 
@@ -69,7 +69,7 @@
 
 - 035fa72: feat(ui,ui-preset): Release 2.1.0
 
-  ## `@medusajs/ui`
+  ## `@srinivasulu-narayanam/ui`
 
   - The styling of buttons, inputs, and the CommandBar has been adjusted to have a more consistent look and feel.
   - Fixed an issue that caused DropdownMenu.Content to overflow the viewport.
@@ -77,11 +77,11 @@
   - The Text component now accepts a `leading` prop to adjust the line height. It can be set to `normal` (default) or `compact`. This change in the API is fully backwards compatible.
   - Adds a new subcomponent to RadioGroup called RadioGroup.ChoiceBox. This component wraps the RadioGroup.Item component with a mandatory label and description.
 
-  ## `@medusajs/ui-preset`
+  ## `@srinivasulu-narayanam/ui-preset`
 
   - Updated several colors, shadows, and gradient effects.
 
-  ## `@medusajs/icons`
+  ## `@srinivasulu-narayanam/icons`
 
   - Introduces 6 new icons: QuestionMark, SparklesMiniSolid, SparklesMini, ThumbDown, ThumbUp, and UserCircleMini.
   - There have been slight adjustments made to ArrowPathMini, EllipseBlueSolid, EllipseGreenSolid, EllipseGreySolid, EllipseOrangeSolid, EllipsePurpleSolid, and EllipseRedSolid.
@@ -92,7 +92,7 @@
 
 - ef98084: feat(ui,icons,ui-preset): Update to Medusa UI, including new components, icons, and preset styles.
 
-  # Changes in `@medusajs/ui`
+  # Changes in `@srinivasulu-narayanam/ui`
 
   ## New components
 
@@ -120,7 +120,7 @@
   - `Table.Pagination` has been tweaked to ensure that it displays the correct number of pages when there is no data.
   - `Calendar` has been tweaked to prevent clicking a date from submitting any forms that precede it in the DOM.
 
-  # Changes in `@medusajs/icons`
+  # Changes in `@srinivasulu-narayanam/icons`
 
   ## New icons
 
@@ -131,7 +131,7 @@
   - `PuzzleSolid`
   - `Text`
 
-  # Changes in `@medusajs/ui-preset`
+  # Changes in `@srinivasulu-narayanam/ui-preset`
 
   Minor tweaks to colors, typography, and animations.
 
@@ -139,4 +139,4 @@
 
 ### Major Changes
 
-- 8d31ce6: Release of the Medusa UI design system, includes three new packages: `@medusajs/ui` a set of React components, hooks, and utils; `@medusajs/icons` a set of React icons; `@medusajs/ui-preset` a Tailwind CSS preset containing Medusa UI design tokens.
+- 8d31ce6: Release of the Medusa UI design system, includes three new packages: `@srinivasulu-narayanam/ui` a set of React components, hooks, and utils; `@srinivasulu-narayanam/icons` a set of React icons; `@srinivasulu-narayanam/ui-preset` a Tailwind CSS preset containing Medusa UI design tokens.

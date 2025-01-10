@@ -1,12 +1,12 @@
 import {
   validateAndTransformBody,
   validateAndTransformQuery,
-} from "@medusajs/framework"
+} from "@srinivasulu-narayanam/framework"
 import {
   maybeApplyLinkFilter,
   MiddlewareRoute,
   unlessPath,
-} from "@medusajs/framework/http"
+} from "@srinivasulu-narayanam/framework/http"
 import multer from "multer"
 import { DEFAULT_BATCH_ENDPOINTS_SIZE_LIMIT } from "../../../utils/middlewares"
 import { createBatchBody } from "../../utils/validators"

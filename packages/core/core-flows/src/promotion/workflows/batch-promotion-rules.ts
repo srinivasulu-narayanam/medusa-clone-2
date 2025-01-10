@@ -4,15 +4,15 @@ import {
   CreatePromotionRuleDTO,
   PromotionRuleDTO,
   UpdatePromotionRuleDTO,
-} from "@medusajs/framework/types"
-import { RuleType } from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/types"
+import { RuleType } from "@srinivasulu-narayanam/framework/utils"
 import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
   parallelize,
   transform,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { deletePromotionRulesWorkflowStep } from "../steps/delete-promotion-rules-workflow"
 import { createPromotionRulesWorkflow } from "./create-promotion-rules"
 import { updatePromotionRulesWorkflow } from "./update-promotion-rules"

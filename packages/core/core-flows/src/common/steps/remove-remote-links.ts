@@ -1,7 +1,7 @@
-import { DeleteEntityInput, Link } from "@medusajs/framework/modules-sdk"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { DeleteEntityInput, Link } from "@srinivasulu-narayanam/framework/modules-sdk"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
 
-import { ContainerRegistrationKeys } from "@medusajs/framework/utils"
+import { ContainerRegistrationKeys } from "@srinivasulu-narayanam/framework/utils"
 
 type RemoveRemoteLinksStepInput = DeleteEntityInput | DeleteEntityInput[]
 
@@ -14,13 +14,13 @@ export const removeRemoteLinkStepId = "remove-remote-links"
  * @example
  * import {
  *   createWorkflow
- * } from "@medusajs/framework/workflows-sdk"
+ * } from "@srinivasulu-narayanam/framework/workflows-sdk"
  * import {
  *   removeRemoteLinkStep
- * } from "@medusajs/medusa/core-flows"
+ * } from "@srinivasulu-narayanam/medusa/core-flows"
  * import {
  *   Modules
- * } from "@medusajs/framework/utils"
+ * } from "@srinivasulu-narayanam/framework/utils"
  *
  * const helloWorldWorkflow = createWorkflow(
  *   "hello-world",

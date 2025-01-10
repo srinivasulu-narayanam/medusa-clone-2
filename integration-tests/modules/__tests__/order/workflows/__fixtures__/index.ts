@@ -1,16 +1,16 @@
-import { createShippingOptionsWorkflow } from "@medusajs/core-flows"
+import { createShippingOptionsWorkflow } from "@srinivasulu-narayanam/core-flows"
 import {
   FulfillmentWorkflow,
   IOrderModuleService,
   IRegionModuleService,
   IStockLocationService,
   StockLocationDTO,
-} from "@medusajs/types"
+} from "@srinivasulu-narayanam/types"
 import {
   ContainerRegistrationKeys,
   Modules,
   remoteQueryObjectFromString,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 
 const providerId = "manual_test-provider"
 export async function prepareDataFixtures({ container }) {

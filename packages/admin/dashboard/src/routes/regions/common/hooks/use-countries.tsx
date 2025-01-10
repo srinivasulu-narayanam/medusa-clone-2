@@ -1,4 +1,4 @@
-import { RegionCountryDTO } from "@medusajs/types"
+import { RegionCountryDTO } from "@srinivasulu-narayanam/types"
 import { json } from "react-router-dom"
 import { StaticCountry } from "../../../../lib/data/countries"
 

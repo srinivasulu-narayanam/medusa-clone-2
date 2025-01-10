@@ -1,13 +1,13 @@
-import { moduleProviderLoader } from "@medusajs/framework/modules-sdk"
+import { moduleProviderLoader } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   LoaderOptions,
   ModuleProvider,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   getProviderRegistrationKey,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { LockingProviderService } from "@services"
 import {
   LockingDefaultProvider,

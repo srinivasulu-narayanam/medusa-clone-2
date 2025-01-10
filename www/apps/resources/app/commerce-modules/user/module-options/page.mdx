@@ -15,7 +15,7 @@ In this document, you'll learn about the options of the User Module.
 ## Module Options
 
 ```ts title="medusa-config.ts"
-import { Modules } from "@medusajs/framework/utils"
+import { Modules } from "@srinivas-narayanam/framework/utils"
 
 // ...
 
@@ -23,7 +23,7 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/user",
+      resolve: "@srinivas-narayanam/user",
       options: {
         jwt_secret: process.env.JWT_SECRET,
       },

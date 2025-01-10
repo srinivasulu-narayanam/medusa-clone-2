@@ -1,8 +1,8 @@
-import { MedusaContainer } from "@medusajs/framework/types"
+import { MedusaContainer } from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   remoteQueryObjectFromString,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export const listPrices = async (
   ids: string[],

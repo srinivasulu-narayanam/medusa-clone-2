@@ -1,11 +1,11 @@
-import { getConfigFile } from "@medusajs/framework/utils"
+import { getConfigFile } from "@srinivasulu-narayanam/framework/utils"
 
 export async function configLoaderOverride(
   entryDirectory: string,
   override: { clientUrl: string; debug?: boolean }
 ) {
-  const { configManager } = await import("@medusajs/framework/config")
-  const { logger } = await import("@medusajs/framework")
+  const { configManager } = await import("@srinivasulu-narayanam/framework/config")
+  const { logger } = await import("@srinivasulu-narayanam/framework")
   const { configModule, error } = await getConfigFile<
     ReturnType<typeof configManager.loadConfig>
   >(entryDirectory, "medusa-config")

@@ -1,6 +1,6 @@
-import { MathBN, Modules } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
-import { BigNumberInput } from "@medusajs/types"
+import { MathBN, Modules } from "@srinivasulu-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivasulu-narayanam/framework/workflows-sdk"
+import { BigNumberInput } from "@srinivasulu-narayanam/types"
 
 export interface ReserveVariantInventoryStepInput {
   items: {

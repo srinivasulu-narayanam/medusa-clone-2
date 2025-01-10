@@ -1,12 +1,12 @@
-import { medusaIntegrationTestRunner } from "@medusajs/test-utils"
-import { IStoreModuleService } from "@medusajs/types"
+import { medusaIntegrationTestRunner } from "@srinivasulu-narayanam/test-utils"
+import { IStoreModuleService } from "@srinivasulu-narayanam/types"
 import {
   ApiKeyType,
   Modules,
   PriceListStatus,
   PriceListType,
   ProductStatus,
-} from "@medusajs/utils"
+} from "@srinivasulu-narayanam/utils"
 import qs from "qs"
 import {
   adminHeaders,

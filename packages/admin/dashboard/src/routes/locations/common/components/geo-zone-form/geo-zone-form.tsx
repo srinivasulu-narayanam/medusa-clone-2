@@ -1,4 +1,4 @@
-import { Button, Checkbox } from "@medusajs/ui"
+import { Button, Checkbox } from "@srinivasulu-narayanam/ui"
 import {
   OnChangeFn,
   RowSelectionState,

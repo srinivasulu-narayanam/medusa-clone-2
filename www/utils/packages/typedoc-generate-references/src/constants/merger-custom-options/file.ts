@@ -27,10 +27,10 @@ const fileOptions: FormattingOptionsType = {
 Start by creating a new directory for your module. For example, \`src/modules/my-file\`.`,
       `## 2. Create the File Provider Service
 
-Create the file \`src/modules/my-file/service.ts\` that holds the implementation of the module's main service. It must extend the \`AbstractFileProviderService\` class imported from \`@medusajs/framework/utils\`:
+Create the file \`src/modules/my-file/service.ts\` that holds the implementation of the module's main service. It must extend the \`AbstractFileProviderService\` class imported from \`@srinivasulu-narayanam/framework/utils\`:
 
 \`\`\`ts title="src/modules/my-file/service.ts"
-import { AbstractFileProviderService } from "@medusajs/framework/utils"
+import { AbstractFileProviderService } from "@srinivasulu-narayanam/framework/utils"
 
 class MyFileProviderService extends AbstractFileProviderService {
   // TODO implement methods
@@ -49,7 +49,7 @@ import MyFileProviderService from "./service"
 import { 
   ModuleProvider, 
   Modules
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 
 export default ModuleProvider(Modules.FILE, {
   services: [MyFileProviderService],
@@ -72,12 +72,12 @@ module.exports = defineConfig({
   // ...
   modules: [
     {
-      resolve: "@medusajs/medusa/file",
+      resolve: "@srinivasulu-narayanam/medusa/file",
       options: {
         providers: [
           // default provider
           {
-            resolve: "@medusajs/medusa/file-local",
+            resolve: "@srinivasulu-narayanam/medusa/file-local",
             id: "local",
           },
           {

@@ -2,7 +2,7 @@ import {
   Context,
   CreateOrderChangeActionDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ChangeActionType,
   OrderChangeType,
@@ -10,7 +10,7 @@ import {
   getShippingMethodsTotals,
   isString,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { OrderExchange, OrderExchangeItem, Return, ReturnItem } from "@models"
 
 function createExchangeAndReturnEntities(em, data, order) {

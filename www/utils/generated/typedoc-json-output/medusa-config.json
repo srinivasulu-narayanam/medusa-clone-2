@@ -1131,7 +1131,7 @@
 							"qualifiedName": "SessionOptions"
 						},
 						"name": "SessionOptions",
-						"package": "@medusajs/framework"
+						"package": "@srinivas-narayanam/framework"
 					}
 				},
 				{
@@ -1542,7 +1542,7 @@
 										"type": "reference",
 										"target": 40898,
 										"name": "HttpCompressionOptions",
-										"package": "@medusajs/framework"
+										"package": "@srinivas-narayanam/framework"
 									}
 								},
 								{
@@ -2001,7 +2001,7 @@
 					},
 					{
 						"kind": "code",
-						"text": "`@medusajs/framework/utils`"
+						"text": "`@srinivas-narayanam/framework/utils`"
 					},
 					{
 						"kind": "text",
@@ -2104,7 +2104,7 @@
 						"type": "reference",
 						"target": 40903,
 						"name": "ProjectConfigOptions",
-						"package": "@medusajs/framework"
+						"package": "@srinivas-narayanam/framework"
 					}
 				},
 				{
@@ -2138,7 +2138,7 @@
 						"type": "reference",
 						"target": 40889,
 						"name": "AdminOptions",
-						"package": "@medusajs/framework"
+						"package": "@srinivas-narayanam/framework"
 					}
 				},
 				{
@@ -2243,7 +2243,7 @@
 															"qualifiedName": "InternalModuleDeclaration"
 														},
 														"name": "InternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivas-narayanam/types"
 													},
 													{
 														"type": "reference",
@@ -2252,7 +2252,7 @@
 															"qualifiedName": "ExternalModuleDeclaration"
 														},
 														"name": "ExternalModuleDeclaration",
-														"package": "@medusajs/types"
+														"package": "@srinivas-narayanam/types"
 													}
 												]
 											}
@@ -2492,7 +2492,7 @@
 			]
 		}
 	],
-	"packageName": "@medusajs/framework",
+	"packageName": "@srinivas-narayanam/framework",
 	"symbolIdMap": {
 		"40888": {
 			"sourceFileName": "../../../../packages/core/framework/src/config/types.ts",

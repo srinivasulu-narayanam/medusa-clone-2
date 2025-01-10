@@ -1,5 +1,5 @@
-import { UpdatePriceListWorkflowInputDTO } from "@medusajs/framework/types"
-import { WorkflowData, createWorkflow } from "@medusajs/framework/workflows-sdk"
+import { UpdatePriceListWorkflowInputDTO } from "@srinivasulu-narayanam/framework/types"
+import { WorkflowData, createWorkflow } from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { updatePriceListsStep, validatePriceListsStep } from "../steps"
 
 export const updatePriceListsWorkflowId = "update-price-lists"

@@ -39,7 +39,7 @@ The route's path is the path of `route.{ts,js}` relative to `src/api`. So, to cr
 import {
   MedusaRequest,
   MedusaResponse,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import { 
   createBrandWorkflow,
 } from "../../../workflows/create-brand"
@@ -137,7 +137,7 @@ Middlewares are defined in the special file `src/api/middlewares.ts`. So, to add
 import { 
   defineMiddlewares,
   validateAndTransformBody,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import { PostAdminCreateBrand } from "./admin/brands/validators"
 
 export default defineMiddlewares({

@@ -1,5 +1,5 @@
 import { Card, Prerequisites, Details, WorkflowDiagram } from "docs-ui"
-import { Github } from "@medusajs/icons"
+import { Github } from "@srinivas-narayanam/icons"
 
 export const ogImage = "https://res.cloudinary.com/dza7lstvk/image/upload/v1733326703/Medusa%20Resources/restock-notification_sw5k7d.jpg"
 
@@ -135,7 +135,7 @@ You create a data model in a TypeScript or JavaScript file under the `models` di
 ![The directory structure of the Restock Module after adding this model.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733224503/Medusa%20Resources/restock-dir-overview-2_chap79.jpg)
 
 ```ts title="src/modules/restock/models/restock-subscription.ts"
-import { model } from "@medusajs/framework/utils"
+import { model } from "@srinivas-narayanam/framework/utils"
 
 const RestockSubscription = model.define("restock_subscription", {
   id: model.id().primaryKey(),
@@ -196,7 +196,7 @@ In this section, you'll create the Restock Module's service. Create the file `sr
 ![The directory structure of the Restock Module after adding this service.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733224957/Medusa%20Resources/restock-dir-overview-4_pkypup.jpg)
 
 ```ts title="src/modules/restock/service.ts"
-import { MedusaService } from "@medusajs/framework/utils"
+import { MedusaService } from "@srinivas-narayanam/framework/utils"
 import RestockSubscription from "./models/restock-subscription"
 
 class RestockModuleService extends MedusaService({
@@ -227,7 +227,7 @@ So, create the file `src/modules/restock/index.ts` with the following content:
 ![The directory structure of the Restock Module after adding the definition file.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733225036/Medusa%20Resources/restock-dir-overview-5_dcam6u.jpg)
 
 ```ts title="src/modules/restock/index.ts"
-import { Module } from "@medusajs/framework/utils"
+import { Module } from "@srinivas-narayanam/framework/utils"
 import RestockModuleService from "./service"
 
 export const RESTOCK_MODULE = "restock"
@@ -310,9 +310,9 @@ To create a link, create the file `src/links/restock-variant.ts` with the follow
 ![The directory structure of the Medusa Application after adding this link.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733225402/Medusa%20Resources/restock-dir-overview-7_dln3fw.jpg)
 
 ```ts title="src/links/restock-variant.ts"
-import { defineLink } from "@medusajs/framework/utils"
+import { defineLink } from "@srinivas-narayanam/framework/utils"
 import RestockModule from "../modules/restock"
-import ProductModule from "@medusajs/medusa/product"
+import ProductModule from "@srinivas-narayanam/medusa/product"
 
 export default defineLink(
   {
@@ -426,8 +426,8 @@ Create the file `src/workflows/create-restock-subscription/steps/validate-varian
 ![The directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733227547/Medusa%20Resources/restock-dir-overview-10_g3dbi3.jpg)
 
 ```ts title="src/workflows/create-restock-subscription/steps/validate-variant-out-of-stock.ts"
-import { getVariantAvailability, MedusaError } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { getVariantAvailability, MedusaError } from "@srinivas-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 
 type ValidateVariantOutOfStockStepInput = {
   variant_id: string
@@ -469,7 +469,7 @@ export const createRSHighlights = [
 ]
 
 ```ts title="src/workflows/create-restock-subscription/steps/create-restock-subscription.ts" highlights={createRSHighlights}
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 import RestockModuleService from "../../../modules/restock/service"
 import { RESTOCK_MODULE } from "../../../modules/restock"
 
@@ -549,7 +549,7 @@ Create the file `src/workflows/create-restock-subscription/steps/update-restock-
 ![The directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733227952/Medusa%20Resources/restock-dir-overview-12_vubtkp.jpg)
 
 ```ts title="src/workflows/create-restock-subscription/steps/update-restock-subscription.ts"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 import RestockModuleService from "../../../modules/restock/service"
 import { RESTOCK_MODULE } from "../../../modules/restock"
 
@@ -603,9 +603,9 @@ export const subscriptionWorkflow1Highlights = [
 ]
 
 ```ts title="src/workflows/create-restock-subscription/index.ts" highlights={subscriptionWorkflow1Highlights}
-import { createWorkflow, transform, when, WorkflowResponse } from "@medusajs/framework/workflows-sdk"
+import { createWorkflow, transform, when, WorkflowResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 import { validateVariantOutOfStockStep } from "./steps/validate-variant-out-of-stock"
-import { useQueryGraphStep } from "@medusajs/medusa/core-flows"
+import { useQueryGraphStep } from "@srinivas-narayanam/medusa/core-flows"
 import { createRestockSubscriptionStep } from "./steps/create-restock-subscription"
 import { updateRestockSubscriptionStep } from "./steps/update-restock-subscription"
 
@@ -793,8 +793,8 @@ export const routeHighlights = [
 ]
 
 ```ts title="src/api/store/restock-subscriptions/route.ts" highlights={routeHighlights}
-import { AuthenticatedMedusaRequest, MedusaResponse } from "@medusajs/framework/http"
-import { MedusaError } from "@medusajs/framework/utils"
+import { AuthenticatedMedusaRequest, MedusaResponse } from "@srinivas-narayanam/framework/http"
+import { MedusaError } from "@srinivas-narayanam/framework/utils"
 import { createRestockSubscriptionWorkflow } from "../../../workflows/create-restock-subscription"
 
 type PostStoreCreateRestockSubscription = {
@@ -932,7 +932,7 @@ import {
   authenticate, 
   defineMiddlewares, 
   validateAndTransformBody,
-} from "@medusajs/framework/http"
+} from "@srinivas-narayanam/framework/http"
 import { 
   PostStoreCreateRestockSubscription,
 } from "./store/restock-subscriptions/validators"
@@ -1094,11 +1094,11 @@ module.exports = defineConfig({
   modules: [
     // ...
     {
-      resolve: "@medusajs/medusa/notification",
+      resolve: "@srinivas-narayanam/medusa/notification",
       options: {
         providers: [
           {
-            resolve: "@medusajs/medusa/notification-local",
+            resolve: "@srinivas-narayanam/medusa/notification-local",
             id: "local",
             options: {
               channels: ["email", "feed"],
@@ -1120,8 +1120,8 @@ Before adding the step that does this, you'll add a method in the `RestockModule
 
 ```ts title="src/modules/restock/service.ts"
 // other imports...
-import { InjectManager, MedusaContext } from "@medusajs/framework/utils"
-import { Context } from "@medusajs/framework/types"
+import { InjectManager, MedusaContext } from "@srinivas-narayanam/framework/utils"
+import { Context } from "@srinivas-narayanam/framework/types"
 import { EntityManager } from "@mikro-orm/knex"
 
 class RestockModuleService extends MedusaService({
@@ -1151,7 +1151,7 @@ You'll use this method in the step. To create the step, create the file `src/wor
 ![Directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733399774/Medusa%20Resources/restock-dir-overview-22_kzchmm.jpg)
 
 ```ts title="src/workflows/send-restock-notifications/steps/get-distinct-subscriptions.ts"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 import RestockModuleService from "../../../modules/restock/service"
 import { RESTOCK_MODULE } from "../../../modules/restock"
 
@@ -1180,8 +1180,8 @@ Create the file `src/workflows/send-restock-notifications/steps/get-restocked.ts
 ![The directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733234506/Medusa%20Resources/restock-dir-overview-17_pdtees.jpg)
 
 ```ts title="src/workflows/send-restock-notifications/steps/get-restocked.ts"
-import { getVariantAvailability, promiseAll } from "@medusajs/framework/utils"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { getVariantAvailability, promiseAll } from "@srinivas-narayanam/framework/utils"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 
 type GetRestockedStepInput = {
   variant_id: string
@@ -1225,9 +1225,9 @@ Create the file `src/workflows/send-restock-notifications/steps/send-restock-not
 ![The directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733234507/Medusa%20Resources/restock-dir-overview-18_uvlu0l.jpg)
 
 ```ts title="src/workflows/send-restock-notifications/steps/send-restock-notification.ts"
-import { promiseAll } from "@medusajs/framework/utils"
-import { createStep } from "@medusajs/framework/workflows-sdk"
-import { InferTypeOf, ProductVariantDTO } from "@medusajs/framework/types"
+import { promiseAll } from "@srinivas-narayanam/framework/utils"
+import { createStep } from "@srinivas-narayanam/framework/workflows-sdk"
+import { InferTypeOf, ProductVariantDTO } from "@srinivas-narayanam/framework/types"
 import RestockSubscription from "../../../modules/restock/models/restock-subscription"
 
 type SendRestockNotificationStepInput = (InferTypeOf<typeof RestockSubscription> & {
@@ -1271,9 +1271,9 @@ Create the file `src/workflows/send-restock-notifications/steps/delete-restock-s
 ![The directory structure of the Medusa application after adding the step.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733234506/Medusa%20Resources/restock-dir-overview-19_qfospx.jpg)
 
 ```ts title="src/workflows/send-restock-notifications/steps/delete-restock-subscriptions.ts"
-import { InferTypeOf } from "@medusajs/framework/types"
+import { InferTypeOf } from "@srinivas-narayanam/framework/types"
 import RestockSubscription from "../../../modules/restock/models/restock-subscription"
-import { createStep, StepResponse } from "@medusajs/framework/workflows-sdk"
+import { createStep, StepResponse } from "@srinivas-narayanam/framework/workflows-sdk"
 import RestockModuleService from "../../../modules/restock/service"
 import { RESTOCK_MODULE } from "../../../modules/restock"
 
@@ -1322,8 +1322,8 @@ Create the file `src/workflows/send-restock-notifications/index.ts` with the fol
 ![The directory structure of the Medusa application after adding the workflow.](https://res.cloudinary.com/dza7lstvk/image/upload/v1733234507/Medusa%20Resources/restock-dir-overview-20_mcqkkx.jpg)
 
 ```ts title="src/workflows/send-restock-notifications/index.ts"
-import { createWorkflow, transform, WorkflowResponse } from "@medusajs/framework/workflows-sdk"
-import { useQueryGraphStep } from "@medusajs/medusa/core-flows"
+import { createWorkflow, transform, WorkflowResponse } from "@srinivas-narayanam/framework/workflows-sdk"
+import { useQueryGraphStep } from "@srinivas-narayanam/medusa/core-flows"
 import { getRestockedStep } from "./steps/get-restocked"
 import { sendRestockNotificationStep } from "./steps/send-restock-notification"
 import { deleteRestockSubscriptionStep } from "./steps/delete-restock-subscriptions"
@@ -1410,7 +1410,7 @@ A scheduled job is created in a TypeScript or JavaScript file under the `src/job
 ```ts title="src/jobs/check-restock.ts"
 import {
   MedusaContainer,
-} from "@medusajs/framework/types"
+} from "@srinivas-narayanam/framework/types"
 import { 
   sendRestockNotificationsWorkflow,
 } from "../workflows/send-restock-notifications"

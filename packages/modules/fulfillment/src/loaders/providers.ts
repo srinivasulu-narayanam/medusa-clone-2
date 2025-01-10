@@ -1,14 +1,14 @@
-import { moduleProviderLoader } from "@medusajs/framework/modules-sdk"
+import { moduleProviderLoader } from "@srinivasulu-narayanam/framework/modules-sdk"
 import {
   LoaderOptions,
   ModuleProvider,
   ModulesSdkTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ContainerRegistrationKeys,
   lowerCaseFirst,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { FulfillmentProviderService } from "@services"
 import { FulfillmentIdentifiersRegistrationName } from "@types"
 import { Lifetime, asFunction, asValue } from "awilix"

@@ -2,7 +2,7 @@ import {
   Context,
   CreateOrderChangeActionDTO,
   OrderTypes,
-} from "@medusajs/framework/types"
+} from "@srinivasulu-narayanam/framework/types"
 import {
   ChangeActionType,
   OrderChangeType,
@@ -11,7 +11,7 @@ import {
   isDefined,
   isString,
   promiseAll,
-} from "@medusajs/framework/utils"
+} from "@srinivasulu-narayanam/framework/utils"
 import { Return, ReturnItem } from "@models"
 
 function createReturnReference(em, data, order) {

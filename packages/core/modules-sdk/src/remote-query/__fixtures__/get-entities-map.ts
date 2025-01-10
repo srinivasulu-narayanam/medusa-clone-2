@@ -1,4 +1,4 @@
-import { GraphQLUtils } from "@medusajs/utils"
+import { GraphQLUtils } from "@srinivasulu-narayanam/utils"
 
 export function getEntitiesMap(loadedSchema): Map<string, any> {
   const defaultMedusaSchema = `

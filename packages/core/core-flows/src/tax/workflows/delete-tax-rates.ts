@@ -2,7 +2,7 @@ import {
   WorkflowData,
   WorkflowResponse,
   createWorkflow,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { deleteTaxRatesStep } from "../steps"
 
 export type DeleteTaxRatesWorkflowInput = { ids: string[] }

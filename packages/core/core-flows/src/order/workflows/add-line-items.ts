@@ -1,5 +1,5 @@
-import { OrderLineItemDTO, OrderWorkflow } from "@medusajs/framework/types"
-import { isDefined, MedusaError } from "@medusajs/framework/utils"
+import { OrderLineItemDTO, OrderWorkflow } from "@srinivasulu-narayanam/framework/types"
+import { isDefined, MedusaError } from "@srinivasulu-narayanam/framework/utils"
 import {
   createWorkflow,
   parallelize,
@@ -7,7 +7,7 @@ import {
   when,
   WorkflowData,
   WorkflowResponse,
-} from "@medusajs/framework/workflows-sdk"
+} from "@srinivasulu-narayanam/framework/workflows-sdk"
 import { findOneOrAnyRegionStep } from "../../cart/steps/find-one-or-any-region"
 import { findOrCreateCustomerStep } from "../../cart/steps/find-or-create-customer"
 import { findSalesChannelStep } from "../../cart/steps/find-sales-channel"

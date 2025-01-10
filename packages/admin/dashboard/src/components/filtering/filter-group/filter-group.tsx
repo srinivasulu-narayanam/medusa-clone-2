@@ -1,4 +1,4 @@
-import { Button, DropdownMenu } from "@medusajs/ui"
+import { Button, DropdownMenu } from "@srinivasulu-narayanam/ui"
 import { ReactNode } from "react"
 import { useSearchParams } from "react-router-dom"
 

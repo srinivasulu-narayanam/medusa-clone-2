@@ -1,5 +1,5 @@
-import { EllipseMiniSolid } from "@medusajs/icons"
-import { Input, Label, clx } from "@medusajs/ui"
+import { EllipseMiniSolid } from "@srinivasulu-narayanam/icons"
+import { Input, Label, clx } from "@srinivasulu-narayanam/ui"
 import * as Popover from "@radix-ui/react-popover"
 import * as RadioGroup from "@radix-ui/react-radio-group"
 import { debounce } from "lodash"

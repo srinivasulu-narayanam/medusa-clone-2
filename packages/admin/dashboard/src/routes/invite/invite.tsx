@@ -1,5 +1,5 @@
 import { zodResolver } from "@hookform/resolvers/zod"
-import { Alert, Button, Heading, Hint, Input, Text, toast } from "@medusajs/ui"
+import { Alert, Button, Heading, Hint, Input, Text, toast } from "@srinivasulu-narayanam/ui"
 import { AnimatePresence, motion } from "framer-motion"
 import i18n from "i18next"
 import { useState } from "react"

@@ -1,6 +1,6 @@
 import { SqlEntityManager } from "@mikro-orm/postgresql"
 import { schemaObjectRepresentationPropertiesToOmit } from "@types"
-import { IndexTypes } from "@medusajs/framework/types"
+import { IndexTypes } from "@srinivasulu-narayanam/framework/types"
 
 export async function createPartitions(
   schemaObjectRepresentation: IndexTypes.SchemaObjectRepresentation,

@@ -1,4 +1,4 @@
-import { Drawer, clx } from "@medusajs/ui"
+import { Drawer, clx } from "@srinivasulu-narayanam/ui"
 import {
   ComponentPropsWithoutRef,
   PropsWithChildren,
